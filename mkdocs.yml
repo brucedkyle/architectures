@@ -1,0 +1,5 @@
+site_name: Cloud Native Architectures
+nav:
+    - Home: index.md
+    - About: about.md
+theme: windmill
