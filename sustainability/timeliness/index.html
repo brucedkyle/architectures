@@ -32,6 +32,16 @@
       var is_top_frame = false;
         
         var pageToc = [
+          {title: "Inventory Optimisation - Timeliness", url: "#_top", children: [
+              {title: "Business case", url: "#business-case" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Principles", url: "#principles" },
+              {title: "Workflow", url: "#workflow" },
+              {title: "Logical diagram", url: "#logical-diagram" },
+              {title: "Technology", url: "#technology" },
+              {title: "Similar use cases", url: "#similar-use-cases" },
+              {title: "Contributors", url: "#contributors" },
+          ]},
         ];
 
     </script>
@@ -50,11 +60,180 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../lossmanagement/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../lossmanagement/" class="btn btn-xs btn-link">
+        Loss Management
+      </a>
+    </div>
+    
+  </div>
 
     
+
+    <h1 id="inventory-optimisation-timeliness">Inventory Optimisation - Timeliness</h1>
+<p>To demonstrate the importance of inventory optimisation for any business, this document will focus on main use cases of products that expire or have a known <em>shelf life</em>. For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
+<h2 id="business-case">Business case</h2>
+<p>Many goods offered in retail and supplier businesses expire. </p>
+<table>
+<thead>
+<tr>
+<th>Business problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
+<td>Monitor and manage network inventory availability and anticipate actions due to expiration of products with alerts and recommended actions.</td>
+</tr>
+<tr>
+<td>The lack of pertinent product information (remaining shelf life, ambient temperature, etc.) and poor data flow across partners lead to inefficient inventory management, wastage and lost sales.</td>
+<td>Gain detailed visibility into inventory characteristics at each location – e.g., by remaining shelf life, time-since-harvested. Maintain freshness by acting on alerts received when items are at risk.</td>
+</tr>
+<tr>
+<td>Visibility into actions needed and alternatives to anticipate and respond to inventory as items approach end of shelf life.</td>
+<td>Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove end of life items. Proactively replace items in response to demand.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution-overview">Solution overview</h2>
+<p>The technologies can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
+<li>Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
+<li>Inventory Optimisation platform</li>
+</ul>
+<p><img alt="solution diagram" src="../media/overview.png" /></p>
+<h2 id="principles">Principles</h2>
+<p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
+<p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
+<p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.$$ </p>
+<h2 id="workflow">Workflow</h2>
+<p>The following diagram shows the workflow for the timeliness / shelf life use case.</p>
+<p><img alt="shelf life workflow" src="../media/shelflifeworkflow.png" /></p>
+<p>Timeliness/Shelf life steps:</p>
+<ol>
+<li>Inv Ctrl Tower hueristics determines product inventory is near its "Use by" date</li>
+<li>Inspects current inventory</li>
+<li>Notifies the Inv Controller to take action</li>
+<li>Creates replenishment order</li>
+<li>Engages partners (Charity, recycler) to remediate expired or near expired stock</li>
+</ol>
+<h2 id="logical-diagram">Logical diagram</h2>
+<p>The following diagram shows the schematic for the understock use case.</p>
+<p><img alt="shelf life schematic" src="../media/shelflifechematic.svg" /></p>
+<h2 id="technology">Technology</h2>
+<p>The following technology was chosen for this solution:</p>
+<p><em>Red Hat OpenShift</em> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
+<p><em>Red Hat Ansible Automation Platform</em> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><em>Business Automation Workflow</em> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><em>IBM Supply Chain Control Tower</em> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><em>IBM Sterling Intelligent Promising</em> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><em>IBM Sterling Fulfillment Optimizer with Watson</em> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><em>Sterling Inventory Visibility</em> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>The Problem</th>
+<th>The Solution</th>
+<th>The Benefits and Implications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automated processes</td>
+<td>Manual input and follow up</td>
+<td>Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders.</td>
+<td></td>
+</tr>
+<tr>
+<td>Actions follow a consistent business process and can be easily updated as needs change</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Expiring products</td>
+<td>Expiring item situations lead to lost revenue and decreased brand / retailer loyalty.</td>
+<td>Control Tower monitors inventory levels at all locations in a client’s network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand.</td>
+<td>Action can be taken directly from the Control Tower user interface. Expiring product situations are efficiently managed and OOS are avoided with minimal human intervention.</td>
+</tr>
+<tr>
+<td>API Management</td>
+<td>Separation of systems, control and monitoring of access, providing consistent user authentication and security between platforms.</td>
+<td>API Manages the access and permissions required for data between systems.</td>
+<td>Improved security, monitoring of frequency of access between systems. Improved system maintainability.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="similar-use-cases">Similar use cases</h2>
+<p>See:</p>
+<ul>
+<li><a href="../demandrisk/">Demand risk</a></li>
+<li><a href="./">Product timeliness</a></li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Iain Boyle, Red Hat</li>
+<li>Bruce Kyle, IBM</li>
+<li>Mahesh Dodani, IBM</li>
+<li>Thalia Hooker, Red Hat</li>
+<li>Jeric Saez, IBM</li>
+<li>Mike Lee, IBM</li>
+<li>Lee Carbonell, IBM</li>
+<li>James Stewart, IBM</li>
+</ul>
 
   <br>
     
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../lossmanagement/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../lossmanagement/" class="btn btn-xs btn-link">
+        Loss Management
+      </a>
+    </div>
+    
+  </div>
 
     <br>
 </div>
