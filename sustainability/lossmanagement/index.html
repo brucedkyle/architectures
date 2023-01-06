@@ -11,7 +11,7 @@
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Inventory Optimization - Loss Management - Cloud Native Architectures</title>
+    <title>Loss Management - Cloud Native Architectures</title>
     <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="../../css/base.css" rel="stylesheet">
@@ -33,6 +33,14 @@
         
         var pageToc = [
           {title: "Inventory Optimization - Loss Management", url: "#_top", children: [
+              {title: "Business case", url: "#business-case" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Solution principles", url: "#solution-principles" },
+              {title: "Environment Exception", url: "#environment-exception" },
+              {title: "Contamination/Recall", url: "#contaminationrecall" },
+              {title: "Technology", url: "#technology" },
+              {title: "Similar use cases", url: "#similar-use-cases" },
+              {title: "Contributors", url: "#contributors" },
           ]},
         ];
 
@@ -52,11 +60,209 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand Risk
+      </a>
+    </div>
+    
+  </div>
+
+    
 
     <h1 id="inventory-optimization-loss-management">Inventory Optimization - Loss Management</h1>
+<p>To demonstrate the importance of inventory optimisation for any business, this document will focus on main use cases of an unanticipated exception, such as:</p>
+<ul>
+<li>Power outage creates potential spoilage</li>
+<li>Natural disaster </li>
+<li>Product recall</li>
+<li>Product contamination</li>
+</ul>
+<p>For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
+<h2 id="business-case">Business case</h2>
+<p>All businesses that require a supply chain have unanticipated issues. </p>
+<table>
+<thead>
+<tr>
+<th>Business problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
+<td>Monitor and manage network inventory availability and anticipate actions due to unanticipated acception with alerts and recommended actions</td>
+</tr>
+<tr>
+<td>Business process for handling unexpected issues may not be consistent across the enterprise</td>
+<td>Gain detailed visibility into inventory characteristics at each location – provide transparently to inventory. Enable actionable inventory shifts across the enterprise</td>
+</tr>
+<tr>
+<td>Visibility into actions needed and alternatives to anticipate and respond to inventory in an unanticipated event.</td>
+<td>Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove recalled items. Proactively replace items in response to demand.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution-overview">Solution overview</h2>
+<p>The technologies can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
+<li>Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
+<li>Inventory Optimisation platform</li>
+</ul>
+<p><img alt="solution diagram" src="../media/overview.png" /></p>
+<h2 id="solution-principles">Solution principles</h2>
+<p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
+<p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
+<p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
+<h2 id="environment-exception">Environment Exception</h2>
+<p>The following diagram shows the workflow for the environment exception use case.</p>
+<p><img alt="environmental exception workflow" src="../media/environmentexceptionworkflow.png" /></p>
+<p>Food Loss - Environmental Exception steps:</p>
+<ol>
+<li>Environmental event detected (e.g. Temp out of range, loss of power)
+<li>Notification sent to Risk Management module
+<li>Inv Ctrl Tower processes risk and determines that it needs remediation
+<li>Inv Controller notified and determines inspection of facility and inventory is needed
+<li>Remediation
+<ol type="a"><li>Facilities personel performs remediation
+<li>Inventory analyzed and remediated 
+</ol>
+</ol>
+
+<p>The following diagram shows the schematic for the understock use case.</p>
+<p><img alt="environmental exception schematic" src="../media/foodlossenvironmentexception.svg" /></p>
+<h2 id="contaminationrecall">Contamination/Recall</h2>
+<p>The following diagram shows the workflow for the contamination recall use case.</p>
+<p><img alt="contaimination recall workflow" src="../media/contaminationrecallworkflow.png" /></p>
+<ol><li>External notification of food safety event
+<li>Determine if supplier is affected
+<li>Determine if locations received affected product
+<li>Inv Ctrl Tower processes event data and creates remedediation action
+<li>Colleague remediates inventory and counts, then removes product from inventory
+<li>Location submits remediation data back to backend system for store credit
+</ol>
+
+<p>The following diagram shows the schematic for the contamination recall use case.</p>
+<p><img alt="recall schematic" src="../media/recallschematic.svg" /></p>
+<h2 id="technology">Technology</h2>
+<p>The following technology was chosen for this solution:</p>
+<p><em>Red Hat OpenShift</em> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
+<p><em>Red Hat Ansible Automation Platform</em> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><em>Business Automation Workflow</em> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><em>IBM Supply Chain Control Tower</em> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><em>IBM Sterling Intelligent Promising</em> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><em>IBM Sterling Fulfillment Optimizer with Watson</em> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><em>Sterling Inventory Visibility</em> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>The Problem</th>
+<th>The Solution</th>
+<th>The Benefits and Implications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automated processes</td>
+<td>Manual input and follow up</td>
+<td>Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders.</td>
+<td>Actions follow a consistent business process and can be easily updated as needs change</td>
+</tr>
+<tr>
+<td>Damaged or potential issues products</td>
+<td>Facilities issues can immediately impact product liability, lead to lost revenue and decreased brand / retailer loyalty.</td>
+<td>Control Tower monitors inventory connections to multiple core application systems foster visibility,  create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand.</td>
+<td>Action can be taken directly from the Control Tower user interface. Product situations are efficiently managed and OOS are avoided with minimal human intervention.</td>
+</tr>
+<tr>
+<td>API Management</td>
+<td>Separation of systems, control and monitoring of access, providing consistent user authentication and security between platforms</td>
+<td>API Manages the access and permissions required for data between systems.</td>
+<td>Improved security, monitoring of frequency of access between systems</td>
+</tr>
+<tr>
+<td>Supply intelligence, inventory analysis</td>
+<td>Avoid discarding items not included in recall, contamination Provide alternative products that can be substituted. Determine alternative locations or steps to stage product</td>
+<td>Supply intelligence and inventory analytics provides record of product details, visibility into substitute products, - visibility of item locations, suggested remediation steps</td>
+<td>Supplies can be immediately removed from sale, substitute product offered, steps to ship unaffected products as needed based on actual demand</td>
+</tr>
+<tr>
+<td>Colleage and partner engagement</td>
+<td>Quick sharing data between enterprise silos and to partners who can provide solutions</td>
+<td>Visibility into recall issues</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="similar-use-cases">Similar use cases</h2>
+<p>See:</p>
+<ul>
+<li><a href="../timeliness/">Product timeliness</a></li>
+<li><a href="../demandrisk/">Demand risk</a></li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Iain Boyle, Red Hat</li>
+<li>Bruce Kyle, IBM</li>
+<li>Mahesh Dodani, IBM</li>
+<li>Thalia Hooker, Red Hat</li>
+<li>Jeric Saez, IBM</li>
+<li>Mike Lee, IBM</li>
+<li>Lee Carbonell, IBM</li>
+<li>James Stewart, IBM</li>
+</ul>
 
   <br>
     
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand Risk
+      </a>
+    </div>
+    
+  </div>
 
     <br>
 </div>
