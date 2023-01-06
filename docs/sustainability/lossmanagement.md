@@ -110,6 +110,15 @@ See:
 - [Product timeliness](timeliness.md)
 - [Demand risk](demandrisk.md)
 
+For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+
+## Downloads
+
+View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+
+- PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
+
 ## Contributors
 
 - Iain Boyle, Red Hat

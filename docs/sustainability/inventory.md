@@ -213,6 +213,13 @@ IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventor
 - Gartner: [Supply Chain Risk Management (SCRM): What & Why Is It Important](https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management)
 - IBM Institute for Business Value [Own your transfomation](https://www.ibm.com/downloads/cas/1BYY6VEM)
 
+## Downloads
+
+View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+
+- PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
+
 ## Contributors
 
 - Iain Boyle, Red Hat

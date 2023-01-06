@@ -162,6 +162,15 @@ See:
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
 
+For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+
+## Downloads
+
+View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+
+- PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
+
 ## Contributors
 
 - Iain Boyle, Red Hat

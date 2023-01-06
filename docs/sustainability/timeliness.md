@@ -1,6 +1,13 @@
 # Inventory Optimisation - Timeliness
 
-To demonstrate the importance of inventory optimisation for any business, this document will focus on main use cases of products that expire or have a known _shelf life_. For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+To demonstrate the importance of inventory optimisation for any business, this document will focus on main use cases of products that expire or have a known _shelf life_. 
+
+- _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
+- _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
+
+In both cases, you will also want to plan and to take proactive steps in anticipation of product expirations.
+
+For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
 ## Business case
 
@@ -80,14 +87,22 @@ See:
 - [Demand risk](demandrisk.md)
 - [Product timeliness](timeliness.md)
 
+For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+
+## Downloads
+
+View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+
+- PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
+
 ## Contributors
 
 - Iain Boyle, Red Hat
+- James Stewart, IBM
 - Bruce Kyle, IBM
 - Mahesh Dodani, IBM
 - Thalia Hooker, Red Hat
 - Jeric Saez, IBM
 - Mike Lee, IBM
 - Lee Carbonell, IBM
-- James Stewart, IBM
-
