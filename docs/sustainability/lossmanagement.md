@@ -39,9 +39,9 @@ The technologies can be grouped into three main categories as shown in the follo
 
 ## Environment Exception
 
-The following diagram shows the workflow for the environment exception use case.
+The following diagram shows the schematic for the understock use case.
 
-![environmental exception workflow](./media/environmentexceptionworkflow.png)
+![environmental exception schematic](./media/foodlossenvironmentexception.svg)
 
 Food Loss - Environmental Exception steps:
 
@@ -56,15 +56,13 @@ Food Loss - Environmental Exception steps:
 </ol>
 </ol>
 
-The following diagram shows the schematic for the understock use case.
-
-![environmental exception schematic](./media/foodlossenvironmentexception.svg)
-
 ## Contamination/Recall 
 
-The following diagram shows the workflow for the contamination recall use case.
+The following diagram shows the schematic for the contamination recall use case.
 
-![contaimination recall workflow](./media/contaminationrecallworkflow.png)
+Food Loss - Contamination recall steps:
+
+![recall schematic](./media/recallschematic.svg)
 
 <ol><li>External notification of food safety event
 <li>Determine if supplier is affected
@@ -73,10 +71,6 @@ The following diagram shows the workflow for the contamination recall use case.
 <li>Colleague remediates inventory and counts, then removes product from inventory
 <li>Location submits remediation data back to backend system for store credit
 </ol>
-
-The following diagram shows the schematic for the contamination recall use case.
-
-![recall schematic](./media/recallschematic.svg)
 
 ## Technology
 

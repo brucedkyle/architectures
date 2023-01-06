@@ -37,11 +37,11 @@ The technologies can be grouped into three main categories as shown in the follo
 
 **Intelligent workflows**. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.
 
-## Workflow
+## Logical diagram
 
-The following diagram shows the workflow for the timeliness / shelf life use case.
+The following diagram shows the schematic for the understock use case.
 
-![shelf life workflow](./media/shelflifeworkflow.png)
+![shelf life schematic](./media/shelflifechematic.svg)
 
 Timeliness/Shelf life steps:
 
@@ -50,12 +50,6 @@ Timeliness/Shelf life steps:
 3. Notifies the Inv Controller to take action
 4. Creates replenishment order
 5. Engages partners (Charity, recycler) to remediate expired or near expired stock
-
-## Logical diagram
-
-The following diagram shows the schematic for the understock use case.
-
-![shelf life schematic](./media/shelflifechematic.svg)
 
 ## Technology
 

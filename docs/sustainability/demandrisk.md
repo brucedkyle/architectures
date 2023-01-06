@@ -55,9 +55,9 @@ The technologies can be grouped into three main categories as shown in the follo
 
 ## Understock
 
-The following diagram shows the workflow for the understock use case.
+The following diagram shows the schematic for the understock use case.
 
-![understock workflow](./media/understockworkflow.png)
+![understock schematic](./media/understockschematic.svg)
 
 Understock workflow steps:
 
@@ -75,15 +75,11 @@ Understock workflow steps:
 </ol>
 </ol>
 
-The following diagram shows the schematic for the understock use case.
-
-![understock schematic](./media/understockschematic.svg)
-
 ## Overstock
 
-The following diagram shows the workflow for the overstock use case.
+The following diagram shows the schematic for the overstock use case.
 
-![overstock workflow](./media/overstockworkflow.png)
+![overstock schematic](./media/overstockschematic.svg)
 
 Overstock workflow steps:
 
@@ -100,10 +96,6 @@ Overstock workflow steps:
     <li>Offering stock to partners for liquidation, destruction, donation, sale via alternative channels or to food-waste partners.</li>
     </ol>
 </ol>
-
-The following diagram shows the schematic for the overstock use case.
-
-![overstock schematic](./media/overstockschematic.svg)
 
 ## Technology
 
