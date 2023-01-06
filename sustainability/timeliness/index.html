@@ -36,7 +36,6 @@
               {title: "Business case", url: "#business-case" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Principles", url: "#principles" },
-              {title: "Workflow", url: "#workflow" },
               {title: "Logical diagram", url: "#logical-diagram" },
               {title: "Technology", url: "#technology" },
               {title: "Similar use cases", url: "#similar-use-cases" },
@@ -133,9 +132,9 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
 <p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
 <p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
-<h2 id="workflow">Workflow</h2>
-<p>The following diagram shows the workflow for the timeliness / shelf life use case.</p>
-<p><img alt="shelf life workflow" src="../media/shelflifeworkflow.png" /></p>
+<h2 id="logical-diagram">Logical diagram</h2>
+<p>The following diagram shows the schematic for the understock use case.</p>
+<p><img alt="shelf life schematic" src="../media/shelflifechematic.svg" /></p>
 <p>Timeliness/Shelf life steps:</p>
 <ol>
 <li>Inv Ctrl Tower hueristics determines product inventory is near its "Use by" date</li>
@@ -144,9 +143,6 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Creates replenishment order</li>
 <li>Engages partners (Charity, recycler) to remediate expired or near expired stock</li>
 </ol>
-<h2 id="logical-diagram">Logical diagram</h2>
-<p>The following diagram shows the schematic for the understock use case.</p>
-<p><img alt="shelf life schematic" src="../media/shelflifechematic.svg" /></p>
 <h2 id="technology">Technology</h2>
 <p>The following technology was chosen for this solution:</p>
 <p><em>Red Hat OpenShift</em> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
