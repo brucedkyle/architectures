@@ -5,5 +5,6 @@ nav:
       - Inventory Optimisation: ./sustainability/inventory.md
       - Demand Risk: ./sustainability/demandrisk.md
       - Loss Management: ./sustainability/lossmanagement.md
+      - Timeliness: ./sustainability/timeliness.md
     - About: about.md
 theme: windmill
