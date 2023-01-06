@@ -147,33 +147,41 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <h2 id="understock">Understock</h2>
 <p>The following diagram shows the workflow for the understock use case.</p>
 <p><img alt="understock workflow" src="../media/understockworkflow.png" /></p>
-<p>Understock
-Inventory Analysis detects low stock levels and predicts inventory will become unavailable sooner than originally expected.
-Inventory Control Tower alerted to the understock position.
-Inventory Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
-Inventory Control Tower collects future demand requirements from Demand Intelligence.
-Colleague alerted and asked to take remediation action.
-Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
-Ordering more stock
-Adjusting stock positions within existing Supply Chain
-Managing inventory held at existing stores or by moving existing inventory
-Managing inventory held at existing warehouses or by moving existing inventory</p>
+<p>Understock workflow steps:</p>
+<ol>
+<li>Inventory Analysis detects low stock levels and predicts inventory will become unavailable sooner than originally expected.
+<li>Inventory Control Tower alerted to the understock position.
+<li>Inventory Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
+<li>Inventory Control Tower collects future demand requirements from Demand Intelligence.
+<li>Colleague alerted and asked to take remediation action.
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+<ol type="a"><li>Ordering more stock
+<li>Adjusting stock positions within existing Supply Chain
+<li>Managing inventory held at existing stores or by moving existing inventory
+<li>Managing inventory held at existing warehouses or by moving existing inventory
+</ol>
+</ol>
+
 <p>The following diagram shows the schematic for the understock use case.</p>
 <p><img alt="understock schematic" src="../media/understockschematic.svg" /></p>
 <h2 id="overstock">Overstock</h2>
 <p>The following diagram shows the workflow for the overstock use case.</p>
 <p><img alt="overstock workflow" src="../media/overstockworkflow.png" /></p>
-<p>Overstock
-Inventory Analysis detects high stock levels and predicts inventory will not be sold as quickly as expected.
-Inventory Control Tower alerted to the overstock position.
-Inventory Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
-Inventory Control Tower collects future demand requirements from Demand Intelligence.
-Colleague alerted and asked to take remediation action.
-Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
-Product discounting and promotions.
-Adjust stock positions within stores by moving stock between stores or warehouses to accelerate sales in conjunction with promotions.
-Reduce future inventory requirements to slow down or stop replenishment.
-Offering stock to partners for liquidation, destruction, donation, sale via alternative channels or to food-waste partners.</p>
+<p>Overstock workflow steps:</p>
+<ol>
+<li>Inventory Analysis detects high stock levels and predicts inventory will not be sold as quickly as expected.</li>
+<li>Inventory Control Tower alerted to the overstock position.</li>
+<li>Inventory Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions.</li>
+<li>Inventory Control Tower collects future demand requirements from Demand Intelligence.</li>
+<li>Colleague alerted and asked to take remediation action.</li>
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:</li>
+    <ol type="a"><li>Product discounting and promotions.</li>
+    <li>Adjust stock positions within stores by moving stock between stores or warehouses to accelerate sales in conjunction with promotions.</li>
+    <li>Reduce future inventory requirements to slow down or stop replenishment.</li>
+    <li>Offering stock to partners for liquidation, destruction, donation, sale via alternative channels or to food-waste partners.</li>
+    </ol>
+</ol>
+
 <p>The following diagram shows the schematic for the overstock use case.</p>
 <p><img alt="overstock schematic" src="../media/overstockschematic.svg" /></p>
 <h2 id="technology">Technology</h2>
