@@ -1,15 +1,39 @@
-# Inventory Optimisation - Timeliness
+# Inventory Optimisation - Product Timeliness
 
-To demonstrate the importance of inventory optimisation for any business, this document will focus on main use cases of products that expire or have a known _shelf life_. 
+To demonstrate the importance of inventory optimisation for any business, we will focus on main use cases of products that expire or have a known _shelf life_. We will start by defining the business problem and the shelf life use case, describe the challenges and business drivers organizations face. Next, we will provide an overview of the solution, show a schematic of the shelf life use case provide an action guide, and conclude with the technology used in the solution.
+
+For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+
+
+## Business problem
+
+*TODO: need to rewrite this section and Use Cases and or move these definitions to Use Cases*
+
+
+## Use Cases
+
+The main use cases represented by product timeliness are:
 
 - _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
 In both cases, you will also want to plan and to take proactive steps in anticipation of product expirations.
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
-## Business case
+## Challenges / Business Drivers 
+
+**Challenges**
+
+- *TODO: Add Challenge #1*
+- *TODO: Add Challenge #2...*
+
+**Drivers**
+
+- *TODO: Add Driver #1*
+- *TODO: Add Driver #2*
+
+
+### Responses
 
 Many goods offered in retail and supplier businesses expire. 
 
@@ -19,17 +43,21 @@ Many goods offered in retail and supplier businesses expire.
 | The lack of pertinent product information (remaining shelf life, ambient temperature, etc.) and poor data flow across partners lead to inefficient inventory management, wastage and lost sales. | Gain detailed visibility into inventory characteristics at each location – e.g., by remaining shelf life, time-since-harvested. Maintain freshness by acting on alerts received when items are at risk. |
 | Visibility into actions needed and alternatives to anticipate and respond to inventory as items approach end of shelf life. | Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove end of life items. Proactively replace items in response to demand. |
 
+
 ## Solution overview
 
-The technologies can be grouped into three main categories as shown in the following diagram:
+*TODO: Add business drivers paragraph and need to update diagram below with Product Timeliness-specific business drivers*
+
+![solution diagram](./media/overview.png)
+
+The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
 - Inventory Optimisation platform
 
-![solution diagram](./media/overview.png)
 
-## Principles
+## Solution Principles
 
 **True end-to-end visibility**. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.
 
@@ -37,19 +65,30 @@ The technologies can be grouped into three main categories as shown in the follo
 
 **Intelligent workflows**. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.
 
-## Logical diagram
+## Timeliness/Shelf life
 
-The following diagram shows the schematic for the understock use case.
+The following diagram shows the schematic for the Timeliness/Shelf life use case.
 
 ![shelf life schematic](./media/shelflifechematic.svg)
 
 Timeliness/Shelf life steps:
 
-1. Inv Ctrl Tower hueristics determines product inventory is near its "Use by" date
+1. Inventory Control Tower hueristics determines product inventory is near its "Use by" date
 2. Inspects current inventory
-3. Notifies the Inv Controller to take action
+3. Notifies the Inventory Controller to take action
 4. Creates replenishment order
 5. Engages partners (Charity, recycler) to remediate expired or near expired stock
+
+
+## Action Guide
+
+This use case implements actionable steps for *Automation* and *Modernization* in our Action Guide:
+| Actionable Step | Implementation details |
+| Create a world-class sensing and risk-monitoring operation | *TODO* |
+| Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
+| Amp up AI to make workflows smarter | For expiring products, Control Tower monitors inventory levels at all locations in a client’s network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
+| Modernization for modern infrastructures, scale hybrid cloud platforms | *TODO: Red Hat OpenShift...* |
+
 
 ## Technology
 

@@ -1,6 +1,6 @@
 # Inventory Optimisation - Demand Risk
 
-To demonstrate the importance of inventory optimisation for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an overview of the solution, show a schematic of the two use cases: understock and overstock, provide an action guide, and conclude with the technology used in the solution.
+To demonstrate the importance of inventory optimisation for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: understock and overstock, and conclude with the technology used in the solution.
 
 For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
@@ -26,7 +26,7 @@ Two main issues are represented by demand risk.
 
 ## Challenges / Business Drivers 
 
-**Challenges**. 
+**Challenges**
 
 - Stores receive inventory from warehouse or direct from suppliers. Managing direct ship is a real challenge for each store as it has to be managed at the store level.
 - Maintaining inventory control of high value items to minimise loss and associated cost.
@@ -45,6 +45,18 @@ Two main issues are represented by demand risk.
 | Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and respond to disruptions such as out-of-stock and overstock with alerts and recommended actions. |
 | The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales. | Gain detailed visibility into inventory characteristics at each location. |
 
+
+## Action Guide
+
+This use case implements actionable steps for *Automation* and *Modernization* in our Action Guide:
+| Actionable Step | Implementation details |
+| - | - |
+| Create a world-class sensing and risk-monitoring operation | TODO |
+| Accelerate automation in extended workflows | As an example, in the Reduce out of stock (OOS) or approaching out of stock (AOOS) conditions, a SCIS Control Tower monitors inventory levels at all locations in a client's network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter. |
+| Amp up AI to make workflows smarter | Same as above |
+| Modernization for modern infrastructures, scale hybrid cloud platforms | *TODO: Red Hat OpenShift...* |
+
+
 ## Solution overview
 
 *TODO: Add business drivers paragraph and need to update diagram below with Demand Risk-specific business drivers*
@@ -56,6 +68,7 @@ The solution uses the following technologies, which can be grouped into three ma
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
 - Inventory Optimisation platform
+
 
 ## Understock
 
@@ -79,6 +92,7 @@ Understock workflow steps:
 </ol>
 </ol>
 
+
 ## Overstock
 
 The following diagram shows the schematic for the overstock use case.
@@ -100,16 +114,6 @@ Overstock workflow steps:
     <li>Offering stock to partners for liquidation, destruction, donation, sale via alternative channels or to food-waste partners.</li>
     </ol>
 </ol>
-
-## Action Guide
-
-This use case implements actionable steps for *Automation* and *Modernization* in our Action Guide:
-| Actionable Step | Implementation details |
-| Create a world-class sensing and risk-monitoring operation | TODO |
-| Accelerate automation in extended workflows | As an example, in the Reduce out of stock (OOS) or approaching out of stock (AOOS) conditions, a SCIS Control Tower monitors inventory levels at all locations in a client's network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations.
-These recommendations are based on adding automation and AI to make workflows smarter. |
-| Amp up AI to make workflows smarter | Same as above |
-| Modernization for modern infrastructures, scale hybrid cloud platforms | Red Hat OpenShift... |
 
 
 ## Technology
