@@ -1,33 +1,59 @@
-# Inventory Optimization - Loss Management
+# Inventory Optimization - Loss and Waste Management
 
-To demonstrate the importance of inventory optimisation for any business, this document will focus on main use cases of an unanticipated exception, such as:
+To demonstrate the importance of inventory optimisation for any business, we will focus on main use cases of an unanticipated exception, such as:
 
-- Power outage creates potential spoilage
-- Natural disaster 
-- Product recall
-- Product contamination
+- **Environment Exceptions** such as power outages that creates potential spoilage or a natural disaster 
+- **Product contamination or recall**
+
+We will start by defining the business problem and the two main use cases: Environmental Exceptions and Product contamination or recall, describe the challenges and business drivers organizations face. Next, we will provide an overview of the solution, show a schematic of the two use cases: Environmental Exceptions and Product contamination or recall, provide an action guide, and conclude with the technology used in the solution.
 
 For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
-## Business case
+
+## Business problem
+
+*TODO: add business problem description (see Demand Risk)*
+
+## Use cases
+The main use cases represented by loss management are:
+- **Environmental Exceptions** such as Power outage creates potential spoilage or Natural disaster  *@TODO: define*
+- **Product contamination or recall** *@TODO: define*
+
+
+## Challenges / Business Drivers 
+
+**Challenges**. 
+
+- *TODO: Add Challenge #1*
+- *TODO: Add Challenge #2...*
+
+Drivers
+- *TODO: Add Driver #1*
+- *TODO: Add Driver #2*
+
+
+### Responses
 
 All businesses that require a supply chain have unanticipated issues. 
 
 | Business problem | Solution |
 | - | - |
-| Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and anticipate actions due to unanticipated acception with alerts and recommended actions |
-| Business process for handling unexpected issues may not be consistent across the enterprise | Gain detailed visibility into inventory characteristics at each location – provide transparently to inventory. Enable actionable inventory shifts across the enterprise |
+| Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and anticipate actions due to unanticipated exception with alerts and recommended actions |
+| Business process for handling unexpected issues may not be consistent across the enterprise | Gain detailed visibility into inventory characteristics at each location and provide transparency to inventory. Enable actionable inventory shifts across the enterprise |
 | Visibility into actions needed and alternatives to anticipate and respond to inventory in an unanticipated event. | Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove recalled items. Proactively replace items in response to demand.
 
 ## Solution overview
 
-The technologies can be grouped into three main categories as shown in the following diagram:
+*TODO: Add business drivers paragraph and need to update diagram below with Loss and Waste Management-specific business drivers*
+
+![solution diagram](./media/overview.png)
+
+The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
 - Inventory Optimisation platform
 
-![solution diagram](./media/overview.png)
 
 ## Solution principles
 
@@ -46,10 +72,10 @@ The following diagram shows the schematic for the understock use case.
 Food Loss - Environmental Exception steps:
 
 <ol>
-<li>Environmental event detected (e.g. Temp out of range, loss of power)
+<li>Environmental event detected (e.g. Temperature out of range or loss of power)
 <li>Notification sent to Risk Management module
-<li>Inv Ctrl Tower processes risk and determines that it needs remediation
-<li>Inv Controller notified and determines inspection of facility and inventory is needed
+<li>Inventory Control Tower processes risk and determines that it needs remediation
+<li>Inventory Controller notified and determines inspection of facility and inventory is needed
 <li>Remediation
 <ol type="a"><li>Facilities personel performs remediation
 <li>Inventory analyzed and remediated 
@@ -67,10 +93,20 @@ Food Loss - Contamination recall steps:
 <ol><li>External notification of food safety event
 <li>Determine if supplier is affected
 <li>Determine if locations received affected product
-<li>Inv Ctrl Tower processes event data and creates remedediation action
+<li>Inventory Control Tower processes event data and creates remedediation action
 <li>Colleague remediates inventory and counts, then removes product from inventory
 <li>Location submits remediation data back to backend system for store credit
 </ol>
+
+## Action Guide
+
+This use case implements actionable steps for *Automation* and *Modernization* in our Action Guide:
+| Actionable Step | Implementation details |
+| Create a world-class sensing and risk-monitoring operation | *TODO* |
+| Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
+| Amp up AI to make workflows smarter | For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
+| Modernization for modern infrastructures, scale hybrid cloud platforms | *TODO: Red Hat OpenShift...* |
+
 
 ## Technology
 
