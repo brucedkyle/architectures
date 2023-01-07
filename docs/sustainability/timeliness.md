@@ -1,6 +1,6 @@
 # Inventory Optimisation - Product Timeliness
 
-To demonstrate the importance of inventory optimisation for any business, we will focus on main use cases of products that expire or have a known _shelf life_. We will start by defining the business problem and the shelf life use case, describe the challenges and business drivers organizations face. Next, we will provide an overview of the solution, show a schematic of the shelf life use case provide an action guide, and conclude with the technology used in the solution.
+To demonstrate the importance of inventory optimisation for any business, we will focus on main use cases of products that expire or have a known _shelf life_. We will start by defining the business problem and the shelf life use case, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the shelf life use case, and conclude with the technology used in the solution.
 
 For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
@@ -84,6 +84,7 @@ Timeliness/Shelf life steps:
 
 This use case implements actionable steps for *Automation* and *Modernization* in our Action Guide:
 | Actionable Step | Implementation details |
+| - | - |
 | Create a world-class sensing and risk-monitoring operation | *TODO* |
 | Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
 | Amp up AI to make workflows smarter | For expiring products, Control Tower monitors inventory levels at all locations in a client’s network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
