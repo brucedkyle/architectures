@@ -8,6 +8,14 @@ A key element of the retail fulfilment process is knowing the inventory position
 
 _Inventory optimisation_ is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.
 
+In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
+These actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
+-	Demand Risk (under stock and over stock), 
+-	Loss and waste management, and 
+-	Product timeliness. 
+We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
+
+
 ## Business challenges
 
 Chief Supply Chain Officers (CSCOs) face issues related to supply chain disruptions, technology infrastructure, sustainability, and market shifts as their greatest challenges. Yet when addressed with an open mindset, challenges create opportunities within the enterprise—and visibility. 
@@ -28,7 +36,7 @@ Inventory optimisation is making sure the current and future demand is accuratel
 
 ## Business outcomes
 
-Innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.
+[According to the IBM IBV study](https://www.ibm.com/downloads/cas/1BYY6VEM), innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.
 
 Innovators also stand out by leveraging data with AI and advanced analytics in demand management. With demand volatility and associated supplier, operations, and logistics disruption at all-time highs, CSCOs are applying AI and machine learning to the critical and strategic continuous planning elements of demand management and forecasting. A full 90% of Innovators use AI and advanced analytics in demand management and predictive forecasting, 18% more than their peers (76%).
 
@@ -43,12 +51,12 @@ Directly influence the following KPIs:
 - Manage product at risk/perishability/age
 - Improve gross margin return on investment
 - Reduce return rate
-- Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interuption.
+- Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interruption.
 - Improve customer satisfaction
 
 ## Action guide
 
-From a high-level perspective—several main steps your organization can take to drive innovation and move toward a digital supply chain.
+From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain.
 
 ### Automation 
 
@@ -107,6 +115,8 @@ For more information about the solution details on this scenario, see [Inventory
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
 
 - Create a world-class sensing and risk-monitoring operation. 
+- Accelerate automation in extended workflows
+- Amp up AI to make workflows smarter
 - Modernization for modern infrastructures, scale hybrid cloud platforms.
 
 ![solution overview](./media/overview.png)
@@ -208,7 +218,7 @@ IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventor
 
 - McKinsey: [How COVID-19 is reshaping supply chains](https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains)
 - Harvard Business Review: [Three steps to prepare your supply chain for the next crisis](https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis)
-- Gartner: [What is a Supply Chain Control Tower and what's needed to deploy one](https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one()
+- Gartner: [What is a Supply Chain Control Tower and what's needed to deploy one](https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one)
 - Gartner: [Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning)
 - Gartner: [Supply Chain Risk Management (SCRM): What & Why Is It Important](https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management)
 - IBM Institute for Business Value [Own your transfomation](https://www.ibm.com/downloads/cas/1BYY6VEM)
