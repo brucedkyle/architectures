@@ -88,9 +88,9 @@ To demonstrate the importance of inventory optimisation for any business, severa
 
 ### Demand Risk
 
-**Under stocking** - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
+**Understock** - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
 
-**Over stocking** - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
+**Overstock** - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
 
 For more information about the solution details on this scenario, see [Inventory Optimisation - Demand Risk](demandrisk.md).
 
