@@ -8,6 +8,14 @@ A key element of the retail fulfilment process is knowing the inventory position
 
 _Inventory optimisation_ is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.
 
+In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
+These actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
+-	Demand Risk (under stock and over stock), 
+-	Loss and waste management, and 
+-	Product timeliness. 
+We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
+
+
 ## Business challenges
 
 Chief Supply Chain Officers (CSCOs) face issues related to supply chain disruptions, technology infrastructure, sustainability, and market shifts as their greatest challenges. Yet when addressed with an open mindset, challenges create opportunities within the enterprise—and visibility. 
@@ -28,7 +36,7 @@ Inventory optimisation is making sure the current and future demand is accuratel
 
 ## Business outcomes
 
-Innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.
+[According to the IBM IBV study](https://www.ibm.com/downloads/cas/1BYY6VEM), innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.
 
 Innovators also stand out by leveraging data with AI and advanced analytics in demand management. With demand volatility and associated supplier, operations, and logistics disruption at all-time highs, CSCOs are applying AI and machine learning to the critical and strategic continuous planning elements of demand management and forecasting. A full 90% of Innovators use AI and advanced analytics in demand management and predictive forecasting, 18% more than their peers (76%).
 
@@ -43,12 +51,12 @@ Directly influence the following KPIs:
 - Manage product at risk/perishability/age
 - Improve gross margin return on investment
 - Reduce return rate
-- Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interuption.
+- Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interruption.
 - Improve customer satisfaction
 
 ## Action guide
 
-From a high-level perspective—several main steps your organization can take to drive innovation and move toward a digital supply chain.
+From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain.
 
 ### Automation 
 
@@ -80,25 +88,29 @@ To demonstrate the importance of inventory optimisation for any business, severa
 
 ### Demand Risk
 
-**Under stocking** - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
+_Understock_ - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
 
-**Over stocking** - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
+_Overstock_ - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
 
 For more information about the solution details on this scenario, see [Inventory Optimisation - Demand Risk](demandrisk.md).
 
 ### Inventory Risk - Loss and waste management
 
-**Loss and waste management** - take decisive action in cases of:
+**Loss and waste management** requires you to take decisive action in cases of:
 
-- Shelf life. Identify and timely replace items as shelf life expires.
-- Environmental exception. Food expirations, power interruption or other disaster affecting the product salability.
-- Contamination or recall. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.
+- _Shelf life_. Identify and timely replace items as shelf life expires. *NOTE: this is covered in Product timeliness*
+- _Environmental exceptions_. Food expirations, power interruption or other disaster affecting the product salability.
+- _Contamination or recall_. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.
 
-For more information about the solution details on this scenario, see [Inventory Optimisation - Loss management](lossmanagement.md).
+For more information about the solution details on this scenario, see [Inventory Optimisation - Loss and waste management](lossmanagement.md).
 
 ### Inventory Risk - Product timeliness
 
-**Product timeliness** - having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.
+**Product timeliness** is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.
+
+- _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
+- _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
+
 
 For more information about the solution details on this scenario, see [Inventory Optimisation - Product timeliness](timeliness.md).
 
@@ -107,6 +119,8 @@ For more information about the solution details on this scenario, see [Inventory
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
 
 - Create a world-class sensing and risk-monitoring operation. 
+- Accelerate automation in extended workflows
+- Amp up AI to make workflows smarter
 - Modernization for modern infrastructures, scale hybrid cloud platforms.
 
 ![solution overview](./media/overview.png)
@@ -115,17 +129,20 @@ Specifically, [Harvard Business Review article](https://hbr.org/2022/11/3-steps-
 
 > CEOs need to invest in risk intelligence and strategic foresight, creating a team of procurement super-forecasters equipped with the latest artificial-intelligence (AI)-powered sensing technology.
 
+
 ## Reference architecture
 
 The following diagram provides an overall reference architecture for the solution.
 
 ![reference architecture](./media/referencearchitecture.png)
 
+
 ## Logical diagram
 
 The following reference architecture describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.
 
 ![logical diagram](./media/InventoryOptimisationLogical.svg)
+
 
 ### Personas
 
@@ -172,6 +189,7 @@ The technologies can be grouped into main categories:
     - Supply risk management
     - Demand intelligence
 
+
 ## The technology capabilities
 
 This section provides the logical components of the solution.
@@ -204,11 +222,12 @@ Each of the core application systems provides data and responds to events throug
 
 IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventory-visibility) that is included with IBM Sterling Intelligent Promising to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. 
 
+
 ## References
 
 - McKinsey: [How COVID-19 is reshaping supply chains](https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains)
 - Harvard Business Review: [Three steps to prepare your supply chain for the next crisis](https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis)
-- Gartner: [What is a Supply Chain Control Tower and what's needed to deploy one](https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one()
+- Gartner: [What is a Supply Chain Control Tower and what's needed to deploy one](https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one)
 - Gartner: [Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning)
 - Gartner: [Supply Chain Risk Management (SCRM): What & Why Is It Important](https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management)
 - IBM Institute for Business Value [Own your transfomation](https://www.ibm.com/downloads/cas/1BYY6VEM)
