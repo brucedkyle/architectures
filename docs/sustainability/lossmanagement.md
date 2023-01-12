@@ -19,7 +19,7 @@ Loss and waste management is principally focused on ensuring food and food relat
 *@ TODO: maybe add some temperature ranges here*
 
 To prevent spoilage, food products must typically be stored and transported at temperatures within well defined ranges. For example:
-- Frrozen food must be kept below a specific temperature at all times. If the temperature rises and food defrosts, it cannot be refrozen.
+- Frozen food must be kept below a specific temperature (0°F) at all times. If the temperature rises and food defrosts, it cannot be refrozen.
 - Chilled food must be kept within a tenmperature range. The tenmperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
 - Ambient food does not require chilling, but needs to be stored withing a temperature range to ensure the product shelf life is maintained.
 
