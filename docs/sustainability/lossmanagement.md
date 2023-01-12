@@ -16,7 +16,8 @@ For a comprehensive inventory solution overview, see [Inventory Optimisation](in
 
 Loss and waste management is principally focused on ensuring food and food related products remain fit for consumption at the time they are sold to the end consumer. However, external factors outside the control of the business can cause food items to be marked as spoiled or damaged. The problem faced by the business is ensuring the overall loss and wastage is minimised.
 
-* TODO: maybe add some temperature tanges here*
+*@ TODO: maybe add some temperature ranges here*
+
 To prevent spoilage, food products must typically be stored and transported at temperatures within well defined ranges. For example:
 - Frrozen food must be kept below a specific temperature at all times. If the temperature rises and food defrosts, it cannot be refrozen.
 - Chilled food must be kept within a tenmperature range. The tenmperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
