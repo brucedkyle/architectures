@@ -20,8 +20,8 @@ Loss and waste management is principally focused on ensuring food and food relat
 
 To prevent spoilage, food products must typically be stored and transported at temperatures within well defined ranges. For example:
 - Frozen food must be kept below a specific temperature (0°F) at all times. If the temperature rises and food defrosts, it cannot be refrozen.
-- Chilled food must be kept within a tenmperature range. The tenmperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
-- Ambient food does not require chilling, but needs to be stored withing a temperature range to ensure the product shelf life is maintained.
+- Chilled food must be kept within a temperature range (34°F - 39°F). The temperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
+- Shelf stable food does not require chilling, but needs to be stored withing a temperature range to ensure the product shelf life is maintained. A shelf stable food product's shelf life can be 6 weeks to 5 years, depending on the product.
 
 To keep food at the correct temperature, refrigeration and chilling during transport and storage are the primary options. Power outages will happen. The ability to deal with the situation within well defined time periods is critical to ensuring the loss and wastage is minimised. If the problem can be rectified quickly and easily, there is every chance the product can remain in perfect conditiona and be sold to a consumer. Failure to act quickly will result in spoilage and loss of the product.
 
