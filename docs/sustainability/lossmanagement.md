@@ -14,8 +14,6 @@ For a comprehensive inventory solution overview, see [Inventory Optimisation](in
 
 ## Business problem
 
-*TODO: add business problem description (see Demand Risk)*
-
 Loss and waste management is principally focused on ensuring food and food related products remain fit for consumption at the time they are sold to the end consumer. However, external factors outside the control of the business can cause food items to be marked as spoiled or damaged. The problem faced by the business is ensuring the overall loss and wastage is minimised.
 
 * TODO: maybe add some temperature tanges here*
@@ -26,8 +24,9 @@ To prevent spoilage, food products must typically be stored and transported at t
 
 To keep food at the correct temperature, refrigeration and chilling during transport and storage are the primary options. Power outages will happen. The ability to deal with the situation within well defined time periods is critical to ensuring the loss and wastage is minimised. If the problem can be rectified quickly and easily, there is every chance the product can remain in perfect conditiona and be sold to a consumer. Failure to act quickly will result in spoilage and loss of the product.
 
-Food products generally go through a manufacturing process......
+Between farm and end consumer, food products generally go through multiple stages which vary depending on the end product. For convenience foods, there can be several manufuacturing steps, for fresh produce packaging and transport are the main stages. At any stage in the process, there is a possibility of contamination through foreign objects or bacteria. Both of which can trigger a recall of the food products. With any kind of contamination, a fast and efficient recall process to prevent the products beng purchased by consumers is vital.
 
+All retailers handing and selling food products need processes to reduce food waste through external factors and ensure recall procedures in the event of contamination are fast, efficient and minimise any risk to public health.
 
 
 ## Use cases
