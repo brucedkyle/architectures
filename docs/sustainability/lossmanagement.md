@@ -32,8 +32,8 @@ All retailers handing and selling food products need processes to reduce food wa
 
 ## Use cases
 The main use cases represented by loss management are:
-- **Environmental Exceptions** such as power outage creates potential spoilage or Natural disaster  *@TODO: define*
-- **Product contamination or recall** *@TODO: define*
+- **Environmental Exceptions** - an environmental issue or problem places the food product at risk. If the issue is not dealt with quickly and efficiently the product will be spoiled making unavailable for sale to a consumer. Typically this would be a failure of refrigeration equipment or a loss of power to refrigeration euipment. If the temperature can be kept within a specific range, the product will remain suitable for sale to a consumer. If the temperature moves beyond the specified range for a set period of time, the product will be considered spoiled and no longer suitable for sale to a consumer.
+- **Product contamination or recall** - a contamination or recall requires the food product to be removed immediately from the inventory and supply chain. The contamination issue or recall notice can come from external parties such as suppliers or food standards agencies, or through the retailer identifying an issue. Once the issue has been identified, the reatiler must immediately remove all affected products from their own inventory and supply chain, then destroy or pass the product to a third party. The issue can be caused by foreign objects or the detection of selected bateria in the product.
 
 
 ## Challenges / Business Drivers 
