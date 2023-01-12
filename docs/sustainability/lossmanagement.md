@@ -1,9 +1,11 @@
 # Inventory Optimization - Loss and Waste Management
 
-To demonstrate the importance of inventory optimisation for any business, we will focus on main use cases of an unanticipated exception, such as:
+A key focus when dealing with loss and waste management in relation to inventory optimization is how to handle unplanned or unforseen situations causing an inventory item be considered damaged or spoiled. If the situation or problem is rectified withing a well defined time window, there is a possibility of salvaging the product. In some cases once the incident occurs, there is no possibility of salvage and the product is considered damaged. Typically these events are external factors forced upon the business and cannot always be planned or predicted. 
 
-- **Environment Exceptions** such as power outages that creates potential spoilage or a natural disaster 
-- **Product contamination or recall**
+To demonstrate the importance of inventory optimisation for any business, we will focus on two main use cases of an unanticipated exception:
+
+- **Environment Exceptions** such as power outages or temperature changes that creates potential spoilage 
+- **Product contamination or recall** such as foreign objects or bacteria occuring earlier in the processing or supply chain
 
 We will start by defining the business problem and the two main use cases: Environmental Exceptions and Product contamination or recall, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: Environmental Exceptions and Product contamination or recall, and conclude with the technology used in the solution.
 
@@ -14,9 +16,23 @@ For a comprehensive inventory solution overview, see [Inventory Optimisation](in
 
 *TODO: add business problem description (see Demand Risk)*
 
+Loss and waste management is principally focused on ensuring food and food related products remain fit for consumption at the time they are sold to the end consumer. However, external factors outside the control of the business can cause food items to be marked as spoiled or damaged. The problem faced by the business is ensuring the overall loss and wastage is minimised.
+
+* TODO: maybe add some temperature tanges here*
+To prevent spoilage, food products must typically be stored and transported at temperatures within well defined ranges. For example:
+- Frrozen food must be kept below a specific temperature at all times. If the temperature rises and food defrosts, it cannot be refrozen.
+- Chilled food must be kept within a tenmperature range. The tenmperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
+- Ambient food does not require chilling, but needs to be stored withing a temperature range to ensure the product shelf life is maintained.
+
+To keep food at the correct temperature, refrigeration and chilling during transport and storage are the primary options. Power outages will happen. The ability to deal with the situation within well defined time periods is critical to ensuring the loss and wastage is minimised. If the problem can be rectified quickly and easily, there is every chance the product can remain in perfect conditiona and be sold to a consumer. Failure to act quickly will result in spoilage and loss of the product.
+
+Food products generally go through a manufacturing process......
+
+
+
 ## Use cases
 The main use cases represented by loss management are:
-- **Environmental Exceptions** such as Power outage creates potential spoilage or Natural disaster  *@TODO: define*
+- **Environmental Exceptions** such as power outage creates potential spoilage or Natural disaster  *@TODO: define*
 - **Product contamination or recall** *@TODO: define*
 
 
