@@ -16,8 +16,6 @@ For a comprehensive inventory solution overview, see [Inventory Optimisation](in
 
 Loss and waste management is principally focused on ensuring food and food related products remain fit for consumption at the time they are sold to the end consumer. However, external factors outside the control of the business can cause food items to be marked as spoiled or damaged. The problem faced by the business is ensuring the overall loss and wastage is minimised.
 
-*@ TODO: maybe add some temperature ranges here*
-
 To prevent spoilage, food products must typically be stored and transported at temperatures within well defined ranges. For example:
 - Frozen food must be kept below a specific temperature (0°F) at all times. If the temperature rises and food defrosts, it cannot be refrozen.
 - Chilled food must be kept within a temperature range (34°F - 39°F). The temperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
@@ -40,13 +38,13 @@ The main use cases represented by loss management are:
 
 **Challenges**
 
-- *TODO: Add Challenge #1*
-- *TODO: Add Challenge #2...*
+- Protect public health: Businesses that sell consumable products are expected to protect the public health by implementing specific processes to address food safety. Maintaining equipment that refrigerates or freezes food or pharmaceutical products for storage until purchase or combined into a recipe and responding to and documenting actions taken to a food safety recall notification by either the supplier or regulatory body are key challenges.
+- Regulatory compliance: Business that sell consumable products are expected to comply with local, state, and federal regulatory requirements for food and pharmaceutical products. Automated documentation of compliance is preferred over manual, error-prone documentation.
 
 **Drivers**
 
-- *TODO: Add Driver #1*
-- *TODO: Add Driver #2*
+- Reputation
+- Penalties and fines
 
 
 ### Responses
