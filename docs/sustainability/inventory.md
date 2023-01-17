@@ -196,9 +196,13 @@ This section provides the logical components of the solution.
 
 ### Foundational technologies
 
-- **Red Hat Enterprise Linux** is the world’s leading enterprise Linux platform. It’s an open-source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
-- **Red Hat OpenShift** is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multi-cloud, and edge deployments.- Red Hat Integration is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
-- **Business Automation Workflow**, such as [Business Automation Workflow](https://www.ibm.com/products/business-automation-workflow) unites information, processes and users to help you automate digital workflows on premises or on cloud. Create workflows that increase productivity, improve collaboration between teams, and gain new insight to resolve cases and drive better business outcomes.
+- [**Red Hat Enterprise Linux**](https://developers.redhat.com/products/rhel/overview) is the world’s leading enterprise Linux platform. It’s an open-source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+- [**Red Hat OpenShift**]((https://www.redhat.com/en/technologies/cloud-computing/openshift)) is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multi-cloud, and edge deployments.- Red Hat Integration is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+- [**Business Automation Workflow**](https://www.ibm.com/products/business-automation-workflow) unites information, processes and users to help you automate digital workflows on premises or on cloud. Create workflows that increase productivity, improve collaboration between teams, and gain new insight to resolve cases and drive better business outcomes.
+- [**Red Hat Ansible Automation Platform**](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  
+- [**Red Hat OpenShift API Management**](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98)] is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
+- [**Red Hat OpenShift DevOps**](https://www.redhat.com/en/getting-started-devops) reoresents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure. 
+
 
 ### Core application systems 
 
@@ -220,7 +224,7 @@ Each of the core application systems provides data and responds to events throug
 - Market disruptions include: natural disasters, pandemics, political uncertainty, economic upheaval, cyber and terrorist attacks, third-party or supplier threats, and rapid swings in consumer preferences and demand.
 - Supply chain transformation also complicates supply chain risk management &dash; lean, but complex and globally dispersed operations add risks, and the supply chain risk management process is vital in wringing out efficiencies and costs.
 
-IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventory-visibility) that is included with IBM Sterling Intelligent Promising to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. 
+**Inventory visibility**. This processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. For this solution, IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventory-visibility), which is included with IBM Sterling Intelligent Promising. 
 
 
 ## References
