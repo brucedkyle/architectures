@@ -32,8 +32,11 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Inventory Optimization - Loss Management", url: "#_top", children: [
-              {title: "Business case", url: "#business-case" },
+          {title: "Inventory Optimization - Loss and Waste Management", url: "#_top", children: [
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Use cases", url: "#use-cases" },
+              {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
+              {title: "Action Guide", url: "#action-guide" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Solution principles", url: "#solution-principles" },
               {title: "Environment Exception", url: "#environment-exception" },
@@ -89,16 +92,40 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="inventory-optimization-loss-management">Inventory Optimization - Loss Management</h1>
-<p>To demonstrate the importance of inventory optimisation for any business, this document will focus on main use cases of an unanticipated exception, such as:</p>
+    <h1 id="inventory-optimization-loss-and-waste-management">Inventory Optimization - Loss and Waste Management</h1>
+<p>A key focus when dealing with loss and waste management in relation to inventory optimization is how to handle unplanned or unforseen situations causing an inventory item be considered damaged or spoiled. If the situation or problem is rectified withing a well defined time window, there is a possibility of salvaging the product. In some cases once the incident occurs, there is no possibility of salvage and the product is considered damaged. Typically these events are external factors forced upon the business and cannot always be planned or predicted. </p>
+<p>To demonstrate the importance of inventory optimisation for any business, we will focus on two main use cases of an unanticipated exception:</p>
 <ul>
-<li>Power outage creates potential spoilage</li>
-<li>Natural disaster </li>
-<li>Product recall</li>
-<li>Product contamination</li>
+<li><strong>Environment Exceptions</strong> such as power outages or temperature changes that creates potential spoilage </li>
+<li><strong>Product contamination or recall</strong> such as foreign objects or bacteria occuring earlier in the processing or supply chain</li>
 </ul>
+<p>We will start by defining the business problem and the two main use cases: Environmental Exceptions and Product contamination or recall, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: Environmental Exceptions and Product contamination or recall, and conclude with the technology used in the solution.</p>
 <p>For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
-<h2 id="business-case">Business case</h2>
+<h2 id="business-problem">Business problem</h2>
+<p>Loss and waste management is principally focused on ensuring food and food related products remain fit for consumption at the time they are sold to the end consumer. However, external factors outside the control of the business can cause food items to be marked as spoiled or damaged. The problem faced by the business is ensuring the overall loss and wastage is minimised.</p>
+<p>To prevent spoilage, food products must typically be stored and transported at temperatures within well defined ranges. For example:
+- Frozen food must be kept below a specific temperature (0°F) at all times. If the temperature rises and food defrosts, it cannot be refrozen.
+- Chilled food must be kept within a temperature range (34°F - 39°F). The temperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
+- Shelf stable food does not require chilling, but needs to be stored withing a temperature range to ensure the product shelf life is maintained. A shelf stable food product's shelf life can be 6 weeks to 5 years, depending on the product.</p>
+<p>To keep food at the correct temperature, refrigeration and chilling during transport and storage are the primary options. Power outages will happen. The ability to deal with the situation within well defined time periods is critical to ensuring the loss and wastage is minimised. If the problem can be rectified quickly and easily, there is every chance the product can remain in perfect conditiona and be sold to a consumer. Failure to act quickly will result in spoilage and loss of the product.</p>
+<p>Between farm and end consumer, food products generally go through multiple stages which vary depending on the end product. For convenience foods, there can be several manufuacturing steps, for fresh produce packaging and transport are the main stages. At any stage in the process, there is a possibility of contamination through foreign objects or bacteria. Both of which can trigger a recall of the food products. With any kind of contamination, a fast and efficient recall process to prevent the products beng purchased by consumers is vital.</p>
+<p>All retailers handing and selling food products need processes to reduce food waste through external factors and ensure recall procedures in the event of contamination are fast, efficient and minimise any risk to public health.</p>
+<h2 id="use-cases">Use cases</h2>
+<p>The main use cases represented by loss management are:
+- <strong>Environmental Exceptions</strong> - an environmental issue or problem places the food product at risk. If the issue is not dealt with quickly and efficiently the product will be spoiled making unavailable for sale to a consumer. Typically this would be a failure of refrigeration equipment or a loss of power to refrigeration euipment. If the temperature can be kept within a specific range, the product will remain suitable for sale to a consumer. If the temperature moves beyond the specified range for a set period of time, the product will be considered spoiled and no longer suitable for sale to a consumer.
+- <strong>Product contamination or recall</strong> - a contamination or recall requires the food product to be removed immediately from the inventory and supply chain. The contamination issue or recall notice can come from external parties such as suppliers or food standards agencies, or through the retailer identifying an issue. Once the issue has been identified, the reatiler must immediately remove all affected products from their own inventory and supply chain, then destroy or pass the product to a third party. The issue can be caused by foreign objects or the detection of selected bateria in the product.</p>
+<h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Protect public health: Businesses that sell consumable products are expected to protect the public health by implementing specific processes to address food safety. Maintaining equipment that refrigerates or freezes food or pharmaceutical products for storage until purchase or combined into a recipe and responding to and documenting actions taken to a food safety recall notification by either the supplier or regulatory body are key challenges.</li>
+<li>Regulatory compliance: Business that sell consumable products are expected to comply with local, state, and federal regulatory requirements for food and pharmaceutical products. Automated documentation of compliance is preferred over manual, error-prone documentation.</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li>Reputation</li>
+<li>Penalties and fines</li>
+</ul>
+<h3 id="responses">Responses</h3>
 <p>All businesses that require a supply chain have unanticipated issues. </p>
 <table>
 <thead>
@@ -110,11 +137,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tbody>
 <tr>
 <td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
-<td>Monitor and manage network inventory availability and anticipate actions due to unanticipated acception with alerts and recommended actions</td>
+<td>Monitor and manage network inventory availability and anticipate actions due to unanticipated exception with alerts and recommended actions</td>
 </tr>
 <tr>
 <td>Business process for handling unexpected issues may not be consistent across the enterprise</td>
-<td>Gain detailed visibility into inventory characteristics at each location – provide transparently to inventory. Enable actionable inventory shifts across the enterprise</td>
+<td>Gain detailed visibility into inventory characteristics at each location and provide transparency to inventory. Enable actionable inventory shifts across the enterprise</td>
 </tr>
 <tr>
 <td>Visibility into actions needed and alternatives to anticipate and respond to inventory in an unanticipated event.</td>
@@ -122,14 +149,23 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 </tbody>
 </table>
+<h2 id="action-guide">Action Guide</h2>
+<p>This use case implements actionable steps for <em>Automation</em> and <em>Modernization</em> in our Action Guide:
+| Actionable Step | Implementation details |
+| - | - |
+| Create a world-class sensing and risk-monitoring operation | <em>TODO</em> |
+| Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
+| Amp up AI to make workflows smarter | For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
+| Modernization for modern infrastructures, scale hybrid cloud platforms | <em>TODO: Red Hat OpenShift...</em> |</p>
 <h2 id="solution-overview">Solution overview</h2>
-<p>The technologies can be grouped into three main categories as shown in the following diagram:</p>
+<p><em>TODO: Add business drivers paragraph and need to update diagram below with Loss and Waste Management-specific business drivers</em></p>
+<p><img alt="solution diagram" src="../media/overview.png" /></p>
+<p>The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:</p>
 <ul>
 <li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
 <li>Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
 <li>Inventory Optimisation platform</li>
 </ul>
-<p><img alt="solution diagram" src="../media/overview.png" /></p>
 <h2 id="solution-principles">Solution principles</h2>
 <p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
 <p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
@@ -139,10 +175,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><img alt="environmental exception schematic" src="../media/foodlossenvironmentexception.svg" /></p>
 <p>Food Loss - Environmental Exception steps:</p>
 <ol>
-<li>Environmental event detected (e.g. Temp out of range, loss of power)
+<li>Environmental event detected (e.g. Temperature out of range or loss of power)
 <li>Notification sent to Risk Management module
-<li>Inv Ctrl Tower processes risk and determines that it needs remediation
-<li>Inv Controller notified and determines inspection of facility and inventory is needed
+<li>Inventory Control Tower processes risk and determines that it needs remediation
+<li>Inventory Controller notified and determines inspection of facility and inventory is needed
 <li>Remediation
 <ol type="a"><li>Facilities personel performs remediation
 <li>Inventory analyzed and remediated 
@@ -156,7 +192,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <ol><li>External notification of food safety event
 <li>Determine if supplier is affected
 <li>Determine if locations received affected product
-<li>Inv Ctrl Tower processes event data and creates remedediation action
+<li>Inventory Control Tower processes event data and creates remedediation action
 <li>Colleague remediates inventory and counts, then removes product from inventory
 <li>Location submits remediation data back to backend system for store credit
 </ol>

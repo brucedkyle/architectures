@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Last mile delivery - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Last mile delivery", url: "#_top", children: [
+              {title: "Business challenges", url: "#business-challenges" },
+              {title: "Solution", url: "#solution" },
+              {title: "Solution architecture", url: "#solution-architecture" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+
+    <h1 id="last-mile-delivery">Last mile delivery</h1>
+<p><em>Last mile delivery</em>, also known as <em>last mile logistics</em>, is the transportation of goods from a distribution hub to the final delivery destination — the door of the customer. The goal of last mile delivery logistics is to deliver the packages as affordably, quickly and accurately as possible. </p>
+<p>The last mile describes the difficulty of getting goods (especially large and bulky ones) from a transportation hub to their final destination because it might include installation and configuration while providing an excellent experience at the same time.</p>
+<h2 id="business-challenges">Business challenges</h2>
+<table>
+<thead>
+<tr>
+<th>Business scenario</th>
+<th>Challenge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consumers are purchasing more products online</td>
+<td>Online purchases of goods  and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of  last mile delivery and installation services.</td>
+</tr>
+<tr>
+<td>Consumers are placing more emphasis on after sales services</td>
+<td>Consumers are demanding more control over delivery times and processes and want more value-added services. Manufacturers and suppliers are not meeting expectations, especially with last mile services.</td>
+</tr>
+<tr>
+<td>New service providers are entering the market; reshaping the landscape</td>
+<td>New entrants to 3PL (third party logistics) services such as Amazon and Uber are disrupting traditional service models.  Same day delivery is now an expectation, and this increases infrastructure and transportation services cost. Improved supply and demand forecasting is key to delivering last mile services.</td>
+</tr>
+<tr>
+<td>Logistics costs are increasing, while product prices are eroding</td>
+<td>Manufacturers are forced to react quickly to changing client demands while managing rising costs. Costs for warehousing, transportation and labor are increasing and this increases pressure on perfect order performance for both profitability and client loyalty.  </td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution">Solution</h2>
+<p>By definition, last mile delivery is relevant for businesses that deliver products directly to their consumers. </p>
+<h3 id="promise-of-delivery">Promise of Delivery</h3>
+<p>Promise of Delivery or Delivery Promise is the cornerstone of customer experience. Remember, poor customer experience can lead to lost brand loyalty. The goal is to provide information in real-time regarding the delivery methods and times.</p>
+<p>Intelligent Promising Solution</p>
+<p>Making a promise to a customer, keeping that promise while optimizing the fulfillment task takes a lot of coordination and effort between different areas of the business. IBM offers an Intelligent Promising Solution where you can pick and choose services based on your business needs. </p>
+<h2 id="solution-architecture">Solution architecture</h2>
+<p><img alt="last mile architecture" src="../media/lastmile.png" /></p>
+<p>The component diagram above illustrates:</p>
+<ul>
+<li>Independent deployable, scaled business services</li>
+<li>Composable, Stateless modular services </li>
+<li>API first approach to building any service</li>
+<li>Inter communication between services asynchronous</li>
+<li>Business functions, API access controls managed independently</li>
+</ul>
+<p>This intelligent promising platform can be deployed across multiple data centers for HA capable of tenant level failover.</p>
+<p>Proof of Delivery</p>
+<p>Proof of delivery, or POD, is an acknowledgment that an order successfully arrived at its intended destination and is used to show a service was completed, which is why proof of delivery is also called proof of completion.Proof of delivery comes in two forms: paper and electronic. Benefits of POD are captured in the table.</p>
+<table>
+<thead>
+<tr>
+<th>Benefits for customers</th>
+<th>Benefits for businesses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customers feel in control</td>
+<td>POD provides a better customer experience</td>
+</tr>
+<tr>
+<td>Proof of Delivery makes it less likely orders will be stolen</td>
+<td>Improves order accuracy and saves money on unnecessary refunds or replacements</td>
+</tr>
+<tr>
+<td>Lets customers know their service is complete</td>
+<td>POD automation accelerates back-office operations</td>
+</tr>
+</tbody>
+</table>
+
+  <br>
+    
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

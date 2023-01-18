@@ -36,6 +36,7 @@
               {title: "Business problem", url: "#business-problem" },
               {title: "Use cases", url: "#use-cases" },
               {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
+              {title: "Action Guide", url: "#action-guide" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Understock", url: "#understock" },
               {title: "Overstock", url: "#overstock" },
@@ -91,28 +92,29 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="inventory-optimisation-demand-risk">Inventory Optimisation - Demand Risk</h1>
-<p>To demonstrate the importance of inventory optimisation for any business, this document will focus on one of the main demand risk use cases: under stocking and over stocking. For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
+<p>To demonstrate the importance of inventory optimisation for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: understock and overstock, and conclude with the technology used in the solution.</p>
+<p>For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
 <h2 id="business-problem">Business problem</h2>
 <p>Inventory optimisation is a critical element of any retail organisation's fulfilment process. It represents a balancing act between two key viewpoints in the fulfilment process.</p>
 <p>The first viewpoint is <strong>demand</strong>. The business needs to understand their current demand for products, goods and services. There are two aspects of demand, the “current” demand and the “future” demand. Current demand asks the question, “how many unsatisfied orders or requests do we have in the system at this point in time?” Future demand asks the more difficult question, “how many orders or requests do we expect to have at some point in the future?” This future point could be measured in minutes, hours, days, weeks, months and even years. The further into the future, the harder it becomes to predict the demand.</p>
-<p>The second viewpoint is <strong>inventory</strong>. The business needs to have a clear understanding of all the inventory held within their fulfilment system. This is stock or inventory available for sale to customers. As with demand, inventory has two aspects, “current” and “future” inventory. Current inventory asks two questions, “how many items of a particular product do I have available at this point in time?” and “where are those items located?” Future inventory asks the question, “how much inventory is required at some point in the future”. As with demand, this future point could range from minutes to years and becomes increasingly harder to predict the further into the future. </p>
+<p>The second viewpoint is <strong>inventory</strong>. The business needs to have a clear understanding of all the inventory held within their fulfilment system. An inventory management provides oversight of current inventory and inventory changes due to purchases. Performs analysis on sold products, keeps consolidated stock data, and handles stock allocation. Makes decision on reallocation of goods between multiple warehouses. Inventory is stock or inventory available for sale to customers. As with demand, inventory has two aspects, “current” and “future” inventory. Current inventory asks two questions, “how many items of a particular product do I have available at this point in time?” and “where are those items located?” Future inventory asks the question, “how much inventory is required at some point in the future”. As with demand, this future point could range from minutes to years and becomes increasingly harder to predict the further into the future. </p>
 <p><em>Inventory optimisation</em> is making sure the current and future demand is accurately balanced against current and future inventory. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.</p>
 <p>To demonstrate the importance of inventory optimisation for any retail business, this document will focus on main use cases of demand and inventory.</p>
 <h2 id="use-cases">Use cases</h2>
 <p>Two main issues are represented by demand risk.</p>
-<p><strong>Under stocking</strong> - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand. The end result is disappointed customers who order but don’t get fulfillment or can’t order due to lack of product. This “stock out” position often represents between 4-8% of total sales lost, but can also be a failed opportunity to satisfy customer in other ways, through up-sell and cross-sell. KPIs that can help avoid an under stock or stock-out position. include inventory turn over rate, days on hand and lead time (how long it takes to get more inventory from a supplier).</p>
-<p><strong>Over stocking</strong> - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. Whilst under stocking is measured in customer satisfaction and loss of future opportunity, over stocking has direct impact on the bottom line costs and profitability of the business. KPIS relevant to over stocking include, holding costs, dead stock (in-stock items failing to sell) and inventory turnover rates.</p>
+<p><strong>Understock</strong> - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand. The end result is disappointed customers who order but don’t get fulfillment or can’t order due to lack of product. This “stock out” position often represents between 4-8% of total sales lost, but can also be a failed opportunity to satisfy customer in other ways, through up-sell and cross-sell. KPIs that can help avoid an under stock or stock-out position. include inventory turn over rate, days on hand and lead time (how long it takes to get more inventory from a supplier).</p>
+<p><strong>Overstock</strong> - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. Whilst understock is measured in customer satisfaction and loss of future opportunity, overstock has direct impact on the bottom-line costs and profitability of the business. KPIS relevant to overstock include, holding costs, dead stock (in-stock items failing to sell) and inventory turnover rates.</p>
 <h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
-<p><strong>Challenges</strong>. </p>
+<p><strong>Challenges</strong></p>
 <ul>
 <li>Stores receive inventory from warehouse or direct from suppliers. Managing direct ship is a real challenge for each store as it has to be managed at the store level.</li>
 <li>Maintaining inventory control of high value items to minimise loss and associated cost.</li>
 </ul>
-<p><strong>Driver</strong></p>
+<p><strong>Drivers</strong></p>
 <ul>
 <li>Inventory turnover - if improve by 2 or 3 times then will drive bigger profit</li>
-<li>Managing cap</li>
-<li>Inital costs - how much spending on warehouse and store to storeinventory on shelf</li>
+<li>Managing capacity</li>
+<li>Initial costs - how much spending on warehouse and store to store-to-store inventory on shelf</li>
 </ul>
 <h3 id="responses">Responses</h3>
 <table>
@@ -137,14 +139,23 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 </tbody>
 </table>
+<h2 id="action-guide">Action Guide</h2>
+<p>This use case implements actionable steps for <em>Automation</em> and <em>Modernization</em> in our Action Guide:
+| Actionable Step | Implementation details |
+| - | - |
+| Create a world-class sensing and risk-monitoring operation | TODO |
+| Accelerate automation in extended workflows | As an example, in the Reduce out of stock (OOS) or approaching out of stock (AOOS) conditions, a SCIS Control Tower monitors inventory levels at all locations in a client's network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter. |
+| Amp up AI to make workflows smarter | Same as above |
+| Modernization for modern infrastructures, scale hybrid cloud platforms | <em>TODO: Red Hat OpenShift...</em> |</p>
 <h2 id="solution-overview">Solution overview</h2>
-<p>The technologies can be grouped into three main categories as shown in the following diagram:</p>
+<p><em>TODO: Add business drivers paragraph and need to update diagram below with Demand Risk-specific business drivers</em></p>
+<p><img alt="solution diagram" src="../media/overview.png" /></p>
+<p>The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:</p>
 <ul>
 <li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
-<li>Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
+<li>Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
 <li>Inventory Optimisation platform</li>
 </ul>
-<p><img alt="solution diagram" src="../media/overview.png" /></p>
 <h2 id="understock">Understock</h2>
 <p>The following diagram shows the schematic for the understock use case.</p>
 <p><img alt="understock schematic" src="../media/understockschematic.svg" /></p>
@@ -183,14 +194,16 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
 <h2 id="technology">Technology</h2>
 <p>The following technology was chosen for this solution:</p>
-<p><em>Red Hat OpenShift</em> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
-<p><em>Red Hat Ansible Automation Platform</em> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
-<p><em>Business Automation Workflow</em> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
-<p><em>IBM Supply Chain Control Tower</em> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
-<p><em>IBM Sterling Intelligent Promising</em> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a>] is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> reoresents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
 <ul>
-<li><em>IBM Sterling Fulfillment Optimizer with Watson</em> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
-<li><em>Sterling Inventory Visibility</em> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
 </ul>
 <h3 id="inventory-optimisation-platform-details">Inventory Optimisation Platform details</h3>
 <p>With Inventory Control Tower, you:</p>

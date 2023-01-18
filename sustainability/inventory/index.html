@@ -97,6 +97,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Fulfilment optimisation takes the fulfillment process a step further by using information and knowledge about the supply chain, inventory and stock positions to ensure any promises made to the customer are met or exceeded.</p>
 <p>A key element of the retail fulfilment process is knowing the inventory position. This is the amount of stock available for sale to a customer, it’s location and the time it takes to make it available to the customer. </p>
 <p><em>Inventory optimisation</em> is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.</p>
+<p>In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
+These actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
+-   Demand Risk (under stock and over stock), 
+-   Loss and waste management, and 
+-   Product timeliness. 
+We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.</p>
 <h2 id="business-challenges">Business challenges</h2>
 <p>Chief Supply Chain Officers (CSCOs) face issues related to supply chain disruptions, technology infrastructure, sustainability, and market shifts as their greatest challenges. Yet when addressed with an open mindset, challenges create opportunities within the enterprise—and visibility. </p>
 <p>Harvard Business Review article, <a href="https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis">Three steps to prepare your supply chain for the next crisis</a>. reports:</p>
@@ -109,7 +115,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <h2 id="business-value">Business value</h2>
 <p>Inventory optimisation is making sure the current and future demand is accurately balanced against current and future inventory across the enterprise. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.</p>
 <h2 id="business-outcomes">Business outcomes</h2>
-<p>Innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.</p>
+<p><a href="https://www.ibm.com/downloads/cas/1BYY6VEM">According to the IBM IBV study</a>, innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.</p>
 <p>Innovators also stand out by leveraging data with AI and advanced analytics in demand management. With demand volatility and associated supplier, operations, and logistics disruption at all-time highs, CSCOs are applying AI and machine learning to the critical and strategic continuous planning elements of demand management and forecasting. A full 90% of Innovators use AI and advanced analytics in demand management and predictive forecasting, 18% more than their peers (76%).</p>
 <p>Directly influence the following KPIs:</p>
 <ul>
@@ -122,11 +128,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Manage product at risk/perishability/age</li>
 <li>Improve gross margin return on investment</li>
 <li>Reduce return rate</li>
-<li>Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interuption.</li>
+<li>Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interruption.</li>
 <li>Improve customer satisfaction</li>
 </ul>
 <h2 id="action-guide">Action guide</h2>
-<p>From a high-level perspective—several main steps your organization can take to drive innovation and move toward a digital supply chain.</p>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain.</p>
 <h3 id="automation">Automation</h3>
 <ul>
 <li>Accelerate automation in extended workflows </li>
@@ -154,24 +160,30 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li><a href="../timeliness/">Product timeliness</a></li>
 </ul>
 <h3 id="demand-risk">Demand Risk</h3>
-<p><strong>Under stocking</strong> - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.</p>
-<p><strong>Over stocking</strong> - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. </p>
+<p><em>Understock</em> - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.</p>
+<p><em>Overstock</em> - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. </p>
 <p>For more information about the solution details on this scenario, see <a href="../demandrisk/">Inventory Optimisation - Demand Risk</a>.</p>
 <h3 id="inventory-risk-loss-and-waste-management">Inventory Risk - Loss and waste management</h3>
-<p><strong>Loss and waste management</strong> - take decisive action in cases of:</p>
+<p><strong>Loss and waste management</strong> requires you to take decisive action in cases of:</p>
 <ul>
-<li>Shelf life. Identify and timely replace items as shelf life expires.</li>
-<li>Environmental exception. Food expirations, power interruption or other disaster affecting the product salability.</li>
-<li>Contamination or recall. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.</li>
+<li><em>Shelf life</em>. Identify and timely replace items as shelf life expires. <em>NOTE: this is covered in Product timeliness</em></li>
+<li><em>Environmental exceptions</em>. Food expirations, power interruption or other disaster affecting the product salability.</li>
+<li><em>Contamination or recall</em>. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.</li>
 </ul>
-<p>For more information about the solution details on this scenario, see <a href="../lossmanagement/">Inventory Optimisation - Loss management</a>.</p>
+<p>For more information about the solution details on this scenario, see <a href="../lossmanagement/">Inventory Optimisation - Loss and waste management</a>.</p>
 <h3 id="inventory-risk-product-timeliness">Inventory Risk - Product timeliness</h3>
-<p><strong>Product timeliness</strong> - having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.</p>
+<p><strong>Product timeliness</strong> is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.</p>
+<ul>
+<li><em>Shelf life</em> defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. </li>
+<li><em>Timeliness</em> defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.</li>
+</ul>
 <p>For more information about the solution details on this scenario, see <a href="../timeliness/">Inventory Optimisation - Product timeliness</a>.</p>
 <h2 id="overview">Overview</h2>
 <p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
 <ul>
 <li>Create a world-class sensing and risk-monitoring operation. </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
 <li>Modernization for modern infrastructures, scale hybrid cloud platforms.</li>
 </ul>
 <p><img alt="solution overview" src="../media/overview.png" /></p>
@@ -235,9 +247,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>This section provides the logical components of the solution.</p>
 <h3 id="foundational-technologies">Foundational technologies</h3>
 <ul>
-<li><strong>Red Hat Enterprise Linux</strong> is the world’s leading enterprise Linux platform. It’s an open-source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.</li>
-<li><strong>Red Hat OpenShift</strong> is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multi-cloud, and edge deployments.- Red Hat Integration is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.</li>
-<li><strong>Business Automation Workflow</strong>, such as <a href="https://www.ibm.com/products/business-automation-workflow">Business Automation Workflow</a> unites information, processes and users to help you automate digital workflows on premises or on cloud. Create workflows that increase productivity, improve collaboration between teams, and gain new insight to resolve cases and drive better business outcomes.</li>
+<li><a href="https://developers.redhat.com/products/rhel/overview"><strong>Red Hat Enterprise Linux</strong></a> is the world’s leading enterprise Linux platform. It’s an open-source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.</li>
+<li><a href="(https://www.redhat.com/en/technologies/cloud-computing/openshift)"><strong>Red Hat OpenShift</strong></a> is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multi-cloud, and edge deployments.- Red Hat Integration is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.</li>
+<li><a href="https://www.ibm.com/products/business-automation-workflow"><strong>Business Automation Workflow</strong></a> unites information, processes and users to help you automate digital workflows on premises or on cloud. Create workflows that increase productivity, improve collaboration between teams, and gain new insight to resolve cases and drive better business outcomes.</li>
+<li><a href="https://www.redhat.com/en/technologies/management/ansible"><strong>Red Hat Ansible Automation Platform</strong></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </li>
+<li><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><strong>Red Hat OpenShift API Management</strong></a>] is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</li>
+<li><a href="https://www.redhat.com/en/getting-started-devops"><strong>Red Hat OpenShift DevOps</strong></a> reoresents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure. </li>
 </ul>
 <h3 id="core-application-systems">Core application systems</h3>
 <p>The core application systems can be in-house applications, cloud services, IBM or competitive applications. The core applications provide data through the foundational technologies (such as API management that provides monitoring and security). They can also respond to automated actions based on business rules or from other layers in the system.</p>
@@ -252,12 +267,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Market disruptions include: natural disasters, pandemics, political uncertainty, economic upheaval, cyber and terrorist attacks, third-party or supplier threats, and rapid swings in consumer preferences and demand.</li>
 <li>Supply chain transformation also complicates supply chain risk management &dash; lean, but complex and globally dispersed operations add risks, and the supply chain risk management process is vital in wringing out efficiencies and costs.</li>
 </ul>
-<p>IBM offers <a href="https://www.ibm.com/products/inventory-visibility">Sterling Inventory Visibility</a> that is included with IBM Sterling Intelligent Promising to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. </p>
+<p><strong>Inventory visibility</strong>. This processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. For this solution, IBM offers <a href="https://www.ibm.com/products/inventory-visibility">Sterling Inventory Visibility</a>, which is included with IBM Sterling Intelligent Promising. </p>
 <h2 id="references">References</h2>
 <ul>
 <li>McKinsey: <a href="https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains">How COVID-19 is reshaping supply chains</a></li>
 <li>Harvard Business Review: <a href="https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis">Three steps to prepare your supply chain for the next crisis</a></li>
-<li>Gartner: [What is a Supply Chain Control Tower and what's needed to deploy one](https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one()</li>
+<li>Gartner: <a href="https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one">What is a Supply Chain Control Tower and what's needed to deploy one</a></li>
 <li>Gartner: <a href="https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning">Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning</a></li>
 <li>Gartner: <a href="https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management">Supply Chain Risk Management (SCRM): What &amp; Why Is It Important</a></li>
 <li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transfomation</a></li>
