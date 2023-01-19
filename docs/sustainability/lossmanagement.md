@@ -183,11 +183,11 @@ View and download all of the **Inventory Optimisation diagrams** shown in previo
 
 ## Contributors
 
+- Mike Lee, IBM
 - Iain Boyle, Red Hat
 - Bruce Kyle, IBM
 - Mahesh Dodani, IBM
 - Thalia Hooker, Red Hat
 - Jeric Saez, IBM
-- Mike Lee, IBM
 - Lee Carbonell, IBM
 - James Stewart, IBM
