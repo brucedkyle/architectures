@@ -122,6 +122,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ul>
 <p><strong>Drivers</strong></p>
 <ul>
+<li>Industry leading inventory management system, incorporating sensors that can mitigate risks before they create an exposure.</li>
+<li>Integrating loss and waste management into the core supply chain applications, leveraging technical investments in modern infrastructures and edge devices.</li>
 <li>Reputation</li>
 <li>Penalties and fines</li>
 </ul>
@@ -153,7 +155,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>This use case implements actionable steps for <em>Automation</em> and <em>Modernization</em> in our Action Guide:
 | Actionable Step | Implementation details |
 | - | - |
-| Create a world-class sensing and risk-monitoring operation | <em>TODO</em> |
+| Create a world-class sensing and risk-monitoring operation | Leveraging IOT/Edge devices, implement the ability to detect abnormal variations in temperature, power, water, machinery, and transportation to quickly react and correct. |
 | Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
 | Amp up AI to make workflows smarter | For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
 | Modernization for modern infrastructures, scale hybrid cloud platforms | <em>TODO: Red Hat OpenShift...</em> |</p>
@@ -176,13 +178,17 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Food Loss - Environmental Exception steps:</p>
 <ol>
 <li>Environmental event detected (e.g. Temperature out of range or loss of power)
-<li>Notification sent to Risk Management module
-<li>Inventory Control Tower processes risk and determines that it needs remediation
-<li>Inventory Controller notified and determines inspection of facility and inventory is needed
+<li>Notification sent to Supply Risk Management via API Management service
+<li>Inventory Control Tower notified of risk
+<li>Inventory Controll Tower triggers process to manage issue
+<li>Inventory Controller notified and action determined
+<li>Update process with Inventory Controller decision
 <li>Remediation
-<ol type="a"><li>Facilities personel performs remediation
-<li>Inventory analyzed and remediated 
-</ol>
+  <ol type="a">
+    <li>Inventory analysis notified to determine remediation
+    <li>Facilities personel notified to take remediation action
+    <li>Update Inventory Control Tower
+  </ol>
 </ol>
 
 <h2 id="contaminationrecall">Contamination/Recall</h2>
@@ -190,11 +196,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Food Loss - Contamination recall steps:</p>
 <p><img alt="recall schematic" src="../media/recallschematic.svg" /></p>
 <ol><li>External notification of food safety event
-<li>Determine if supplier is affected
-<li>Determine if locations received affected product
-<li>Inventory Control Tower processes event data and creates remedediation action
+<li>Notification sent to Supply Intelligence & Inventory Analysis via API Management service
+<li>Determine scope
+  <ol type="a">
+    <li>Determine if supply affected
+    <li>Determine which locations received affected product
+  </ol>
+<li>Notify Inventory Control Tower
+<li>Inventory Control Tower processes event data and starts remedediation action
 <li>Colleague remediates inventory and counts, then removes product from inventory
-<li>Location submits remediation data back to backend system for store credit
+<li>Remediation
+  <ol type="a">
+    <li>Inventory updated
+    <li>Apply financial reimbursement. Generate new order
+  </ol>
 </ol>
 
 <h2 id="technology">Technology</h2>
@@ -265,12 +280,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ul>
 <h2 id="contributors">Contributors</h2>
 <ul>
+<li>Mike Lee, IBM</li>
 <li>Iain Boyle, Red Hat</li>
 <li>Bruce Kyle, IBM</li>
 <li>Mahesh Dodani, IBM</li>
 <li>Thalia Hooker, Red Hat</li>
 <li>Jeric Saez, IBM</li>
-<li>Mike Lee, IBM</li>
 <li>Lee Carbonell, IBM</li>
 <li>James Stewart, IBM</li>
 </ul>
