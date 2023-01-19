@@ -43,6 +43,8 @@ The main use cases represented by loss management are:
 
 **Drivers**
 
+- Industry leading inventory management system, incorporating sensors that can mitigate risks before they create an exposure.
+- Integrating loss and waste management into the core supply chain applications, leveraging technical investments in modern infrastructures and edge devices.
 - Reputation
 - Penalties and fines
 
@@ -63,7 +65,7 @@ All businesses that require a supply chain have unanticipated issues.
 This use case implements actionable steps for *Automation* and *Modernization* in our Action Guide:
 | Actionable Step | Implementation details |
 | - | - |
-| Create a world-class sensing and risk-monitoring operation | *TODO* |
+| Create a world-class sensing and risk-monitoring operation | Leveraging IOT/Edge devices, implement the ability to detect abnormal variations in temperature, power, water, machinery, and transportation to quickly react and correct. |
 | Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
 | Amp up AI to make workflows smarter | For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
 | Modernization for modern infrastructures, scale hybrid cloud platforms | *TODO: Red Hat OpenShift...* |
@@ -100,13 +102,17 @@ Food Loss - Environmental Exception steps:
 
 <ol>
 <li>Environmental event detected (e.g. Temperature out of range or loss of power)
-<li>Notification sent to Risk Management module
-<li>Inventory Control Tower processes risk and determines that it needs remediation
-<li>Inventory Controller notified and determines inspection of facility and inventory is needed
+<li>Notification sent to Supply Risk Management via API Management service
+<li>Inventory Control Tower notified of risk
+<li>Inventory Controll Tower triggers process to manage issue
+<li>Inventory Controller notified and action determined
+<li>Update process with Inventory Controller decision
 <li>Remediation
-<ol type="a"><li>Facilities personel performs remediation
-<li>Inventory analyzed and remediated 
-</ol>
+  <ol type="a">
+    <li>Inventory analysis notified to determine remediation
+    <li>Facilities personel notified to take remediation action
+    <li>Update Inventory Control Tower
+  </ol>
 </ol>
 
 ## Contamination/Recall 
