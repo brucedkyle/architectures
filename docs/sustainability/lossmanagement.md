@@ -124,11 +124,20 @@ Food Loss - Contamination recall steps:
 ![recall schematic](./media/recallschematic.svg)
 
 <ol><li>External notification of food safety event
-<li>Determine if supplier is affected
-<li>Determine if locations received affected product
-<li>Inventory Control Tower processes event data and creates remedediation action
+<li>Notification sent to Supply Intelligence & Inventory Analysis via API Management service
+<li>Determine scope
+  <ol type="a">
+    <li>Determine if supply affected
+    <li>Determine which locations received affected product
+  </ol>
+<li>Notify Inventory Control Tower
+<li>Inventory Control Tower processes event data and starts remedediation action
 <li>Colleague remediates inventory and counts, then removes product from inventory
-<li>Location submits remediation data back to backend system for store credit
+<li>Remediation
+  <ol type="a">
+    <li>Inventory updated
+    <li>Apply financial reimbursement. Generate new order
+  </ol>
 </ol>
 
 ## Technology
