@@ -45,8 +45,8 @@ The main use cases represented by loss management are:
 
 - Industry leading inventory management system, incorporating sensors that can mitigate risks before they create an exposure.
 - Integrating loss and waste management into the core supply chain applications, leveraging technical investments in modern infrastructures and edge devices.
-- Reputation
-- Penalties and fines
+- Protect Reputation
+- Avoid Penalties and fines
 
 
 ### Responses
