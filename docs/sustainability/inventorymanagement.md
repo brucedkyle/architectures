@@ -1,4 +1,4 @@
-# Inventory management - Perfect/Imperfect Order
+# Inventory management - Perfect / Imperfect Order
 
 Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies. 
 

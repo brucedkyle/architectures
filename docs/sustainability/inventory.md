@@ -93,7 +93,7 @@ To demonstrate the importance of inventory optimisation for any business, severa
 - [Last mile delivery](./lastmiledelivery.md)
 - [Timeliness](./timeliness.md)
 
-### Demand Risk
+### Inventory Risk &dash; Demand Risk
 
 _Understock_ - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
 
@@ -101,7 +101,7 @@ _Overstock_ - holding more stock than required to meet current and future demand
 
 For more information about the solution details on this scenario, see [Inventory Optimisation - Demand Risk](demandrisk.md).
 
-### Inventory Risk - Loss and waste management
+### Inventory Risk &dash; Loss and waste management
 
 **Loss and waste management** requires you to take decisive action in cases of:
 
@@ -111,15 +111,32 @@ For more information about the solution details on this scenario, see [Inventory
 
 For more information about the solution details on this scenario, see [Inventory Optimisation - Loss and waste management](lossmanagement.md).
 
-### Inventory Risk - Product timeliness
+### Inventory Risk &dash; Product timeliness
 
 **Product timeliness** is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.
 
 - _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
-
 For more information about the solution details on this scenario, see [Inventory Optimisation - Product timeliness](timeliness.md).
+
+## Inventory management &dash; Last mile delivery
+
+If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
+
+If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
+
+## Inventory management &dash; Perfect / Imprefect order
+
+Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.
+
+The business can respond to the imperfect order and increase customer responsiveness with:
+
+- Intelligent promising
+- Optmization user expectations with improved demand forecasting 
+- Automated responses
+
+For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./inventorymanagement.md)
 
 ## Overview
 
