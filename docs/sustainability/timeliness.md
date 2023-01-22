@@ -19,7 +19,6 @@ Some products may still continue to be useful beyond their expiration date or us
 
 For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
-
 ## Business problem
 
 Product liability claims can wreck a business. 
@@ -48,7 +47,6 @@ In both shelf life and timeliness, you will want to plan and to take proactive s
 - Product liability claims
 - Demonstrating due diligence for safety
 
-
 ### Responses
 
 Many goods offered in retail and supplier businesses expire. 
@@ -59,19 +57,22 @@ Many goods offered in retail and supplier businesses expire.
 | The lack of pertinent product information (remaining shelf life, ambient temperature, etc.) and poor data flow across partners lead to inefficient inventory management, wastage and lost sales. | Gain detailed visibility into inventory characteristics at each location – e.g., by remaining shelf life, time-since-harvested. Maintain freshness by acting on alerts received when items are at risk. |
 | Visibility into actions needed and alternatives to anticipate and respond to inventory as items approach end of shelf life. | Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove end of life items. Proactively replace items in response to demand. |
 
+## Solution overview 
 
-## Solution overview
+This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
 
-*TODO: Add business drivers paragraph and need to update diagram below with Product Timeliness-specific business drivers*
+- Create a world-class sensing and risk-monitoring operation. 
+- Accelerate automation in extended workflows
+- Amp up AI to make workflows smarter
+- Modernize for modern infrastructures, scale hybrid cloud platforms
 
-![solution diagram](./media/overview.png)
+![solution overview](./media/overview.png)
 
 The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
 - Inventory Optimisation platform
-
 
 ## Solution Principles
 

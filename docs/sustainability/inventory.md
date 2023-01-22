@@ -128,7 +128,7 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 - Create a world-class sensing and risk-monitoring operation. 
 - Accelerate automation in extended workflows
 - Amp up AI to make workflows smarter
-- Modernization for modern infrastructures, scale hybrid cloud platforms.
+- Modernize for modern infrastructures, scale hybrid cloud platforms
 
 ![solution overview](./media/overview.png)
 
@@ -136,20 +136,17 @@ Specifically, [Harvard Business Review article](https://hbr.org/2022/11/3-steps-
 
 > CEOs need to invest in risk intelligence and strategic foresight, creating a team of procurement super-forecasters equipped with the latest artificial-intelligence (AI)-powered sensing technology.
 
-
 ## Reference architecture
 
 The following diagram provides an overall reference architecture for the solution.
 
 ![reference architecture](./media/referencearchitecture.png)
 
-
 ## Logical diagram
 
 The following reference architecture describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.
 
 ![logical diagram](./media/InventoryOptimisationLogical.svg)
-
 
 ### Personas
 

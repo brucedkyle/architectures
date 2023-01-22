@@ -89,11 +89,16 @@ From a high-level perspective, there are several main steps your organization ca
 | Amp up AI to make workflows smarter | Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service|
 | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
-## Solution overview
+## Solution overview 
 
-*TODO: Add business drivers paragraph and need to update diagram below with Demand Risk-specific business drivers*
+This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
 
-![solution diagram](./media/overview.png)
+- Create a world-class sensing and risk-monitoring operation. 
+- Accelerate automation in extended workflows
+- Amp up AI to make workflows smarter
+- Modernize for modern infrastructures, scale hybrid cloud platforms
+
+![solution overview](./media/overview.png)
 
 The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 
