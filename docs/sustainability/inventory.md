@@ -194,7 +194,16 @@ The technologies can be grouped into main categories:
 
 This section provides the logical components of the solution.
 
-### Foundational technologies
+### Foundational technologies &dash; Hybrid Cloud Platform
+
+The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. Key client value areas include:
+
+- Platform for Digital Transformation and Modernization
+- Accelerated application development for faster go-to-market and innovation
+- Engineering excellence through an enterprise grade open source container platform
+- Self-service transformation with DevOps/SRE and automated operations
+
+Specifically, the recommended platform includes:
 
 - [**Red Hat Enterprise Linux**](https://developers.redhat.com/products/rhel/overview) is the world’s leading enterprise Linux platform. It’s an open-source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
 - [**Red Hat OpenShift**]((https://www.redhat.com/en/technologies/cloud-computing/openshift)) is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multi-cloud, and edge deployments.- Red Hat Integration is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
@@ -212,8 +221,7 @@ The core application systems can be in-house applications, cloud services, IBM o
 
 Each of the core application systems provides data and responds to events through the foundational technologies.
 
-**Inventory Control Tower**. Gartner describes [supply chain technology](https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology) as a central hub as an integrated part of a broader SCM platform using these building blocks: people, process, data, organization and technology. The idea is to capture and use data to provide enhanced real-time visibility and in-depth analysis. 
-[IBM Supply Chain Control Tower](https://www.ibm.com/products/supply-chain-intelligence-suite), powered by industry-leading AI, provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects. 
+**Inventory Control Tower**. Gartner describes [supply chain technology](https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology) as a central hub as an integrated part of a broader SCM platform using these building blocks: people, process, data, organization and technology. The idea is to capture and use data to provide enhanced real-time visibility and in-depth analysis. [IBM Supply Chain Control Tower](https://www.ibm.com/products/supply-chain-intelligence-suite), powered by industry-leading AI, provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects. 
 
 **Fulfillment optimisation**. Gartner describes the [fulfillment forecasting approach](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning), which provides a more accurate view of consumer fulfillment choices. This approach enables retailers to accurately gauge the right amount of inventory required to meet demand in stores, distribution centers and other inventory holding notes throughout the retailer’s network. IBM offers [IBM Sterling Intelligent Promising ](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. 
 
@@ -225,6 +233,8 @@ Each of the core application systems provides data and responds to events throug
 - Supply chain transformation also complicates supply chain risk management &dash; lean, but complex and globally dispersed operations add risks, and the supply chain risk management process is vital in wringing out efficiencies and costs.
 
 **Inventory visibility**. This processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. For this solution, IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventory-visibility), which is included with IBM Sterling Intelligent Promising. 
+
+**Planning and analytics**. Businesses need to evolve their planning and analysis strategies to include continuous, integrated planning. This means creating a single source of truth to streamline planning, manage performance and build alignment across the enterprise. IBM offers [IBM Planning Analytics with Watson](https://www.ibm.com/products/planning-analytics) to streamline and integrate financial and operational planning across the enterprise.
 
 
 ## References

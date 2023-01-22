@@ -1,36 +1,52 @@
 # Inventory Optimisation - Product Timeliness
 
-To demonstrate the importance of inventory optimisation for any business, we will focus on main use cases of products that expire or have a known _shelf life_. We will start by defining the business problem and the shelf life use case, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the shelf life use case, and conclude with the technology used in the solution.
+Foods and ingredients expire or become unusable at some point. Manufactured parts and goods also experience decay and deterioriation. Each of these may be measured.
+
+In the food industry, you may see different terms and date types on the packaging, the following are common practices and their meanings according to the USDA and FDA as explained in [Expiring Products – Food & Ingredients](https://www.canr.msu.edu/news/expiring-products-food-ingredients) by Michigan State University:
+
+- Best if used by/before: this term is NOT an expiration date, rather it’s the date where the food may be at its best quality 
+- Use by: on any food OTHER than infant formula, this term is NOT an expiration date, rather it’s the date where the food may be at its best quality. If “used by” is present on infant formula, it’s an expiration date, and you should discard the infant formula after the use by date.  
+- Sell by: this term is NOT an expiration date, rather it’s the date where the food may be at its best quality 
+- Freeze by: this term is NOT an expiration date, rather it’s the date where the food should be frozen to maintain the best quality 
+- Expiration or EXP: this is an expiration date and usually only found on infant formula and some baby foods 
+- Guaranteed fresh: this term is NOT an expiration date, rather it’s the date where the food may be at its best quality 
+ 
+Other products, particularly pharmaceuticals, must be used within specific time frames to be warantted or to be considered safe and effective. 
+
+Manufactured parts may be warranteed for specific periods or number of uses. For example, manufactured parts must be replaced when outside of certain tolerances.
+
+Some products may still continue to be useful beyond their expiration date or use. 
 
 For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
 
 ## Business problem
 
-*TODO: need to rewrite this section and Use Cases and or move these definitions to Use Cases*
+Product liability claims can wreck a business. 
 
+Defects and liability risks affect product manufacturers, designers, distributors, wholesalers, and retailers. Physical or digital items that omit adequate warnings, injure a third party, or cause a wrongful death can lead to lawsuits for any party involved in the product.
 
 ## Use Cases
 
-The main use cases represented by product timeliness are:
+How should a business track and respond to issues?
 
-- _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
+- Responding to _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
-In both cases, you will also want to plan and to take proactive steps in anticipation of product expirations.
-
+In both shelf life and timeliness, you will want to plan and to take proactive steps in anticipation of product expirations.
 
 ## Challenges / Business Drivers 
 
 **Challenges**
 
-- *TODO: Add Challenge #1*
-- *TODO: Add Challenge #2...*
+- Tracking items for shelf life and timeliness
+- Taking actions, such as product removal, replacement, work order tracking to demonstrate the product is handled with due care
 
 **Drivers**
 
-- *TODO: Add Driver #1*
-- *TODO: Add Driver #2*
+- Public safety
+- Product liability claims
+- Demonstrating due diligence for safety
 
 
 ### Responses
@@ -88,7 +104,7 @@ This use case implements actionable steps for *Automation* and *Modernization* i
 | Create a world-class sensing and risk-monitoring operation | *TODO* |
 | Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
 | Amp up AI to make workflows smarter | For expiring products, Control Tower monitors inventory levels at all locations in a client’s network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
-| Modernization for modern infrastructures, scale hybrid cloud platforms | *TODO: Red Hat OpenShift...* |
+| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.  |
 
 
 ## Technology
