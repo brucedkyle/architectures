@@ -180,8 +180,11 @@ The following technology was chosen for this solution:
 
 See:
 
+- [Inventory management](./inventorymanagement.md)
+- [Demand risk](./demandrisk.md)
 - [Product timeliness](timeliness.md)
-- [Demand risk](demandrisk.md)
+- [Last mile delivery](./lastmiledelivery.md)
+- [Timeliness](./timeliness.md)
 
 For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 

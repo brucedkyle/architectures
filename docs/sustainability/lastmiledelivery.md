@@ -17,7 +17,7 @@ Customers want:
 - Security
 - Convenience
 - Specialization
-- Selection of based on cost 
+- Selection delivery based on cost 
 
 Business need to consider:
 
@@ -27,11 +27,23 @@ Business need to consider:
 - Failed deliveries
 - Returns
 
+Key metrics:
+
+- 47.6% of shoppers will shop elsewhere if they cannot see inventory availability before they buy
+- 49% of shoppers would cancel their cart due to mismatch between expectations for delivery date and actual delivery date
+- 58% of shoppers report checking inventory availability in the last 6 months
+
+Deloitte describes key sector trends in [Last mile delivery landscape in the grocery sector](https://www.deloitte.com/global/en/Industries/consumer/perspectives/last-mile-delivery.html):
+
+- Shifting tactics – evolving channel strategies and business models
+- Need convenience delivered – customer’s new mantra
+- Future of Last Mile increasingly a story of better software and connectivity
+
 ## Use cases
 
 | Business scenario | Challenge | 
 | - | - |
-| Consumers are purchasing more products online | Online purchases of goods and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of  last mile delivery and installation services. |
+| Consumers are purchasing more products online | Online purchases of goods and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of last mile delivery and installation services. |
 | Consumers are placing more emphasis on after sales services | Consumers are demanding more control over delivery times and processes and want more value-added services. Manufacturers and suppliers are not meeting expectations, especially with last mile services. |
 | New service providers are entering the market; reshaping the landscape | New entrants to 3PL (third party logistics) services such as Amazon and Uber are disrupting traditional service models.  Same day delivery is now an expectation, and this increases infrastructure and transportation services cost. Improved supply and demand forecasting is key to delivering last mile services. |
 | Logistics costs are increasing, while product prices are eroding | Manufacturers are forced to react quickly to changing client demands while managing rising costs. Costs for warehousing, transportation and labor are increasing and this increases pressure on perfect order performance for both profitability and client loyalty.  |
@@ -40,12 +52,16 @@ Business need to consider:
 
 **Challenges**
 
-
+- Consumer demand for delivery as promised
+- Consumers wanting control of delivery and return processes
+- Logistics costs in providing last mile delivery
+- Logistics ecosystem complexity
 
 **Drivers**
 
-
-
+- Increasing deliveries direct to consumer
+- Need for delivery price-point optimization and improvement
+- Customer satisfaction to drive repeat business
 
 ## Responses
 
@@ -67,10 +83,8 @@ From a high-level perspective, there are several main steps your organization ca
 
 | Actionable Step | Implementation details |
 | - | - |
-| Create a world-class sensing and risk-monitoring operation |  Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital 
-and in-store conversion, and increase omnichannel revenue. |
-| Accelerate automation in extended workflows | Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment 
-decisions at scale.  |
+| Create a world-class sensing and risk-monitoring operation |  Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital and in-store conversion, and increase omnichannel revenue. |
+| Accelerate automation in extended workflows | Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment decisions at scale.  |
 | Provide visibility across multiple systems | Build a global view of real-time inventory, including available-to-promise (ATP) inventory, capacity to process orders at different locations, and transportation availability. |
 | Amp up AI to make workflows smarter | Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service|
 | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
@@ -134,6 +148,18 @@ The following technology was chosen for this solution:
 
 [*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
 
+## Similar use cases
+
+See:
+
+- [Inventory management](./inventorymanagement.md)
+- [Demand risk](./demandrisk.md)
+- [Loss and waste management](lossmanagement.md)
+- [Product timeliness](timeliness.md)
+- [Timeliness](./timeliness.md)
+
+For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+
 ## Downloads
 
 View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
@@ -141,8 +167,18 @@ View and download all of the **Inventory Optimisation diagrams** shown in previo
 - PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
 - DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
 
+## References
+
+- [Last mile delivery landscape in the grocery sector](https://www.deloitte.com/global/en/Industries/consumer/perspectives/last-mile-delivery.html)
+- IDC Blog: [Enabling the Retail Workforce for Omnichannel Fulfillment](https://blogs.idc.com/2021/06/30/kickin-it-curbside-enabling-the-retail-workforce-for-omnichannel-fulfillment)
+- COVID-19 Survey: [Accurate Delivery Dates Are Key To Win Consumer Confidence](https://www.getconvey.com/blog-b-consumer-research-estimated-delivery-date)
+- Lauren Freedman, The Shopper Speaks: [3 secrets why curbside will not die post-COVID-19](https://www.digitalcommerce360.com/2021/03/19/the-shopper-speaks-3-secrets-why-curbside-will-not-die-post-covid-19)
+
 
 ## Contributors
 
+- Rajeev Shrivastava, Account Technical Lead, IBM
+- Ashok Iyengar, Executive Cloud Architect, IBM
+- Karl Cama, Chief Architect, Red Hat
 - Iain Boyle, Red Hat
-- Bruce Kyle, IBM
+- Bruce Kyle, Solutions Architect, IBM Client Engineering

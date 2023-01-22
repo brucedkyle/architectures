@@ -1,4 +1,4 @@
-# Inventory Optimization Overview
+# Supply Chain Optimization Overview
 
 _Fulfilment_ is the process of exceeding customer expectations when the customer receives their requested products, good or services. The items must be made available in a suitable timeframe, at the correct location and in an acceptable condition.
 
@@ -11,9 +11,11 @@ _Inventory optimisation_ is a collection of best practices for ensuring the reta
 In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
 Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
 
--	Demand Risk (under stock and over stock), 
--	Loss and waste management, and 
--	Product timeliness. 
+- Demand Risk (under stock and over stock) 
+- Loss and waste management
+- Product timeliness
+- Inventory management
+- Last mile delivery
 
 We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
 
@@ -84,9 +86,12 @@ For specific steps on this approach, see **The Action Guide** in [Own your trans
 
 To demonstrate the importance of inventory optimisation for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
+- [Inventory management](./inventorymanagement.md)
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
+- [Last mile delivery](./lastmiledelivery.md)
+- [Timeliness](./timeliness.md)
 
 ### Demand Risk
 
@@ -258,10 +263,13 @@ View and download all of the **Inventory Optimisation diagrams** shown in previo
 ## Contributors
 
 - Iain Boyle, Red Hat
-- Bruce Kyle, IBM
-- Mahesh Dodani, IBM
-- Thalia Hooker, Red Hat
-- Jeric Saez, IBM
-- Mike Lee, IBM
-- Lee Carbonell, IBM
-- James Stewart, IBM
+- Mike Lee, Principal AI Ops Technical Specialist, IBM
+- James Stewart, Principle Account Technical Leader, IBM
+- Bruce Kyle, Sr Solution Architect, IBM Client Engineering
+- Mahesh Dodani, Principal Industry Engineer, IBM Technology
+- Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
+- Rajeev Shrivastava, Account Technical Lead, IBM
+- Ashok Iyengar, Executive Cloud Architect, IBM
+- Karl Cama, Chief Architect, Red Hat
+- Jeric Saez, Senior Solution Architect, IBM
+- Lee Carbonell, Senior Solution Architect & Master Inventor, IBM

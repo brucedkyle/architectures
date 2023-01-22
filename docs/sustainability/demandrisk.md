@@ -181,8 +181,12 @@ Inventory is managed by exception. Manage and predict inventory exceptions such 
 
 See:
 
+- [Inventory management](./inventorymanagement.md)
+- [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
+- [Last mile delivery](./lastmiledelivery.md)
+- [Timeliness](./timeliness.md)
 
 For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
 
@@ -196,10 +200,10 @@ View and download all of the **Inventory Optimisation diagrams** shown in previo
 ## Contributors
 
 - Iain Boyle, Red Hat
-- Bruce Kyle, IBM
-- Mahesh Dodani, IBM
-- Thalia Hooker, Red Hat
-- Jeric Saez, IBM
-- Mike Lee, IBM
-- Lee Carbonell, IBM
-- James Stewart, IBM
+- Mike Lee, Principal AI Ops Technical Specialist, IBM
+- James Stewart, Principle Account Technical Leader, IBM
+- Bruce Kyle, Sr Solution Architect, IBM Client Engineering
+- Mahesh Dodani, Principal Industry Engineer, IBM Technology
+- Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
+- Jeric Saez, Senior Solution Architect, IBM
+- Lee Carbonell, Senior Solution Architect & Master Inventor, IBM

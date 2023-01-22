@@ -106,7 +106,27 @@ The following technology was chosen for this solution:
 
 [*IBM Maximo MRO Inventory Optimization*](https://www.ibm.com/products/mro-inventory-optimization) can help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.
 
+## Similar use cases
+
+See:
+
+- [Demand risk](./demandrisk.md)
+- [Loss and waste management](lossmanagement.md)
+- [Product timeliness](timeliness.md)
+- [Last mile delivery](./lastmiledelivery.md)
+- [Timeliness](./timeliness.md)
+
+For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+
 ## Reference
 
 - IBM documentation [What is inventory management?](https://www.ibm.com/topics/inventory-management)
 - Blog [Understanding “Spares Criticality” in your MRO inventory](https://www.ibm.com/blogs/internet-of-things/mro-inventory-spares-criticality/)
+
+## Contributors
+
+- Rajeev Shrivastava, Account Technical Lead, IBM
+- Ashok Iyengar, Executive Cloud Architect, IBM
+- Karl Cama, Chief Architect, Red Hat
+- Iain Boyle, Red Hat
+- Bruce Kyle, Solutions Architect, IBM Client Engineering
