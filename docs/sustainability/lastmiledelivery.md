@@ -98,13 +98,14 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 - Amp up AI to make workflows smarter
 - Modernize for modern infrastructures, scale hybrid cloud platforms
 
-![solution overview](./media/overview.png)
+![solution overview](./media/lastmiledeliverysolution.png)
 
 The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
-- Inventory Optimisation platform
+- Fulfillment optimization
+- Intelligent promising
 
 ## Solution architecture
 
@@ -129,6 +130,26 @@ Proof of delivery, or POD, is an acknowledgment that an order successfully arriv
 | Customers in control | Promise of delivery provides a better customer experience |
 | Proof of Delivery makes it less likely orders will be stolen | Improves order accuracy and saves money on unnecessary refunds or replacements |
 | Lets customers know their service is complete | POD automation accelerates back-office operations |
+
+## Last mile delivery
+
+The following diagram shows the schematic for the last mile delivery use case.
+
+_Todo replace with schematic_
+
+![last mile delivery schematic](./media/lastmiledeliveryworkflow.png)
+
+Last mile delivery steps:
+
+<ol>
+<li>Customer places order thru omni channel 
+<li>Check inventory availability
+<li>Accessing backend via APIs
+<li>Access the Integration Services
+<li>Check with the Warehouse Management System to schedule delivery
+<li>Verify with the Logistics
+<li>Cross check with the Fulfilment System to schedule and track. Provide real-time tracking and upon delivery, if via 3rd party, provide POD
+</ol>
 
 ## Technology
 

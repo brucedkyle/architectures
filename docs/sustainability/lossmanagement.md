@@ -84,7 +84,7 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 - Amp up AI to make workflows smarter
 - Modernize for modern infrastructures, scale hybrid cloud platforms
 
-![solution overview](./media/overview.png)
+![solution overview](./media/lossmanagementsolution.png)
 
 The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 
@@ -113,7 +113,7 @@ Food Loss - Environmental Exception steps:
 <li>Environmental event detected (e.g. Temperature out of range or loss of power)
 <li>Notification sent to Supply Risk Management via API Management service
 <li>Inventory Control Tower notified of risk
-<li>Inventory Controll Tower triggers process to manage issue
+<li>Inventory Control Tower triggers process to manage issue
 <li>Inventory Controller notified and action determined
 <li>Update process with Inventory Controller decision
 <li>Remediation

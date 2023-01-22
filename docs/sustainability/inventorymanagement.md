@@ -1,12 +1,13 @@
-# Inventory management
+# Inventory management - Perfect/Imperfect Order
 
-Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies inventory. 
+Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies. 
 
 Inventory management encompasses procedures and processes that directly or indirectly affect the bottom line - ordering, receiving, storing, tracking and accounting for all of the goods a business sells. It is a key element of supply chain management.
 
 ## Business problem
 
 - **Inventory visibility**. Multichannel order fulfillment operations typically have inventory spread across many places throughout the supply chain. Inventory visibility is knowing what inventory you have and where it’s located. Businesses need an accurate view of inventory to guarantee fulfillment of customer orders, reduce shipment turnaround times, and minimize stockouts, oversells and markdowns.
+- **Orders may not match available inventory**. Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.
 
 ## Business solution
 
@@ -44,8 +45,7 @@ More and more businesses are looking at having sustainable supply chains because
 
 **Drivers**
 
-Supply chain operators will use technologies that provide significant insights into how supply chain performance can be improved. They’ll anticipate anomalies in logistics costs and performance before they occur and have insights into where automation can deliver significant scale advantages.
-
+- Supply chain operators will use technologies that provide significant insights into how supply chain performance can be improved. They’ll anticipate anomalies in logistics costs and performance before they occur and have insights into where automation can deliver significant scale advantages.
 - Have an accurate assessment of critical spares and the money invested in those parts
 - Deliver transparency and visibility to critical and non-critical spares inventory for the organization
 - Eliminate “out of stock” occurrences
@@ -66,8 +66,8 @@ From a high-level perspective, there are several main steps your organization ca
 | Actionable Step | Implementation details |
 | - | - |
 | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| Determine the criticality of inventory items to the organization. Some are critical to operations or employee safety. Others are “nice to have” but not urgent. | Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct. |
-| Automate the mainetnance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach |
+| Monitor the criticality of inventory items to the organization  | Some are critical to operations or employee safety. Others are “nice to have” but not urgent. Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct. |
+| Automate the maintenance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach |
 | Accelerate automation in extended workflows | Automate the response using workflows that are consistant with criticality of the inventory items |
 | Provide visibility into the inventory system | When users are inspecting inventory items, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter.
 | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
@@ -76,12 +76,13 @@ From a high-level perspective, there are several main steps your organization ca
 
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
 
-- Create a world-class sensing and risk-monitoring operation. 
+- Increase inventory visibility
+- Monitor the criticality of inventory items to the organization 
 - Accelerate automation in extended workflows
 - Amp up AI to make workflows smarter
 - Modernize for modern infrastructures, scale hybrid cloud platforms
 
-![solution overview](./media/overview.png)
+![solution overview](./media/inventorymanagementsolution.png)
 
 ## Solution principles
 
@@ -90,6 +91,28 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 **Manage by exception**. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.
 
 **Intelligent workflows**. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.
+
+## Inventory management
+
+The following diagram shows the inventory management scenario for an imprefect order.
+
+_todo develop schematic_
+
+![imprefect order schematic](./media/inventorymanagementworkflow.png)
+
+<ol>
+<li>Customer places/track/confirm order thru omni channel 
+<li>Inventory fulfilment, and delivery tracking information is quicky obtained from supply assurance Platform
+<li>Access underlying backend system via API Management
+<li>Notify various backend systems via the Integration Services
+<li>Check with the Inventory Management System if inventory is available then lock the items and update the inventory.
+<li>Use Store Operations System to determine if store can fulfill order. Store can only fulfill partial order. Notify customer about partial order fill. If acceptable, package order and get it ready for delivery to customer. Go to Step 7. If partial order is not acceptable, get it ready to be sent to warehouse. Go to Step 8.
+<li>Notify Transport/Logistics System to schedule delivery. 
+<li>Use Warehouse Management System to find which warehouse can fulfill remaining order items. Send alert to warehouse to combine partial orders and package itmes and get it ready for delivery. Notify customer and update/sync related systems.
+<li>Update Transport/Logistics System to schedule delivery.
+<li>Cross check with the Fulfilment System to schedule and track the order and notify customer.
+<li>Provide real-time tracking of the order to customer and upon delivery provide POD (electronic or paper) to customer.
+</ol>
 
 ## Technology
 

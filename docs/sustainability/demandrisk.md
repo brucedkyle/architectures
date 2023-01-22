@@ -70,7 +70,7 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 - Amp up AI to make workflows smarter
 - Modernize for modern infrastructures, scale hybrid cloud platforms
 
-![solution overview](./media/overview.png)
+![solution overview](./media/demandrisksolution.png)
 
 The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 
