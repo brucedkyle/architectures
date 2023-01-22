@@ -40,8 +40,11 @@
               {title: "Action Guide", url: "#action-guide" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Solution architecture", url: "#solution-architecture" },
+              {title: "Last mile delivery", url: "#last-mile-delivery_1" },
               {title: "Technology", url: "#technology" },
+              {title: "Similar use cases", url: "#similar-use-cases" },
               {title: "Downloads", url: "#downloads" },
+              {title: "References", url: "#references" },
               {title: "Contributors", url: "#contributors" },
           ]},
         ];
@@ -103,7 +106,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Security</li>
 <li>Convenience</li>
 <li>Specialization</li>
-<li>Selection of based on cost </li>
+<li>Selection delivery based on cost </li>
 </ul>
 <p>Business need to consider:</p>
 <ul>
@@ -112,6 +115,18 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Warehousing</li>
 <li>Failed deliveries</li>
 <li>Returns</li>
+</ul>
+<p>Key metrics:</p>
+<ul>
+<li>47.6% of shoppers will shop elsewhere if they cannot see inventory availability before they buy</li>
+<li>49% of shoppers would cancel their cart due to mismatch between expectations for delivery date and actual delivery date</li>
+<li>58% of shoppers report checking inventory availability in the last 6 months</li>
+</ul>
+<p>Deloitte describes key sector trends in <a href="https://www.deloitte.com/global/en/Industries/consumer/perspectives/last-mile-delivery.html">Last mile delivery landscape in the grocery sector</a>:</p>
+<ul>
+<li>Shifting tactics – evolving channel strategies and business models</li>
+<li>Need convenience delivered – customer’s new mantra</li>
+<li>Future of Last Mile increasingly a story of better software and connectivity</li>
 </ul>
 <h2 id="use-cases">Use cases</h2>
 <table>
@@ -124,7 +139,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tbody>
 <tr>
 <td>Consumers are purchasing more products online</td>
-<td>Online purchases of goods and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of  last mile delivery and installation services.</td>
+<td>Online purchases of goods and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of last mile delivery and installation services.</td>
 </tr>
 <tr>
 <td>Consumers are placing more emphasis on after sales services</td>
@@ -142,7 +157,18 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </table>
 <h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
 <p><strong>Challenges</strong></p>
+<ul>
+<li>Consumer demand for delivery as promised</li>
+<li>Consumers wanting control of delivery and return processes</li>
+<li>Logistics costs in providing last mile delivery</li>
+<li>Logistics ecosystem complexity</li>
+</ul>
 <p><strong>Drivers</strong></p>
+<ul>
+<li>Increasing deliveries direct to consumer</li>
+<li>Need for delivery price-point optimization and improvement</li>
+<li>Customer satisfaction to drive repeat business</li>
+</ul>
 <h2 id="responses">Responses</h2>
 <p>By definition, last mile delivery is relevant for businesses that deliver products directly to their consumers. </p>
 <table>
@@ -184,19 +210,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tbody>
 <tr>
 <td>Create a world-class sensing and risk-monitoring operation</td>
-<td>Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital</td>
-</tr>
-<tr>
-<td>and in-store conversion, and increase omnichannel revenue.</td>
-<td></td>
+<td>Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital and in-store conversion, and increase omnichannel revenue.</td>
 </tr>
 <tr>
 <td>Accelerate automation in extended workflows</td>
-<td>Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment</td>
-</tr>
-<tr>
-<td>decisions at scale.</td>
-<td></td>
+<td>Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment decisions at scale.</td>
 </tr>
 <tr>
 <td>Provide visibility across multiple systems</td>
@@ -213,13 +231,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tbody>
 </table>
 <h2 id="solution-overview">Solution overview</h2>
-<p><em>TODO: Add business drivers paragraph and need to update diagram below with Demand Risk-specific business drivers</em></p>
-<p><img alt="solution diagram" src="../media/overview.png" /></p>
+<p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
+<ul>
+<li>Create a world-class sensing and risk-monitoring operation. </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
+<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
+</ul>
+<p><img alt="solution overview" src="../media/lastmiledeliverysolution.png" /></p>
 <p>The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:</p>
 <ul>
 <li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
 <li>Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
-<li>Inventory Optimisation platform</li>
+<li>Fulfillment optimization</li>
+<li>Intelligent promising</li>
 </ul>
 <h2 id="solution-architecture">Solution architecture</h2>
 <p><img alt="last mile architecture" src="../media/lastmile.png" /></p>
@@ -256,6 +281,21 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 </tbody>
 </table>
+<h2 id="last-mile-delivery_1">Last mile delivery</h2>
+<p>The following diagram shows the schematic for the last mile delivery use case.</p>
+<p><em>Todo replace with schematic</em></p>
+<p><img alt="last mile delivery schematic" src="../media/lastmiledeliveryworkflow.png" /></p>
+<p>Last mile delivery steps:</p>
+<ol>
+<li>Customer places order thru omni channel 
+<li>Check inventory availability
+<li>Accessing backend via APIs
+<li>Access the Integration Services
+<li>Check with the Warehouse Management System to schedule delivery
+<li>Verify with the Logistics
+<li>Cross check with the Fulfilment System to schedule and track. Provide real-time tracking and upon delivery, if via 3rd party, provide POD
+</ol>
+
 <h2 id="technology">Technology</h2>
 <p>The following technology was chosen for this solution:</p>
 <p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
@@ -270,16 +310,36 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
 </ul>
 <p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<h2 id="similar-use-cases">Similar use cases</h2>
+<p>See:</p>
+<ul>
+<li><a href="../inventorymanagement/">Inventory management</a></li>
+<li><a href="../demandrisk/">Demand risk</a></li>
+<li><a href="../lossmanagement/">Loss and waste management</a></li>
+<li><a href="../timeliness/">Product timeliness</a></li>
+<li><a href="../timeliness/">Timeliness</a></li>
+</ul>
+<p>For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
 <h2 id="downloads">Downloads</h2>
 <p>View and download all of the <strong>Inventory Optimisation diagrams</strong> shown in previous sections in our open source tooling site.</p>
 <ul>
 <li>PowerPoint: <a href="../downloads/InventoryOptimisation.pptx">Open Workflow Diagrams</a></li>
 <li>DrawIO: <a href="../downloads/InventoryOptimisation.drawio">Open Schematic Diagrams</a></li>
 </ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.deloitte.com/global/en/Industries/consumer/perspectives/last-mile-delivery.html">Last mile delivery landscape in the grocery sector</a></li>
+<li>IDC Blog: <a href="https://blogs.idc.com/2021/06/30/kickin-it-curbside-enabling-the-retail-workforce-for-omnichannel-fulfillment">Enabling the Retail Workforce for Omnichannel Fulfillment</a></li>
+<li>COVID-19 Survey: <a href="https://www.getconvey.com/blog-b-consumer-research-estimated-delivery-date">Accurate Delivery Dates Are Key To Win Consumer Confidence</a></li>
+<li>Lauren Freedman, The Shopper Speaks: <a href="https://www.digitalcommerce360.com/2021/03/19/the-shopper-speaks-3-secrets-why-curbside-will-not-die-post-covid-19">3 secrets why curbside will not die post-COVID-19</a></li>
+</ul>
 <h2 id="contributors">Contributors</h2>
 <ul>
+<li>Rajeev Shrivastava, Account Technical Lead, IBM</li>
+<li>Ashok Iyengar, Executive Cloud Architect, IBM</li>
+<li>Karl Cama, Chief Architect, Red Hat</li>
 <li>Iain Boyle, Red Hat</li>
-<li>Bruce Kyle, IBM</li>
+<li>Bruce Kyle, Solutions Architect, IBM Client Engineering</li>
 </ul>
 
   <br>

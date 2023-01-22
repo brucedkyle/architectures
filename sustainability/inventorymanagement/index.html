@@ -32,16 +32,20 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Inventory management", url: "#_top", children: [
+          {title: "Inventory management - Perfect/Imperfect Order", url: "#_top", children: [
               {title: "Business problem", url: "#business-problem" },
               {title: "Business solution", url: "#business-solution" },
               {title: "Use cases", url: "#use-cases" },
               {title: "Benefits", url: "#benefits" },
               {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
               {title: "Action guide", url: "#action-guide" },
+              {title: "Solution overview", url: "#solution-overview" },
               {title: "Solution principles", url: "#solution-principles" },
+              {title: "Inventory management", url: "#inventory-management" },
               {title: "Technology", url: "#technology" },
+              {title: "Similar use cases", url: "#similar-use-cases" },
               {title: "Reference", url: "#reference" },
+              {title: "Contributors", url: "#contributors" },
           ]},
         ];
 
@@ -89,12 +93,13 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="inventory-management">Inventory management</h1>
-<p>Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies inventory. </p>
+    <h1 id="inventory-management-perfectimperfect-order">Inventory management - Perfect/Imperfect Order</h1>
+<p>Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies. </p>
 <p>Inventory management encompasses procedures and processes that directly or indirectly affect the bottom line - ordering, receiving, storing, tracking and accounting for all of the goods a business sells. It is a key element of supply chain management.</p>
 <h2 id="business-problem">Business problem</h2>
 <ul>
 <li><strong>Inventory visibility</strong>. Multichannel order fulfillment operations typically have inventory spread across many places throughout the supply chain. Inventory visibility is knowing what inventory you have and where it’s located. Businesses need an accurate view of inventory to guarantee fulfillment of customer orders, reduce shipment turnaround times, and minimize stockouts, oversells and markdowns.</li>
+<li><strong>Orders may not match available inventory</strong>. Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.</li>
 </ul>
 <h2 id="business-solution">Business solution</h2>
 <p>The goal of <em>inventory management</em> is to have the right products in the right place at the right time. This requires inventory visibility — knowing when to order, how much to order and where to store stock. The basic steps of inventory management include:</p>
@@ -155,8 +160,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Spreadsheets, hand-counted stock levels and manual order placement have largely been replaced by advanced inventory tracking software. An inventory management system can simplify the process of ordering, storing and using inventory by automating end-to-end production, business management, demand forecasting and accounting.</li>
 </ul>
 <p><strong>Drivers</strong></p>
-<p>Supply chain operators will use technologies that provide significant insights into how supply chain performance can be improved. They’ll anticipate anomalies in logistics costs and performance before they occur and have insights into where automation can deliver significant scale advantages.</p>
 <ul>
+<li>Supply chain operators will use technologies that provide significant insights into how supply chain performance can be improved. They’ll anticipate anomalies in logistics costs and performance before they occur and have insights into where automation can deliver significant scale advantages.</li>
 <li>Have an accurate assessment of critical spares and the money invested in those parts</li>
 <li>Deliver transparency and visibility to critical and non-critical spares inventory for the organization</li>
 <li>Eliminate “out of stock” occurrences</li>
@@ -186,11 +191,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <td>Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data</td>
 </tr>
 <tr>
-<td>Determine the criticality of inventory items to the organization. Some are critical to operations or employee safety. Others are “nice to have” but not urgent.</td>
-<td>Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct.</td>
+<td>Monitor the criticality of inventory items to the organization</td>
+<td>Some are critical to operations or employee safety. Others are “nice to have” but not urgent. Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct.</td>
 </tr>
 <tr>
-<td>Automate the mainetnance of scores to each individual item</td>
+<td>Automate the maintenance of scores to each individual item</td>
 <td>Eliminate data manual entry for criticality with a systems wide approach</td>
 </tr>
 <tr>
@@ -207,10 +212,38 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 </tbody>
 </table>
+<h2 id="solution-overview">Solution overview</h2>
+<p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
+<ul>
+<li>Increase inventory visibility</li>
+<li>Monitor the criticality of inventory items to the organization </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
+<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
+</ul>
+<p><img alt="solution overview" src="../media/inventorymanagementsolution.png" /></p>
 <h2 id="solution-principles">Solution principles</h2>
 <p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
 <p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
 <p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
+<h2 id="inventory-management">Inventory management</h2>
+<p>The following diagram shows the inventory management scenario for an imprefect order.</p>
+<p><em>todo develop schematic</em></p>
+<p><img alt="imprefect order schematic" src="../media/inventorymanagementworkflow.png" /></p>
+<ol>
+<li>Customer places/track/confirm order thru omni channel 
+<li>Inventory fulfilment, and delivery tracking information is quicky obtained from supply assurance Platform
+<li>Access underlying backend system via API Management
+<li>Notify various backend systems via the Integration Services
+<li>Check with the Inventory Management System if inventory is available then lock the items and update the inventory.
+<li>Use Store Operations System to determine if store can fulfill order. Store can only fulfill partial order. Notify customer about partial order fill. If acceptable, package order and get it ready for delivery to customer. Go to Step 7. If partial order is not acceptable, get it ready to be sent to warehouse. Go to Step 8.
+<li>Notify Transport/Logistics System to schedule delivery. 
+<li>Use Warehouse Management System to find which warehouse can fulfill remaining order items. Send alert to warehouse to combine partial orders and package itmes and get it ready for delivery. Notify customer and update/sync related systems.
+<li>Update Transport/Logistics System to schedule delivery.
+<li>Cross check with the Fulfilment System to schedule and track the order and notify customer.
+<li>Provide real-time tracking of the order to customer and upon delivery provide POD (electronic or paper) to customer.
+</ol>
+
 <h2 id="technology">Technology</h2>
 <p>The following technology was chosen for this solution:</p>
 <p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
@@ -226,10 +259,28 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ul>
 <p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
 <p><a href="https://www.ibm.com/products/mro-inventory-optimization"><em>IBM Maximo MRO Inventory Optimization</em></a> can help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.</p>
+<h2 id="similar-use-cases">Similar use cases</h2>
+<p>See:</p>
+<ul>
+<li><a href="../demandrisk/">Demand risk</a></li>
+<li><a href="../lossmanagement/">Loss and waste management</a></li>
+<li><a href="../timeliness/">Product timeliness</a></li>
+<li><a href="../lastmiledelivery/">Last mile delivery</a></li>
+<li><a href="../timeliness/">Timeliness</a></li>
+</ul>
+<p>For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
 <h2 id="reference">Reference</h2>
 <ul>
 <li>IBM documentation <a href="https://www.ibm.com/topics/inventory-management">What is inventory management?</a></li>
 <li>Blog <a href="https://www.ibm.com/blogs/internet-of-things/mro-inventory-spares-criticality/">Understanding “Spares Criticality” in your MRO inventory</a></li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Rajeev Shrivastava, Account Technical Lead, IBM</li>
+<li>Ashok Iyengar, Executive Cloud Architect, IBM</li>
+<li>Karl Cama, Chief Architect, Red Hat</li>
+<li>Iain Boyle, Red Hat</li>
+<li>Bruce Kyle, Solutions Architect, IBM Client Engineering</li>
 </ul>
 
   <br>
