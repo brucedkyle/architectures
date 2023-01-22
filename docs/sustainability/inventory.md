@@ -86,12 +86,24 @@ For specific steps on this approach, see **The Action Guide** in [Own your trans
 
 To demonstrate the importance of inventory optimisation for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
-- [Inventory management](./inventorymanagement.md)
-- [Demand risk](./demandrisk.md)
-- [Loss and waste management](lossmanagement.md)
-- [Product timeliness](timeliness.md)
-- [Last mile delivery](./lastmiledelivery.md)
-- [Timeliness](./timeliness.md)
+- [Inventory management - Perfect or Imperfect Order](./inventorymanagement.md)
+- [Inventory risk - Demand risk](./demandrisk.md)
+- [Inventory risk - Loss and waste management](lossmanagement.md)
+- [Inventory risk - Product timeliness](timeliness.md)
+- [Inventory management - Last mile delivery](./lastmiledelivery.md)
+- [Inventory risk - Timeliness](./timeliness.md)
+
+### Inventory management &dash; Perfect / Imprefect order
+
+Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.
+
+The business can respond to the imperfect order and increase customer responsiveness with:
+
+- Intelligent promising
+- Optmization user expectations with improved demand forecasting 
+- Automated responses
+
+For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./inventorymanagement.md)
 
 ### Inventory Risk &dash; Demand Risk
 
@@ -111,6 +123,14 @@ For more information about the solution details on this scenario, see [Inventory
 
 For more information about the solution details on this scenario, see [Inventory Optimisation - Loss and waste management](lossmanagement.md).
 
+### Inventory management &dash; Last mile delivery
+
+If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
+
+If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
+
+For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./lastmiledelivery.md).
+
 ### Inventory Risk &dash; Product timeliness
 
 **Product timeliness** is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.
@@ -119,24 +139,6 @@ For more information about the solution details on this scenario, see [Inventory
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
 For more information about the solution details on this scenario, see [Inventory Optimisation - Product timeliness](timeliness.md).
-
-## Inventory management &dash; Last mile delivery
-
-If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
-
-If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
-
-## Inventory management &dash; Perfect / Imprefect order
-
-Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.
-
-The business can respond to the imperfect order and increase customer responsiveness with:
-
-- Intelligent promising
-- Optmization user expectations with improved demand forecasting 
-- Automated responses
-
-For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./inventorymanagement.md)
 
 ## Overview
 
@@ -164,16 +166,6 @@ The following diagram provides an overall reference architecture for the solutio
 The following reference architecture describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.
 
 ![logical diagram](./media/InventoryOptimisationLogical.svg)
-
-### Personas
-
-The following stakeholders within the organization.
-
-**Executive sponsors**. Global Supply Chain VP/Officer, VP Global Supply Chain Operations, IT Innovation, eComm Inventory Controller, Merchandize Logistics Manager, Store Operations VP/Lead
-
-**Influencers**. Inventory Control Specialists, Inventory management director, Supply chain professional, store inventory manager, fulfillment manager, inventory analyst, financial control officer/controller, Demand forecaster analyst, Inventory planning
-
-**Operations**. Warehouse managers, logistics managers
 
 ### Solution tiers
 
@@ -210,6 +202,28 @@ The technologies can be grouped into main categories:
     - Supply risk management
     - Demand intelligence
 
+- **Omni-channel applications**
+
+    - Web applications for users
+    - Point of sale applications in stores
+    - Mobility and device applications
+    - Social media
+    - Email
+    - Parter applications
+
+### Personas
+
+The following stakeholders within the organization.
+
+- **Executive sponsors**. Global Supply Chain VP/Officer, VP Global Supply Chain Operations, IT Innovation, eComm Inventory Controller, Merchandize Logistics Manager, Store Operations VP/Lead
+- **Influencers**. Inventory Control Specialists, Inventory management director, Supply chain professional, store inventory manager, fulfillment manager, inventory analyst, financial control officer/controller, Demand forecaster analyst, Inventory planning
+- **Operations**. Warehouse managers, logistics managers
+
+The following represent users of the system outside of the organization.
+
+- **Customers**
+- **Business partners**
+- **Vendors**
 
 ## The technology capabilities
 
