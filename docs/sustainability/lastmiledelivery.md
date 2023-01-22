@@ -4,26 +4,88 @@ _Last mile delivery_, also known as _last mile logistics_, is the transportation
 
 The last mile describes the difficulty of getting goods (especially large and bulky ones) from a transportation hub to their final destination because it might include installation and configuration while providing an excellent experience at the same time.
 
-## Business challenges
+## Business problem
+
+If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
+
+If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
+
+Customers want:
+
+- Fast delivery
+- Delivery tracking
+- Security
+- Convenience
+- Specialization
+- Selection of based on cost 
+
+Business need to consider:
+
+- Fuel costs
+- Idling and downtime
+- Warehousing
+- Failed deliveries
+- Returns
+
+## Use cases
 
 | Business scenario | Challenge | 
 | - | - |
-| Consumers are purchasing more products online | Online purchases of goods  and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of  last mile delivery and installation services. |
+| Consumers are purchasing more products online | Online purchases of goods and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of  last mile delivery and installation services. |
 | Consumers are placing more emphasis on after sales services | Consumers are demanding more control over delivery times and processes and want more value-added services. Manufacturers and suppliers are not meeting expectations, especially with last mile services. |
-  New service providers are entering the market; reshaping the landscape | New entrants to 3PL (third party logistics) services such as Amazon and Uber are disrupting traditional service models.  Same day delivery is now an expectation, and this increases infrastructure and transportation services cost. Improved supply and demand forecasting is key to delivering last mile services. |
+| New service providers are entering the market; reshaping the landscape | New entrants to 3PL (third party logistics) services such as Amazon and Uber are disrupting traditional service models.  Same day delivery is now an expectation, and this increases infrastructure and transportation services cost. Improved supply and demand forecasting is key to delivering last mile services. |
 | Logistics costs are increasing, while product prices are eroding | Manufacturers are forced to react quickly to changing client demands while managing rising costs. Costs for warehousing, transportation and labor are increasing and this increases pressure on perfect order performance for both profitability and client loyalty.  |
 
-## Solution
+## Challenges / Business Drivers 
+
+**Challenges**
+
+
+
+**Drivers**
+
+
+
+
+## Responses
 
 By definition, last mile delivery is relevant for businesses that deliver products directly to their consumers. 
 
-### Promise of Delivery
+| Business Problem | Solution |
+| - | - |
+| Maximize inventory productivity | Use real-time inventory visibility to confidently expose inventory and maximize conversions, gaining granular control over inventory actions, such as safety stock setting based on configurable business rules. Improve inventory turns by applying additional context like channel, fulfillment type and labor availability when making available-to promise decisions. |
+| Make and manage order promises | Improve conversion rates by confidently delivering order and delivery promises across every step of the shopping journey, including the product list page, product detail page, cart, and checkout. Automate the review of inventory, capacity and costs to make informed promises, and harness powerful AI during fulfillment to simplify complex scenarios like orders with third-party services, and support a wide range of fulfillment options. |
+| Optimize omnichannel profitability | Set operating performance objectives and KPIs using real cost drivers (like distance, labor, capacity, and carrier costs) and profit drivers markdown, stockout), so you can confidently make the best fulfillment decisions for your business objectives. By optimizing across thousands of fulfillment permutations in milliseconds, retailers can ensure balance between profitability and the best customer experience. |
 
-Promise of Delivery or Delivery Promise is the cornerstone of customer experience. Remember, poor customer experience can lead to lost brand loyalty. The goal is to provide information in real-time regarding the delivery methods and times.
+## Action Guide
 
-Intelligent Promising Solution
+From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
 
-Making a promise to a customer, keeping that promise while optimizing the fulfillment task takes a lot of coordination and effort between different areas of the business. IBM offers an Intelligent Promising Solution where you can pick and choose services based on your business needs. 
+- Automation
+- Systainability
+- Modernization
+
+| Actionable Step | Implementation details |
+| - | - |
+| Create a world-class sensing and risk-monitoring operation |  Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital 
+and in-store conversion, and increase omnichannel revenue. |
+| Accelerate automation in extended workflows | Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment 
+decisions at scale.  |
+| Provide visibility across multiple systems | Build a global view of real-time inventory, including available-to-promise (ATP) inventory, capacity to process orders at different locations, and transportation availability. |
+| Amp up AI to make workflows smarter | Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service|
+| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
+
+## Solution overview
+
+*TODO: Add business drivers paragraph and need to update diagram below with Demand Risk-specific business drivers*
+
+![solution diagram](./media/overview.png)
+
+The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
+
+- Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
+- Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
+- Inventory Optimisation platform
 
 ## Solution architecture
 
@@ -41,11 +103,46 @@ This intelligent promising platform can be deployed across multiple data centers
 
 Proof of Delivery
 
-Proof of delivery, or POD, is an acknowledgment that an order successfully arrived at its intended destination and is used to show a service was completed, which is why proof of delivery is also called proof of completion.Proof of delivery comes in two forms: paper and electronic. Benefits of POD are captured in the table.
+Proof of delivery, or POD, is an acknowledgment that an order successfully arrived at its intended destination and is used to show a service was completed, which is why proof of delivery is also called proof of completion. Proof of delivery comes in two forms: paper and electronic. Benefits of POD are captured in the table.
 
 | Benefits for customers | Benefits for businesses |
 | - | - |
-| Customers feel in control | POD provides a better customer experience |
+| Customers in control | Promise of delivery provides a better customer experience |
 | Proof of Delivery makes it less likely orders will be stolen | Improves order accuracy and saves money on unnecessary refunds or replacements |
 | Lets customers know their service is complete | POD automation accelerates back-office operations |
 
+## Technology
+
+The following technology was chosen for this solution:
+
+[*Red Hat OpenShift*](https://www.redhat.com/en/technologies/cloud-computing/openshift) Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.
+
+[*Red Hat Ansible Automation Platform*](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  
+
+[*Red Hat OpenShift API Management*](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98) is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
+
+[*Red Hat OpenShift DevOps*](https://www.redhat.com/en/getting-started-devops) represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.
+
+[*Business Automation Workflow*](https://www.ibm.com/products/business-automation-workflow) automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. 
+
+[*IBM Supply Chain Control Tower*](https://www.ibm.com/products/supply-chain-intelligence-suite) provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.
+
+[*IBM Sterling Intelligent Promising*](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:
+
+- [*IBM Sterling Fulfillment Optimizer with Watson*](https://www.ibm.com/products/fulfillment-optimizer) to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement
+- [*Sterling Inventory Visibility*](https://www.ibm.com/products/inventory-visibility) to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.
+
+[*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
+
+## Downloads
+
+View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+
+- PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
+
+
+## Contributors
+
+- Iain Boyle, Red Hat
+- Bruce Kyle, IBM

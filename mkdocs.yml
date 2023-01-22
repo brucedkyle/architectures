@@ -2,9 +2,11 @@ site_name: Cloud Native Architectures
 nav:
     - Home: index.md
     - Supply Chain:
-      - Inventory Optimisation: ./sustainability/inventory.md
+      - Supply Chain Optimisation: ./sustainability/inventory.md
+      - Inventory Management: ./sustainability/inventorymanagement.md
       - Demand Risk: ./sustainability/demandrisk.md
       - Loss Management: ./sustainability/lossmanagement.md
       - Timeliness: ./sustainability/timeliness.md
+      - Last Mile Delivery: ./sustainability/lastmiledelivery.md
     - About: about.md
 theme: windmill
