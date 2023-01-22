@@ -124,8 +124,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <ul>
 <li>Industry leading inventory management system, incorporating sensors that can mitigate risks before they create an exposure.</li>
 <li>Integrating loss and waste management into the core supply chain applications, leveraging technical investments in modern infrastructures and edge devices.</li>
-<li>Reputation</li>
-<li>Penalties and fines</li>
+<li>Protect Reputation</li>
+<li>Avoid Penalties and fines</li>
 </ul>
 <h3 id="responses">Responses</h3>
 <p>All businesses that require a supply chain have unanticipated issues. </p>
@@ -152,13 +152,38 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tbody>
 </table>
 <h2 id="action-guide">Action Guide</h2>
-<p>This use case implements actionable steps for <em>Automation</em> and <em>Modernization</em> in our Action Guide:
-| Actionable Step | Implementation details |
-| - | - |
-| Create a world-class sensing and risk-monitoring operation | Leveraging IOT/Edge devices, implement the ability to detect abnormal variations in temperature, power, water, machinery, and transportation to quickly react and correct. |
-| Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
-| Amp up AI to make workflows smarter | For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
-| Modernization for modern infrastructures, scale hybrid cloud platforms | <em>TODO: Red Hat OpenShift...</em> |</p>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Systainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Create a world-class sensing and risk-monitoring operation</td>
+<td>Leveraging IOT/Edge devices, implement the ability to detect abnormal variations in temperature, power, water, machinery, and transportation to quickly react and correct.</td>
+</tr>
+<tr>
+<td>Accelerate automation in extended workflows</td>
+<td>Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders.</td>
+</tr>
+<tr>
+<td>Amp up AI to make workflows smarter</td>
+<td>For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand.</td>
+</tr>
+<tr>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="solution-overview">Solution overview</h2>
 <p><em>TODO: Add business drivers paragraph and need to update diagram below with Loss and Waste Management-specific business drivers</em></p>
 <p><img alt="solution diagram" src="../media/overview.png" /></p>
@@ -214,15 +239,18 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
 <h2 id="technology">Technology</h2>
 <p>The following technology was chosen for this solution:</p>
-<p><em>Red Hat OpenShift</em> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
-<p><em>Red Hat Ansible Automation Platform</em> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
-<p><em>Business Automation Workflow</em> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
-<p><em>IBM Supply Chain Control Tower</em> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
-<p><em>IBM Sterling Intelligent Promising</em> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
 <ul>
-<li><em>IBM Sterling Fulfillment Optimizer with Watson</em> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
-<li><em>Sterling Inventory Visibility</em> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
 </ul>
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
 <table>
 <thead>
 <tr>

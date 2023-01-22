@@ -11,7 +11,7 @@
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Inventory management - Cloud Native Architectures</title>
+    <title>Inventory Management - Cloud Native Architectures</title>
     <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="../../css/base.css" rel="stylesheet">
@@ -33,8 +33,15 @@
         
         var pageToc = [
           {title: "Inventory management", url: "#_top", children: [
-              {title: "Business use case", url: "#business-use-case" },
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Business solution", url: "#business-solution" },
+              {title: "Use cases", url: "#use-cases" },
               {title: "Benefits", url: "#benefits" },
+              {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
+              {title: "Action guide", url: "#action-guide" },
+              {title: "Solution principles", url: "#solution-principles" },
+              {title: "Technology", url: "#technology" },
+              {title: "Reference", url: "#reference" },
           ]},
         ];
 
@@ -54,10 +61,49 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand Risk
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../inventory/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../inventory/" class="btn btn-xs btn-link">
+        Supply Chain Optimisation
+      </a>
+    </div>
+    
+  </div>
+
+    
 
     <h1 id="inventory-management">Inventory management</h1>
-<p>Managing inventory efficiently is critical to any business that sells physical goods. Inventory management encompasses procedures and processes that directly or indirectly affect the bottom line - ordering, receiving, storing, tracking and accounting for all of the goods a business sells. It is a key element of supply chain management.</p>
-<h2 id="business-use-case">Business use case</h2>
+<p>Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies inventory. </p>
+<p>Inventory management encompasses procedures and processes that directly or indirectly affect the bottom line - ordering, receiving, storing, tracking and accounting for all of the goods a business sells. It is a key element of supply chain management.</p>
+<h2 id="business-problem">Business problem</h2>
+<ul>
+<li><strong>Inventory visibility</strong>. Multichannel order fulfillment operations typically have inventory spread across many places throughout the supply chain. Inventory visibility is knowing what inventory you have and where it’s located. Businesses need an accurate view of inventory to guarantee fulfillment of customer orders, reduce shipment turnaround times, and minimize stockouts, oversells and markdowns.</li>
+</ul>
+<h2 id="business-solution">Business solution</h2>
+<p>The goal of <em>inventory management</em> is to have the right products in the right place at the right time. This requires inventory visibility — knowing when to order, how much to order and where to store stock. The basic steps of inventory management include:</p>
+<ul>
+<li><strong>Purchasing inventory</strong>. Ready-to-sell goods are purchased and delivered to the warehouse or directly to the point of sale.</li>
+<li><strong>Storing inventory</strong>. Inventory is stored until needed. Goods or materials are transferred across your fulfillment network until ready for shipment.</li>
+<li><strong>Profiting from inventory</strong>. The amount of product for sale is controlled. Finished goods are pulled to fulfill orders. Products are shipped to customers.</li>
+</ul>
+<h2 id="use-cases">Use cases</h2>
 <p>More and more businesses are looking at having sustainable supply chains because customers are demanding it. </p>
 <table>
 <thead>
@@ -103,9 +149,118 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li><strong>Minimize disruption</strong>. Gain visibility to minimize disruption to business despite supply and demand shocks</li>
 <li><strong>Returns optimization</strong>. Returns refurbished to create a revenue stream by re-circulation, refurbishment, repairs thereby reducing disposal and recycling costs.</li>
 </ul>
+<h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Spreadsheets, hand-counted stock levels and manual order placement have largely been replaced by advanced inventory tracking software. An inventory management system can simplify the process of ordering, storing and using inventory by automating end-to-end production, business management, demand forecasting and accounting.</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<p>Supply chain operators will use technologies that provide significant insights into how supply chain performance can be improved. They’ll anticipate anomalies in logistics costs and performance before they occur and have insights into where automation can deliver significant scale advantages.</p>
+<ul>
+<li>Have an accurate assessment of critical spares and the money invested in those parts</li>
+<li>Deliver transparency and visibility to critical and non-critical spares inventory for the organization</li>
+<li>Eliminate “out of stock” occurrences</li>
+<li>Reduce time spent looking for and ordering parts</li>
+<li>Reduce dormant/non-moving inventory</li>
+<li>Accelerate disposal of obsolete materials</li>
+<li>Improve stock allocation to improve space utilization</li>
+<li>Optimizes inventory costs by balancing inventory to operational demand</li>
+</ul>
+<h2 id="action-guide">Action guide</h2>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Systainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Create a world-class sensing and risk-monitoring operation</td>
+<td>Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data</td>
+</tr>
+<tr>
+<td>Determine the criticality of inventory items to the organization. Some are critical to operations or employee safety. Others are “nice to have” but not urgent.</td>
+<td>Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct.</td>
+</tr>
+<tr>
+<td>Automate the mainetnance of scores to each individual item</td>
+<td>Eliminate data manual entry for criticality with a systems wide approach</td>
+</tr>
+<tr>
+<td>Accelerate automation in extended workflows</td>
+<td>Automate the response using workflows that are consistant with criticality of the inventory items</td>
+</tr>
+<tr>
+<td>Provide visibility into the inventory system</td>
+<td>When users are inspecting inventory items, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter.</td>
+</tr>
+<tr>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution-principles">Solution principles</h2>
+<p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
+<p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
+<p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
+<h2 id="technology">Technology</h2>
+<p>The following technology was chosen for this solution:</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<p><a href="https://www.ibm.com/products/mro-inventory-optimization"><em>IBM Maximo MRO Inventory Optimization</em></a> can help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li>IBM documentation <a href="https://www.ibm.com/topics/inventory-management">What is inventory management?</a></li>
+<li>Blog <a href="https://www.ibm.com/blogs/internet-of-things/mro-inventory-spares-criticality/">Understanding “Spares Criticality” in your MRO inventory</a></li>
+</ul>
 
   <br>
     
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand Risk
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../inventory/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../inventory/" class="btn btn-xs btn-link">
+        Supply Chain Optimisation
+      </a>
+    </div>
+    
+  </div>
 
     <br>
 </div>
