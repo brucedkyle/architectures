@@ -206,5 +206,6 @@ View and download all of the **Inventory Optimisation diagrams** shown in previo
 - Rajeev Shrivastava, Account Technical Lead, IBM
 - Ashok Iyengar, Executive Cloud Architect, IBM
 - Karl Cama, Chief Architect, Red Hat
-- Iain Boyle, Red Hat
+- Iain Boyle, Chief Architect, Red Hat
 - Bruce Kyle, Solutions Architect, IBM Client Engineering
+- Lee Carbonell, Senior Solution Architect & Master Inventor, IBM

@@ -40,7 +40,7 @@ Inventory optimisation is making sure the current and future demand is accuratel
 
 ## Business outcomes
 
-[According to the IBM IBV study](https://www.ibm.com/downloads/cas/1BYY6VEM), innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.
+According to the [IBM IBV study](https://www.ibm.com/downloads/cas/1BYY6VEM), innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.
 
 Innovators also stand out by leveraging data with AI and advanced analytics in demand management. With demand volatility and associated supplier, operations, and logistics disruption at all-time highs, CSCOs are applying AI and machine learning to the critical and strategic continuous planning elements of demand management and forecasting. A full 90% of Innovators use AI and advanced analytics in demand management and predictive forecasting, 18% more than their peers (76%).
 
@@ -125,7 +125,7 @@ For more information about the solution details on this scenario, see [Inventory
 
 ### Inventory management &dash; Last mile delivery
 
-If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
+If the **last mile delivery** promise is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
 
 If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
 
@@ -260,7 +260,7 @@ Each of the core application systems provides data and responds to events throug
 
 **Fulfillment optimisation**. Gartner describes the [fulfillment forecasting approach](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning), which provides a more accurate view of consumer fulfillment choices. This approach enables retailers to accurately gauge the right amount of inventory required to meet demand in stores, distribution centers and other inventory holding notes throughout the retailer’s network. IBM offers [IBM Sterling Intelligent Promising ](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. 
 
-**Inventory Analysis and AI**. This cognitive analytic engine enhances existing order management systems. It determines the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement. IBM includes [IBM Sterling Fulfillment Optimizer with Watson](https://www.ibm.com/products/fulfillment-optimizer) as a component of IBM Sterling Intelligent Promising. 
+**Inventory Analysis and AI**. This cognitive analytic engine enhances existing order management systems. It determines the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement. IBM includes [IBM Sterling Fulfillment Optimizer with Watson](https://www.ibm.com/products/fulfillment-optimizer) as a component of IBM Sterling Intelligent Promising.
 
 **Supply Risk Management**. Gartner describes the key tenets of supply chain risk management enhance resilience and improve competitiveness. 
 
@@ -269,7 +269,12 @@ Each of the core application systems provides data and responds to events throug
 
 **Inventory visibility**. This processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. For this solution, IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventory-visibility), which is included with IBM Sterling Intelligent Promising. 
 
-**Planning and analytics**. Businesses need to evolve their planning and analysis strategies to include continuous, integrated planning. This means creating a single source of truth to streamline planning, manage performance and build alignment across the enterprise. IBM offers [IBM Planning Analytics with Watson](https://www.ibm.com/products/planning-analytics) to streamline and integrate financial and operational planning across the enterprise.
+**Planning and analytics**. Businesses need to evolve their planning and analysis strategies to include continuous, integrated planning. This means creating a single source of truth to streamline planning, manage performance and build alignment across the enterprise. 
+
+IBM offers:
+
+- [IBM Planning Analytics with Watson](https://www.ibm.com/products/planning-analytics) to streamline and integrate financial and operational planning across the enterprise.
+- [IBM Maximo MRO Inventory Optimization](https://www.ibm.com/products/mro-inventory-optimization) to help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.
 
 
 ## References
@@ -290,7 +295,7 @@ View and download all of the **Inventory Optimisation diagrams** shown in previo
 
 ## Contributors
 
-- Iain Boyle, Red Hat
+- Iain Boyle, Chief Architect, Red Hat
 - Mike Lee, Principal AI Ops Technical Specialist, IBM
 - James Stewart, Principle Account Technical Leader, IBM
 - Bruce Kyle, Sr Solution Architect, IBM Client Engineering

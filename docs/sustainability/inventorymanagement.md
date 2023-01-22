@@ -161,5 +161,6 @@ For a comprehensive inventory solution overview, see [Inventory Optimisation](in
 - Rajeev Shrivastava, Account Technical Lead, IBM
 - Ashok Iyengar, Executive Cloud Architect, IBM
 - Karl Cama, Chief Architect, Red Hat
-- Iain Boyle, Red Hat
+- Iain Boyle, Chief Architect, Red Hat
 - Bruce Kyle, Solutions Architect, IBM Client Engineering
+- Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
