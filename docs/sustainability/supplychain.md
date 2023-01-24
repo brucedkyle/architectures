@@ -6,7 +6,7 @@ Fulfilment optimization takes the fulfillment process a step further by using in
 
 A key element of the retail fulfilment process is knowing the inventory position. This is the amount of stock available for sale to a customer, it’s location and the time it takes to make it available to the customer. 
 
-_Inventory optimisation_ is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.
+_Inventory optimization_ is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.
 
 In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
 Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
@@ -269,9 +269,7 @@ Each of the core application systems provides data and responds to events throug
 
 **Inventory visibility**. This processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. For this solution, IBM offers [Sterling Inventory Visibility](https://www.ibm.com/products/inventory-visibility), which is included with IBM Sterling Intelligent Promising. 
 
-**Planning and analytics**. Businesses need to evolve their planning and analysis strategies to include continuous, integrated planning. This means creating a single source of truth to streamline planning, manage performance and build alignment across the enterprise. 
-
-IBM offers:
+**Planning and analytics**. Businesses need to evolve their planning and analysis strategies to include continuous, integrated planning. This means creating a single source of truth to streamline planning, manage performance and build alignment across the enterprise. In this category IBM offers:
 
 - [IBM Planning Analytics with Watson](https://www.ibm.com/products/planning-analytics) to streamline and integrate financial and operational planning across the enterprise.
 - [IBM Maximo MRO Inventory Optimization](https://www.ibm.com/products/mro-inventory-optimization) to help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.
@@ -306,3 +304,4 @@ View and download all of the **Inventory Optimization diagrams** shown in previo
 - Karl Cama, Chief Architect, Red Hat
 - Jeric Saez, Senior Solution Architect, IBM
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
+- Ramesh Yerramsetti, Customer Success Architect, IBM

@@ -142,13 +142,15 @@ _Todo replace with schematic_
 Last mile delivery steps:
 
 <ol>
-<li>Customer places order thru omni channel 
-<li>Check inventory availability
-<li>Accessing backend via APIs
-<li>Access the Integration Services
-<li>Check with the Warehouse Management System to schedule delivery
-<li>Verify with the Logistics
-<li>Cross check with the Fulfilment System to schedule and track. Provide real-time tracking and upon delivery, if via 3rd party, provide POD
+<li>Customer places/track/confirm order thru omni channel 
+<li>Inventory fulfilment, and delivery tracking information is quicky obtained from supply assurance Platform
+<li>Access underlying backend system via API Management
+<li>Integration services
+<li>Check with the Store Operations System if inventory available in store
+<li>If store cannot fulfill order, check with Warehouse Management System where inventory is available
+<li>Update Transport/Logistics System to schedule delivery
+<li>Cross check with the Fulfilment System to schedule and track the order
+<li>Provide real-time tracking of the order and upon delivery provide POD (electronic or paper)
 </ol>
 
 ## Technology

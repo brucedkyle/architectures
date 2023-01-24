@@ -2,7 +2,12 @@
 
 Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies. 
 
-Inventory management encompasses procedures and processes that directly or indirectly affect the bottom line - ordering, receiving, storing, tracking and accounting for all of the goods a business sells. It is a key element of supply chain management.
+_Inventory management_ encompasses procedures and processes that directly or indirectly affect the bottom line &dash; ordering, receiving, storing, tracking and accounting for all of the goods a business sells. It is a key element of supply chain management.
+
+In this scenario, you will explore the implications of a perfect and imperfect order in which inventory:
+
+- Can meet customer expecation.
+- May not have all items available.
 
 ## Business problem
 
