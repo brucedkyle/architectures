@@ -39,7 +39,6 @@
               {title: "Responses", url: "#responses" },
               {title: "Action Guide", url: "#action-guide" },
               {title: "Solution overview", url: "#solution-overview" },
-              {title: "Solution architecture", url: "#solution-architecture" },
               {title: "Last mile delivery", url: "#last-mile-delivery" },
               {title: "Technology", url: "#technology" },
               {title: "Similar use cases", url: "#similar-use-cases" },
@@ -155,6 +154,30 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 </tbody>
 </table>
+<h3 id="proof-of-delivery">Proof of Delivery</h3>
+<p>Proof of delivery, or POD, is an acknowledgment that an order successfully arrived at its intended destination and is used to show a service was completed, which is why proof of delivery is also called proof of completion. Proof of delivery comes in two forms: paper and electronic. Benefits of POD are captured in the table.</p>
+<table>
+<thead>
+<tr>
+<th>Benefits for customers</th>
+<th>Benefits for businesses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customers in control</td>
+<td>Promise of delivery provides a better customer experience</td>
+</tr>
+<tr>
+<td>Proof of Delivery makes it less likely orders will be stolen</td>
+<td>Improves order accuracy and saves money on unnecessary refunds or replacements</td>
+</tr>
+<tr>
+<td>Lets customers know their service is complete</td>
+<td>POD automation accelerates back-office operations</td>
+</tr>
+</tbody>
+</table>
 <h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
 <p><strong>Challenges</strong></p>
 <ul>
@@ -246,54 +269,21 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Fulfillment optimization</li>
 <li>Intelligent promising</li>
 </ul>
-<h2 id="solution-architecture">Solution architecture</h2>
-<p><img alt="last mile architecture" src="../media/lastmile.png" /></p>
-<p>The component diagram above illustrates:</p>
-<ul>
-<li>Independent deployable, scaled business services</li>
-<li>Composable, Stateless modular services </li>
-<li>API first approach to building any service</li>
-<li>Inter communication between services asynchronous</li>
-<li>Business functions, API access controls managed independently</li>
-</ul>
-<p>This intelligent promising platform can be deployed across multiple data centers for HA capable of tenant level failover.</p>
-<p>Proof of Delivery</p>
-<p>Proof of delivery, or POD, is an acknowledgment that an order successfully arrived at its intended destination and is used to show a service was completed, which is why proof of delivery is also called proof of completion. Proof of delivery comes in two forms: paper and electronic. Benefits of POD are captured in the table.</p>
-<table>
-<thead>
-<tr>
-<th>Benefits for customers</th>
-<th>Benefits for businesses</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Customers in control</td>
-<td>Promise of delivery provides a better customer experience</td>
-</tr>
-<tr>
-<td>Proof of Delivery makes it less likely orders will be stolen</td>
-<td>Improves order accuracy and saves money on unnecessary refunds or replacements</td>
-</tr>
-<tr>
-<td>Lets customers know their service is complete</td>
-<td>POD automation accelerates back-office operations</td>
-</tr>
-</tbody>
-</table>
 <h2 id="last-mile-delivery">Last mile delivery</h2>
 <p>The following diagram shows the schematic for the last mile delivery use case.</p>
 <p><em>Todo replace with schematic</em></p>
 <p><img alt="last mile delivery schematic" src="../media/lastmiledeliveryworkflow.png" /></p>
 <p>Last mile delivery steps:</p>
 <ol>
-<li>Customer places order thru omni channel 
-<li>Check inventory availability
-<li>Accessing backend via APIs
-<li>Access the Integration Services
-<li>Check with the Warehouse Management System to schedule delivery
-<li>Verify with the Logistics
-<li>Cross check with the Fulfilment System to schedule and track. Provide real-time tracking and upon delivery, if via 3rd party, provide POD
+<li>Customer places/track/confirm order thru omni channel 
+<li>Inventory fulfilment, and delivery tracking information is quicky obtained from supply assurance Platform
+<li>Access underlying backend system via API Management
+<li>Integration services
+<li>Check with the Store Operations System if inventory available in store
+<li>If store cannot fulfill order, check with Warehouse Management System where inventory is available
+<li>Update Transport/Logistics System to schedule delivery
+<li>Cross check with the Fulfilment System to schedule and track the order
+<li>Provide real-time tracking of the order and upon delivery provide POD (electronic or paper)
 </ol>
 
 <h2 id="technology">Technology</h2>
@@ -319,9 +309,9 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li><a href="../timeliness/">Product timeliness</a></li>
 <li><a href="../timeliness/">Timeliness</a></li>
 </ul>
-<p>For a comprehensive inventory solution overview, see <a href="../inventory/">Inventory Optimisation</a>.</p>
+<p>For a comprehensive inventory solution overview, see <a href="../supplychain/">Inventory Optimization</a>.</p>
 <h2 id="downloads">Downloads</h2>
-<p>View and download all of the <strong>Inventory Optimisation diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
 <ul>
 <li>PowerPoint: <a href="../downloads/InventoryOptimisation.pptx">Open Workflow Diagrams</a></li>
 <li>DrawIO: <a href="../downloads/InventoryOptimisation.drawio">Open Schematic Diagrams</a></li>
