@@ -193,16 +193,17 @@ The technologies can be grouped into main categories:
     - DevOps
     - API Management
 
-- **Inventory Optimization** platform, including systems supporting:
+- **Supply Assurance** platform, including systems supporting:
 
-    - Inventory control tower
+    - Supply assurance control tower
     - Fulfillment optimization
     - Inventory analysis and AI
     - Supply intelligence
     - Supply risk management
     - Demand intelligence
+    - Sustainability
 
-- **Omni-channel applications**
+- **Omni-channels**
 
     - Web applications for users
     - Point of sale applications in stores
@@ -256,13 +257,13 @@ The core application systems can be in-house applications, cloud services, IBM o
 
 Each of the core application systems provides data and responds to events through the foundational technologies.
 
-**Inventory Control Tower**. Gartner describes [supply chain technology](https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology) as a central hub as an integrated part of a broader SCM platform using these building blocks: people, process, data, organization and technology. The idea is to capture and use data to provide enhanced real-time visibility and in-depth analysis. [IBM Supply Chain Control Tower](https://www.ibm.com/products/supply-chain-intelligence-suite), powered by industry-leading AI, provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects. 
+**Supply assurance control tower**. Gartner describes [supply chain technology](https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology) as a central hub as an integrated part of a broader SCM platform using these building blocks: people, process, data, organization and technology. The idea is to capture and use data to provide enhanced real-time visibility and in-depth analysis. [IBM Supply Chain Control Tower](https://www.ibm.com/products/supply-chain-intelligence-suite), powered by industry-leading AI, provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects. 
 
 **Fulfillment optimization**. Gartner describes the [fulfillment forecasting approach](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning), which provides a more accurate view of consumer fulfillment choices. This approach enables retailers to accurately gauge the right amount of inventory required to meet demand in stores, distribution centers and other inventory holding notes throughout the retailer’s network. IBM offers [IBM Sterling Intelligent Promising ](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. 
 
-**Inventory Analysis and AI**. This cognitive analytic engine enhances existing order management systems. It determines the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement. IBM includes [IBM Sterling Fulfillment Optimizer with Watson](https://www.ibm.com/products/fulfillment-optimizer) as a component of IBM Sterling Intelligent Promising.
+**Inventory analysis and AI**. This cognitive analytic engine enhances existing order management systems. It determines the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement. IBM includes [IBM Sterling Fulfillment Optimizer with Watson](https://www.ibm.com/products/fulfillment-optimizer) as a component of IBM Sterling Intelligent Promising.
 
-**Supply Risk Management**. Gartner describes the key tenets of supply chain risk management enhance resilience and improve competitiveness. 
+**Supply risk management**. Gartner describes the key tenets of supply chain risk management enhance resilience and improve competitiveness. 
 
 - Market disruptions include: natural disasters, pandemics, political uncertainty, economic upheaval, cyber and terrorist attacks, third-party or supplier threats, and rapid swings in consumer preferences and demand.
 - Supply chain transformation also complicates supply chain risk management &dash; lean, but complex and globally dispersed operations add risks, and the supply chain risk management process is vital in wringing out efficiencies and costs.
