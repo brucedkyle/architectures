@@ -1,12 +1,12 @@
-# Inventory Optimisation - Demand Risk
+# Inventory Optimization - Demand Risk
 
-To demonstrate the importance of inventory optimisation for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: understock and overstock, and conclude with the technology used in the solution.
+To demonstrate the importance of inventory optimization for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: understock and overstock, and conclude with the technology used in the solution.
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Business problem
 
-Inventory optimisation is a critical element of any retail organisation's fulfilment process. It represents a balancing act between two key viewpoints in the fulfilment process.
+Inventory optimization is a critical element of any retail organisation's fulfilment process. It represents a balancing act between two key viewpoints in the fulfilment process.
 
 The first viewpoint is **demand**. The business needs to understand their current demand for products, goods and services. There are two aspects of demand, the “current” demand and the “future” demand. Current demand asks the question, “how many unsatisfied orders or requests do we have in the system at this point in time?” Future demand asks the more difficult question, “how many orders or requests do we expect to have at some point in the future?” This future point could be measured in minutes, hours, days, weeks, months and even years. The further into the future, the harder it becomes to predict the demand.
 
@@ -14,7 +14,7 @@ The second viewpoint is **inventory**. The business needs to have a clear unders
 
 _Inventory optimisation_ is making sure the current and future demand is accurately balanced against current and future inventory. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.
 
-To demonstrate the importance of inventory optimisation for any retail business, this document will focus on main use cases of demand and inventory.
+To demonstrate the importance of inventory optimization for any retail business, this document will focus on main use cases of demand and inventory.
 
 ## Use cases
 
@@ -76,7 +76,7 @@ The solution uses the following technologies, which can be grouped into three ma
 
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
-- Inventory Optimisation platform
+- Inventory Optimization platform
 
 
 ## Understock
@@ -148,7 +148,7 @@ The following technology was chosen for this solution:
 
 [*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
 
-### Inventory Optimisation Platform details
+### Inventory Optimization Platform details
 
 With Inventory Control Tower, you:
 
@@ -192,11 +192,11 @@ See:
 - [Last mile delivery](./lastmiledelivery.md)
 - [Timeliness](./timeliness.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Downloads
 
-View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
 
 - PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
 - DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)

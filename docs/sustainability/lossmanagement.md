@@ -2,14 +2,14 @@
 
 A key focus when dealing with loss and waste management in relation to inventory optimization is how to handle unplanned or unforseen situations causing an inventory item be considered damaged or spoiled. If the situation or problem is rectified withing a well defined time window, there is a possibility of salvaging the product. In some cases once the incident occurs, there is no possibility of salvage and the product is considered damaged. Typically these events are external factors forced upon the business and cannot always be planned or predicted. 
 
-To demonstrate the importance of inventory optimisation for any business, we will focus on two main use cases of an unanticipated exception:
+To demonstrate the importance of inventory optimization for any business, we will focus on two main use cases of an unanticipated exception:
 
 - **Environment Exceptions** such as power outages or temperature changes that creates potential spoilage 
 - **Product contamination or recall** such as foreign objects or bacteria occuring earlier in the processing or supply chain
 
 We will start by defining the business problem and the two main use cases: Environmental Exceptions and Product contamination or recall, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: Environmental Exceptions and Product contamination or recall, and conclude with the technology used in the solution.
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 
 ## Business problem
@@ -91,7 +91,7 @@ The solution uses the following technologies, which can be grouped into three ma
 
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
-- Inventory Optimisation platform
+- Inventory Optimization platform
 
 
 ## Solution principles
@@ -191,11 +191,11 @@ See:
 - [Last mile delivery](./lastmiledelivery.md)
 - [Timeliness](./timeliness.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Downloads
 
-View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
 
 - PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
 - DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)

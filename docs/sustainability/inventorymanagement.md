@@ -149,7 +149,7 @@ See:
 - [Last mile delivery](./lastmiledelivery.md)
 - [Timeliness](./timeliness.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Reference
 

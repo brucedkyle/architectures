@@ -2,7 +2,7 @@ site_name: Cloud Native Architectures
 nav:
     - Home: index.md
     - Supply Chain:
-      - Supply Chain Optimisation: ./sustainability/inventory.md
+      - Supply Chain Optimization: ./sustainability/supplychain.md
       - Inventory Management: ./sustainability/inventorymanagement.md
       - Demand Risk: ./sustainability/demandrisk.md
       - Loss Management: ./sustainability/lossmanagement.md

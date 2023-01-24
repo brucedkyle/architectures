@@ -184,11 +184,11 @@ See:
 - [Product timeliness](timeliness.md)
 - [Timeliness](./timeliness.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Downloads
 
-View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
 
 - PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
 - DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)

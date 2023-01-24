@@ -2,7 +2,7 @@
 
 _Fulfilment_ is the process of exceeding customer expectations when the customer receives their requested products, good or services. The items must be made available in a suitable timeframe, at the correct location and in an acceptable condition.
 
-Fulfilment optimisation takes the fulfillment process a step further by using information and knowledge about the supply chain, inventory and stock positions to ensure any promises made to the customer are met or exceeded.
+Fulfilment optimization takes the fulfillment process a step further by using information and knowledge about the supply chain, inventory and stock positions to ensure any promises made to the customer are met or exceeded.
 
 A key element of the retail fulfilment process is knowing the inventory position. This is the amount of stock available for sale to a customer, it’s location and the time it takes to make it available to the customer. 
 
@@ -36,7 +36,7 @@ Enhanced customer experiences, improved profitability, and more predictive forec
 
 ## Business value
 
-Inventory optimisation is making sure the current and future demand is accurately balanced against current and future inventory across the enterprise. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.
+Inventory optimization is making sure the current and future demand is accurately balanced against current and future inventory across the enterprise. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.
 
 ## Business outcomes
 
@@ -84,7 +84,7 @@ For specific steps on this approach, see **The Action Guide** in [Own your trans
 
 ## Scenarios
 
-To demonstrate the importance of inventory optimisation for any business, several articles outline main use cases on how the main risk factors can be transformed:
+To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
 - [Inventory management - Perfect or Imperfect Order](./inventorymanagement.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
@@ -111,7 +111,7 @@ _Understock_ - not holding sufficient inventory to meet current demand. This inc
 
 _Overstock_ - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
 
-For more information about the solution details on this scenario, see [Inventory Optimisation - Demand Risk](demandrisk.md).
+For more information about the solution details on this scenario, see [Inventory Optimization - Demand Risk](demandrisk.md).
 
 ### Inventory Risk &dash; Loss and waste management
 
@@ -121,7 +121,7 @@ For more information about the solution details on this scenario, see [Inventory
 - _Environmental exceptions_. Food expirations, power interruption or other disaster affecting the product salability.
 - _Contamination or recall_. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.
 
-For more information about the solution details on this scenario, see [Inventory Optimisation - Loss and waste management](lossmanagement.md).
+For more information about the solution details on this scenario, see [Inventory Optimization - Loss and waste management](lossmanagement.md).
 
 ### Inventory management &dash; Last mile delivery
 
@@ -138,7 +138,7 @@ For more information about the solution details on this scenario, see [Inventory
 - _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
-For more information about the solution details on this scenario, see [Inventory Optimisation - Product timeliness](timeliness.md).
+For more information about the solution details on this scenario, see [Inventory Optimization - Product timeliness](timeliness.md).
 
 ## Overview
 
@@ -171,7 +171,7 @@ The following reference architecture describes a set of personas and technologie
 
 The technologies can be grouped into main categories:
 
-- **User applications**. Applications where supply chain activities are reported and used by customers, colleagues, suppliers, and logistics. In particular, the inventory controller interacts with the Inventory Optimisation Platform, described in a following section.
+- **User applications**. Applications where supply chain activities are reported and used by customers, colleagues, suppliers, and logistics. In particular, the inventory controller interacts with the Inventory Optimization Platform, described in a following section.
 - **Core application systems**. Often customer-provided technologies, such as order management, facilities management. These include services, data, and systems currently used within the organization, such as:
 
     - Point of Sale systems
@@ -193,7 +193,7 @@ The technologies can be grouped into main categories:
     - DevOps
     - API Management
 
-- **Inventory Optimisation** platform, including systems supporting:
+- **Inventory Optimization** platform, including systems supporting:
 
     - Inventory control tower
     - Fulfillment optimization
@@ -252,13 +252,13 @@ Specifically, the recommended platform includes:
 
 The core application systems can be in-house applications, cloud services, IBM or competitive applications. The core applications provide data through the foundational technologies (such as API management that provides monitoring and security). They can also respond to automated actions based on business rules or from other layers in the system.
 
-### Inventory Optimisation Platform
+### Inventory Optimization Platform
 
 Each of the core application systems provides data and responds to events through the foundational technologies.
 
 **Inventory Control Tower**. Gartner describes [supply chain technology](https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology) as a central hub as an integrated part of a broader SCM platform using these building blocks: people, process, data, organization and technology. The idea is to capture and use data to provide enhanced real-time visibility and in-depth analysis. [IBM Supply Chain Control Tower](https://www.ibm.com/products/supply-chain-intelligence-suite), powered by industry-leading AI, provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects. 
 
-**Fulfillment optimisation**. Gartner describes the [fulfillment forecasting approach](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning), which provides a more accurate view of consumer fulfillment choices. This approach enables retailers to accurately gauge the right amount of inventory required to meet demand in stores, distribution centers and other inventory holding notes throughout the retailer’s network. IBM offers [IBM Sterling Intelligent Promising ](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. 
+**Fulfillment optimization**. Gartner describes the [fulfillment forecasting approach](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning), which provides a more accurate view of consumer fulfillment choices. This approach enables retailers to accurately gauge the right amount of inventory required to meet demand in stores, distribution centers and other inventory holding notes throughout the retailer’s network. IBM offers [IBM Sterling Intelligent Promising ](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. 
 
 **Inventory Analysis and AI**. This cognitive analytic engine enhances existing order management systems. It determines the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement. IBM includes [IBM Sterling Fulfillment Optimizer with Watson](https://www.ibm.com/products/fulfillment-optimizer) as a component of IBM Sterling Intelligent Promising.
 
@@ -288,7 +288,7 @@ IBM offers:
 
 ## Downloads
 
-View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
 
 - PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
 - DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)

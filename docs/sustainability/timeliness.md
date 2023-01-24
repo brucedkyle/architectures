@@ -1,4 +1,4 @@
-# Inventory Optimisation - Product Timeliness
+# Inventory Optimization - Product Timeliness
 
 Foods and ingredients expire or become unusable at some point. Manufactured parts and goods also experience decay and deterioriation. Each of these may be measured.
 
@@ -17,7 +17,7 @@ Manufactured parts may be warranteed for specific periods or number of uses. For
 
 Some products may still continue to be useful beyond their expiration date or use. 
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Business problem
 
@@ -72,7 +72,7 @@ The solution uses the following technologies, which can be grouped into three ma
 
 - Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
 - Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
-- Inventory Optimisation platform
+- Inventory Optimization platform
 
 ## Solution Principles
 
@@ -152,11 +152,11 @@ See:
 - [Product timeliness](timeliness.md)
 - [Last mile delivery](./lastmiledelivery.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimisation](inventory.md).
+For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Downloads
 
-View and download all of the **Inventory Optimisation diagrams** shown in previous sections in our open source tooling site.
+View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
 
 - PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
 - DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
