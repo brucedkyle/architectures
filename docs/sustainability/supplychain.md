@@ -228,7 +228,14 @@ The following represent users of the system outside of the organization.
 
 ## The technology capabilities
 
-This section provides the logical components of the solution.
+This section provides the logical components of the solution. The solution architecture provides for:
+
+- Independent deployable, scaled business services
+- Composable, stateless modular services 
+- API first approach to building any service
+- Inter communication between services asynchronous
+- Business functions, API access controls managed independently
+- Can be deployed across multiple data centers for HA capable of tenant level failover
 
 ### Foundational technologies &dash; Hybrid Cloud Platform
 
@@ -245,7 +252,7 @@ Specifically, the recommended platform includes:
 - [**Red Hat OpenShift**]((https://www.redhat.com/en/technologies/cloud-computing/openshift)) is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multi-cloud, and edge deployments.- Red Hat Integration is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
 - [**Business Automation Workflow**](https://www.ibm.com/products/business-automation-workflow) unites information, processes and users to help you automate digital workflows on premises or on cloud. Create workflows that increase productivity, improve collaboration between teams, and gain new insight to resolve cases and drive better business outcomes.
 - [**Red Hat Ansible Automation Platform**](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  
-- [**Red Hat OpenShift API Management**](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98)] is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
+- [**Red Hat OpenShift API Management**](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98) is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
 - [**Red Hat OpenShift DevOps**](https://www.redhat.com/en/getting-started-devops) reoresents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure. 
 
 
@@ -253,9 +260,9 @@ Specifically, the recommended platform includes:
 
 The core application systems can be in-house applications, cloud services, IBM or competitive applications. The core applications provide data through the foundational technologies (such as API management that provides monitoring and security). They can also respond to automated actions based on business rules or from other layers in the system.
 
-### Inventory Optimization Platform
+### Supply Assurance Platform
 
-Each of the core application systems provides data and responds to events through the foundational technologies.
+Each of the core application systems provides data and responds to events through the foundational technologies. 
 
 **Supply assurance control tower**. Gartner describes [supply chain technology](https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology) as a central hub as an integrated part of a broader SCM platform using these building blocks: people, process, data, organization and technology. The idea is to capture and use data to provide enhanced real-time visibility and in-depth analysis. [IBM Supply Chain Control Tower](https://www.ibm.com/products/supply-chain-intelligence-suite), powered by industry-leading AI, provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects. 
 

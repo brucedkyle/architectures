@@ -148,7 +148,7 @@ The following technology was chosen for this solution:
 
 [*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
 
-### Inventory Optimization Platform details
+### Supply Assurance Platform details
 
 With Inventory Control Tower, you:
 
