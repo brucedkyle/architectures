@@ -296,8 +296,8 @@ Each of the core application systems provides data and responds to events throug
 
 View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
 
-- PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
-- DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
+- PowerPoint: [Open Workflow Diagrams](./downloads/SupplyChainOptimization.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio)
 
 ## Contributors
 

@@ -179,8 +179,8 @@ For a comprehensive inventory solution overview, see [Inventory Optimization](su
 
 View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
 
-- PowerPoint: [Open Workflow Diagrams](./downloads/InventoryOptimisation.pptx)
-- DrawIO: [Open Schematic Diagrams](./downloads/InventoryOptimisation.drawio)
+- PowerPoint: [Open Workflow Diagrams](./downloads/SupplyChainOptimization.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio)
 
 ## References
 
