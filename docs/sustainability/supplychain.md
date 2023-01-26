@@ -14,7 +14,8 @@ Actionable steps will be developed through the lens of use cases on how the main
 - Demand Risk (under stock and over stock) 
 - Loss and waste management
 - Product timeliness
-- Inventory management (perfect order and last mile delivery)
+- Perfect order
+- Last mile delivery
 
 We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
 
