@@ -122,8 +122,6 @@ The solution uses the following technologies, which can be grouped into three ma
 
 The following diagram shows the schematic for the last mile delivery use case.
 
-_Todo replace with schematic_
-
 ![last mile delivery schematic](./media/lastmiledeliveryworkflow.png)
 
 Last mile delivery steps:
@@ -173,7 +171,7 @@ See:
 - [Product timeliness](timeliness.md)
 - [Timeliness](./timeliness.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
+For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
 ## Downloads
 

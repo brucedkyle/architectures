@@ -152,7 +152,7 @@ See:
 - [Product timeliness](timeliness.md)
 - [Last mile delivery](./lastmiledelivery.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
+For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
 ## Downloads
 

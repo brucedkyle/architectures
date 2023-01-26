@@ -101,9 +101,7 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 
 The following diagram shows the inventory management scenario for an imprefect order.
 
-_todo develop schematic_
-
-![imprefect order schematic](./media/inventorymanagementworkflow.png)
+![imprefect order schematic](./media/inven)
 
 <ol>
 <li>Customer places/track/confirm order thru omni channel 
@@ -154,7 +152,7 @@ See:
 - [Last mile delivery](./lastmiledelivery.md)
 - [Timeliness](./timeliness.md)
 
-For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
+For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
 ## Reference
 
