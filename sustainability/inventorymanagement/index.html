@@ -38,11 +38,11 @@
               {title: "Use cases", url: "#use-cases" },
               {title: "Benefits", url: "#benefits" },
               {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
-              {title: "Action guide", url: "#action-guide" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Solution principles", url: "#solution-principles" },
-              {title: "Inventory management", url: "#inventory-management" },
+              {title: "Perfect / Imperfect Order", url: "#perfect-imperfect-order" },
               {title: "Technology", url: "#technology" },
+              {title: "Action guide", url: "#action-guide" },
               {title: "Similar use cases", url: "#similar-use-cases" },
               {title: "Reference", url: "#reference" },
               {title: "Contributors", url: "#contributors" },
@@ -176,6 +176,52 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Improve stock allocation to improve space utilization</li>
 <li>Optimizes inventory costs by balancing inventory to operational demand</li>
 </ul>
+<h2 id="solution-overview">Solution overview</h2>
+<p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
+<ul>
+<li>Increase inventory visibility</li>
+<li>Monitor the criticality of inventory items to the organization </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
+<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
+</ul>
+<p><img alt="solution overview" src="../media/inventorymanagementsolution.png" /></p>
+<h2 id="solution-principles">Solution principles</h2>
+<p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
+<p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
+<p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
+<h2 id="perfect-imperfect-order">Perfect / Imperfect Order</h2>
+<p>The following diagram shows the inventory management scenario for an perfect order with responses for cases where the order is not perfect.</p>
+<p><img alt="imprefect order schematic" src="../media/perfectorder.svg" /></p>
+<ol>
+<li>Customer places/track/confirm order thru omni channel 
+<li>Inventory fulfilment, and delivery tracking information is quicky obtained from supply assurance Platform
+<li>Access underlying backend system via API Management
+<li>Notify various backend systems via the Integration Services
+<li>Check with the Inventory Management System if inventory is available then lock the items and update the inventory.
+<li>Use Store Operations System to determine if store can fulfill order. Store can only fulfill partial order. Notify customer about partial order fill. If acceptable, package order and get it ready for delivery to customer. Go to Step 7. If partial order is not acceptable, get it ready to be sent to warehouse. Go to Step 8.
+<li>Notify Transport/Logistics System to schedule delivery. 
+<li>Use Warehouse Management System to find which warehouse can fulfill remaining order items. Send alert to warehouse to combine partial orders and package itmes and get it ready for delivery. Notify customer and update/sync related systems.
+<li>Update Transport/Logistics System to schedule delivery.
+<li>Cross check with the Fulfilment System to schedule and track the order and notify customer.
+<li>Provide real-time tracking of the order to customer and upon delivery provide POD (electronic or paper) to customer.
+</ol>
+
+<h2 id="technology">Technology</h2>
+<p>The following technology was chosen for this solution:</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<p><a href="https://www.ibm.com/products/mro-inventory-optimization"><em>IBM Maximo MRO Inventory Optimization</em></a> can help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.</p>
 <h2 id="action-guide">Action guide</h2>
 <p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
 <ul>
@@ -217,52 +263,6 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 </tbody>
 </table>
-<h2 id="solution-overview">Solution overview</h2>
-<p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
-<ul>
-<li>Increase inventory visibility</li>
-<li>Monitor the criticality of inventory items to the organization </li>
-<li>Accelerate automation in extended workflows</li>
-<li>Amp up AI to make workflows smarter</li>
-<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
-</ul>
-<p><img alt="solution overview" src="../media/inventorymanagementsolution.png" /></p>
-<h2 id="solution-principles">Solution principles</h2>
-<p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
-<p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
-<p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
-<h2 id="inventory-management">Inventory management</h2>
-<p>The following diagram shows the inventory management scenario for an imprefect order.</p>
-<p><img alt="imprefect order schematic" src="./media/inven" /></p>
-<ol>
-<li>Customer places/track/confirm order thru omni channel 
-<li>Inventory fulfilment, and delivery tracking information is quicky obtained from supply assurance Platform
-<li>Access underlying backend system via API Management
-<li>Notify various backend systems via the Integration Services
-<li>Check with the Inventory Management System if inventory is available then lock the items and update the inventory.
-<li>Use Store Operations System to determine if store can fulfill order. Store can only fulfill partial order. Notify customer about partial order fill. If acceptable, package order and get it ready for delivery to customer. Go to Step 7. If partial order is not acceptable, get it ready to be sent to warehouse. Go to Step 8.
-<li>Notify Transport/Logistics System to schedule delivery. 
-<li>Use Warehouse Management System to find which warehouse can fulfill remaining order items. Send alert to warehouse to combine partial orders and package itmes and get it ready for delivery. Notify customer and update/sync related systems.
-<li>Update Transport/Logistics System to schedule delivery.
-<li>Cross check with the Fulfilment System to schedule and track the order and notify customer.
-<li>Provide real-time tracking of the order to customer and upon delivery provide POD (electronic or paper) to customer.
-</ol>
-
-<h2 id="technology">Technology</h2>
-<p>The following technology was chosen for this solution:</p>
-<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds as it brings choices and flexible for hosting system and services.</p>
-<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
-<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
-<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
-<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
-<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
-<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
-<ul>
-<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
-<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
-</ul>
-<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
-<p><a href="https://www.ibm.com/products/mro-inventory-optimization"><em>IBM Maximo MRO Inventory Optimization</em></a> can help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.</p>
 <h2 id="similar-use-cases">Similar use cases</h2>
 <p>See:</p>
 <ul>
