@@ -60,23 +60,6 @@ More and more businesses are looking at having sustainable supply chains because
 - Improve stock allocation to improve space utilization
 - Optimizes inventory costs by balancing inventory to operational demand
 
-## Action guide
-
-From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
-
-- Automation
-- Systainability
-- Modernization
-
-| Actionable Step | Implementation details |
-| - | - |
-| Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| Monitor the criticality of inventory items to the organization  | Some are critical to operations or employee safety. Others are “nice to have” but not urgent. Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct. |
-| Automate the maintenance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach |
-| Accelerate automation in extended workflows | Automate the response using workflows that are consistant with criticality of the inventory items |
-| Provide visibility into the inventory system | When users are inspecting inventory items, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter.
-| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
-
 ## Solution overview 
 
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
@@ -97,9 +80,9 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 
 **Intelligent workflows**. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.
 
-## Perfect / Imperfect ORder
+## Perfect / Imperfect Order
 
-The following diagram shows the inventory management scenario for an prefect order.
+The following diagram shows the inventory management scenario for an perfect order with responses for cases where the order is not perfect.
 
 ![imprefect order schematic](./media/perfectorder.svg)
 
@@ -141,6 +124,23 @@ The following technology was chosen for this solution:
 [*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
 
 [*IBM Maximo MRO Inventory Optimization*](https://www.ibm.com/products/mro-inventory-optimization) can help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.
+
+## Action guide
+
+From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
+
+- Automation
+- Systainability
+- Modernization
+
+| Actionable Step | Implementation details |
+| - | - |
+| Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
+| Monitor the criticality of inventory items to the organization  | Some are critical to operations or employee safety. Others are “nice to have” but not urgent. Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct. |
+| Automate the maintenance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach |
+| Accelerate automation in extended workflows | Automate the response using workflows that are consistant with criticality of the inventory items |
+| Provide visibility into the inventory system | When users are inspecting inventory items, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter.
+| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases
 

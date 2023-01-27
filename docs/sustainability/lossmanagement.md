@@ -61,21 +61,6 @@ All businesses that require a supply chain have unanticipated issues.
 | Visibility into actions needed and alternatives to anticipate and respond to inventory in an unanticipated event. | Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove recalled items. Proactively replace items in response to demand.
 
 
-## Action Guide
-
-From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
-
-- Automation
-- Systainability
-- Modernization
-
-| Actionable Step | Implementation details |
-| - | - |
-| Create a world-class sensing and risk-monitoring operation | Leveraging IOT/Edge devices, implement the ability to detect abnormal variations in temperature, power, water, machinery, and transportation to quickly react and correct. |
-| Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
-| Amp up AI to make workflows smarter | For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
-| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
-
 ## Solution overview 
 
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
@@ -180,6 +165,22 @@ The following technology was chosen for this solution:
 | API Management | Separation of systems, control and monitoring of access, providing consistent user authentication and security between platforms | API Manages the access and permissions required for data between systems. | Improved security, monitoring of frequency of access between systems |
 | Supply intelligence, inventory analysis | Avoid discarding items not included in recall, contamination Provide alternative products that can be substituted. Determine alternative locations or steps to stage product | Supply intelligence and inventory analytics provides record of product details, visibility into substitute products, - visibility of item locations, suggested remediation steps | Supplies can be immediately removed from sale, substitute product offered, steps to ship unaffected products as needed based on actual demand |
 | Colleage and partner engagement | Quick sharing data between enterprise silos and to partners who can provide solutions | Visibility into recall issues |
+
+## Action Guide
+
+From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
+
+- Automation
+- Systainability
+- Modernization
+
+| Actionable Step | Implementation details |
+| - | - |
+| Create a world-class sensing and risk-monitoring operation | Leveraging IOT/Edge devices, implement the ability to detect abnormal variations in temperature, power, water, machinery, and transportation to quickly react and correct. |
+| Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
+| Amp up AI to make workflows smarter | For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
+| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
+
 
 ## Similar use cases
 
