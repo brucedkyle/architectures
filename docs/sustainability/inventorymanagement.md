@@ -97,11 +97,11 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 
 **Intelligent workflows**. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.
 
-## Inventory management
+## Perfect / Imperfect ORder
 
-The following diagram shows the inventory management scenario for an imprefect order.
+The following diagram shows the inventory management scenario for an prefect order.
 
-![imprefect order schematic](./media/inven)
+![imprefect order schematic](./media/perfectorder.svg)
 
 <ol>
 <li>Customer places/track/confirm order thru omni channel 
