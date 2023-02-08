@@ -1,5 +1,11 @@
 # Supply Chain Optimization Overview
 
+Retailers, manufacturers and organizations are exploring ways to better able to understand and act on changes in the market as they occur – to balance protecting margins, utilizing store and warehouse capacity and meeting delivery expectations. These sourcing decisions can dramatically increase profits, especially during peak periods.
+
+In addition, organizations are exploring how to provide a more sustainable footprint. Organizations are looking to redefine an enterprise-wide approach to sustainability.
+
+## Supply chain concepts
+
 _Fulfilment_ is the process of exceeding customer expectations when the customer receives their requested products, good or services. The items must be made available in a suitable timeframe, at the correct location and in an acceptable condition.
 
 Fulfilment optimization takes the fulfillment process a step further by using information and knowledge about the supply chain, inventory and stock positions to ensure any promises made to the customer are met or exceeded.
@@ -19,6 +25,9 @@ Actionable steps will be developed through the lens of use cases on how the main
 
 We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
 
+_Sustainability_ in business refers to a company's strategy to reduce negative environmental impact resulting from their operations in a particular market. An organization’s sustainability practices are typically analyzed against environmental, social, and governance (ESG) metrics.
+
+The business goal is to balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. 
 
 ## Business challenges
 
@@ -58,40 +67,17 @@ Directly influence the following KPIs:
 - Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interruption.
 - Improve customer satisfaction
 
-## Action guide
-
-From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain.
-
-### Automation 
-
-- Accelerate automation in extended workflows 
-- Amp up AI to make workflows smarter 
-- Cultivate collaborative ecosystems 
-
-### Sustainability 
-
-- Link environmental and social initiatives with business solutions 
-- Optimize workflows with AI to manage carbon, waste, energy, and water consumption 
-- Compete with new sustainable products and services 
-
-### Modernization 
-
-- Architect modern infrastructures 
-- Scale hybrid cloud platforms 
-- Increase awareness of cybersecurity vulnerabilities and solutions
-
-For specific steps on this approach, see **The Action Guide** in [Own your transformation](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
-
 ## Scenarios
 
 To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
-- [Inventory management - Perfect or Imperfect Order](./inventorymanagement.md)
+- [Inventory management - Perfect or Imperfect Order](./perfectimperfectorder.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
 - [Inventory management - Last mile delivery](./lastmiledelivery.md)
 - [Inventory risk - Timeliness](./timeliness.md)
+- [Sustainability](./sustainability.md)
 
 ### Inventory management &dash; Perfect / Imprefect order
 
@@ -103,7 +89,7 @@ The business can respond to the imperfect order and increase customer responsive
 - Optmization user expectations with improved demand forecasting 
 - Automated responses
 
-For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./inventorymanagement.md)
+For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./perfectimperfectorder.md)
 
 ### Inventory Risk &dash; Demand Risk
 
@@ -139,6 +125,12 @@ For more information about the solution details on this scenario, see [Inventory
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
 For more information about the solution details on this scenario, see [Inventory Optimization - Product timeliness](timeliness.md).
+
+### Sustainability
+
+**Sustainability** provides an opportunity to differentiate your business, yet the business must balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. On a rapidly warming planet, companies across sectors have transformed  business models to forge a sustainable future &dash; one that protects people, planet, and profits. In the race to reduce emissions, consumption, and waste, everything is on the table. Supply chains are being recalibrated. Source materials are evolving. Travel requests are carefully scrutinized.
+
+For more information about the solution details on this scenario, see [Sustainability](./sustainability.md).
 
 ## Overview
 
@@ -282,6 +274,47 @@ Each of the core application systems provides data and responds to events throug
 - [IBM Planning Analytics with Watson](https://www.ibm.com/products/planning-analytics) to streamline and integrate financial and operational planning across the enterprise.
 - [IBM Maximo MRO Inventory Optimization](https://www.ibm.com/products/mro-inventory-optimization) to help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.
 
+**Sustainability**. To put your sustainability goals into action, you need a strategy and solutions that are specific to your needs. Businesses can approach sustainability initiatives by:
+
+- Strategic partnership with Red Hat and IBM.
+- Using environmental, social and governance (ESG) reporting to integrate data silos. Find new opportunities to drive positive change across your operations with [Envisi](https://www.ibm.com/products/envizi).
+- To manage assets, you can create a lower-emissions business. Use automation to track resource usage, reduce costs and improve services with [IBM Maximo Application Suite](https://www.ibm.com/products/maximo).
+
+## Action guide
+
+From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain.
+
+### Automation 
+
+- Accelerate automation in extended workflows 
+- Amp up AI to make workflows smarter 
+- Cultivate collaborative ecosystems 
+
+### Sustainability 
+
+- Link environmental and social initiatives with business solutions 
+- Optimize workflows with AI to manage carbon, waste, energy, and water consumption 
+- Compete with new sustainable products and services 
+
+### Modernization 
+
+- Architect modern infrastructures 
+- Scale hybrid cloud platforms 
+- Increase awareness of cybersecurity vulnerabilities and solutions
+
+For specific steps on this approach, see **The Action Guide** in [Own your transformation](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
+
+### Next steps
+
+See _Action Guide_ section in each of the use cases:
+
+- [Inventory management - Perfect or Imperfect Order](./perfectimperfectorder.md)
+- [Inventory risk - Demand risk](./demandrisk.md)
+- [Inventory risk - Loss and waste management](lossmanagement.md)
+- [Inventory risk - Product timeliness](timeliness.md)
+- [Inventory management - Last mile delivery](./lastmiledelivery.md)
+- [Inventory risk - Timeliness](./timeliness.md)
+- [Sustainability](./sustainability.md)
 
 ## References
 
@@ -291,6 +324,8 @@ Each of the core application systems provides data and responds to events throug
 - Gartner: [Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning)
 - Gartner: [Supply Chain Risk Management (SCRM): What & Why Is It Important](https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management)
 - IBM Institute for Business Value [Own your transfomation](https://www.ibm.com/downloads/cas/1BYY6VEM)
+- [Balancing sustainability and profitability](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research)
+- [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability)
 
 ## Downloads
 

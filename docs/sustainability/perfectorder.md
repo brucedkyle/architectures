@@ -1,4 +1,4 @@
-# Inventory management - Perfect / Imperfect Order
+# Inventory management - Perfect Order
 
 Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies. 
 
@@ -84,7 +84,7 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 
 The following diagram shows the inventory management scenario for an perfect order with responses for cases where the order is not perfect.
 
-![imprefect order schematic](./media/perfectorder.svg)
+![prefect order schematic](./media/perfectorder.svg)
 
 <ol>
 <li>Customer places/track/confirm order thru omni channel 

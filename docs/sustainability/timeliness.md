@@ -145,7 +145,7 @@ From a high-level perspective, there are several main steps your organization ca
 
 See:
 
-- [Inventory management](./inventorymanagement.md)
+- [Inventory management](./perfectimperfectorder.md)
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)

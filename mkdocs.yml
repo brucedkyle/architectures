@@ -3,7 +3,7 @@ nav:
     - Home: index.md
     - Supply Chain:
       - Supply Chain Optimization: ./sustainability/supplychain.md
-      - Inventory Management: ./sustainability/inventorymanagement.md
+      - Inventory Management: ./sustainability/perfectimperfectorder.md
       - Demand Risk: ./sustainability/demandrisk.md
       - Loss Management: ./sustainability/lossmanagement.md
       - Timeliness: ./sustainability/timeliness.md
