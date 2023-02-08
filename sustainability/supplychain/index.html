@@ -33,15 +33,16 @@
         
         var pageToc = [
           {title: "Supply Chain Optimization Overview", url: "#_top", children: [
+              {title: "Supply chain concepts", url: "#supply-chain-concepts" },
               {title: "Business challenges", url: "#business-challenges" },
               {title: "Business value", url: "#business-value" },
               {title: "Business outcomes", url: "#business-outcomes" },
-              {title: "Action guide", url: "#action-guide" },
               {title: "Scenarios", url: "#scenarios" },
               {title: "Overview", url: "#overview" },
               {title: "Reference architecture", url: "#reference-architecture" },
               {title: "Logical diagram", url: "#logical-diagram" },
               {title: "The technology capabilities", url: "#the-technology-capabilities" },
+              {title: "Action guide", url: "#action-guide" },
               {title: "References", url: "#references" },
               {title: "Downloads", url: "#downloads" },
               {title: "Contributors", url: "#contributors" },
@@ -71,11 +72,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../inventorymanagement/" class="btn btn-xs btn-default pull-right">
+      <a href="../perfectorder/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../inventorymanagement/" class="btn btn-xs btn-link">
+      <a href="../perfectorder/" class="btn btn-xs btn-link">
         Inventory Management
       </a>
     </div>
@@ -93,20 +94,25 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="supply-chain-optimization-overview">Supply Chain Optimization Overview</h1>
-<p><em>Fulfilment</em> is the process of exceeding customer expectations when the customer receives their requested products, good or services. The items must be made available in a suitable timeframe, at the correct location and in an acceptable condition.</p>
-<p>Fulfilment optimization takes the fulfillment process a step further by using information and knowledge about the supply chain, inventory and stock positions to ensure any promises made to the customer are met or exceeded.</p>
-<p>A key element of the retail fulfilment process is knowing the inventory position. This is the amount of stock available for sale to a customer, it’s location and the time it takes to make it available to the customer. </p>
-<p><em>Inventory optimization</em> is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.</p>
-<p>In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
-Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: </p>
+<p>Retailers, manufacturers and organizations are exploring ways to better able to understand and act on changes in the market as they occur – to balance protecting margins, utilizing store and warehouse capacity and meeting delivery expectations. These sourcing decisions can dramatically increase profits, especially during peak periods.</p>
+<p>In addition, organizations are exploring how to provide a more sustainable footprint. Organizations are looking to redefine an enterprise-wide approach to sustainability.</p>
+<p>In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: </p>
 <ul>
-<li>Demand Risk (under stock and over stock) </li>
+<li>Demand risk (under stock and over stock) </li>
 <li>Loss and waste management</li>
 <li>Product timeliness</li>
 <li>Perfect order</li>
 <li>Last mile delivery</li>
+<li>Sustainability</li>
 </ul>
 <p>We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.</p>
+<h2 id="supply-chain-concepts">Supply chain concepts</h2>
+<p><em>Fulfilment</em> is the process of exceeding customer expectations when the customer receives their requested products, good or services. The items must be made available in a suitable timeframe, at the correct location and in an acceptable condition.</p>
+<p>Fulfilment optimization takes the fulfillment process a step further by using information and knowledge about the supply chain, inventory and stock positions to ensure any promises made to the customer are met or exceeded.</p>
+<p>A key element of the retail fulfilment process is knowing the inventory position. This is the amount of stock available for sale to a customer, it’s location and the time it takes to make it available to the customer. </p>
+<p><em>Inventory optimization</em> is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.</p>
+<p><em>Sustainability</em> in business refers to a company's strategy to reduce negative environmental impact resulting from their operations in a particular market. An organization’s sustainability practices are typically analyzed against environmental, social, and governance (ESG) metrics.</p>
+<p>The business goal is to balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. </p>
 <h2 id="business-challenges">Business challenges</h2>
 <p>Chief Supply Chain Officers (CSCOs) face issues related to supply chain disruptions, technology infrastructure, sustainability, and market shifts as their greatest challenges. Yet when addressed with an open mindset, challenges create opportunities within the enterprise—and visibility. </p>
 <p>Harvard Business Review article, <a href="https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis">Three steps to prepare your supply chain for the next crisis</a>. reports:</p>
@@ -135,38 +141,18 @@ Actionable steps will be developed through the lens of use cases on how the main
 <li>Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interruption.</li>
 <li>Improve customer satisfaction</li>
 </ul>
-<h2 id="action-guide">Action guide</h2>
-<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain.</p>
-<h3 id="automation">Automation</h3>
-<ul>
-<li>Accelerate automation in extended workflows </li>
-<li>Amp up AI to make workflows smarter </li>
-<li>Cultivate collaborative ecosystems </li>
-</ul>
-<h3 id="sustainability">Sustainability</h3>
-<ul>
-<li>Link environmental and social initiatives with business solutions </li>
-<li>Optimize workflows with AI to manage carbon, waste, energy, and water consumption </li>
-<li>Compete with new sustainable products and services </li>
-</ul>
-<h3 id="modernization">Modernization</h3>
-<ul>
-<li>Architect modern infrastructures </li>
-<li>Scale hybrid cloud platforms </li>
-<li>Increase awareness of cybersecurity vulnerabilities and solutions</li>
-</ul>
-<p>For specific steps on this approach, see <strong>The Action Guide</strong> in <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transformation</a> survey of 1500 CSCOs across 24 industries.</p>
 <h2 id="scenarios">Scenarios</h2>
 <p>To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:</p>
 <ul>
-<li><a href="../inventorymanagement/">Inventory management - Perfect or Imperfect Order</a></li>
+<li><a href="../perfectorder/">Inventory management - Perfect order</a></li>
+<li><a href="../lastmiledelivery/">Inventory management - Last mile delivery</a></li>
 <li><a href="../demandrisk/">Inventory risk - Demand risk</a></li>
 <li><a href="../lossmanagement/">Inventory risk - Loss and waste management</a></li>
 <li><a href="../timeliness/">Inventory risk - Product timeliness</a></li>
-<li><a href="../lastmiledelivery/">Inventory management - Last mile delivery</a></li>
-<li><a href="../timeliness/">Inventory risk - Timeliness</a></li>
+<li><a href="../sustainability/">Sustainability</a></li>
 </ul>
-<h3 id="inventory-management-perfect-imprefect-order">Inventory management &dash; Perfect / Imprefect order</h3>
+<p>The following section explore more details on each of the scenarios.</p>
+<h3 id="inventory-management-perfect-order">Inventory management &dash; Perfect order</h3>
 <p>Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.</p>
 <p>The business can respond to the imperfect order and increase customer responsiveness with:</p>
 <ul>
@@ -174,30 +160,33 @@ Actionable steps will be developed through the lens of use cases on how the main
 <li>Optmization user expectations with improved demand forecasting </li>
 <li>Automated responses</li>
 </ul>
-<p>For more information and solution details on this scenario, see <a href="../inventorymanagement/">Inventory management &dash; Perfect/Imperfect order</a></p>
-<h3 id="inventory-risk-demand-risk">Inventory Risk &dash; Demand Risk</h3>
-<p><em>Understock</em> - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.</p>
-<p><em>Overstock</em> - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. </p>
-<p>For more information about the solution details on this scenario, see <a href="../demandrisk/">Inventory Optimization - Demand Risk</a>.</p>
-<h3 id="inventory-risk-loss-and-waste-management">Inventory Risk &dash; Loss and waste management</h3>
-<p><strong>Loss and waste management</strong> requires you to take decisive action in cases of:</p>
-<ul>
-<li><em>Shelf life</em>. Identify and timely replace items as shelf life expires. <em>NOTE: this is covered in Product timeliness</em></li>
-<li><em>Environmental exceptions</em>. Food expirations, power interruption or other disaster affecting the product salability.</li>
-<li><em>Contamination or recall</em>. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.</li>
-</ul>
-<p>For more information about the solution details on this scenario, see <a href="../lossmanagement/">Inventory Optimization - Loss and waste management</a>.</p>
+<p>For more information and solution details on this scenario, see <a href="../perfectorder/">Inventory management &dash; Perfect order</a></p>
 <h3 id="inventory-management-last-mile-delivery">Inventory management &dash; Last mile delivery</h3>
 <p>If the <strong>last mile delivery</strong> promise is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.</p>
 <p>If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.</p>
 <p>For more information about the solution details on this scenario, see <a href="../lastmiledelivery/">Inventory management - Last mile delivery</a>.</p>
-<h3 id="inventory-risk-product-timeliness">Inventory Risk &dash; Product timeliness</h3>
+<h3 id="inventory-risk-demand-risk">Inventory risk &dash; Demand risk</h3>
+<p><em>Understock</em> - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.</p>
+<p><em>Overstock</em> - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. </p>
+<p>For more information about the solution details on this scenario, see <a href="../demandrisk/">Inventory risk - Demand risk</a>.</p>
+<h3 id="inventory-risk-loss-and-waste-management">Inventory risk &dash; Loss and waste management</h3>
+<p><strong>Loss and waste management</strong> requires you to take decisive action in cases of:</p>
+<ul>
+<li><em>Shelf life</em>. Identify and timely replace items as shelf life expires. <em>NOTE: This is covered in Product timeliness</em></li>
+<li><em>Environmental exceptions</em>. Food expirations, power interruption or other disaster affecting the product salability.</li>
+<li><em>Contamination or recall</em>. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.</li>
+</ul>
+<p>For more information about the solution details on this scenario, see <a href="../lossmanagement/">Inventory risk - Loss and waste management</a>.</p>
+<h3 id="inventory-risk-product-timeliness">Inventory risk &dash; Product timeliness</h3>
 <p><strong>Product timeliness</strong> is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.</p>
 <ul>
 <li><em>Shelf life</em> defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. </li>
 <li><em>Timeliness</em> defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.</li>
 </ul>
-<p>For more information about the solution details on this scenario, see <a href="../timeliness/">Inventory Optimization - Product timeliness</a>.</p>
+<p>For more information about the solution details on this scenario, see <a href="../timeliness/">Inventory risk - Product timeliness</a>.</p>
+<h3 id="sustainability">Sustainability</h3>
+<p><strong>Sustainability</strong> provides an opportunity to differentiate your business, yet the business must balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. On a rapidly warming planet, companies across sectors have transformed  business models to forge a sustainable future &dash; one that protects people, planet, and profits. In the race to reduce emissions, consumption, and waste, everything is on the table. Supply chains are being recalibrated. Source materials are evolving. Travel requests are carefully scrutinized.</p>
+<p>For more information about the solution details on this scenario, see <a href="../sustainability/">Sustainability</a>.</p>
 <h2 id="overview">Overview</h2>
 <p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
 <ul>
@@ -214,9 +203,11 @@ Actionable steps will be developed through the lens of use cases on how the main
 <h2 id="reference-architecture">Reference architecture</h2>
 <p>The following diagram provides an overall reference architecture for the solution.</p>
 <p><img alt="reference architecture" src="../media/referencearchitecture.png" /></p>
+<p>The reference architecture shows the major systems and how they relate to each other. The following sections describe the system features in more details.</p>
 <h2 id="logical-diagram">Logical diagram</h2>
 <p>The following reference architecture describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.</p>
 <p><img alt="logical diagram" src="../media/InventoryOptimisationLogical.svg" /></p>
+<p>The logical diagram is explained as solution tiers and personas in the following sections.</p>
 <h3 id="solution-tiers">Solution tiers</h3>
 <p>The technologies can be grouped into main categories:</p>
 <ul>
@@ -328,6 +319,43 @@ Actionable steps will be developed through the lens of use cases on how the main
 <li><a href="https://www.ibm.com/products/planning-analytics">IBM Planning Analytics with Watson</a> to streamline and integrate financial and operational planning across the enterprise.</li>
 <li><a href="https://www.ibm.com/products/mro-inventory-optimization">IBM Maximo MRO Inventory Optimization</a> to help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.</li>
 </ul>
+<p><strong>Sustainability</strong>. To put your sustainability goals into action, you need a strategy and solutions that are specific to your needs. Businesses can approach sustainability initiatives by:</p>
+<ul>
+<li>Strategic partnership with Red Hat and IBM.</li>
+<li>Using environmental, social and governance (ESG) reporting to integrate data silos. Find new opportunities to drive positive change across your operations with <a href="https://www.ibm.com/products/envizi">Envisi</a>.</li>
+<li>To manage assets, you can create a lower-emissions business. Use automation to track resource usage, reduce costs and improve services with <a href="https://www.ibm.com/products/maximo">IBM Maximo Application Suite</a>.</li>
+</ul>
+<h2 id="action-guide">Action guide</h2>
+<p>From a high-level perspective, several main steps are suggested for your organization to drive innovation and move toward a digital supply chain.</p>
+<h3 id="automation">Automation</h3>
+<ul>
+<li>Accelerate automation in extended workflows </li>
+<li>Amp up AI to make workflows smarter </li>
+<li>Cultivate collaborative ecosystems </li>
+</ul>
+<h3 id="sustainability_1">Sustainability</h3>
+<ul>
+<li>Link environmental and social initiatives with business solutions </li>
+<li>Optimize workflows with AI to manage carbon, waste, energy, and water consumption </li>
+<li>Compete with new sustainable products and services </li>
+</ul>
+<h3 id="modernization">Modernization</h3>
+<ul>
+<li>Architect modern infrastructures </li>
+<li>Scale hybrid cloud platforms </li>
+<li>Increase awareness of cybersecurity vulnerabilities and solutions</li>
+</ul>
+<p>For specific steps on this approach, see <strong>The Action Guide</strong> in <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transformation</a> survey of 1500 CSCOs across 24 industries.</p>
+<h3 id="next-steps">Next steps</h3>
+<p>See <em>Action Guide</em> section in each of the use cases:</p>
+<ul>
+<li><a href="../perfectorder/#action-guide">Inventory management - Perfect order</a></li>
+<li><a href="../lastmiledelivery/#action-guide">Inventory management - Last mile delivery</a></li>
+<li><a href="../demandrisk/#action-guide">Inventory risk - Demand risk</a></li>
+<li><a href="../lossmanagement/#action-guide">Inventory risk - Loss and waste management</a></li>
+<li><a href="../timeliness/#action-guide">Inventory risk - Product timeliness</a></li>
+<li><a href="../sustainability/#action-guide">Sustainability</a></li>
+</ul>
 <h2 id="references">References</h2>
 <ul>
 <li>McKinsey: <a href="https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains">How COVID-19 is reshaping supply chains</a></li>
@@ -335,7 +363,9 @@ Actionable steps will be developed through the lens of use cases on how the main
 <li>Gartner: <a href="https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one">What is a Supply Chain Control Tower and what's needed to deploy one</a></li>
 <li>Gartner: <a href="https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning">Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning</a></li>
 <li>Gartner: <a href="https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management">Supply Chain Risk Management (SCRM): What &amp; Why Is It Important</a></li>
-<li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transfomation</a></li>
+<li>IBM Institute for Business Value: <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transfomation</a></li>
+<li>IBM Institute for Business Value: <a href="https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research">Balancing sustainability and profitability</a></li>
+<li><a href="https://www.ibm.com/topics/business-sustainability">What is sustainability in business?</a></li>
 </ul>
 <h2 id="downloads">Downloads</h2>
 <p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
@@ -370,11 +400,11 @@ Actionable steps will be developed through the lens of use cases on how the main
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../inventorymanagement/" class="btn btn-xs btn-default pull-right">
+      <a href="../perfectorder/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../inventorymanagement/" class="btn btn-xs btn-link">
+      <a href="../perfectorder/" class="btn btn-xs btn-link">
         Inventory Management
       </a>
     </div>
