@@ -186,7 +186,7 @@ From a high-level perspective, there are several main steps your organization ca
 
 See:
 
-- [Inventory management](./perfectimperfectorder.md)
+- [Inventory management](./perfectorder.md)
 - [Demand risk](./demandrisk.md)
 - [Product timeliness](timeliness.md)
 - [Last mile delivery](./lastmiledelivery.md)

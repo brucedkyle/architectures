@@ -4,6 +4,18 @@ Retailers, manufacturers and organizations are exploring ways to better able to 
 
 In addition, organizations are exploring how to provide a more sustainable footprint. Organizations are looking to redefine an enterprise-wide approach to sustainability.
 
+In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
+Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
+
+- Demand Risk (under stock and over stock) 
+- Loss and waste management
+- Product timeliness
+- Perfect order
+- Last mile delivery
+- Sustainability
+
+We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
+
 ## Supply chain concepts
 
 _Fulfilment_ is the process of exceeding customer expectations when the customer receives their requested products, good or services. The items must be made available in a suitable timeframe, at the correct location and in an acceptable condition.
@@ -13,17 +25,6 @@ Fulfilment optimization takes the fulfillment process a step further by using in
 A key element of the retail fulfilment process is knowing the inventory position. This is the amount of stock available for sale to a customer, it’s location and the time it takes to make it available to the customer. 
 
 _Inventory optimization_ is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.
-
-In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
-Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
-
-- Demand Risk (under stock and over stock) 
-- Loss and waste management
-- Product timeliness
-- Perfect order
-- Last mile delivery
-
-We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
 
 _Sustainability_ in business refers to a company's strategy to reduce negative environmental impact resulting from their operations in a particular market. An organization’s sustainability practices are typically analyzed against environmental, social, and governance (ESG) metrics.
 
@@ -71,7 +72,7 @@ Directly influence the following KPIs:
 
 To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
-- [Inventory management - Perfect or Imperfect Order](./perfectimperfectorder.md)
+- [Inventory management - Perfect or Imperfect Order](./perfectorder.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
@@ -89,7 +90,7 @@ The business can respond to the imperfect order and increase customer responsive
 - Optmization user expectations with improved demand forecasting 
 - Automated responses
 
-For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./perfectimperfectorder.md)
+For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./perfectorder.md)
 
 ### Inventory Risk &dash; Demand Risk
 
@@ -308,7 +309,7 @@ For specific steps on this approach, see **The Action Guide** in [Own your trans
 
 See _Action Guide_ section in each of the use cases:
 
-- [Inventory management - Perfect or Imperfect Order](./perfectimperfectorder.md)
+- [Inventory management - Perfect or Imperfect Order](./perfectorder.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
