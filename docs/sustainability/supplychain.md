@@ -72,15 +72,14 @@ Directly influence the following KPIs:
 
 To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
-- [Inventory management - Perfect or Imperfect Order](./perfectorder.md)
+- [Inventory management - Perfect Order](./perfectorder.md)
+- [Inventory management - Last mile delivery](./lastmiledelivery.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
-- [Inventory management - Last mile delivery](./lastmiledelivery.md)
-- [Inventory risk - Timeliness](./timeliness.md)
 - [Sustainability](./sustainability.md)
 
-### Inventory management &dash; Perfect / Imprefect order
+### Inventory management &dash; Perfect order
 
 Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.
 
@@ -91,6 +90,14 @@ The business can respond to the imperfect order and increase customer responsive
 - Automated responses
 
 For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./perfectorder.md)
+
+### Inventory management &dash; Last mile delivery
+
+If the **last mile delivery** promise is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
+
+If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
+
+For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./lastmiledelivery.md).
 
 ### Inventory Risk &dash; Demand Risk
 
@@ -110,13 +117,6 @@ For more information about the solution details on this scenario, see [Inventory
 
 For more information about the solution details on this scenario, see [Inventory Optimization - Loss and waste management](lossmanagement.md).
 
-### Inventory management &dash; Last mile delivery
-
-If the **last mile delivery** promise is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
-
-If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
-
-For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./lastmiledelivery.md).
 
 ### Inventory Risk &dash; Product timeliness
 
