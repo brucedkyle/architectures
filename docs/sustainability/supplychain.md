@@ -100,15 +100,15 @@ If last mile tracking information is incorrect, a product arrives late, is damag
 
 For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./lastmiledelivery.md).
 
-### Inventory Risk &dash; Demand risk
+### Inventory risk &dash; Demand risk
 
 _Understock_ - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
 
 _Overstock_ - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
 
-For more information about the solution details on this scenario, see [Inventory Optimization - Demand risk](demandrisk.md).
+For more information about the solution details on this scenario, see [Inventory risk - Demand risk](demandrisk.md).
 
-### Inventory Risk &dash; Loss and waste management
+### Inventory risk &dash; Loss and waste management
 
 **Loss and waste management** requires you to take decisive action in cases of:
 
@@ -116,16 +116,16 @@ For more information about the solution details on this scenario, see [Inventory
 - _Environmental exceptions_. Food expirations, power interruption or other disaster affecting the product salability.
 - _Contamination or recall_. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.
 
-For more information about the solution details on this scenario, see [Inventory Optimization - Loss and waste management](lossmanagement.md).
+For more information about the solution details on this scenario, see [Inventory risk - Loss and waste management](lossmanagement.md).
 
-### Inventory Risk &dash; Product timeliness
+### Inventory risk &dash; Product timeliness
 
 **Product timeliness** is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.
 
 - _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
-For more information about the solution details on this scenario, see [Inventory Optimization - Product timeliness](timeliness.md).
+For more information about the solution details on this scenario, see [Inventory risk - Product timeliness](timeliness.md).
 
 ### Sustainability
 
@@ -327,8 +327,8 @@ See _Action Guide_ section in each of the use cases:
 - Gartner: [What is a Supply Chain Control Tower and what's needed to deploy one](https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one)
 - Gartner: [Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning)
 - Gartner: [Supply Chain Risk Management (SCRM): What & Why Is It Important](https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management)
-- IBM Institute for Business Value [Own your transfomation](https://www.ibm.com/downloads/cas/1BYY6VEM)
-- IBM Institute for Business Value [Balancing sustainability and profitability](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research)
+- IBM Institute for Business Value: [Own your transfomation](https://www.ibm.com/downloads/cas/1BYY6VEM)
+- IBM Institute for Business Value: [Balancing sustainability and profitability](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research)
 - [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability)
 
 ## Downloads
