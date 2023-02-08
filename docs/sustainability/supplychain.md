@@ -4,10 +4,9 @@ Retailers, manufacturers and organizations are exploring ways to better able to 
 
 In addition, organizations are exploring how to provide a more sustainable footprint. Organizations are looking to redefine an enterprise-wide approach to sustainability.
 
-In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. 
-Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
+In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
 
-- Demand Risk (under stock and over stock) 
+- Demand risk (under stock and over stock) 
 - Loss and waste management
 - Product timeliness
 - Perfect order
@@ -72,12 +71,14 @@ Directly influence the following KPIs:
 
 To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
-- [Inventory management - Perfect Order](./perfectorder.md)
+- [Inventory management - Perfect order](./perfectorder.md)
 - [Inventory management - Last mile delivery](./lastmiledelivery.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
 - [Sustainability](./sustainability.md)
+
+The following section explore more details on each of the scenarios.
 
 ### Inventory management &dash; Perfect order
 
@@ -89,7 +90,7 @@ The business can respond to the imperfect order and increase customer responsive
 - Optmization user expectations with improved demand forecasting 
 - Automated responses
 
-For more information and solution details on this scenario, see [Inventory management &dash; Perfect/Imperfect order](./perfectorder.md)
+For more information and solution details on this scenario, see [Inventory management &dash; Perfect order](./perfectorder.md)
 
 ### Inventory management &dash; Last mile delivery
 
@@ -99,24 +100,23 @@ If last mile tracking information is incorrect, a product arrives late, is damag
 
 For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./lastmiledelivery.md).
 
-### Inventory Risk &dash; Demand Risk
+### Inventory Risk &dash; Demand risk
 
 _Understock_ - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
 
 _Overstock_ - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
 
-For more information about the solution details on this scenario, see [Inventory Optimization - Demand Risk](demandrisk.md).
+For more information about the solution details on this scenario, see [Inventory Optimization - Demand risk](demandrisk.md).
 
 ### Inventory Risk &dash; Loss and waste management
 
 **Loss and waste management** requires you to take decisive action in cases of:
 
-- _Shelf life_. Identify and timely replace items as shelf life expires. *NOTE: this is covered in Product timeliness*
+- _Shelf life_. Identify and timely replace items as shelf life expires. *NOTE: This is covered in Product timeliness*
 - _Environmental exceptions_. Food expirations, power interruption or other disaster affecting the product salability.
 - _Contamination or recall_. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.
 
 For more information about the solution details on this scenario, see [Inventory Optimization - Loss and waste management](lossmanagement.md).
-
 
 ### Inventory Risk &dash; Product timeliness
 
@@ -154,11 +154,15 @@ The following diagram provides an overall reference architecture for the solutio
 
 ![reference architecture](./media/referencearchitecture.png)
 
+The reference architecture shows the major systems and how they relate to each other. The following sections describe the system features in more details.
+
 ## Logical diagram
 
 The following reference architecture describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.
 
 ![logical diagram](./media/InventoryOptimisationLogical.svg)
+
+The logical diagram is explained as solution tiers and personas in the following sections.
 
 ### Solution tiers
 
@@ -283,7 +287,7 @@ Each of the core application systems provides data and responds to events throug
 
 ## Action guide
 
-From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain.
+From a high-level perspective, several main steps are suggested for your organization to drive innovation and move toward a digital supply chain.
 
 ### Automation 
 
@@ -309,12 +313,11 @@ For specific steps on this approach, see **The Action Guide** in [Own your trans
 
 See _Action Guide_ section in each of the use cases:
 
-- [Inventory management - Perfect or Imperfect Order](./perfectorder.md)
+- [Inventory management - Perfect order](./perfectorder.md)
+- [Inventory management - Last mile delivery](./lastmiledelivery.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
-- [Inventory management - Last mile delivery](./lastmiledelivery.md)
-- [Inventory risk - Timeliness](./timeliness.md)
 - [Sustainability](./sustainability.md)
 
 ## References
@@ -325,7 +328,7 @@ See _Action Guide_ section in each of the use cases:
 - Gartner: [Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning](https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning)
 - Gartner: [Supply Chain Risk Management (SCRM): What & Why Is It Important](https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management)
 - IBM Institute for Business Value [Own your transfomation](https://www.ibm.com/downloads/cas/1BYY6VEM)
-- [Balancing sustainability and profitability](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research)
+- IBM Institute for Business Value [Balancing sustainability and profitability](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research)
 - [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability)
 
 ## Downloads
