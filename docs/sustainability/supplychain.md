@@ -313,12 +313,12 @@ For specific steps on this approach, see **The Action Guide** in [Own your trans
 
 See _Action Guide_ section in each of the use cases:
 
-- [Inventory management - Perfect order](./perfectorder.md)
-- [Inventory management - Last mile delivery](./lastmiledelivery.md)
-- [Inventory risk - Demand risk](./demandrisk.md)
-- [Inventory risk - Loss and waste management](lossmanagement.md)
-- [Inventory risk - Product timeliness](timeliness.md)
-- [Sustainability](./sustainability.md)
+- [Inventory management - Perfect order](./perfectorder.md#action-guide)
+- [Inventory management - Last mile delivery](./lastmiledelivery.md#action-guide)
+- [Inventory risk - Demand risk](./demandrisk.md#action-guide)
+- [Inventory risk - Loss and waste management](lossmanagement.md#action-guide)
+- [Inventory risk - Product timeliness](timeliness.md#action-guide)
+- [Sustainability](./sustainability.md#action-guide)
 
 ## References
 

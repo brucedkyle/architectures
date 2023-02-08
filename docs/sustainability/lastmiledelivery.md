@@ -171,7 +171,7 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
-- [Timeliness](./timeliness.md)
+- [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

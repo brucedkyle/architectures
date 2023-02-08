@@ -148,8 +148,8 @@ See:
 - [Inventory management](./perfectorder.md)
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
-- [Product timeliness](timeliness.md)
 - [Last mile delivery](./lastmiledelivery.md)
+- [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

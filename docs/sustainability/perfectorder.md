@@ -80,7 +80,7 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 
 **Intelligent workflows**. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.
 
-## Perfect / Imperfect Order
+## Perfect order
 
 The following diagram shows the inventory management scenario for an perfect order with responses for cases where the order is not perfect.
 
@@ -150,7 +150,7 @@ See:
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
 - [Last mile delivery](./lastmiledelivery.md)
-- [Timeliness](./timeliness.md)
+- [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

@@ -8,5 +8,6 @@ nav:
       - Loss Management: ./sustainability/lossmanagement.md
       - Timeliness: ./sustainability/timeliness.md
       - Last Mile Delivery: ./sustainability/lastmiledelivery.md
+      - Sustainability: ./sustainability/sustainability.md
     - About: about.md
 theme: windmill

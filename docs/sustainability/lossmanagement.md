@@ -190,7 +190,7 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Product timeliness](timeliness.md)
 - [Last mile delivery](./lastmiledelivery.md)
-- [Timeliness](./timeliness.md)
+- [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

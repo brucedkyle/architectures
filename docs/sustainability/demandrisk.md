@@ -133,6 +133,8 @@ The following technology was chosen for this solution:
 
 [*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
 
+[*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
+
 ### Supply Assurance Platform details
 
 With Inventory Control Tower, you:
@@ -166,7 +168,7 @@ Respond faster to changes, enable efficient collaboration and decision support, 
 
 Inventory is managed by exception. Manage and predict inventory exceptions such as: low inventory, stockouts, slow moving and aging inventory. Optimize inventory transfers to mitigate these circumstances.
 
-## Action Guide
+## Action Guide 
 
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
 
@@ -186,11 +188,10 @@ From a high-level perspective, there are several main steps your organization ca
 See:
 
 - [Inventory management](./perfectorder.md)
-- [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
 - [Last mile delivery](./lastmiledelivery.md)
-- [Timeliness](./timeliness.md)
+- [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
