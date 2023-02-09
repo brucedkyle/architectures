@@ -52,6 +52,15 @@ The rise of environmental, social and governance (ESG) investment criteria and s
 
 In 2021, we also found that half of consumers said they were willing to pay a premium for a sustainable brand or sustainable products. And this year, 49% of consumers say they’ve paid a premium—an average of 59% more—for products branded as sustainable or socially responsible in the last 12 months.
 
+### Responses
+
+| Business Problem | Solution |
+| - | - |
+| Automating ESG Reporting | Capture and manage over  quantitative and qualitive data types to support your expanding sustainability reporting requirements to frameworks and reporting schemes  |
+| Strategic goal set for sustainability | |
+| Incorporate sustainability options into customer decison making | Connect your strategy with day-to-day operations to embed sustainability into your business transformation |
+| Create a lower-emissions business | Build intelligent asset management into operations |
+
 ## Solution overview
 
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
@@ -110,6 +119,8 @@ The following technology was chosen for this solution:
 [*IBM Sterling Intelligent Promising*](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice 
 and transparency across their buying journey.
 
+[*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
+
 [*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
 
 
@@ -124,8 +135,10 @@ From a high-level perspective, there are several main steps your organization ca
 | Actionable Step | Implementation details |
 | - | - |
 | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| Accelerate automation in extended workflows | As an example, in the Reduce out of stock (OOS) or approaching out of stock (AOOS) conditions, a SCIS Control Tower monitors inventory levels at all locations in a client's network and creates items in the work queue when revenue is at risk. |
-| Amp up AI to make workflows smarter | When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter. |
+| ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of more than 500 ESG data types into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
+| Set and track your carbon-reduction targets to speed decarbonization | Provide visibility to business units that automate capturing and tracking GHG performance against targets at different levels of the organization |
+| Include sustainability for user to consider as delivery options | Include cost considerations related to transport, storage,  |
+| Amp up AI to make workflows smarter | Incroporate sustainability into the workflows |
 | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases

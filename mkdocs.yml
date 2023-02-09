@@ -1,13 +1,13 @@
 site_name: Cloud Native Architectures
 nav:
     - Home: index.md
-    - Supply Chain:
-      - Supply Chain Optimization: ./sustainability/supplychain.md
-      - Inventory Management: ./sustainability/perfectorder.md
-      - Demand Risk: ./sustainability/demandrisk.md
-      - Loss Management: ./sustainability/lossmanagement.md
+    - Supply chain:
+      - Supply chain optimization: ./sustainability/supplychain.md
+      - Perfect order: ./sustainability/perfectorder.md
+      - Last mile delivery: ./sustainability/lastmiledelivery.md
+      - Demand risk: ./sustainability/demandrisk.md
+      - Loss management: ./sustainability/lossmanagement.md
       - Timeliness: ./sustainability/timeliness.md
-      - Last Mile Delivery: ./sustainability/lastmiledelivery.md
       - Sustainability: ./sustainability/sustainability.md
     - About: about.md
 theme: windmill

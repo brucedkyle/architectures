@@ -1,4 +1,4 @@
-# Inventory Optimization - Product Timeliness
+# Inventory Optimization - Product timeliness
 
 Foods and ingredients expire or become unusable at some point. Manufactured parts and goods also experience decay and deterioriation. Each of these may be measured.
 

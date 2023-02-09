@@ -1,4 +1,4 @@
-# Inventory Optimization - Demand Risk
+# Inventory optimization &dash; Demand risk
 
 To demonstrate the importance of inventory optimization for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: understock and overstock, and conclude with the technology used in the solution.
 
@@ -20,9 +20,9 @@ To demonstrate the importance of inventory optimization for any retail business,
 
 Two main issues are represented by demand risk.
 
-**Understock** - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand. The end result is disappointed customers who order but don’t get fulfillment or can’t order due to lack of product. This “stock out” position often represents between 4-8% of total sales lost, but can also be a failed opportunity to satisfy customer in other ways, through up-sell and cross-sell. KPIs that can help avoid an under stock or stock-out position. include inventory turn over rate, days on hand and lead time (how long it takes to get more inventory from a supplier).
+**Understock** refers to not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand. The end result is disappointed customers who order but don’t get fulfillment or can’t order due to lack of product. This “stock out” position often represents between 4-8% of total sales lost, but can also be a failed opportunity to satisfy customer in other ways, through up-sell and cross-sell. KPIs that can help avoid an under stock or stock-out position. include inventory turn over rate, days on hand and lead time (how long it takes to get more inventory from a supplier).
 
-**Overstock** - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. Whilst understock is measured in customer satisfaction and loss of future opportunity, overstock has direct impact on the bottom-line costs and profitability of the business. KPIS relevant to overstock include, holding costs, dead stock (in-stock items failing to sell) and inventory turnover rates.
+**Overstock** refers to holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. Whilst understock is measured in customer satisfaction and loss of future opportunity, overstock has direct impact on the bottom-line costs and profitability of the business. KPIS relevant to overstock include, holding costs, dead stock (in-stock items failing to sell) and inventory turnover rates.
 
 ## Challenges / Business Drivers 
 
