@@ -154,6 +154,13 @@ See:
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
+## Downloads
+
+View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
+
+- PowerPoint: [Open Workflow Diagrams](./downloads/SupplyChainOptimization.pptx)
+- DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio)
+
 ## Reference
 
 - IBM documentation [What is inventory management?](https://www.ibm.com/topics/inventory-management)
