@@ -30,7 +30,7 @@ Defects and liability risks affect product manufacturers, designers, distributor
 How should a business track and respond to issues?
 
 - Responding to _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
-- _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
+- _Relevance_ defines a set of actions that can be taken when products are no longer relevance, possibly due to seasonality, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
 In both shelf life and timeliness, you will want to plan and to take proactive steps in anticipation of product expirations.
 
@@ -38,7 +38,7 @@ In both shelf life and timeliness, you will want to plan and to take proactive s
 
 **Challenges**
 
-- Tracking items for shelf life and timeliness
+- Tracking items for shelf life and relevance
 - Taking actions, such as product removal, replacement, work order tracking to demonstrate the product is handled with due care
 
 **Drivers**
@@ -56,6 +56,10 @@ Many goods offered in retail and supplier businesses expire.
 | Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and anticipate actions due to expiration of products with alerts and recommended actions. |
 | The lack of pertinent product information (remaining shelf life, ambient temperature, etc.) and poor data flow across partners lead to inefficient inventory management, wastage and lost sales. | Gain detailed visibility into inventory characteristics at each location – e.g., by remaining shelf life, time-since-harvested. Maintain freshness by acting on alerts received when items are at risk. |
 | Visibility into actions needed and alternatives to anticipate and respond to inventory as items approach end of shelf life. | Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove end of life items. Proactively replace items in response to demand. |
+
+## Business outcomes
+
+[todo]
 
 ## Solution overview 
 
@@ -131,15 +135,15 @@ The following technology was chosen for this solution:
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
 
 - Automation
-- Systainability
+- Sustainability
 - Modernization
 
-| Actionable Step | Implementation details |
-| - | - |
-| Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
-| Amp up AI to make workflows smarter | For expiring products, Control Tower monitors inventory levels at all locations in a client’s network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
-| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.  |
+| | Actionable Step | Implementation details |
+| - | - | - |
+| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
+| Automation | Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
+| Automation | Amp up AI to make workflows smarter | For expiring products, Control Tower monitors inventory levels at all locations in a client’s network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
+| Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.  |
 
 ## Similar use cases
 

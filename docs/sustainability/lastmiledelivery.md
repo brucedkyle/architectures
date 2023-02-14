@@ -83,6 +83,9 @@ By definition, last mile delivery is relevant for businesses that deliver produc
 | Make and manage order promises | Improve conversion rates by confidently delivering order and delivery promises across every step of the shopping journey, including the product list page, product detail page, cart, and checkout. Automate the review of inventory, capacity and costs to make informed promises, and harness powerful AI during fulfillment to simplify complex scenarios like orders with third-party services, and support a wide range of fulfillment options. |
 | Optimize omnichannel profitability | Set operating performance objectives and KPIs using real cost drivers (like distance, labor, capacity, and carrier costs) and profit drivers markdown, stockout), so you can confidently make the best fulfillment decisions for your business objectives. By optimizing across thousands of fulfillment permutations in milliseconds, retailers can ensure balance between profitability and the best customer experience. |
 
+## Business ourcomes
+
+[todo]
 
 ## Solution overview 
 
@@ -151,16 +154,16 @@ The following technology was chosen for this solution:
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
 
 - Automation
-- Systainability
+- Sustainability
 - Modernization
 
-| Actionable Step | Implementation details |
-| - | - |
-| Create a world-class sensing and risk-monitoring operation |  Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital and in-store conversion, and increase omnichannel revenue. |
-| Accelerate automation in extended workflows | Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment decisions at scale.  |
-| Provide visibility across multiple systems | Build a global view of real-time inventory, including available-to-promise (ATP) inventory, capacity to process orders at different locations, and transportation availability. |
-| Amp up AI to make workflows smarter | Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service|
-| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
+| | Actionable Step | Implementation details |
+| - | - | - |
+| Automation | Create a world-class sensing and risk-monitoring operation |  Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital and in-store conversion, and increase omnichannel revenue. |
+| Automation | Accelerate automation in extended workflows | Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment decisions at scale.  |
+| Automation | Provide visibility across multiple systems | Build a global view of real-time inventory, including available-to-promise (ATP) inventory, capacity to process orders at different locations, and transportation availability. |
+| Automation | Amp up AI to make workflows smarter | Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service|
+| Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 
 ## Similar use cases

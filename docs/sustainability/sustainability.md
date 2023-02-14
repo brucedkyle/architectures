@@ -61,6 +61,10 @@ In 2021, we also found that half of consumers said they were willing to pay a pr
 | Incorporate sustainability options into customer decison making | Connect your strategy with day-to-day operations to embed sustainability into your business transformation |
 | Create a lower-emissions business | Build intelligent asset management into operations |
 
+## Business outcomes
+
+[todo]
+
 ## Solution overview
 
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
@@ -129,17 +133,17 @@ and transparency across their buying journey.
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
 
 - Automation
-- Systainability
+- Sustainability
 - Modernization
 
-| Actionable Step | Implementation details |
-| - | - |
-| Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of more than 500 ESG data types into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
-| Set and track your carbon-reduction targets to speed decarbonization | Provide visibility to business units that automate capturing and tracking GHG performance against targets at different levels of the organization |
-| Include sustainability for user to consider as delivery options | Include cost considerations related to transport, storage,  |
-| Amp up AI to make workflows smarter | Incroporate sustainability into the workflows |
-| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
+| | Actionable Step | Implementation details |
+| - | - | - |
+| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
+| Sustainability | ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of more than 500 ESG data types into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
+| Sustainability | Set and track your carbon-reduction targets to speed decarbonization | Provide visibility to business units that automate capturing and tracking GHG performance against targets at different levels of the organization |
+| Sustainability | Include sustainability for user to consider as delivery options | Include cost considerations related to transport, storage,  |
+| Modernization | Amp up AI to make workflows smarter | Incroporate sustainability into the workflows |
+| Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases
 
