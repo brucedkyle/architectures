@@ -34,14 +34,6 @@ More and more businesses are looking at having sustainable supply chains because
 | Warehouse location | **Inside the Warehouse** refers to the specific spot, such as a shelf or a bin, where a product is located within the four walls of a warehouse. It impacts the efficiency and timeliness of picking products. | The products most often picked is placed in the most efficient spot. As products change and demand for products changes, the inventory layout can be updated to ensure continued efficiency. |
 | Warehouse location | Physical Location of the Warehouse | Choosing the site for a warehouse is based on many factors: <ul><li>Rent Rates & Taxes<li>Workforce Availability, Labor Skills & Costs<li>Access Roads, Highways & Traffic Flow<li>Proximity to Airport, Railway Stations & Ports<li>Proximity to Markets & Local Environment<li>Building Availability & Utility Costs<li>Building intelligent</ol> |
 
-## Benefits
-
-- **Decrease waste**. Decrease order fragmentation and waste with decrease in packages per order.
-- **Order optimization**. In-stock improvement through holiday season using Order Optimizer.
-- **Reduce costs**. Reduced costs and emissions by housing software on the cloud more efficiently than on-premises
-- **Minimize disruption**. Gain visibility to minimize disruption to business despite supply and demand shocks
-- **Returns optimization**. Returns refurbished to create a revenue stream by re-circulation, refurbishment, repairs thereby reducing disposal and recycling costs.
-
 ## Challenges / Business Drivers 
 
 **Challenges**
@@ -59,6 +51,14 @@ More and more businesses are looking at having sustainable supply chains because
 - Accelerate disposal of obsolete materials
 - Improve stock allocation to improve space utilization
 - Optimizes inventory costs by balancing inventory to operational demand
+
+## Business outcomes
+
+- **Decrease waste**. Decrease order fragmentation and waste with decrease in packages per order.
+- **Order optimization**. In-stock improvement through holiday season using Order Optimizer.
+- **Reduce costs**. Reduced costs and emissions by housing software on the cloud more efficiently than on-premises
+- **Minimize disruption**. Gain visibility to minimize disruption to business despite supply and demand shocks
+- **Returns optimization**. Returns refurbished to create a revenue stream by re-circulation, refurbishment, repairs thereby reducing disposal and recycling costs.
 
 ## Solution overview 
 
@@ -130,17 +130,17 @@ The following technology was chosen for this solution:
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
 
 - Automation
-- Systainability
+- Sustainability
 - Modernization
 
-| Actionable Step | Implementation details |
-| - | - |
-| Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| Monitor the criticality of inventory items to the organization  | Some are critical to operations or employee safety. Others are “nice to have” but not urgent. Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct. |
-| Automate the maintenance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach |
-| Accelerate automation in extended workflows | Automate the response using workflows that are consistant with criticality of the inventory items |
-| Provide visibility into the inventory system | When users are inspecting inventory items, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter.
-| Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
+| | Actionable Step | Implementation details |
+| - | - | - |
+| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
+| Automation | Monitor the criticality of inventory items to the organization  | Some are critical to operations or employee safety. Others are “nice to have” but not urgent. Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct. |
+| Automation | Automate the maintenance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach |
+| Automation | Accelerate automation in extended workflows | Automate the response using workflows that are consistant with criticality of the inventory items |
+| Automation | Provide visibility into the inventory system | When users are inspecting inventory items, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter.
+| Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases
 
