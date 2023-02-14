@@ -1,6 +1,6 @@
 # Inventory optimization &dash; Demand risk
 
-To demonstrate the importance of inventory optimization for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: understock and overstock, and conclude with the technology used in the solution.
+To demonstrate the importance of inventory optimization for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases, understock and overstock, and conclude with the technology used in the solution.
 
 For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
