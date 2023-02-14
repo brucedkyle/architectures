@@ -30,7 +30,7 @@ Defects and liability risks affect product manufacturers, designers, distributor
 How should a business track and respond to issues?
 
 - Responding to _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
-- _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
+- _Relevance_ defines a set of actions that can be taken when products are no longer relevance, possibly due to seasonality, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
 In both shelf life and timeliness, you will want to plan and to take proactive steps in anticipation of product expirations.
 
@@ -38,7 +38,7 @@ In both shelf life and timeliness, you will want to plan and to take proactive s
 
 **Challenges**
 
-- Tracking items for shelf life and timeliness
+- Tracking items for shelf life and relevance
 - Taking actions, such as product removal, replacement, work order tracking to demonstrate the product is handled with due care
 
 **Drivers**
