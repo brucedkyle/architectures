@@ -133,6 +133,10 @@ For more information about the solution details on this scenario, see [Inventory
 
 For more information about the solution details on this scenario, see [Sustainability](./sustainability.md).
 
+## Business outcomes
+
+[todo]
+
 ## Overview
 
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
