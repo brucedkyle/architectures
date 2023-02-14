@@ -154,7 +154,7 @@ The following technology was chosen for this solution:
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
 
 - Automation
-- Systainability
+- Sustainability
 - Modernization
 
 | | Actionable Step | Implementation details |
