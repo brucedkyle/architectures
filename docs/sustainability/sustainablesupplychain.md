@@ -65,7 +65,7 @@ The solution uses the following technologies, which can be grouped into three ma
 - Inventory Optimization platform
 - Sustainability system acts as a key driver for automated product and transport selection, in addition to reporting and creating goal-driven outcomes.
 
-## Sustainability
+## Sustainable supply chain
 
 The following diagram shows the schematic for the sustainability use case to improve your supply chain.
 

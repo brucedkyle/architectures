@@ -8,6 +8,6 @@ nav:
       - Demand risk: ./sustainability/demandrisk.md
       - Loss management: ./sustainability/lossmanagement.md
       - Timeliness: ./sustainability/timeliness.md
-      - Sustainability: ./sustainability/sustainablesupplychain.md
+      - Sustainable supply chain: ./sustainability/sustainablesupplychain.md
     - About: about.md
 theme: windmill
