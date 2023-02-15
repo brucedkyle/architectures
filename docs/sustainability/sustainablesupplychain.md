@@ -56,7 +56,7 @@ There are several challenges to overcome in the pursuit of becoming a truly sust
 
 This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
 
-![solution overview](./media/sustainability.png)
+![solution overview](./media/supplychainsustainabilitysolution.png)
 
 The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:
 

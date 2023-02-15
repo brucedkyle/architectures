@@ -73,7 +73,7 @@ This solution focuses on _Automation_ and _Modernization_ in our Action Guide as
 - Amp up AI to make workflows smarter
 - Modernize for modern infrastructures, scale hybrid cloud platforms
 
-![solution overview](./media/inventorymanagementsolution.png)
+![solution overview](./media/perfectordersolution.png)
 
 ## Solution principles
 
@@ -139,10 +139,10 @@ From a high-level perspective, there are several main steps your organization ca
 | | Actionable Step | Implementation details |
 | - | - | - |
 | Automation | Monitor the criticality of inventory items to the organization  | Some are critical to operations or employee safety. Others are “nice to have” but not urgent. Select a methodology and a solution that routinely audit those parameters. For example, any time a new transaction is created in the Enterprise Resource Planning (ERP), the solution needs to apply that transaction against the material to determine if the criticality is still correct. |
-| Automation | Accelerate automation in extended workflows | Automate the response using workflows that are consistant with criticality of the inventory items |
+| Automation | Accelerate automation in extended workflows | Automate the response using workflows that are consistant with criticality of the inventory items. |
 | Automation | Provide visibility into the inventory system | When users are inspecting inventory items, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter. |
-| Automation | Automate the maintenance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach |
-| Sustainability | Includes sustainability metrics into decision making | Surface sustainability information as part of the inventory management processes |
+| Automation | Automate the maintenance of scores to each individual item | Eliminate data manual entry for criticality with a systems wide approach. |
+| Sustainability | Includes sustainability metrics into decision making | Surface sustainability information as part of the inventory management processes. |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases

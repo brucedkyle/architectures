@@ -30,13 +30,13 @@ Two main issues are represented by demand risk.
 
 - Maintaining inventory control of high value items to minimize loss and associated cost.
 - When stores receive inventory from warehouse or direct from suppliers, how to manage direct ship is a real challenge for each store as it has to be managed at the store level.
-- Forecasting demand levels intelligently.
+- Forecasting inventory levels intelligently to meet customer demand.
 - Efficiently handle overstocking and understocking events 
 
 **Drivers**
 
 - Inventory turnover - if improve by 2 or 3 times then will drive bigger profit
-- Managing capacity
+- Managing capacity - across the enterpriese and with suppliers
 - Initial costs - how much spending on warehouse and store to store-to-store inventory on shelf
 - Handling overstock and understock events
 
