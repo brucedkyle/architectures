@@ -106,7 +106,7 @@ The solution uses the following technologies, which can be grouped into three ma
 - Intelligent promising
 
 
-## Last mile delivery
+## Intelligent order
 
 The following diagram shows the schematic for the last mile delivery use case.
 
