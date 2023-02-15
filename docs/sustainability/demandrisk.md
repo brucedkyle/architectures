@@ -28,14 +28,17 @@ Two main issues are represented by demand risk.
 
 **Challenges**
 
-- Stores receive inventory from warehouse or direct from suppliers. Managing direct ship is a real challenge for each store as it has to be managed at the store level.
-- Maintaining inventory control of high value items to minimise loss and associated cost.
+- Maintaining inventory control of high value items to minimize loss and associated cost.
+- When stores receive inventory from warehouse or direct from suppliers, how to manage direct ship is a real challenge for each store as it has to be managed at the store level.
+- Forecasting demand levels intelligently.
+- Efficiently handle overstocking and understocking events 
 
 **Drivers**
 
 - Inventory turnover - if improve by 2 or 3 times then will drive bigger profit
 - Managing capacity
 - Initial costs - how much spending on warehouse and store to store-to-store inventory on shelf
+- Handling overstock and understock events
 
 ### Responses
 
@@ -47,15 +50,18 @@ Two main issues are represented by demand risk.
 
 ## Business outcomes
 
-[todo]
+- Improve inventory demand and forecasting
+- Automated processes updating inventory in closer to real time
+- Efficient, consistent decision making of overstock and understock
 
 ## Solution overview
 
-This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
+This solution in the following diagram reflects steps in the Action Guide:
 
 - Create a world-class sensing and risk-monitoring operation. 
 - Accelerate automation in extended workflows
 - Amp up AI to make workflows smarter
+- Include sustainability commitments in decision making 
 - Modernize for modern infrastructures, scale hybrid cloud platforms
 
 ![solution overview](./media/demandrisksolution.png)
@@ -184,6 +190,7 @@ From a high-level perspective, there are several main steps your organization ca
 | Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
 | Automation | Accelerate automation in extended workflows | As an example, in the Reduce out of stock (OOS) or approaching out of stock (AOOS) conditions, a SCIS Control Tower monitors inventory levels at all locations in a client's network and creates items in the work queue when revenue is at risk. |
 | Automation | Amp up AI to make workflows smarter | When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter. |
+| Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in overstock and understock decision making. |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases
@@ -194,7 +201,7 @@ See:
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
 - [Intelligent order](./intelligentorder.md)
-- [Sustainability](./sustainability.md)
+- [Sustainable supply chain](./sustainablesupplychain.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

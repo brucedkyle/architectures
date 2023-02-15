@@ -76,7 +76,7 @@ To demonstrate the importance of inventory optimization for any business, severa
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
-- [Sustainability](./sustainability.md)
+- [Sustainable supply chain](./sustainablesupplychain.md)
 
 The following section explore more details on each of the scenarios.
 
@@ -131,7 +131,7 @@ For more information about the solution details on this scenario, see [Inventory
 
 **Sustainability** provides an opportunity to differentiate your business, yet the business must balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. On a rapidly warming planet, companies across sectors have transformed  business models to forge a sustainable future &dash; one that protects people, planet, and profits. In the race to reduce emissions, consumption, and waste, everything is on the table. Supply chains are being recalibrated. Source materials are evolving. Travel requests are carefully scrutinized.
 
-For more information about the solution details on this scenario, see [Sustainability](./sustainability.md).
+For more information about the solution details on this scenario, see [Sustainable supply chain](./sustainablesupplychain.md).
 
 ## Business outcomes
 
@@ -322,7 +322,7 @@ See _Action Guide_ section in each of the use cases:
 - [Inventory risk - Demand risk](./demandrisk.md#action-guide)
 - [Inventory risk - Loss and waste management](lossmanagement.md#action-guide)
 - [Inventory risk - Product timeliness](timeliness.md#action-guide)
-- [Sustainability](./sustainability.md#action-guide)
+- [Sustainable supply chain](./sustainablesupplychain.md#action-guide)
 
 ## References
 

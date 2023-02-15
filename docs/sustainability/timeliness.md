@@ -1,6 +1,6 @@
 # Product timeliness
 
-Foods and ingredients expire or become unusable at some point. Manufactured parts and goods also experience decay and deterioriation. Each of these may be measured.
+Foods and ingredients expire or become unusable at some point. Manufactured parts and goods also experience decay and deterioration. Each of these may be measured.
 
 In the food industry, you may see different terms and date types on the packaging, the following are common practices and their meanings according to the USDA and FDA as explained in [Expiring Products – Food & Ingredients](https://www.canr.msu.edu/news/expiring-products-food-ingredients) by Michigan State University:
 
@@ -55,11 +55,13 @@ Many goods offered in retail and supplier businesses expire.
 | - | - |
 | Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and anticipate actions due to expiration of products with alerts and recommended actions. |
 | The lack of pertinent product information (remaining shelf life, ambient temperature, etc.) and poor data flow across partners lead to inefficient inventory management, wastage and lost sales. | Gain detailed visibility into inventory characteristics at each location – e.g., by remaining shelf life, time-since-harvested. Maintain freshness by acting on alerts received when items are at risk. |
-| Visibility into actions needed and alternatives to anticipate and respond to inventory as items approach end of shelf life. | Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove end of life items. Proactively replace items in response to demand. |
+| Visibility into actions needed and alternatives to anticipate and respond to inventory as items approach end of shelf life. | Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove end of life items. Proactively replace items in response to product timeliness. |
 
 ## Business outcomes
 
-[todo]
+- Proactively protect public safety
+- Mitigate product liability claims
+- Demonstrate due diligence for safety
 
 ## Solution overview 
 
@@ -141,8 +143,9 @@ From a high-level perspective, there are several main steps your organization ca
 | | Actionable Step | Implementation details |
 | - | - | - |
 | Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| Automation | Accelerate automation in extended workflows | Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders. |
+| Automation | Accelerate automation in extended workflows |Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove end of life items. Proactively replace items in response to product timeliness. |
 | Automation | Amp up AI to make workflows smarter | For expiring products, Control Tower monitors inventory levels at all locations in a client’s network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand. |
+| Sustainability | Include sustainability commitments in decision making | Decision making includes sustainability in handing items being removed from stock. |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.  |
 
 ## Similar use cases
@@ -153,7 +156,7 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Intelligent order](./intelligentorder.md)
-- [Sustainability](./sustainability.md)
+- [Sustainable supply chain](./sustainablesupplychain.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

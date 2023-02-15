@@ -62,7 +62,9 @@ All businesses that require a supply chain have unanticipated issues.
 
 ## Business outcomes
 
-[todo]
+- Respond to unexpected events quickly
+- Automated processes provide up-to-date transparently into inventory 
+- Risks mitigated
 
 ## Solution overview 
 
@@ -193,7 +195,7 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Product timeliness](timeliness.md)
 - [Intelligent order](./intelligentorder.md)
-- [Sustainability](./sustainability.md)
+- [Sustainable supply chain](./sustainablesupplychain.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

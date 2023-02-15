@@ -153,7 +153,7 @@ See:
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
 - [Intelligent order](./intelligentorder.md)
-- [Sustainability](./sustainability.md)
+- [Sustainable supply chain](./sustainablesupplychain.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

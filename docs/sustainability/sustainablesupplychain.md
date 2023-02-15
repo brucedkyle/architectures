@@ -1,6 +1,6 @@
-# Sustainability
+# Sustainable supply chain
 
-Businesses are looking for sustainable supply chains. Some of the questions they ask:
+Businesses are looking for **sustainable supply chains**. Some of the questions they ask:
 
 - How can I ensure my products, vendors and partners along my supply chain are aligned with my sustainability goals?
 - Is my supply chain transparent and traceable? 
@@ -17,56 +17,40 @@ Examples of sustainability in business:
 
 In this article, we explore **sustainable supply chains**. Reduce waste, cost-to-serve and logistics-related emissions by optimizing fulfillment and delivery with trusted supply chain solutions that are powered by AI, backed by blockchain, and built on an open, hybrid-cloud platform.
 
-## Use cases
-
-Five key focus areas to plan a resilient and profitable path forward:
-
-- [Climate risk management and ESG reporting](https://www.ibm.com/resources/guides/business-operations/manage-climate-risk/)
-- [Resilient infrastructure and intelligent operations](https://www.ibm.com/resources/guides/business-operations/sustainable-operations-one-asset-at-a-time/)
-- [Sustainable supply chains and circularity](https://www.ibm.com/resources/guides/business-operations/supply-chain-sustainability/)
-- [Electrification, energy and emissions reduction](https://www.ibm.com/resources/guides/business-operations/sustainably-accelerating-decarbonization/)
-- [Sustainability strategy](https://www.ibm.com/resources/guides/business-operations/sustainability-core-business-strategy/)
-
-For a deeper dive into each of the use cases, see [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability).
-
 ## Challenges / Business drivers
 
 **Challenges**
 
 There are several challenges to overcome in the pursuit of becoming a truly sustainable business:
 
-- **Customer readiness**. While the mindset around sustainability is shifting, no business can afford to be left behind, and few can financially afford to be too far ahead of the appetite for sustainable offerings. Co-creating a sustainable future requires a deep understanding of your customers and having partners with the right relationships and ecosystems to bring them along on the journey.
-- **Cost**. Implementing sustainable business practices typically requires higher upfront investments. In the short term, it will often be cheaper to stick with the status quo. Some organizations will need help building an investment case to show how immediate investment will result in more durable profitability over the long run.
-- **Systemic inertia**. While sustainability is an important goal, it often isn’t seen as more important than other key priorities that may provide benefits sooner. Many businesses plan in ten-year increments, so while a 2050 commitment is good, it often isn’t enough to drive sufficient action in this decade, from a planning standpoint. It comes back to reframing risks as opportunities and building the case that acting on sustainability now is necessary to achieving future sustainability in business.
-- **Lack of tools, insights and expertise**. Being unprepared to develop a corporate sustainability vision, strategy and framework is a monumental risk. Companies may lack the ability to implement sustainable solutions or even know where to start. Sustainability in business is evolving and so are the answers. Every business needs an ecosystem of innovation partners to help them reinvent the world and create a sustainable future.
+- Upfront costs to becoming a sustainable business
+- Difficuly in measuring and demonstrating lowering green house gas (GHG) emissions
+- Customers are willing to pay a premium for sustainable products
+- Creating a lower emissions business affects all business processes and departments
 
 **Business drivers**
 
-Sustainability is good for business.
+- Increase creation and use of sustainable products
+- Identify and monitor energy and emissions savings opportunities to accelerate decarbonization
+- Enhance customer experience with eco-friendly packaging
+- Improve brand awareness by being known as a sustainable business
+- Delight customers with green energy delivery fleet 
 
-Many of the world’s top economies have or are developing, corporate disclosure requirements around environmental impact, driving businesses to curb GHG emissions.
-
-55% of consumers say environmental responsibility is very or extremely important when choosing a brand. Being known as a sustainable business can improve your brand awareness and help you attract consumers that are favorably predisposed to companies actively engaged in sustainable practices.
-
-The rise of environmental, social and governance (ESG) investment criteria and sustainable investing means that a sustainable business is inherently more attractive to the rising numbers of responsible investors. Investment in ESG assets may reach $53 trillion by 2025, representing over a third of global assets.
-
-In 2021, we also found that half of consumers said they were willing to pay a premium for a sustainable brand or sustainable products. And this year, 49% of consumers say they’ve paid a premium—an average of 59% more—for products branded as sustainable or socially responsible in the last 12 months.
 
 ### Responses
 
 | Business Problem | Solution |
 | - | - |
-| Automating ESG Reporting | Capture and manage over  quantitative and qualitive data types to support your expanding sustainability reporting requirements to frameworks and reporting schemes  |
+| Automating ESG Reporting | Capture and manage over quantitative and qualitive data types to support your expanding sustainability reporting requirements to frameworks and reporting schemes  |
 | Strategic goal set for sustainability | |
 | Incorporate sustainability options into customer decison making | Connect your strategy with day-to-day operations to embed sustainability into your business transformation |
 | Create a lower-emissions business | Build intelligent asset management into operations |
 
 ## Business outcomes
 
-- Along with cost savings usingsustainable material andcreating sustainableproducts helps create agreener environment
-- In the long run emissionssavings results in energysavings
-- Customers value eco-friendly packaging and greendelivery options which improves brand awareness
-- A delivery fleet that is notdependent on fossil fuelscontributes to the business’sESG indicator values
+- Transparency across multiple systems and suppliers to meet sustainability goals
+- Drive business to meet sustainability commitment improves brand awareness
+- Allow customer choices to drive sustainability
 
 ## Solution overview
 
@@ -139,19 +123,11 @@ From a high-level perspective, there are several main steps your organization ca
 - Sustainability
 - Modernization
 
-Demand suppliers to become sustainable
-Re-imagine everydepartment and businessprocess to adopt asustainable posture
-Institute customerexperience with eco-friendlypackaging
-Capture and manage variousmetrics throughout thebusiness to support ESGreporting requirements
-Partner with third partylogistics (3PL) companiesfor a greener last miledelivery
-
 | | Actionable Step | Implementation details |
 | - | - | - |
-| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
-| Sustainability | ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of more than 500 ESG data types into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
-| Sustainability | Set and track your carbon-reduction targets to speed decarbonization | Provide visibility to business units that automate capturing and tracking GHG performance against targets at different levels of the organization |
-| Sustainability | Include sustainability for user to consider as delivery options | Include cost considerations related to transport, storage,  |
-| Modernization | Amp up AI to make workflows smarter | Incroporate sustainability into the workflows |
+| Automation | Integrate suppliers in business sustainable commitment | Integrate data from multiple systems to get enterprise-wide view of data used to meet sustainability commitments |
+| Automation | Amp up AI to make workflows smarter| Incorporate sustainability considerations into automated workflows, including product ordering, delivery, supply replacement, and timeliness. |
+| Sustainability | ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of ESG data into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases
