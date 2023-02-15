@@ -1,4 +1,4 @@
-# Last mile delivery &dash; Intelligent order
+# Intelligent order
 
 _Last mile delivery_, also known as _last mile logistics_, is the transportation of goods from a distribution hub to the final delivery destination — the door of the customer. The goal of last mile delivery logistics is to deliver the packages as affordably, quickly and accurately as possible. 
 

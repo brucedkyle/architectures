@@ -1,4 +1,4 @@
-# Inventory management - Perfect order
+# Perfect order
 
 Managing inventory efficiently is critical to any business that sells physical goods, is responsible for maintenance, repair and operations (MRO) supplies. 
 
@@ -149,7 +149,7 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
-- [Last mile delivery](./lastmiledelivery.md)
+- [Last mile delivery](./intelligentorder.md)
 - [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).

@@ -1,4 +1,4 @@
-# Inventory risk - Loss and waste management
+# Loss and waste management
 
 A key focus when dealing with loss and waste management in relation to inventory optimization is how to handle unplanned or unforseen situations causing an inventory item be considered damaged or spoiled. If the situation or problem is rectified withing a well defined time window, there is a possibility of salvaging the product. In some cases once the incident occurs, there is no possibility of salvage and the product is considered damaged. Typically these events are external factors forced upon the business and cannot always be planned or predicted. 
 
@@ -192,7 +192,7 @@ See:
 - [Inventory management](./perfectorder.md)
 - [Demand risk](./demandrisk.md)
 - [Product timeliness](timeliness.md)
-- [Last mile delivery](./lastmiledelivery.md)
+- [Last mile delivery](./intelligentorder.md)
 - [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).

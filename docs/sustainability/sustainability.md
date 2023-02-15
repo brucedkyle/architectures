@@ -27,7 +27,7 @@ Five key focus areas to plan a resilient and profitable path forward:
 - [Electrification, energy and emissions reduction](https://www.ibm.com/resources/guides/business-operations/sustainably-accelerating-decarbonization/)
 - [Sustainability strategy](https://www.ibm.com/resources/guides/business-operations/sustainability-core-business-strategy/)
 
-For a deeper dive into each of the use cases, see [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability)
+For a deeper dive into each of the use cases, see [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability).
 
 ## Challenges / Business drivers
 
@@ -63,7 +63,10 @@ In 2021, we also found that half of consumers said they were willing to pay a pr
 
 ## Business outcomes
 
-[todo]
+- Along with cost savings usingsustainable material andcreating sustainableproducts helps create agreener environment
+- In the long run emissionssavings results in energysavings
+- Customers value eco-friendly packaging and greendelivery options which improves brand awareness
+- A delivery fleet that is notdependent on fossil fuelscontributes to the business’sESG indicator values
 
 ## Solution overview
 
@@ -136,6 +139,12 @@ From a high-level perspective, there are several main steps your organization ca
 - Sustainability
 - Modernization
 
+Demand suppliers to become sustainable
+Re-imagine everydepartment and businessprocess to adopt asustainable posture
+Institute customerexperience with eco-friendlypackaging
+Capture and manage variousmetrics throughout thebusiness to support ESGreporting requirements
+Partner with third partylogistics (3PL) companiesfor a greener last miledelivery
+
 | | Actionable Step | Implementation details |
 | - | - | - |
 | Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data |
@@ -153,7 +162,7 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
-- [Last mile delivery](./lastmiledelivery.md)
+- [Last mile delivery](./intelligentorder.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

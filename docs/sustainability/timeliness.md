@@ -1,4 +1,4 @@
-# Inventory Optimization - Product timeliness
+# Product timeliness
 
 Foods and ingredients expire or become unusable at some point. Manufactured parts and goods also experience decay and deterioriation. Each of these may be measured.
 
@@ -152,7 +152,7 @@ See:
 - [Inventory management](./perfectorder.md)
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
-- [Last mile delivery](./lastmiledelivery.md)
+- [Last mile delivery](./intelligentorder.md)
 - [Sustainability](./sustainability.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).

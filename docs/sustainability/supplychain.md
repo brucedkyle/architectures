@@ -72,7 +72,7 @@ Directly influence the following KPIs:
 To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
 - [Inventory management - Perfect order](./perfectorder.md)
-- [Inventory management - Last mile delivery](./lastmiledelivery.md)
+- [Inventory management - Last mile delivery](./intelligentorder.md)
 - [Inventory risk - Demand risk](./demandrisk.md)
 - [Inventory risk - Loss and waste management](lossmanagement.md)
 - [Inventory risk - Product timeliness](timeliness.md)
@@ -98,7 +98,7 @@ If the **last mile delivery** promise is incorrect and a product arrives late, t
 
 If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
 
-For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./lastmiledelivery.md).
+For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./intelligentorder.md).
 
 ### Inventory risk &dash; Demand risk
 
@@ -318,7 +318,7 @@ For specific steps on this approach, see **The Action Guide** in [Own your trans
 See _Action Guide_ section in each of the use cases:
 
 - [Inventory management - Perfect order](./perfectorder.md#action-guide)
-- [Inventory management - Last mile delivery](./lastmiledelivery.md#action-guide)
+- [Inventory management - Last mile delivery](./intelligentorder.md#action-guide)
 - [Inventory risk - Demand risk](./demandrisk.md#action-guide)
 - [Inventory risk - Loss and waste management](lossmanagement.md#action-guide)
 - [Inventory risk - Product timeliness](timeliness.md#action-guide)
