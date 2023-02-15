@@ -2,12 +2,12 @@ site_name: Cloud Native Architectures
 nav:
     - Home: index.md
     - Supply chain:
-      - Supply chain optimization: ./sustainability/supplychain.md
-      - Perfect order: ./sustainability/perfectorder.md
-      - Intelligent order: ./sustainability/intelligentorder.md
-      - Demand risk: ./sustainability/demandrisk.md
-      - Loss management: ./sustainability/lossmanagement.md
-      - Timeliness: ./sustainability/timeliness.md
-      - Sustainable supply chain: ./sustainability/sustainablesupplychain.md
+      - Supply chain optimization: ./supplychain/supplychain.md
+      - Perfect order: ./supplychain/perfectorder.md
+      - Intelligent order: ./supplychain/intelligentorder.md
+      - Demand risk: ./supplychain/demandrisk.md
+      - Loss management: ./supplychain/lossmanagement.md
+      - Timeliness: ./supplychain/timeliness.md
+      - Sustainable supply chain: ./supplychain/sustainablesupplychain.md
     - About: about.md
 theme: windmill
