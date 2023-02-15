@@ -38,14 +38,14 @@ In both shelf life and timeliness, you will want to plan and to take proactive s
 
 **Challenges**
 
-- Tracking items for shelf life and relevance
-- Taking actions, such as product removal, replacement, work order tracking to demonstrate the product is handled with due care
+- Protect public safety by automating tracking and remediating items for shelf life and relevance
+- Mitigate risks through specific actions, such as product removal, replacement, work order tracking to demonstrate the product is handled with due care
 
 **Drivers**
 
-- Public safety
-- Product liability claims
-- Demonstrating due diligence for safety
+- Improve Public safety through automated shelf life tracking and management
+- Reduce product liability claims through automation and AI
+- Demonstrate due diligence for safety 
 
 ### Responses
 
