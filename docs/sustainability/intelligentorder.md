@@ -4,6 +4,19 @@ _Last mile delivery_, also known as _last mile logistics_, is the transportation
 
 The last mile describes the difficulty of getting goods (especially large and bulky ones) from a transportation hub to their final destination because it might include installation and configuration while providing an excellent experience at the same time.
 
+_Intelligent order_ is a process that uses inventory management systems and AI to provide effective last mile delivery.
+
+For businesses this means:
+
+- Decrease waste
+- Order optimization
+- Reduced cost
+
+Consumers benefit with:
+
+- Delivery promises fulfilled
+- Proof of delivery
+
 ## Business problem
 
 If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
@@ -26,6 +39,7 @@ Business need to consider:
 - Warehousing
 - Failed deliveries
 - Returns
+- Sustainability commitments
 
 Key metrics:
 
@@ -85,7 +99,12 @@ By definition, last mile delivery is relevant for businesses that deliver produc
 
 ## Business outcomes
 
-[todo]
+- **Decrease waste**. Decrease order fragmentation and waste with decrease in packages per order.
+- **Order optimization**. In-stock improvement through holiday season using Order Optimizer.
+- **Reduce costs**. Reduced costs and emissions by housing software on the cloud more efficiently than on-premises
+- **Minimize disruption**. Gain visibility to minimize disruption to business despite supply and demand shocks
+- **Returns optimization**. Returns refurbished to create a revenue stream by re-circulation, refurbishment, repairs thereby reducing disposal and recycling costs.
+
 
 ## Solution overview 
 
@@ -108,11 +127,11 @@ The solution uses the following technologies, which can be grouped into three ma
 
 ## Intelligent order
 
-The following diagram shows the schematic for the last mile delivery use case.
+The following diagram shows the schematic for the intelligent order use case.
 
 ![last mile delivery schematic](./media/intelligentorder.svg)
 
-Last mile delivery steps:
+Intelligent order steps:
 
 <ol>
 <li>Customer places/track/confirm order thru omni channel 
@@ -162,7 +181,8 @@ From a high-level perspective, there are several main steps your organization ca
 | Automation | Create a world-class sensing and risk-monitoring operation |  Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital and in-store conversion, and increase omnichannel revenue. |
 | Automation | Accelerate automation in extended workflows | Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment decisions at scale.  |
 | Automation | Provide visibility across multiple systems | Build a global view of real-time inventory, including available-to-promise (ATP) inventory, capacity to process orders at different locations, and transportation availability. |
-| Automation | Amp up AI to make workflows smarter | Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service|
+| Automation | Amp up AI to make workflows smarter | Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service |
+| Sustainability | Deliver on corporate commitment to sustainability | Include sustainability KPIs in the selection of delivery methods |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 

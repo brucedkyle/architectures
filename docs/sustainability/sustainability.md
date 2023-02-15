@@ -162,7 +162,7 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
-- [Last mile delivery](./intelligentorder.md)
+- [Intelligent order](./intelligentorder.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
