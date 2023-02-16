@@ -114,12 +114,13 @@ The following diagram shows the schematic for the relevance use case.
 
 Relevance steps:
 
-1. Demand Intelligence informs Control Tower of future inventory to meet seasonal and product trends
-2. Control Tower collects Inventory (3a) and Supply Chain Intelligence (3b) information to understand current position and ability to meet future demand
-3. Control Tower determines current and future Inventory does not match inventory timeliness requirements for business and automates changes to Inventory via Fulfilment Optimiztion
-4. For any non-automated changes, alerts Colleague to take remediation action
-5. Colleague runs “what-if” analysis in Control Tower to determine best course of actions using Inventory and Demand data
-6. Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+1. Demand Intelligence determines requirements for seasonal, product trends and time sensitive future inventory
+2. Demand Intelligence informs Control Tower of future inventory to meet seasonal and product trends
+3. Control Tower collects Inventory (3a) and Supply Chain Intelligence (3b) information to understand current position and ability to meet future demand
+4. Control Tower determines current and future Inventory does not match inventory timeliness requirements for business and automates changes to Inventory via Fulfilment Optimiztion
+5. For any non-automated changes, alerts Colleague to take remediation action
+6. Colleague runs “what-if” analysis in Control Tower to determine best course of actions using Inventory and Demand data
+7. Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
 7a. Adjust product orders
 7b.Managing inventory held at existing stores or by moving existing inventory
 7c.Select alternative products
