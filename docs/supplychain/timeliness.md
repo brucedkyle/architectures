@@ -17,6 +17,8 @@ Manufactured parts may be warranteed for specific periods or number of uses. For
 
 Some products may still continue to be useful beyond their expiration date or use. 
 
+Products such as seasonal goods may not have, or require an expiriation date. In these cases the product should ideally be sold at the most relevant time within the calendar year. Once the seasonal timeframe has passed, the goods can still be sold, but demand and price can reduce. For any goods remaining once the season and demand has passed, the retailer must decide whether to discount the goods, pass to a third-party or retain and attempt to sell in the next season.
+
 For a comprehensive inventory solution overview, see [Inventory Optimization](supplychain.md).
 
 ## Business problem
@@ -29,10 +31,10 @@ Defects and liability risks affect product manufacturers, designers, distributor
 
 How should a business track and respond to issues?
 
-- Responding to _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
-- _Relevance_ defines a set of actions that can be taken when products are no longer relevance, possibly due to seasonality, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
+- Responding to **Shelf life** defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
+- **Relevance** defines a set of actions that can be taken when products are no longer relevance, possibly due to seasonality, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
-In both shelf life and timeliness, you will want to plan and to take proactive steps in anticipation of product expirations.
+In both shelf life and relevance, you will want to plan and to take proactive steps in anticipation of product expirations.
 
 ## Challenges / Business Drivers 
 
@@ -45,7 +47,8 @@ In both shelf life and timeliness, you will want to plan and to take proactive s
 
 - Improve Public safety through automated shelf life tracking and management
 - Reduce product liability claims through automation and AI
-- Demonstrate due diligence for safety 
+- Demonstrate due diligence for safety
+- Identify and manage stock with reducing relevance to reduce financial loss
 
 ### Responses
 
@@ -62,6 +65,7 @@ Many goods offered in retail and supplier businesses expire.
 - Proactively protect public safety
 - Mitigate product liability claims
 - Demonstrate due diligence for safety
+- Reduce financial loss due to reduced relevance
 
 ## Solution overview 
 
@@ -88,13 +92,13 @@ The solution uses the following technologies, which can be grouped into three ma
 
 **Intelligent workflows**. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.
 
-## Timeliness/Shelf life
+## Shelf life
 
-The following diagram shows the schematic for the Timeliness/Shelf life use case.
+The following diagram shows the schematic for the shelf life use case.
 
 ![shelf life schematic](./media/shelflifechematic.svg)
 
-Timeliness/Shelf life steps:
+Shelf life steps:
 
 1. Inventory Control Tower hueristics determines product inventory is near its "Use by" date
 2. Inspects current inventory
@@ -102,6 +106,23 @@ Timeliness/Shelf life steps:
 4. Creates replenishment order
 5. Engages partners (Charity, recycler) to remediate expired or near expired stock
 
+## Relevance
+
+The following diagram shows the schematic for the relevance use case.
+
+![relevance schematic](./media/********.svg)
+
+Relevance steps:
+
+1. Demand Intelligence informs Control Tower of future inventory to meet seasonal and product trends
+2. Control Tower collects Inventory (3a) and Supply Chain Intelligence (3b) information to understand current position and ability to meet future demand
+3. Control Tower determines current and future Inventory does not match inventory timeliness requirements for business and automates changes to Inventory via Fulfilment Optimiztion
+4. For any non-automated changes, alerts Colleague to take remediation action
+5. Colleague runs “what-if” analysis in Control Tower to determine best course of actions using Inventory and Demand data
+6. Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+7a. Adjust product orders
+7b.Managing inventory held at existing stores or by moving existing inventory
+7c.Select alternative products
 
 ## Technology
 
