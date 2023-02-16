@@ -110,7 +110,7 @@ Shelf life steps:
 
 The following diagram shows the schematic for the relevance use case.
 
-![relevance schematic](./media/********.svg)
+![relevance schematic](./media/relevance.svg)
 
 Relevance steps:
 
