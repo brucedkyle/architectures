@@ -29,7 +29,7 @@ _Sustainability_ in business refers to a company's strategy to reduce negative e
 
 The business goal is to balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. 
 
-## Business challenges
+## Business problem
 
 Chief Supply Chain Officers (CSCOs) face issues related to supply chain disruptions, technology infrastructure, sustainability, and market shifts as their greatest challenges. Yet when addressed with an open mindset, challenges create opportunities within the enterprise—and visibility. 
 
@@ -47,7 +47,32 @@ Enhanced customer experiences, improved profitability, and more predictive forec
 
 Inventory optimization is making sure the current and future demand is accurately balanced against current and future inventory across the enterprise. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.
 
+Specifically, [Harvard Business Review article](https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis?autocomplete=true) recommends:
+
+> CEOs need to invest in risk intelligence and strategic foresight, creating a team of procurement super-forecasters equipped with the latest artificial-intelligence (AI)-powered sensing technology.
+
+## Solution overview
+
+This solution combines existing systems with state-of-the-art offerings to:
+
+- Create a world-class sensing and risk-monitoring operation. 
+- Accelerate automation in extended workflows
+- Amp up AI to make workflows smarter
+- Modernize for modern infrastructures, scale hybrid cloud platforms
+
+The following diagram provides a high-level overview how systems work together for the desired outcomes.
+
+![solution overview](./media/overview.png)
+
+
 ## Business outcomes
+
+- Business responds to unexpected changes in supply chain
+- Increased customer satisfaction by meeting customer expectation for goods and delivery
+- Profit, revenue increases due to reduce waste and spoilage
+- Meets sustainability commitments reflected in brand awareness
+
+### Impacts on KPIs
 
 According to the [IBM IBV study](https://www.ibm.com/downloads/cas/1BYY6VEM), innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.
 
@@ -71,16 +96,16 @@ Directly influence the following KPIs:
 
 To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
-- [Inventory management - Perfect order](./perfectorder.md)
-- [Inventory management - Last mile delivery](./intelligentorder.md)
-- [Inventory risk - Demand risk](./demandrisk.md)
-- [Inventory risk - Loss and waste management](lossmanagement.md)
-- [Inventory risk - Product timeliness](timeliness.md)
+- [Perfect order](./perfectorder.md)
+- [Last mile delivery](./intelligentorder.md)
+- [Demand risk](./demandrisk.md)
+- [Loss and waste management](lossmanagement.md)
+- [Product timeliness](timeliness.md)
 - [Sustainable supply chain](./sustainablesupplychain.md)
 
 The following section explore more details on each of the scenarios.
 
-### Inventory management &dash; Perfect order
+### Perfect order
 
 Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.
 
@@ -90,25 +115,25 @@ The business can respond to the imperfect order and increase customer responsive
 - Optmization user expectations with improved demand forecasting 
 - Automated responses
 
-For more information and solution details on this scenario, see [Inventory management &dash; Perfect order](./perfectorder.md)
+For more information and solution details on this scenario, see [Perfect order](./perfectorder.md)
 
-### Inventory management &dash; Last mile delivery
+### Intelligent order
 
 If the **last mile delivery** promise is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
 
 If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.
 
-For more information about the solution details on this scenario, see [Inventory management - Last mile delivery](./intelligentorder.md).
+For more information about the solution details on this scenario, see [Intelligent order](./intelligentorder.md).
 
-### Inventory risk &dash; Demand risk
+### Demand risk
 
 _Understock_ - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.
 
 _Overstock_ - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. 
 
-For more information about the solution details on this scenario, see [Inventory risk - Demand risk](demandrisk.md).
+For more information about the solution details on this scenario, see [Demand risk](demandrisk.md).
 
-### Inventory risk &dash; Loss and waste management
+### Loss and waste management
 
 **Loss and waste management** requires you to take decisive action in cases of:
 
@@ -116,41 +141,22 @@ For more information about the solution details on this scenario, see [Inventory
 - _Environmental exceptions_. Food expirations, power interruption or other disaster affecting the product salability.
 - _Contamination or recall_. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.
 
-For more information about the solution details on this scenario, see [Inventory risk - Loss and waste management](lossmanagement.md).
+For more information about the solution details on this scenario, see [Loss and waste management](lossmanagement.md).
 
-### Inventory risk &dash; Product timeliness
+### Product timeliness
 
 **Product timeliness** is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.
 
 - _Shelf life_ defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. 
 - _Timeliness_ defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.
 
-For more information about the solution details on this scenario, see [Inventory risk - Product timeliness](timeliness.md).
+For more information about the solution details on this scenario, see [Product timeliness](timeliness.md).
 
-### Sustainability
+### Sustainable supply chain
 
 **Sustainability** provides an opportunity to differentiate your business, yet the business must balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. On a rapidly warming planet, companies across sectors have transformed  business models to forge a sustainable future &dash; one that protects people, planet, and profits. In the race to reduce emissions, consumption, and waste, everything is on the table. Supply chains are being recalibrated. Source materials are evolving. Travel requests are carefully scrutinized.
 
 For more information about the solution details on this scenario, see [Sustainable supply chain](./sustainablesupplychain.md).
-
-## Business outcomes
-
-[todo]
-
-## Overview
-
-This solution focuses on _Automation_ and _Modernization_ in our Action Guide as shown in the following diagram:
-
-- Create a world-class sensing and risk-monitoring operation. 
-- Accelerate automation in extended workflows
-- Amp up AI to make workflows smarter
-- Modernize for modern infrastructures, scale hybrid cloud platforms
-
-![solution overview](./media/overview.png)
-
-Specifically, [Harvard Business Review article](https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis?autocomplete=true) recommends:
-
-> CEOs need to invest in risk intelligence and strategic foresight, creating a team of procurement super-forecasters equipped with the latest artificial-intelligence (AI)-powered sensing technology.
 
 ## Reference architecture
 
@@ -256,7 +262,6 @@ Specifically, the recommended platform includes:
 - [**Red Hat OpenShift API Management**](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98) is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
 - [**Red Hat OpenShift DevOps**](https://www.redhat.com/en/getting-started-devops) reoresents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure. 
 
-
 ### Core application systems 
 
 The core application systems can be in-house applications, cloud services, IBM or competitive applications. The core applications provide data through the foundational technologies (such as API management that provides monitoring and security). They can also respond to automated actions based on business rules or from other layers in the system.
@@ -311,17 +316,17 @@ From a high-level perspective, several main steps are suggested for your organiz
 - Scale hybrid cloud platforms 
 - Increase awareness of cybersecurity vulnerabilities and solutions
 
-For specific steps on this approach, see **The Action Guide** in [Own your transformation](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
+For specific steps on this approach, see **The Action Guide** details in [Own your transformation](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
 
 ### Next steps
 
 See _Action Guide_ section in each of the use cases:
 
-- [Inventory management - Perfect order](./perfectorder.md#action-guide)
-- [Inventory management - Last mile delivery](./intelligentorder.md#action-guide)
-- [Inventory risk - Demand risk](./demandrisk.md#action-guide)
-- [Inventory risk - Loss and waste management](lossmanagement.md#action-guide)
-- [Inventory risk - Product timeliness](timeliness.md#action-guide)
+- [Perfect order](./perfectorder.md#action-guide)
+- [Intelligent order](./intelligentorder.md#action-guide)
+- [Demand risk](./demandrisk.md#action-guide)
+- [Loss and waste management](lossmanagement.md#action-guide)
+- [Product timeliness](timeliness.md#action-guide)
 - [Sustainable supply chain](./sustainablesupplychain.md#action-guide)
 
 ## References
