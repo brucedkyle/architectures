@@ -126,7 +126,7 @@ From a high-level perspective, there are several main steps your organization ca
 | | Actionable Step | Implementation details |
 | - | - | - |
 | Automation | Integrate suppliers in business sustainable commitment | Integrate data from multiple systems to get enterprise-wide view of data used to meet sustainability commitments |
-| Automation | Amp up AI to make workflows smarter| Incorporate sustainability considerations into automated workflows, including product ordering, delivery, supply replacement, and timeliness. |
+| Automation | Improve decisions using AI for greener outcomes| Incorporate sustainability considerations into automated workflows, including product ordering, delivery, supply replacement, and timeliness. |
 | Sustainability | ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of ESG data into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
