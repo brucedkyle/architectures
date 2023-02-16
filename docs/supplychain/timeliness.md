@@ -114,16 +114,20 @@ The following diagram shows the schematic for the relevance use case.
 
 Relevance steps:
 
-1. Demand Intelligence determines requirements for seasonal, product trends and time sensitive future inventory
-2. Demand Intelligence informs Control Tower of future inventory to meet seasonal and product trends
-3. Control Tower collects Inventory (3a) and Supply Chain Intelligence (3b) information to understand current position and ability to meet future demand
-4. Control Tower determines current and future Inventory does not match inventory timeliness requirements for business and automates changes to Inventory via Fulfilment Optimiztion
-5. For any non-automated changes, alerts Colleague to take remediation action
-6. Colleague runs “what-if” analysis in Control Tower to determine best course of actions using Inventory and Demand data
-7. Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
-7a. Adjust product orders
-7b.Managing inventory held at existing stores or by moving existing inventory
-7c.Select alternative products
+<ol>
+<li>Demand Intelligence determines requirements for seasonal, product trends and time sensitive future inventory
+<li>Demand Intelligence informs Control Tower of future inventory to meet seasonal and product trends
+<li>Control Tower collects Inventory (3a) and Supply Chain Intelligence (3b) information to understand current position and ability to meet future demand
+<li>Control Tower determines current and future Inventory does not match inventory timeliness requirements for business and automates changes to Inventory via Fulfilment Optimiztion
+<li>For any non-automated changes, alerts Colleague to take remediation action
+<li>Colleague runs “what-if” analysis in Control Tower to determine best course of actions using Inventory and Demand data
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+<ol type="a">
+    <li> Adjust product orders
+    <li> Managing inventory held at existing stores or by moving existing inventory
+    <li> Select alternative products
+</ol>
+</ol>
 
 ## Technology
 
