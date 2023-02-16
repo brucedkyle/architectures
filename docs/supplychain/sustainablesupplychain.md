@@ -50,7 +50,7 @@ There are several challenges to overcome in the pursuit of becoming a truly sust
 
 - Transparency across multiple systems and suppliers to meet sustainability goals
 - Drive business to meet sustainability commitment improves brand awareness
-- Allow customer choices to drive sustainability
+- Provide customer choices to drive sustainability
 
 ## Solution overview
 
