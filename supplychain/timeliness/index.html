@@ -39,7 +39,8 @@
               {title: "Business outcomes", url: "#business-outcomes" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Solution Principles", url: "#solution-principles" },
-              {title: "Timeliness/Shelf life", url: "#timelinessshelf-life" },
+              {title: "Shelf life", url: "#shelf-life" },
+              {title: "Relevance", url: "#relevance" },
               {title: "Technology", url: "#technology" },
               {title: "Action Guide", url: "#action-guide" },
               {title: "Similar use cases", url: "#similar-use-cases" },
@@ -106,6 +107,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Other products, particularly pharmaceuticals, must be used within specific time frames to be warantted or to be considered safe and effective. </p>
 <p>Manufactured parts may be warranteed for specific periods or number of uses. For example, manufactured parts must be replaced when outside of certain tolerances.</p>
 <p>Some products may still continue to be useful beyond their expiration date or use. </p>
+<p>Products such as seasonal goods may not have, or require an expiriation date. In these cases the product should ideally be sold at the most relevant time within the calendar year. Once the seasonal timeframe has passed, the goods can still be sold, but demand and price can reduce. For any goods remaining once the season and demand has passed, the retailer must decide whether to discount the goods, pass to a third-party or retain and attempt to sell in the next season.</p>
 <p>For a comprehensive inventory solution overview, see <a href="../supplychain/">Inventory Optimization</a>.</p>
 <h2 id="business-problem">Business problem</h2>
 <p>Product liability claims can wreck a business. </p>
@@ -113,10 +115,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <h2 id="use-cases">Use Cases</h2>
 <p>How should a business track and respond to issues?</p>
 <ul>
-<li>Responding to <em>Shelf life</em> defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. </li>
-<li><em>Relevance</em> defines a set of actions that can be taken when products are no longer relevance, possibly due to seasonality, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.</li>
+<li>Responding to <strong>Shelf life</strong> defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. </li>
+<li><strong>Relevance</strong> defines a set of actions that can be taken when products are no longer relevance, possibly due to seasonality, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.</li>
 </ul>
-<p>In both shelf life and timeliness, you will want to plan and to take proactive steps in anticipation of product expirations.</p>
+<p>In both shelf life and relevance, you will want to plan and to take proactive steps in anticipation of product expirations.</p>
 <h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
 <p><strong>Challenges</strong></p>
 <ul>
@@ -127,7 +129,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <ul>
 <li>Improve Public safety through automated shelf life tracking and management</li>
 <li>Reduce product liability claims through automation and AI</li>
-<li>Demonstrate due diligence for safety </li>
+<li>Demonstrate due diligence for safety</li>
+<li>Identify and manage stock with reducing relevance to reduce financial loss</li>
 </ul>
 <h3 id="responses">Responses</h3>
 <p>Many goods offered in retail and supplier businesses expire. </p>
@@ -158,6 +161,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Proactively protect public safety</li>
 <li>Mitigate product liability claims</li>
 <li>Demonstrate due diligence for safety</li>
+<li>Reduce financial loss due to reduced relevance</li>
 </ul>
 <h2 id="solution-overview">Solution overview</h2>
 <p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
@@ -178,16 +182,31 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
 <p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
 <p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
-<h2 id="timelinessshelf-life">Timeliness/Shelf life</h2>
-<p>The following diagram shows the schematic for the Timeliness/Shelf life use case.</p>
+<h2 id="shelf-life">Shelf life</h2>
+<p>The following diagram shows the schematic for the shelf life use case.</p>
 <p><img alt="shelf life schematic" src="../media/shelflifechematic.svg" /></p>
-<p>Timeliness/Shelf life steps:</p>
+<p>Shelf life steps:</p>
 <ol>
 <li>Inventory Control Tower hueristics determines product inventory is near its "Use by" date</li>
 <li>Inspects current inventory</li>
 <li>Notifies the Inventory Controller to take action</li>
 <li>Creates replenishment order</li>
 <li>Engages partners (Charity, recycler) to remediate expired or near expired stock</li>
+</ol>
+<h2 id="relevance">Relevance</h2>
+<p>The following diagram shows the schematic for the relevance use case.</p>
+<p><img alt="relevance schematic" src="./media/********.svg" /></p>
+<p>Relevance steps:</p>
+<ol>
+<li>Demand Intelligence informs Control Tower of future inventory to meet seasonal and product trends</li>
+<li>Control Tower collects Inventory (3a) and Supply Chain Intelligence (3b) information to understand current position and ability to meet future demand</li>
+<li>Control Tower determines current and future Inventory does not match inventory timeliness requirements for business and automates changes to Inventory via Fulfilment Optimiztion</li>
+<li>For any non-automated changes, alerts Colleague to take remediation action</li>
+<li>Colleague runs “what-if” analysis in Control Tower to determine best course of actions using Inventory and Demand data</li>
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+7a. Adjust product orders
+7b.Managing inventory held at existing stores or by moving existing inventory
+7c.Select alternative products</li>
 </ol>
 <h2 id="technology">Technology</h2>
 <p>The following technology was chosen for this solution:</p>
