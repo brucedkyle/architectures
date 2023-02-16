@@ -37,7 +37,7 @@ Two main issues are represented by demand risk.
 
 - Inventory turnover - if improve by 2 or 3 times then will drive bigger profit
 - Managing capacity - across the enterpriese and with suppliers
-- Initial costs - how much spending on warehouse and store to store-to-store inventory on shelf
+- Enhanced customer experience with inventory matching customer demnd
 - Handling overstock and understock events
 
 ### Responses
