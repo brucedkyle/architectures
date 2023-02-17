@@ -173,13 +173,13 @@ For more information about the solution details on this scenario, see [Product t
 
 For more information about the solution details on this scenario, see [Sustainable supply chain](./sustainablesupplychain.md).
 
-## Reference architecture
+## Portfolio architecture
 
-The following diagram provides an overall reference architecture for the solution.
+The following diagram provides an overall portfolio architecture for the solution.
 
-![reference architecture](./media/referencearchitecture.png)
+![portfolio architecture](./media/referencearchitecture.png)
 
-The reference architecture shows the major systems and how they relate to each other. The following sections describe the system features in more details.
+The portfolio architecture shows the major systems and how they relate to each other. The following sections describe the system features in more details.
 
 ## Logical diagram
 
