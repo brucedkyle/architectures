@@ -51,18 +51,17 @@ Specifically, [Harvard Business Review article](https://hbr.org/2022/11/3-steps-
 
 > CEOs need to invest in risk intelligence and strategic foresight, creating a team of procurement super-forecasters equipped with the latest artificial-intelligence (AI)-powered sensing technology.
 
-## Solution overview
+## Challenges / Business Drivers
 
-This solution combines existing systems with state-of-the-art offerings to:
+**Challenges**
 
-- Create a world-class sensing and risk-monitoring operation. 
-- Accelerate automation in extended workflows
-- Amp up AI to make workflows smarter
-- Modernize for modern infrastructures, scale hybrid cloud platforms
+- A
+- B
 
-The following diagram provides a high-level overview how systems work together for the desired outcomes.
+**Drivers**
 
-![solution overview](./media/overview.png)
+- A
+- B
 
 ## Business outcomes
 
@@ -90,6 +89,20 @@ Directly influence the following KPIs:
 - Reduce return rate
 - Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interruption.
 - Improve customer satisfaction
+
+## Solution overview
+
+This solution combines existing systems with state-of-the-art offerings to:
+
+- Create a world-class sensing and risk-monitoring operation. 
+- Accelerate automation in extended workflows
+- Amp up AI to make workflows smarter
+- Modernize for modern infrastructures, scale hybrid cloud platforms
+
+The following diagram provides a high-level overview how systems work together for the desired outcomes.
+
+![solution overview](./media/overview.png)
+
 
 ## Scenarios
 
