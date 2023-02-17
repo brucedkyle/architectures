@@ -55,13 +55,16 @@ Specifically, [Harvard Business Review article](https://hbr.org/2022/11/3-steps-
 
 **Challenges**
 
-- A
-- B
+- Addressing supply chain disruptions, technology infrastructure, sustainability and market shifts.
+- Using an open mindset to address challenges thereby create opportunities.
 
 **Drivers**
 
-- A
-- B
+- Resilient inventory management systems handle unexpected events and disruption to ensure business success
+- Right product at the right time, matching customer expectations
+- Enhanced customer experience with inventory matching customer demand
+- Increased margins and improved net zero benefits due to reduce food waste and spoilage
+- Perfect product delivery delighting customers
 
 ## Business outcomes
 
@@ -109,7 +112,7 @@ The following diagram provides a high-level overview how systems work together f
 To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:
 
 - [Perfect order](./perfectorder.md)
-- [Last mile delivery](./intelligentorder.md)
+- [Intellient Order](./intelligentorder.md)
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
