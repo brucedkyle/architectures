@@ -72,7 +72,6 @@ The solution uses the following technologies, which can be grouped into three ma
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. 
 - Inventory Optimization platform
 
-
 ## Understock
 
 The following diagram shows the schematic for the understock use case.
@@ -94,7 +93,6 @@ Understock workflow steps:
 <li>Managing inventory held at existing warehouses or by moving existing inventory
 </ol>
 </ol>
-
 
 ## Overstock
 

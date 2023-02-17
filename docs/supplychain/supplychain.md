@@ -64,7 +64,6 @@ The following diagram provides a high-level overview how systems work together f
 
 ![solution overview](./media/overview.png)
 
-
 ## Business outcomes
 
 - Business responds to unexpected changes in supply chain
