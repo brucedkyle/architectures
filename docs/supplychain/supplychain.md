@@ -183,7 +183,7 @@ The portfolio architecture shows the major systems and how they relate to each o
 
 ## Logical diagram
 
-The following reference architecture describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.
+The following logical diagram describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.
 
 ![logical diagram](./media/InventoryOptimisationLogical.svg)
 
@@ -207,7 +207,7 @@ The technologies can be grouped into main categories:
     - Catalog Management system
     - Facility Asset Management system
 
-- **Foundational technologies**. Manages the events and data between systems, and includes:
+- **Inegration Services**. Manages the events and data between systems, and includes:
 
     - Integration services
     - Data fabric
@@ -215,7 +215,7 @@ The technologies can be grouped into main categories:
     - DevOps
     - API Management
 
-- **Supply Assurance** platform, including systems supporting:
+- **Supply Assurance platform** including systems supporting:
 
     - Supply assurance control tower
     - Fulfillment optimization
@@ -225,7 +225,7 @@ The technologies can be grouped into main categories:
     - Demand intelligence
     - Sustainability
 
-- **Omni-channels**
+- **Omni Channels**
 
     - Web applications for users
     - Point of sale applications in stores
