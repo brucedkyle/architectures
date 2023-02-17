@@ -6,12 +6,13 @@ In addition, organizations are exploring how to provide a more sustainable footp
 
 In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: 
 
-- Demand risk (under stock and over stock) 
+To further describe the business problems and possible solutions a number of scenarios will be introduced.
+- Perfect order
+- Intellient Order
+- Demand risk
 - Loss and waste management
 - Product timeliness
-- Perfect order
-- Last mile delivery
-- Sustainability
+- Sustainable supply chain
 
 We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.
 
