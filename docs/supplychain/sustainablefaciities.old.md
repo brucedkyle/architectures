@@ -1,4 +1,4 @@
-# Sustainability
+# Sustainable facilities management
 
 ### Additional use cases
 
@@ -46,7 +46,11 @@ In 2021, we also found that half of consumers said they were willing to pay a pr
 
 ## Business outcomes
 
-- Along with cost savings using sustainable material andcreating sustainableproducts helps create agreener environment
+- Along with cost savings using sustainable material andcreating sustainable products helps create agreener environment
 - In the long run emission ssavings results in energysavings
 - Customers value eco-friendly packaging and greendelivery options which improves brand awareness
 - A delivery fleet that is notdependent on fossil fuelscontributes to the business’sESG indicator values
+
+## References
+
+- [IBM journey to more sustainable facilities: IBM as client zero](https://www.ibm.com/blogs/internet-of-things/ibm-journey-to-more-sustainable-facilities-ibm-as-client-zero/)

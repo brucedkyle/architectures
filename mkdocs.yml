@@ -9,5 +9,6 @@ nav:
       - Loss management: ./supplychain/lossmanagement.md
       - Timeliness: ./supplychain/timeliness.md
       - Sustainable supply chain: ./supplychain/sustainablesupplychain.md
+      - Sustainable facilities: ./supplychain/
     - About: about.md
 theme: windmill
