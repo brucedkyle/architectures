@@ -26,34 +26,34 @@ Making returns easy for consumers is a way to create a loyal customer.
 
 *Minimizing returns losses* by:
 
-    - Sell the right item. One major step that eliminates a possible return is to make sure you sell the right item to the right customer. 
-    - Save the sale. The ‘save the sale’ method is key for businesses who are looking to compensate for returns through a loyalty incentive. 
-    - Smart returns. Smart returns will require a connected network of inventory visibility, as well as predicted demand.
-    - Predict returns. Data plays a vital role when it comes to predicting returns. Specifically, data that tracks the reason for a return: whether it's done directly (item was damaged, didn’t fit, wasn’t as pictured, etc.) or learned through predictive analytics.
-    - Buy online, pick up (or return) in-store. Retailers can give shoppers greater flexibility by allowing them to purchase online and then pick up in-store. While they’re there to pick up, they can test or try products they’ve ordered and make an exchange via curbside processing if needed.
-    - Virtual or personal shopping. Whether it’s a virtual showcase of new items for your most loyal customers, or enabling sales associates to set aside items for shoppers based on their past purchase history, these tech-enabled shopping solutions should help lower the risk of returns.
-    - Process returns quickly and efficiently, reducing the amount of time and employee hours spent.
+- Sell the right item. One major step that eliminates a possible return is to make sure you sell the right item to the right customer. 
+- Save the sale. The ‘save the sale’ method is key for businesses who are looking to compensate for returns through a loyalty incentive. 
+- Smart returns. Smart returns will require a connected network of inventory visibility, as well as predicted demand.
+- Predict returns. Data plays a vital role when it comes to predicting returns. Specifically, data that tracks the reason for a return: whether it's done directly (item was damaged, didn’t fit, wasn’t as pictured, etc.) or learned through predictive analytics.
+- Buy online, pick up (or return) in-store. Retailers can give shoppers greater flexibility by allowing them to purchase online and then pick up in-store. While they’re there to pick up, they can test or try products they’ve ordered and make an exchange via curbside processing if needed.
+- Virtual or personal shopping. Whether it’s a virtual showcase of new items for your most loyal customers, or enabling sales associates to set aside items for shoppers based on their past purchase history, these tech-enabled shopping solutions should help lower the risk of returns.
+- Process returns quickly and efficiently, reducing the amount of time and employee hours spent.
 
 *Identify fraudulent returns*:
 
-    - Returning stolen merchandise
-    - Receipt fraud
-    - Employee fraud
-    - Price switching
-    - Price arbitrage
-    - Switch fraud
-    - Bricking
-    - Cross-retail return
-    - Open-box fraud
-    - Wardrobing
+- Returning stolen merchandise
+- Receipt fraud
+- Employee fraud
+- Price switching
+- Price arbitrage
+- Switch fraud
+- Bricking
+- Cross-retail return
+- Open-box fraud
+- Wardrobing
 
 **Drivers**
 
 - Increase customer loyalty with appropriate returns policies
 - Minimizing returns losses
 - The return process is an opportunity to upsell
-- Identify fraulent returns
-
+- Identify fraudulent returns
+- Provide sustainable transport of returned items
 
 ### Responses
 
@@ -71,10 +71,9 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 - **Foundational infrastructure**. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
 - **Inventory Optimization** platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
 
-![solution overview]()
+![solution overview](./media/returnsmanagementoverview.png)
 
 _Figure 1. Overall view of demand risk solution._
-
 
 ## Logical diagrams
 
@@ -137,6 +136,7 @@ Returns workflow steps:
 <li>Once it is determined usable or not, a decision is made to
 <ol type="a">
 <li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item identify the reason for the return
+<li>Review for fraudulent return patterns
 </ol>
 <li>Refund or provide store credit
 </ol>
@@ -184,7 +184,7 @@ For a comprehensive supply chain overview, see [Supply Chain Optimization](https
 - Mahesh Dodani, Principal Industry Engineer, IBM Technology
 - Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
-- !TODO
+- Ramesh Yerramsetti, Customer Success Architect, IBM Technology
 
 ## Download diagrams
 
