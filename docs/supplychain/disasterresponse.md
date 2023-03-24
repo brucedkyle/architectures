@@ -36,6 +36,7 @@ Harvard Business Review article identified the following objectives for companie
 - **Predict potential impacts** of climate change and weather across the business using climate risk analytics.
 - **Reconfigure supply chain** Some critical but vulnerable suppliers will go out of business.
 - **Reposition inventory** in anticipation of certain regions or facilities facing disaster.
+- **Route deliveries around impacted areas**.
 
 ### Responses
 
@@ -53,13 +54,10 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 - **Foundational infrastructure**. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
 - **Inventory Optimization** platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
 
-![solution overview]()
+![solution overview](./media/disasterreadinesssolution.png)
 
 _Figure 1. Overall view of demand risk solution._
 
-## Summary video
-
-!TODO
 
 ## Logical diagrams
 
@@ -105,21 +103,30 @@ The following technology was chosen for this solution:
 
 The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.
 
-### Disaster preparation
+### Disaster preparation and response
+
+![disaster readiness and response](./media/disasterreadiness.png)
 
 _Figure 3. Schematic diagram of disaster preparation use case._
 
 Disaster preparation workflow steps:
 
-!TODO
-
-## Disaster recovery operations
-
-_Figure 3. Schematic diagram of disaster preparation use case._
-
-Disaster recovery workflow steps:
-
-!TODO
+<ol>
+<li>External data feed, such as IBM Environmental Intelligence Suite, anticipated disruptive environmental condition
+<li>Inventory Analysis detects potential low stock levels and predicts inventory will become unavailable sooner than originally expected.
+<li>Control Tower alerted to the potential understock position.
+<li>Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
+<li>Control Tower collects future demand requirements from Demand Intelligence.
+<li>Colleague alerted and asked to take remediation action.
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+<ol type="a">
+<li>Ordering more stock
+<li>Adjusting stock positions within existing Supply Chain
+<li>Managing inventory held at existing stores or by moving existing inventory
+<li>Managing inventory held at existing warehouses or by moving existing inventory
+<li>Rerouting incoming inventory around event area
+</ol>
+</ol>
 
 ## Action Guide
 

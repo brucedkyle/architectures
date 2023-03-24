@@ -46,8 +46,8 @@ remotely where possible, modifying floor plans for social distancing, reducing b
 Organizations have an unprecedented opportunity to capture and analyze their data and develop greater operational resiliency and effectiveness. These data insights give companies the tools needed to react quickly to change, care for their employees and occupants, and make strategic space and occupancy decisions.
 
 > Sustainability promotes business, supports the needs of our customers, generates profitability, and 
-contributes to a better world. This is how we see our transformative role.
-> &dash; Fausto Ribeiro, CEO of Banco do Brasi
+contributes to a better world. This is how we see our transformative role.<br/>
+> &mdash; Fausto Ribeiro, CEO of Banco do Brasi
 
 
 ### Challenges / Business Drivers 
@@ -80,10 +80,11 @@ There are several challenges to overcome in the pursuit of becoming a truly sust
 
 ## Business outcomes
 
-- Along with cost savings using sustainable material and creating sustainable products helps create agreener environment
-- In the long run emission savings results in energy savings
-- Customers value eco-friendly packaging and green delivery options which improves brand awareness
-- A delivery fleet that is notdependent on fossil fuels contributes to the business's ESG indicator values
+- Improved utilization of office and warehouse space
+- Improved energy efficiency
+- Increased asset life
+- Improved maintenance 
+- Sustainable buildings helps create a greener environment
 
 ## Solution overview
 
@@ -97,13 +98,9 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 
 _Figure 1. Overall view of sustainable facilities solution._
 
-## Summary video
-
-!TODO
-
 ## Logical diagrams
 
-![logical diagram]()
+[![logical diagram](./media/InventoryOptimisationLogical.svg)](./media/InventoryOptimisationLogical.svg)
 
 _Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
 
