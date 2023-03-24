@@ -6,6 +6,8 @@ Companies are facing climate-related asset damage, supply chain and operations d
 
 As weather events and climate change increasingly impact businesses, it becomes harder for leaders to assess how extreme weather events will impact your operations. 
 
+In 2020, there were [22 separate billion-dollar weather and climate disasters](https://www.climate.gov/news-features/blogs/beyond-data/2020-us-billion-dollar-weather-and-climate-disasters-historical) in the US alone and you can understand why modeling the risk from weather is so critical to your operations. 
+
 ## Background
 
 Business need to anticipate and respond to supply chain challenges due to unanticipated disasters.
@@ -111,6 +113,14 @@ Disaster preparation workflow steps:
 
 !TODO
 
+## Disaster recovery operations
+
+_Figure 3. Schematic diagram of disaster preparation use case._
+
+Disaster recovery workflow steps:
+
+!TODO
+
 ## Action Guide
 
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
@@ -124,7 +134,8 @@ From a high-level perspective, there are several main steps your organization ca
 | Automation | <ul><li>Monitor for disruptive environmental conditions such as severe weather, wildfires, flooding, air quality, and carbon emissions<li>Predict potential impacts of climate change and weather across the business using climate risk analytics</ul> | <ul><li>Gain insights into potential operational disruptions and prioritize mitigation and response efforts<li>Measure and report on environmental initiatives, while reducing the burden of this reporting on procurement and operations teams</ul> |
 | Automation | Accelerate automation in extended workflows | Prepare for severe weather-related shipping and inventory disruptions, or factor environmental risks into future warehouse locations |
 | Automation | Amp up AI to make workflows smarter | When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred. These recommendations are based on adding automation and AI to make workflows smarter. |
-| Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in overstock and understock decision making. |
+| Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in disaster planning and response decision making. |
+| Sustainability| Combine your proprietary and third-party geospatial information with weather data | <ul><li>Predict energy demand and reduce waste so that you don’t buy more power than you need.<li>Use weather information to predict and avoid disruptions and plot the most efficient routes.</ul>
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 For specific steps on this approach, see **The Action Guide** details in [_Own Your Transformation_](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
@@ -135,6 +146,7 @@ For specific steps on this approach, see **The Action Guide** details in [_Own Y
 - MIT Solan Managmenet Review [Three Scenarios to Guide Your Global Supply Chain Recovery](https://sloanreview.mit.edu/article/three-scenarios-to-guide-your-global-supply-chain-recovery/)
 - Harvard Business Review [Managing Unpredictable Supply-Chain Disruptions](https://hbr.org/2014/01/from-superstorms-to-factory-fires-managing-unpredictable-supply-chain-disruptions)
 - IBM [The missing link: Why visibility is essential to creating a resilient supply chain](https://www.ibm.com/blog/supply-chain-visibility-tool/)
+- IBM [How to create more sustainable operations – one asset at a time](https://www.ibm.com/blogs/internet-of-things/sustainable-operations-one-asset-at-a-time/)
 
 ## Next steps
 
