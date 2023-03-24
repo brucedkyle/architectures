@@ -116,7 +116,7 @@ Disaster preparation workflow steps:
 <li>Inventory Analysis detects potential low stock levels and predicts inventory will become unavailable sooner than originally expected.
 <li>Control Tower alerted to the potential understock position.
 <li>Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
-<li>Control Tower collects future demand requirements from Demand Intelligence.
+<li>Control Tower collects future demand requirements from supply risk management.
 <li>Colleague alerted and asked to take remediation action.
 <li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
 <ol type="a">

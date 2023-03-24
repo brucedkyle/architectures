@@ -1,14 +1,18 @@
 # Returns
 
-Evolving customer expectations have forced retailers to figure out how to better manage the ripple effects that the current global crisis has created. This includes the realm of returns. Let’s look at some of the trends that 2020 has seen so far:
+Evolving customer expectations have forced retailers to figure out how to better manage the ripple effects that the current global crisis has created. This includes the realm of returns. 
+
+## Use cases
+
+
+
+## Background
+
+Let’s look at some of the trends that 2020 has seen so far:
 
 - Extended return windows: Many retailers have instituted extended return periods that go beyond the average 30-day window for customers.
 - Increased returns: With physical stores closed, ecommerce is on the rise. But with this shift comes increased returns, as customers can’t be certain what they’re buying online will be what the right size and fit.
 - Not accepting returns: In the face of health concerns around coronavirus lingering on surfaces for extended periods of time, some retailers have stopped accepting product returns at all.
-
-## Use case
-
-## Background
 
 ## Business problem
 
@@ -45,6 +49,7 @@ Making returns easy for consumers is a way to create a loyal customer.
 
 **Drivers**
 
+- Increase customer loyalty with appropriate returns policies
 - Minimizing returns losses
 - The return process is an opportunity to upsell
 - Identify fraulent returns
@@ -70,11 +75,10 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 
 _Figure 1. Overall view of demand risk solution._
 
-## Summary video
-
-!TODO
 
 ## Logical diagrams
+
+![logical diagram](./media/InventoryOptimisationLogical.svg)
 
 _Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
 
@@ -111,13 +115,31 @@ The following technology was chosen for this solution:
 
 The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.
 
-### Disaster preparation
+### Returns management
 
-_Figure 3. Schematic diagram of disaster preparation use case._
+![returns](./media/returns.png)
 
-Disaster preparation workflow steps:
+_Figure 3. Schematic diagram of returns management use case._
 
-!TODO
+Returns workflow steps:
+
+<ol>
+<li>Customer initiates return, provides reason
+<li>The return comes from a kiosk, store, or mobile application
+<li>Set customer expectation of refund, store credit, or upsell
+<li>If applicable, a pick up is arranged.
+<li>Business automation orchestrates
+<ol type="a">
+<li>Item is picked up and returns to a warehouse or store location
+<li>The item is returned to a location
+</ol> 
+<li>Item is graded
+<li>Once it is determined usable or not, a decision is made to
+<ol type="a">
+<li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item identify the reason for the return
+</ol>
+<li>Refund or provide store credit
+</ol>
 
 ## Action Guide
 
