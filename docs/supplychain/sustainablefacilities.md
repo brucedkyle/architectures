@@ -26,6 +26,8 @@ Manage buildings to encourage sustainability through the real estate lifecycle. 
 
 Minimize the environmental impact of your operations.
 
+- Minimize/combine facility management work orders.
+
 ## Background
 
 Roughly 40% of the global share of annual carbon dioxide emissions comes from buildings. The UN Environment Program states that if nothing is done, greenhouse gas (GHG) emissions from buildings will more than double in the next 20 years.
@@ -42,6 +44,11 @@ IDC in its [Worldwide Integrated Workplace Management System 2020–2021 Vendor 
 remotely where possible, modifying floor plans for social distancing, reducing building capacity, implementing new schedules, and deploying novel technology. Real estate and facility professionals have turned to a variety of "return-to-work solutions" for space reservations, health attestation, contact tracing, proximity monitoring, wayfinding, cleaning, communications, and so on.
 
 Organizations have an unprecedented opportunity to capture and analyze their data and develop greater operational resiliency and effectiveness. These data insights give companies the tools needed to react quickly to change, care for their employees and occupants, and make strategic space and occupancy decisions.
+
+> Sustainability promotes business, supports the needs of our customers, generates profitability, and 
+contributes to a better world. This is how we see our transformative role.
+> &dash; Fausto Ribeiro, CEO of Banco do Brasi
+
 
 ### Challenges / Business Drivers 
 
