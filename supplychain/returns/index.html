@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Returns - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Returns", url: "#_top", children: [
+              {title: "Use cases", url: "#use-cases" },
+              {title: "Background", url: "#background" },
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Logical diagrams", url: "#logical-diagrams" },
+              {title: "Technology", url: "#technology" },
+              {title: "Architectues", url: "#architectues" },
+              {title: "Action Guide", url: "#action-guide" },
+              {title: "References", url: "#references" },
+              {title: "Next steps", url: "#next-steps" },
+              {title: "Contributors", url: "#contributors" },
+              {title: "Download diagrams", url: "#download-diagrams" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../sustainablesupplychain/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../sustainablesupplychain/" class="btn btn-xs btn-link">
+        Sustainable supply chain
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../disasterreadiness/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../disasterreadiness/" class="btn btn-xs btn-link">
+        Disaster readiness
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="returns">Returns</h1>
+<p>Evolving customer expectations have forced retailers to figure out how to better manage the ripple effects that the current global crisis has created. This includes the realm of returns. </p>
+<h2 id="use-cases">Use cases</h2>
+<ul>
+<li>Manage return policies.</li>
+<li>Minimizing return losses.</li>
+<li>Determine fraudulent returns.</li>
+</ul>
+<h2 id="background">Background</h2>
+<p>Let’s look at some of the trends that 2020 has seen so far:</p>
+<ul>
+<li>Extended return windows: Many retailers have instituted extended return periods that go beyond the average 30-day window for customers.</li>
+<li>Increased returns: With physical stores closed, ecommerce is on the rise. But with this shift comes increased returns, as customers can’t be certain what they’re buying online will be what the right size and fit.</li>
+<li>Not accepting returns: In the face of health concerns around coronavirus lingering on surfaces for extended periods of time, some retailers have stopped accepting product returns at all.</li>
+</ul>
+<h2 id="business-problem">Business problem</h2>
+<p>Meet consumer demands by modernizing IT for the retail and consumer packaged goods (CPG) industry.</p>
+<h3 id="challenges-business-drivers">Challenges / Business Drivers</h3>
+<p><strong>Challenges</strong></p>
+<p>Making returns easy for consumers is a way to create a loyal customer.</p>
+<p><em>Minimizing returns losses</em> by:</p>
+<ul>
+<li>Sell the right item. One major step that eliminates a possible return is to make sure you sell the right item to the right customer. </li>
+<li>Save the sale. The ‘save the sale’ method is key for businesses who are looking to compensate for returns through a loyalty incentive. </li>
+<li>Smart returns. Smart returns will require a connected network of inventory visibility, as well as predicted demand.</li>
+<li>Predict returns. Data plays a vital role when it comes to predicting returns. Specifically, data that tracks the reason for a return: whether it's done directly (item was damaged, didn’t fit, wasn’t as pictured, etc.) or learned through predictive analytics.</li>
+<li>Buy online, pick up (or return) in-store. Retailers can give shoppers greater flexibility by allowing them to purchase online and then pick up in-store. While they’re there to pick up, they can test or try products they’ve ordered and make an exchange via curbside processing if needed.</li>
+<li>Virtual or personal shopping. Whether it’s a virtual showcase of new items for your most loyal customers, or enabling sales associates to set aside items for shoppers based on their past purchase history, these tech-enabled shopping solutions should help lower the risk of returns.</li>
+<li>Process returns quickly and efficiently, reducing the amount of time and employee hours spent.</li>
+</ul>
+<p><em>Identify fraudulent returns</em>:</p>
+<ul>
+<li>Returning stolen merchandise</li>
+<li>Receipt fraud</li>
+<li>Employee fraud</li>
+<li>Price switching</li>
+<li>Price arbitrage</li>
+<li>Switch fraud</li>
+<li>Bricking</li>
+<li>Cross-retail return</li>
+<li>Open-box fraud</li>
+<li>Wardrobing</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li>Increase customer loyalty with appropriate returns policies</li>
+<li>Minimizing returns losses</li>
+<li>The return process is an opportunity to upsell</li>
+<li>Identify fraudulent returns</li>
+<li>Provide sustainable transport of returned items</li>
+</ul>
+<h3 id="responses">Responses</h3>
+<table>
+<thead>
+<tr>
+<th>Business Problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unusual events, such as the global pandemic, war or other international incident, port issues, and waterway obstructions illustrate the need for enterprises to build resilient supply chains.</td>
+<td>Respond with intelligence, speed, and confidence to reduce the impact of disruptions, turning these events into opportunities to outperform and outcompete.</td>
+</tr>
+<tr>
+<td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
+<td>Monitor and manage network inventory availability and respond to disruptions such as out-of-stock and overstock with alerts and recommended actions.</td>
+</tr>
+<tr>
+<td>The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales.</td>
+<td>Gain detailed visibility into inventory characteristics at each location.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution-overview">Solution overview</h2>
+<p>The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li><strong>Core application systems</strong>. Often customer-provided technologies, such as order management or facilities management. These systems can be standalone applications, on-premises and cloud services, and databases.</li>
+<li><strong>Foundational infrastructure</strong>. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.</li>
+<li><strong>Inventory Optimization</strong> platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis &amp; AI.</li>
+</ul>
+<p><img alt="solution overview" src="../media/returnsmanagementoverview.png" /></p>
+<p><em>Figure 1. Overall view of demand risk solution.</em></p>
+<h2 id="logical-diagrams">Logical diagrams</h2>
+<p><img alt="logical diagram" src="../media/InventoryOptimisationLogical.svg" /></p>
+<p><em>Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain.</em></p>
+<h2 id="technology">Technology</h2>
+<p>The following technology was chosen for this solution:</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with <a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a> and <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a>.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/products/integration"><em>Red Hat Intgration</em></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/data-fabric"><em>IBM Data Fabric</em></a> empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, <a href="https://www.ibm.com/cloud/watson-knowledge-catalog"><em>Watson Knowledge Catalog</em></a> provides you users with a catalog tool for intelligent, self-service discovery of data, models. <a href="https://www.ibm.com/products/watson-query"><em>Watson Query</em></a> provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. </p>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<p><a href="https://www.ibm.com/products/envizi"><em>Envizi</em></a> simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.</p>
+<h2 id="architectues">Architectues</h2>
+<p>The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.</p>
+<h3 id="returns-management">Returns management</h3>
+<p><img alt="returns" src="../media/returnsschematic.svg" /></p>
+<p><em>Figure 3. Schematic diagram of returns management use case.</em></p>
+<p>Returns workflow steps:</p>
+<ol>
+<li>Customer initiates return, provides reason at a kiosk, store, or mobile application
+<li>Set customer expectation of refund, store credit, or upsell
+<li>Business automation orchestrates, return item process
+<ol type="a">
+<li>Item is picked up and returns to a warehouse or store location
+<li>The item is returned to a location
+<li>Item is graded by inspector or automated inspection
+</ol>
+<li>Once it is determined usable or not, a decision is made to
+<ol type="a">
+<li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item identify the reason for the return
+<li>Review for fraudulent return patterns
+</ol>
+<li>Refund or provide store credit
+</ol>
+
+<h2 id="action-guide">Action Guide</h2>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Sustainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automation</td>
+<td>Create a world-class sensing and risk-monitoring operation</td>
+<td>Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze returns in real-time.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Accelerate automation in extended workflows</td>
+<td>Identify consistently automate your strategy for loyal customer offers when returning items.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Amp up AI to make workflows smarter</td>
+<td>Use AI to identify product deficiencies that lead to return patterns, generate upsell recommendations, identify fraud patterns, and recommend sustainable transport options for return items.</td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Include sustainability commitments in decision making</td>
+<td>Integrate sustainability metrics in returns decision making.</td>
+</tr>
+<tr>
+<td>Modernization</td>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
+<p>For specific steps on this approach, see <strong>The Action Guide</strong> details in <a href="https://www.ibm.com/downloads/cas/1BYY6VEM"><em>Own Your Transformation</em></a> survey of 1500 CSCOs across 24 industries.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>IBM <a href="https://www.ibm.com/blog/ibm-future-of-returns/">The future of retail returns</a></li>
+<li>Digital Commerce 360 <a href="https://www.digitalcommerce360.com/2023/02/28/how-ecommerce-returns-can-be-a-retail-superpower/">How returns can be a retail ‘superpower’</a></li>
+<li>Digital Commerce 360 <a href="https://www.digitalcommerce360.com/2023/01/09/loop-processes-60000-returns-a-day-during-2022-holiday-season/">Loop processes 60,000 returns a day during 2022 holiday season</a></li>
+</ul>
+<h2 id="next-steps">Next steps</h2>
+<p>See:</p>
+<ul>
+<li>Loss and waste management (coming soon)</li>
+<li>Product timeliness (coming soon)</li>
+<li>Perfect order (coming soon)</li>
+<li>Intelligent order (coming soon)</li>
+<li>Sustainable supply (coming soon)</li>
+</ul>
+<p>For a comprehensive supply chain overview, see <a href="https://www.redhat.com/architect/portfolio/detail/36">Supply Chain Optimization</a>.</p>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Iain Boyle, Chief Architect, Red Hat</li>
+<li>Bruce Kyle, Sr Solution Architect, IBM Client Engineering</li>
+<li>Mahesh Dodani, Principal Industry Engineer, IBM Technology</li>
+<li>Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat</li>
+<li>Lee Carbonell, Senior Solution Architect &amp; Master Inventor, IBM</li>
+<li>Ramesh Yerramsetti, Customer Success Architect, IBM Technology</li>
+</ul>
+<h2 id="download-diagrams">Download diagrams</h2>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<ul>
+<li>PowerPoint Solution Overview: <a href="../downloads/SupplyChainOptimization.SolutionOverview.pptx">Open Solution Overview</a></li>
+<li>PowerPoint Reference Architecture: <a href="../downloads/SupplyChainOptimization.ReferenceArchitecture.pptx">Open Workflow Diagrams</a></li>
+<li>DrawIO: <a href="../downloads/SupplyChainOptimization.drawio">Open Schematic Diagrams</a></li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../sustainablesupplychain/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../sustainablesupplychain/" class="btn btn-xs btn-link">
+        Sustainable supply chain
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../disasterreadiness/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../disasterreadiness/" class="btn btn-xs btn-link">
+        Disaster readiness
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

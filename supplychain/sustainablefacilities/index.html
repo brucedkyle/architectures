@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Sustainable facilities - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Sustainable facilities", url: "#_top", children: [
+              {title: "Use cases", url: "#use-cases" },
+              {title: "Background", url: "#background" },
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Business outcomes", url: "#business-outcomes" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Logical diagrams", url: "#logical-diagrams" },
+              {title: "Technology", url: "#technology" },
+              {title: "Architecture", url: "#architecture" },
+              {title: "Action Guide", url: "#action-guide" },
+              {title: "References", url: "#references" },
+              {title: "Next steps", url: "#next-steps" },
+              {title: "Contributors", url: "#contributors" },
+              {title: "Download diagrams", url: "#download-diagrams" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../sustainablesupplychain/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../sustainablesupplychain/" class="btn btn-xs btn-link">
+        Sustainable supply chain
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="sustainable-facilities">Sustainable facilities</h1>
+<p>Companies are setting environmental commitments, including achieving Net Zero GHG Emissions by 2030 and diverting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025. Real estate plays a critical role in meeting these targets.</p>
+<p>More than 80% of CEOs expect sustainability investments to produce improved business results in the next five years.</p>
+<blockquote>
+<p>The key to a successful sustainability strategy is balancing the environmental drivers with market demands.</p>
+</blockquote>
+<p>Real estate is typically one of the largest expenses for an organization. Now an organization can make the most out of every square inch and meter of space.</p>
+<h2 id="use-cases">Use cases</h2>
+<p>Manage competing needs with constrained resources. </p>
+<p>Improve an organization’s capital project management capabilities.</p>
+<p>Manage buildings to encourage sustainability through the real estate lifecycle. Specifically:</p>
+<ul>
+<li>Include sustainability criteria in space acquisition and disposals (ISO 14000 as an example)</li>
+<li>Prioritize sustainability in construction and renovation projects</li>
+<li>Enable energy efficiency with green leases</li>
+<li>Reduce waste by integrating portfolio data</li>
+<li>Reach carbon footprint goals with space optimization</li>
+<li>Extend asset life through improved maintenance and assessment</li>
+<li>Maintain compliance to regulations and manage remediation with integrated Environmental, Health, and Safety (EHS/HSE) processes.</li>
+</ul>
+<p>Minimize the environmental impact of your operations.</p>
+<ul>
+<li>Minimize/combine facility management work orders.</li>
+<li>Use data from sensors, such as refrigerator and freezer temperatures.</li>
+</ul>
+<h2 id="background">Background</h2>
+<p>Roughly 40% of the global share of annual carbon dioxide emissions comes from buildings. The UN Environment Program states that if nothing is done, greenhouse gas (GHG) emissions from buildings will more than double in the next 20 years.</p>
+<p>To meet targets for green house gas (GHG) emissions, buildings and cities must shift from being part of the problem to being part of the solution. </p>
+<h2 id="business-problem">Business problem</h2>
+<p>There is a constant tension between using every square inch of space, reducing real estate operating costs, and creating outstanding occupant experiences.</p>
+<p>IDC in its <a href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-49090">Worldwide Integrated Workplace Management System 2020–2021 Vendor Assessment</a> reports:</p>
+<blockquote>
+<p>Now organizations must prioritize creating safe and productive environments for their employees, students, and customers. In the short term, organizations had to take measures such as allowing a dramatic shift to working 
+remotely where possible, modifying floor plans for social distancing, reducing building capacity, implementing new schedules, and deploying novel technology. Real estate and facility professionals have turned to a variety of "return-to-work solutions" for space reservations, health attestation, contact tracing, proximity monitoring, wayfinding, cleaning, communications, and so on.</p>
+</blockquote>
+<p>Organizations have an unprecedented opportunity to capture and analyze their data and develop greater operational resiliency and effectiveness. These data insights give companies the tools needed to react quickly to change, care for their employees and occupants, and make strategic space and occupancy decisions.</p>
+<blockquote>
+<p>Sustainability promotes business, supports the needs of our customers, generates profitability, and 
+contributes to a better world. This is how we see our transformative role.<br/>
+&mdash; Fausto Ribeiro, CEO of Banco do Brasi</p>
+</blockquote>
+<h3 id="challenges-business-drivers">Challenges / Business Drivers</h3>
+<p><strong>Challenges</strong></p>
+<p>There are several challenges to overcome in the pursuit of becoming a truly sustainable business:</p>
+<ul>
+<li><strong>Customer readiness</strong>. While the mindset around sustainability is shifting, no business can afford to be left behind, and few can financially afford to be too far ahead of the appetite for sustainable offerings. Co-creating a sustainable future requires a deep understanding of your customers and having partners with the right relationships and ecosystems to bring them along on the journey.</li>
+<li><strong>Cost</strong>. Implementing sustainable business practices typically requires higher upfront investments. In the short term, it will often be cheaper to stick with the status quo. Some organizations will need help building an investment case to show how immediate investment will result in more durable profitability over the long run.</li>
+<li><strong>Systemic inertia</strong>. While sustainability is an important goal, it often isn’t seen as more important than other key priorities that may provide benefits sooner. Many businesses plan in ten-year increments, so while a 2050 commitment is good, it often isn’t enough to drive sufficient action in this decade, from a planning standpoint. It comes back to reframing risks as opportunities and building the case that acting on sustainability now is necessary to achieving future sustainability in business.</li>
+<li><strong>Lack of tools, insights and expertise</strong>. Being unprepared to develop a corporate sustainability vision, strategy and framework is a monumental risk. Companies may lack the ability to implement sustainable solutions or even know where to start. Sustainability in business is evolving and so are the answers. Every business needs an ecosystem of innovation partners to help them reinvent the world and create a sustainable future.</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li><strong>Sustainability is good for business</strong>.</li>
+<li><strong>Reduce energy costs</strong>.</li>
+<li><strong>Include ESG criteria in decision making</strong>.</li>
+<li><strong>Prioritize environmental improvement projects</strong>.</li>
+<li><strong>Improve an capital project management capabilities</strong>.</li>
+</ul>
+<h3 id="responses">Responses</h3>
+<table>
+<thead>
+<tr>
+<th>Business Problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automating ESG Reporting</td>
+<td>Capture and manage over quantitative and qualitive data types to support your expanding sustainability reporting requirements to frameworks and reporting schemes</td>
+</tr>
+<tr>
+<td>Manage competing needs with constrained resources</td>
+<td><ul><li>Predict when important assets and building systems will require maintenance, refurbishment or replacement. <li>Document the impact on productivity and building value when systems fail.</ul></td>
+</tr>
+<tr>
+<td>Incorporate sustainability options into customer decison making</td>
+<td>Connect your strategy with day-to-day operations to embed sustainability into your business transformation</td>
+</tr>
+<tr>
+<td>Create a lower-emissions business</td>
+<td>Build intelligent asset management into operations.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="business-outcomes">Business outcomes</h2>
+<ul>
+<li>Improved utilization of office and warehouse space</li>
+<li>Improved energy efficiency</li>
+<li>Increased asset life</li>
+<li>Improved maintenance </li>
+<li>Sustainable buildings helps create a greener environment</li>
+</ul>
+<h2 id="solution-overview">Solution overview</h2>
+<p>The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li><strong>Core application systems</strong>. Often customer-provided technologies, such as order management or facilities management. These systems can be standalone applications, on-premises and cloud services, and databases.</li>
+<li><strong>Foundational infrastructure</strong>. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.</li>
+<li><strong>Inventory Optimization</strong> platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis &amp; AI.</li>
+</ul>
+<p><img alt="solution overview" src="" /></p>
+<p><em>Figure 1. Overall view of sustainable facilities solution.</em></p>
+<h2 id="logical-diagrams">Logical diagrams</h2>
+<p><a href="../media/InventoryOptimisationLogical.svg"><img alt="logical diagram" src="../media/InventoryOptimisationLogical.svg" /></a></p>
+<p><em>Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain.</em></p>
+<h2 id="technology">Technology</h2>
+<p>The following technology was chosen for this solution:</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with <a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a> and <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a>.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/products/integration"><em>Red Hat Intgration</em></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/data-fabric"><em>IBM Data Fabric</em></a> empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, <a href="https://www.ibm.com/cloud/watson-knowledge-catalog"><em>Watson Knowledge Catalog</em></a> provides you users with a catalog tool for intelligent, self-service discovery of data, models. <a href="https://www.ibm.com/products/watson-query"><em>Watson Query</em></a> provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. </p>
+<!--
+[*IBM Supply Chain Control Tower*](https://www.ibm.com/products/supply-chain-intelligence-suite) provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.
+
+[*IBM Sterling Intelligent Promising*](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:
+
+- [*IBM Sterling Fulfillment Optimizer with Watson*](https://www.ibm.com/products/fulfillment-optimizer) to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement
+- [*Sterling Inventory Visibility*](https://www.ibm.com/products/inventory-visibility) to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.
+-->
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<p><a href="https://www.ibm.com/products/envizi"><em>Envizi</em></a> simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.</p>
+<p><a href="https://www.ibm.com/products/tririga/sustainability"><em>IBM TRIRIGA</em></a> harnesses the power of data and AI to infuse sustainability into your real estate and facilities management operations.</p>
+<p><a href="https://www.ibm.com/products/maximo/sustainability"><em>IBM Maximo Application Suite</em></a> Infuse sustainability into your asset management by harnessing the power of data and AI.</p>
+<p><a href="https://www.ibm.com/support/pages/ibm-maximo-integrators-tririga-version-12-available-ism-library"><em>Maximo Integrators for TRIRIGA</em></a> combines the enterprise asset management (EAM) capabilities of Maximo Asset Management with some of the integrated workplace management system (IWMS) capabilities of IBM TRIRIGA. This offering focuses on strategic facility planning, move-space management, and condition assessment and opportunities management.</p>
+<h2 id="architecture">Architecture</h2>
+<p>The figures in this section show the interaction of customer systems with facilities management systems in the context of an integrated workplace management.</p>
+<h3 id="integrated-workplace-management">Integrated workplace management</h3>
+<p><em>Figure 3. Schematic diagram of integrated workplace management use case.</em></p>
+<p>Integrated workplace management workflow steps:</p>
+<p>!TODO</p>
+<h3 id="asset-management">Asset management</h3>
+<p><em>Figure 4. Schematic diagram of asset management use case.</em></p>
+<p>Asset management workflow steps:</p>
+<p>!TODO</p>
+<h2 id="action-guide">Action Guide</h2>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Sustainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automation</td>
+<td>Advance the quality of capital, facility and environmental projects</td>
+<td>Integrate data from multiple systems to get enterprise-wide view to capture and evaluate occupancy to align usage with business requirements and objectives.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Optimize real estate portfolios</td>
+<td>Centralize and integrate critical information at an enterprise level, giving organizations the ability to make the most cost-effective decisions</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Amp up AI to make workflows smarter</td>
+<td><ul><li>Using self-service, automated and mobile processes for move management and reservation and hoteling worksapaces.<li>Manage and monitor the assets within each structure – like HVAC systems, elevators and even the exit signs – and use AI-driven insights to perform predictive instead of reactive maintenance</ul></td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Create digital twin of your facility.</td>
+<td>Mirror and monitor building systems and troubleshoot problems before wasting resources on unnecessary or inaccurate repairs.</td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Include sustainability commitments in decision making</td>
+<td>Integrate sustainability metrics in facility management and lease administration.</td>
+</tr>
+<tr>
+<td>Modernization</td>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
+<p>For specific steps on this approach, see <strong>The Action Guide</strong> details in <a href="https://www.ibm.com/downloads/cas/6NJEKDD8"><em>Own Your Impact: Practical Pathways to Transformational Sustainability</em></a> survey of 3,000 CEOs worldwide, that reveals sustainability's emergence onto the mainstream corporate agenda.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.ibm.com/blogs/internet-of-things/ibm-journey-to-more-sustainable-facilities-ibm-as-client-zero/">IBM journey to more sustainable facilities: IBM as client zero</a></li>
+<li>IBM Institute for Business Value <a href="https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research">Balancing sustainability and profitability</a></li>
+<li><a href="https://www.ibm.com/topics/business-sustainability">What is sustainability in business?</a></li>
+<li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/WLJ7LVP4">Sustainability at a turning point</a> </li>
+<li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/6NJEKDD8">Own Your Impact: Practical Pathways to Transformational Sustainability</a></li>
+<li>Research Insights <a href="https://www.ibm.com/downloads/cas/EXK4XKX8">Meet the 2020 consumers driving change</a> </li>
+<li>Bloomberg Intelligence <a href="https://www.bloomberg.com/professional/blog/esg-assets-may-hit-53-trillion-by-2025-a-third-of-global-aum/">ESG assets may hit $53 trillion by 2025</a></li>
+<li><a href="https://www.dispatchtrack.com/blog/last-mile-logistics-trends-5">2022 Last Mile Logistics Trends: Sustainable Sustainability</a></li>
+<li><a href="https://www.ibm.com/products/tririga/sustainability">Sustainability in Facilities Management</a></li>
+<li><a href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-49090">IDC MarketScape: Worldwide Integrated Workplace Management System 2020–2021 Vendor Assessment</a></li>
+<li><a href="https://www.ibm.com/internet-of-things/learn/integrated-workplace-management-system/">Unlock opportunities with an integrated workplace management system</a></li>
+<li><a href="https://www.ibm.com/products/maximo/sustainability">Sustainable asset management with IBM Maximo Application Suite</a></li>
+</ul>
+<h2 id="next-steps">Next steps</h2>
+<p>See:</p>
+<ul>
+<li>Loss and waste management (coming soon)</li>
+<li>Product timeliness (coming soon)</li>
+<li>Perfect order (coming soon)</li>
+<li>Intelligent order (coming soon)</li>
+<li>Sustainable supply (coming soon)</li>
+</ul>
+<p>For a comprehensive supply chain overview, see <a href="https://www.redhat.com/architect/portfolio/detail/36">Supply Chain Optimization</a>.</p>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Iain Boyle, Chief Architect, Red Hat</li>
+<li>Bruce Kyle, Sr Solution Architect, IBM Client Engineering</li>
+<li>Mahesh Dodani, Principal Industry Engineer, IBM Technology</li>
+<li>Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat</li>
+<li>Lee Carbonell, Senior Solution Architect &amp; Master Inventor, IBM</li>
+<li>!TODO</li>
+</ul>
+<h2 id="download-diagrams">Download diagrams</h2>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<ul>
+<li>PowerPoint Solution Overview: <a href="../downloads/SupplyChainOptimization.SolutionOverview.pptx">Open Solution Overview</a></li>
+<li>PowerPoint Reference Architecture: <a href="../downloads/SupplyChainOptimization.ReferenceArchitecture.pptx">Open Workflow Diagrams</a></li>
+<li>DrawIO: <a href="../downloads/SupplyChainOptimization.drawio">Open Schematic Diagrams</a></li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../sustainablesupplychain/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../sustainablesupplychain/" class="btn btn-xs btn-link">
+        Sustainable supply chain
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
