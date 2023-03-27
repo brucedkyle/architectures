@@ -8,7 +8,9 @@ nav:
       - Demand risk: ./supplychain/demandrisk.md
       - Loss management: ./supplychain/lossmanagement.md
       - Timeliness: ./supplychain/timeliness.md
+      - Disaster readiness: ./supplychain/disasterreadiness.md
+      - Returns: ./supplychain/returns.md
       - Sustainable supply chain: ./supplychain/sustainablesupplychain.md
-      - Sustainable facilities: ./supplychain/
+      - Sustainable facilities: ./supplychain/sustainablefacilities.md
     - About: about.md
 theme: windmill

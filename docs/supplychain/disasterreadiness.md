@@ -1,4 +1,4 @@
-# Disaster preparation and response
+# Disaster readiness
 
 Companies are facing climate-related asset damage, supply chain and operations disruptions and increasing expectations from consumers and investors to perform as an environmental leader. 
 
@@ -105,7 +105,7 @@ The figures in this section show the interaction of customer systems with supply
 
 ### Disaster preparation and response
 
-![disaster readiness and response](./media/disasterreadiness.png)
+![disaster readiness and response](./media/disasterreadinessschematic.svg)
 
 _Figure 3. Schematic diagram of disaster preparation use case._
 
@@ -113,14 +113,13 @@ Disaster preparation workflow steps:
 
 <ol>
 <li>External data feed, such as IBM Environmental Intelligence Suite, anticipated disruptive environmental condition
-<li>Inventory Analysis detects potential low stock levels and predicts inventory will become unavailable sooner than originally expected.
-<li>Control Tower alerted to the potential understock position.
+<li>Control Tower alerted to the potential disruption.
 <li>Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
-<li>Control Tower collects future demand requirements from supply risk management.
+<li>Inventory Analysis detects potential low stock levels and predicts extraordinary inventory demand.
 <li>Colleague alerted and asked to take remediation action.
 <li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
 <ol type="a">
-<li>Ordering more stock
+<li>Ordering more stock in nearby and affected area
 <li>Adjusting stock positions within existing Supply Chain
 <li>Managing inventory held at existing stores or by moving existing inventory
 <li>Managing inventory held at existing warehouses or by moving existing inventory
