@@ -6,6 +6,7 @@ Evolving customer expectations have forced retailers to figure out how to better
 
 - Manage return policies.
 - Minimizing return losses.
+- Categorize return items for recycle, dispose, or return for sales.
 - Determine fraudulent returns.
 
 ## Background
@@ -133,12 +134,12 @@ Returns workflow steps:
 <li>The item is returned to a location
 <li>Item is graded by inspector or automated inspection
 </ol>
-<li>Once it is determined usable or not, a decision is made to
+<li>Once it is determined usable or not, business automation takes steps to:
 <ol type="a">
 <li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item identify the reason for the return
 <li>Review for fraudulent return patterns
-</ol>
 <li>Refund or provide store credit
+</ol>
 </ol>
 
 ## Action Guide
