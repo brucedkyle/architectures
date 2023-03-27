@@ -4,7 +4,9 @@ Evolving customer expectations have forced retailers to figure out how to better
 
 ## Use cases
 
-
+- Manage return policies.
+- Minimizing return losses.
+- Determine fraudulent returns.
 
 ## Background
 
@@ -116,23 +118,21 @@ The figures in this section show the interaction of customer systems with supply
 
 ### Returns management
 
-![returns](./media/returns.png)
+![returns](./media/returnsschematic.svg)
 
 _Figure 3. Schematic diagram of returns management use case._
 
 Returns workflow steps:
 
 <ol>
-<li>Customer initiates return, provides reason
-<li>The return comes from a kiosk, store, or mobile application
+<li>Customer initiates return, provides reason at a kiosk, store, or mobile application
 <li>Set customer expectation of refund, store credit, or upsell
-<li>If applicable, a pick up is arranged.
-<li>Business automation orchestrates
+<li>Business automation orchestrates, return item process
 <ol type="a">
 <li>Item is picked up and returns to a warehouse or store location
 <li>The item is returned to a location
-</ol> 
-<li>Item is graded
+<li>Item is graded by inspector or automated inspection
+</ol>
 <li>Once it is determined usable or not, a decision is made to
 <ol type="a">
 <li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item identify the reason for the return

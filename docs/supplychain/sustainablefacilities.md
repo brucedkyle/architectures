@@ -27,6 +27,7 @@ Manage buildings to encourage sustainability through the real estate lifecycle. 
 Minimize the environmental impact of your operations.
 
 - Minimize/combine facility management work orders.
+- Use data from sensors, such as refrigerator and freezer temperatures.
 
 ## Background
 
