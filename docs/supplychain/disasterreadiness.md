@@ -71,7 +71,7 @@ The figures in this section show the interaction of customer systems with supply
 
 ### Disaster preparation and response
 
-![disaster readiness and response](./media/disasterreadinessschematic.svg)
+[![disaster readiness and response](./media/disasterreadiness-sd.svg)](./media/disasterreadiness-sd.svg)
 
 _Figure 3. Schematic diagram of disaster preparation use case._
 
