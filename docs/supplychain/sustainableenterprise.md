@@ -116,7 +116,7 @@ _Figure 2. Sustainable enterprise works within existing digital infrastructure._
 
 [![logical diagram](./media/sustainableenterprise-logical.svg)](./media/sustainableenterprise-logical.svg)
 
-_Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
+_Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
 
 ## Architecture
 
@@ -124,7 +124,7 @@ The figures in this section show the interaction of customer systems with facili
 
 ### Integrated workplace management
 
-_Figure 3. Schematic diagram of integrated workplace management use case._
+_Figure 4. Schematic diagram of integrated workplace management use case._
 
 Integrated workplace management workflow steps:
 
@@ -132,7 +132,7 @@ Integrated workplace management workflow steps:
 
 ### Asset management
 
-_Figure 4. Schematic diagram of asset management use case._
+_Figure 5. Schematic diagram of asset management use case._
 
 Asset management workflow steps:
 
