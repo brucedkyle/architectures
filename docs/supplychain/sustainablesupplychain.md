@@ -69,7 +69,7 @@ The solution uses the following technologies, which can be grouped into three ma
 
 The following diagram shows the schematic for the sustainability use case to improve your supply chain.
 
-![sustainability schematic](./media/sustainabilityschematic.svg)
+[![sustainability schematic](./media/sustainablesupplychain-sd.svg)](./media/sustainablesupplychain-sd.svg)
 
 <ol>
 <li>Customer chooses items to buy online using the business app.
@@ -91,21 +91,38 @@ The following diagram shows the schematic for the sustainability use case to imp
 <li>All sub-systems are updated via the data fabric that helps maintain a consistent view.
 </ol>
 
+## Action Guide 
+
+From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
+
+- Automation
+- Sustainability
+- Modernization
+
+| | Actionable Step | Implementation details |
+| - | - | - |
+| Automation | Integrate suppliers in business sustainable commitment | Integrate data from multiple systems to get enterprise-wide view of data used to meet sustainability commitments |
+| Automation | Improve decisions using AI for greener outcomes| Incorporate sustainability considerations into automated workflows, including product ordering, delivery, supply replacement, and timeliness. |
+| Sustainability | ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of ESG data into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
+| Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
+
 ## Technology
 
-The following technology was chosen for this solution:
+The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.
 
-The following technology was chosen for this solution:
+### Core systems
 
 [*Red Hat OpenShift*](https://www.redhat.com/en/technologies/cloud-computing/openshift) Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with [_Red Hat Advanced Cluster Management_](https://www.redhat.com/en/technologies/management/advanced-cluster-management) and [_Red Hat Advanced Cluster Security_](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes).
 
-[*Red Hat Ansible Automation Platform*](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  
+[*Red Hat Ansible Automation Platform*](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.
+
+[*Red Hat OpenShift DevOps*](https://www.redhat.com/en/getting-started-devops) represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.
+
+### Integration services
 
 [*Red Hat OpenShift API Management*](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98) is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
 
 [*Red Hat Intgration*](https://www.redhat.com/en/products/integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
-
-[*Red Hat OpenShift DevOps*](https://www.redhat.com/en/getting-started-devops) represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.
 
 [*Business Automation Workflow*](https://www.ibm.com/products/business-automation-workflow) automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. 
 
@@ -121,22 +138,6 @@ The following technology was chosen for this solution:
 [*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
 
 [*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
-
-
-## Action Guide 
-
-From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
-
-- Automation
-- Sustainability
-- Modernization
-
-| | Actionable Step | Implementation details |
-| - | - | - |
-| Automation | Integrate suppliers in business sustainable commitment | Integrate data from multiple systems to get enterprise-wide view of data used to meet sustainability commitments |
-| Automation | Improve decisions using AI for greener outcomes| Incorporate sustainability considerations into automated workflows, including product ordering, delivery, supply replacement, and timeliness. |
-| Sustainability | ESG data collection, analysis and reporting | <ol><li>Build a Data Foundation by automating the collection and consolidation of ESG data into a single system of auditable, financial-grade data.<li>Streamline Reporting and Disclosures that include emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.<li>Accelerate Decarbonization by identifying energy and emissions savings opportunities and tracking progress at every stage of your journey</li></ol> |
-| Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 ## Similar use cases
 

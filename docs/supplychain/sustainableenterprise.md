@@ -1,12 +1,18 @@
-# Sustainable facilities
+# Sustainable enterprise facilities
 
-Companies are setting environmental commitments, including achieving Net Zero GHG Emissions by 2030 and diverting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025. Real estate plays a critical role in meeting these targets.
+Companies are setting environmental commitments, including achieving Net Zero green house gas (GHG) Emissions by 2030 and diverting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025. Real estate plays a critical role in meeting these targets.
 
 More than 80% of CEOs expect sustainability investments to produce improved business results in the next five years.
 
 > The key to a successful sustainability strategy is balancing the environmental drivers with market demands.
 
 Real estate is typically one of the largest expenses for an organization. Now an organization can make the most out of every square inch and meter of space.
+
+The [World Economic Forum](https://www.weforum.org/agenda/2021/02/why-the-buildings-of-the-future-are-key-to-an-efficient-energy-ecosystem/) explains, energy consumption in the built environment accounted for 40% of global energy use and 33% of global energy-related CO2 emissions in 2019. In Europe alone, more than 220 million existing buildings – or 75% of the building stock – are energy-inefficient, with many relying on fossil fuels for heating and cooling. 
+
+They continue:
+
+> The more innovative, more efficient and cheaper way is to equip buildings with the digital tools that allow them to automatically adjust heating, lighting and other systems to the number of people present at any given time, using real-time data analysis.
 
 ## Use cases
 
@@ -27,7 +33,8 @@ Manage buildings to encourage sustainability through the real estate lifecycle. 
 Minimize the environmental impact of your operations.
 
 - Minimize/combine facility management work orders.
-- Use data from sensors, such as refrigerator and freezer temperatures.
+- Use data from sensors, such as HVAC, refrigerator and freezer temperatures.
+- Identify and manage energy usage.
 
 ## Background
 
@@ -91,55 +98,25 @@ There are several challenges to overcome in the pursuit of becoming a truly sust
 
 The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:
 
-- **Core application systems**. Often customer-provided technologies, such as order management or facilities management. These systems can be standalone applications, on-premises and cloud services, and databases.
-- **Foundational infrastructure**. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
-- **Inventory Optimization** platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
+- Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
+- Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.
+- Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.
 
 ![solution overview]()
 
 _Figure 1. Overall view of sustainable facilities solution._
 
+The sustainable enterprise works within the existing enterprise infrastructure.
+
+![sustainable enterprise](./media/sustainableenterprise.png)
+
+_Figure 2. Sustainable enterprise works within existing digital infrastructure._
+
 ## Logical diagrams
 
-[![logical diagram](./media/InventoryOptimisationLogical.svg)](./media/InventoryOptimisationLogical.svg)
+[![logical diagram](./media/sustainableenterprise-logical.svg)](./media/sustainableenterprise-logical.svg)
 
 _Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
-
-## Technology
-
-The following technology was chosen for this solution:
-
-[*Red Hat OpenShift*](https://www.redhat.com/en/technologies/cloud-computing/openshift) Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with [_Red Hat Advanced Cluster Management_](https://www.redhat.com/en/technologies/management/advanced-cluster-management) and [_Red Hat Advanced Cluster Security_](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes).
-
-[*Red Hat Ansible Automation Platform*](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  
-
-[*Red Hat OpenShift API Management*](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98) is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
-
-[*Red Hat Intgration*](https://www.redhat.com/en/products/integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
-
-[*Red Hat OpenShift DevOps*](https://www.redhat.com/en/getting-started-devops) represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.
-
-[*Business Automation Workflow*](https://www.ibm.com/products/business-automation-workflow) automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. 
-
-[*IBM Data Fabric*](https://www.ibm.com/data-fabric) empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, [_Watson Knowledge Catalog_](https://www.ibm.com/cloud/watson-knowledge-catalog) provides you users with a catalog tool for intelligent, self-service discovery of data, models. [_Watson Query_](https://www.ibm.com/products/watson-query) provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. 
-
-<!--
-[*IBM Supply Chain Control Tower*](https://www.ibm.com/products/supply-chain-intelligence-suite) provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.
-
-[*IBM Sterling Intelligent Promising*](https://www.ibm.com/products/intelligent-promising) provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:
-
-- [*IBM Sterling Fulfillment Optimizer with Watson*](https://www.ibm.com/products/fulfillment-optimizer) to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement
-- [*Sterling Inventory Visibility*](https://www.ibm.com/products/inventory-visibility) to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.
--->
-[*IBM Planning Analytics with Watson*](https://www.ibm.com/products/planning-analytics) streamlines and integrates financial and operational planning across the enterprise.
-
-[*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
-
-[*IBM TRIRIGA*](https://www.ibm.com/products/tririga/sustainability) harnesses the power of data and AI to infuse sustainability into your real estate and facilities management operations.
-
-[*IBM Maximo Application Suite*](https://www.ibm.com/products/maximo/sustainability) Infuse sustainability into your asset management by harnessing the power of data and AI.
-
-[*Maximo Integrators for TRIRIGA*](https://www.ibm.com/support/pages/ibm-maximo-integrators-tririga-version-12-available-ism-library) combines the enterprise asset management (EAM) capabilities of Maximo Asset Management with some of the integrated workplace management system (IWMS) capabilities of IBM TRIRIGA. This offering focuses on strategic facility planning, move-space management, and condition assessment and opportunities management.
 
 ## Architecture
 
@@ -180,6 +157,40 @@ From a high-level perspective, there are several main steps your organization ca
 
 For specific steps on this approach, see **The Action Guide** details in [_Own Your Impact: Practical Pathways to Transformational Sustainability_](https://www.ibm.com/downloads/cas/6NJEKDD8) survey of 3,000 CEOs worldwide, that reveals sustainability's emergence onto the mainstream corporate agenda.
 
+## Technology
+
+The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.
+
+### Core systems
+
+[*Red Hat OpenShift*](https://www.redhat.com/en/technologies/cloud-computing/openshift) Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with [_Red Hat Advanced Cluster Management_](https://www.redhat.com/en/technologies/management/advanced-cluster-management) and [_Red Hat Advanced Cluster Security_](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes).
+
+[*Red Hat Ansible Automation Platform*](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.
+
+[*Red Hat OpenShift DevOps*](https://www.redhat.com/en/getting-started-devops) represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.
+
+### Integration services
+
+[*Red Hat OpenShift API Management*](https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98) is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
+
+[*Red Hat Intgration*](https://www.redhat.com/en/products/integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
+
+[*Business Automation Workflow*](https://www.ibm.com/products/business-automation-workflow) automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. 
+
+[*IBM Data Fabric*](https://www.ibm.com/data-fabric) empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, [_Watson Knowledge Catalog_](https://www.ibm.com/cloud/watson-knowledge-catalog) provides you users with a catalog tool for intelligent, self-service discovery of data, models. [_Watson Query_](https://www.ibm.com/products/watson-query) provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. 
+
+### Sustainable enterprise platform
+
+[*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
+
+[*IBM TRIRIGA*](https://www.ibm.com/products/tririga/sustainability) harnesses the power of data and AI to infuse sustainability into your real estate and facilities management operations.
+
+[*IBM Maximo Application Suite*](https://www.ibm.com/products/maximo/sustainability) Infuse sustainability into your asset management by harnessing the power of data and AI.
+
+[*Maximo Integrators for TRIRIGA*](https://www.ibm.com/support/pages/ibm-maximo-integrators-tririga-version-12-available-ism-library) combines the enterprise asset management (EAM) capabilities of Maximo Asset Management with some of the integrated workplace management system (IWMS) capabilities of IBM TRIRIGA. This offering focuses on strategic facility planning, move-space management, and condition assessment and opportunities management.
+
+[*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
+
 ## References
 
 - [IBM journey to more sustainable facilities: IBM as client zero](https://www.ibm.com/blogs/internet-of-things/ibm-journey-to-more-sustainable-facilities-ibm-as-client-zero/)
@@ -194,6 +205,7 @@ For specific steps on this approach, see **The Action Guide** details in [_Own Y
 - [IDC MarketScape: Worldwide Integrated Workplace Management System 2020–2021 Vendor Assessment](https://www.ibm.com/account/reg/us-en/signup?formid=urx-49090)
 - [Unlock opportunities with an integrated workplace management system](https://www.ibm.com/internet-of-things/learn/integrated-workplace-management-system/)
 - [Sustainable asset management with IBM Maximo Application Suite](https://www.ibm.com/products/maximo/sustainability)
+- World Economic Forum [Why buildings are the foundation of an energy-efficient future](https://www.weforum.org/agenda/2021/02/why-the-buildings-of-the-future-are-key-to-an-efficient-energy-ecosystem/)
 
 ## Next steps
 
@@ -214,7 +226,6 @@ For a comprehensive supply chain overview, see [Supply Chain Optimization](https
 - Mahesh Dodani, Principal Industry Engineer, IBM Technology
 - Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
-- !TODO
 
 ## Download diagrams
 
