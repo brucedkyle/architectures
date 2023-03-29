@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Intelligent order - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Intelligent order", url: "#_top", children: [
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Use cases", url: "#use-cases" },
+              {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
+              {title: "Responses", url: "#responses" },
+              {title: "Business outcomes", url: "#business-outcomes" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Intelligent order", url: "#intelligent-order_1" },
+              {title: "Action Guide", url: "#action-guide" },
+              {title: "Technology", url: "#technology" },
+              {title: "Similar use cases", url: "#similar-use-cases" },
+              {title: "Downloads", url: "#downloads" },
+              {title: "References", url: "#references" },
+              {title: "Contributors", url: "#contributors" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand risk
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../perfectorder/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../perfectorder/" class="btn btn-xs btn-link">
+        Perfect order
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="intelligent-order">Intelligent order</h1>
+<p><em>Last mile delivery</em>, also known as <em>last mile logistics</em>, is the transportation of goods from a distribution hub to the final delivery destination — the door of the customer. The goal of last mile delivery logistics is to deliver the packages as affordably, quickly and accurately as possible. </p>
+<p>The last mile describes the difficulty of getting goods (especially large and bulky ones) from a transportation hub to their final destination because it might include installation and configuration while providing an excellent experience at the same time.</p>
+<p><em>Intelligent order</em> is a process that uses inventory management systems and AI to provide effective last mile delivery.</p>
+<p>For businesses this means:</p>
+<ul>
+<li>Decrease waste</li>
+<li>Order optimization</li>
+<li>Reduced cost</li>
+</ul>
+<p>Consumers benefit with:</p>
+<ul>
+<li>Delivery promises fulfilled</li>
+<li>Proof of delivery</li>
+</ul>
+<h2 id="business-problem">Business problem</h2>
+<p>If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.</p>
+<p>If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.</p>
+<p>Customers want:</p>
+<ul>
+<li>Fast delivery</li>
+<li>Delivery tracking</li>
+<li>Security</li>
+<li>Convenience</li>
+<li>Specialization</li>
+<li>Selection delivery based on cost </li>
+</ul>
+<p>Business need to consider:</p>
+<ul>
+<li>Fuel costs</li>
+<li>Idling and downtime</li>
+<li>Warehousing</li>
+<li>Failed deliveries</li>
+<li>Returns</li>
+<li>Sustainability commitments</li>
+</ul>
+<p>Key metrics:</p>
+<ul>
+<li>47.6% of shoppers will shop elsewhere if they cannot see inventory availability before they buy</li>
+<li>49% of shoppers would cancel their cart due to mismatch between expectations for delivery date and actual delivery date</li>
+<li>58% of shoppers report checking inventory availability in the last 6 months</li>
+</ul>
+<p>Deloitte describes key sector trends in <a href="https://www.deloitte.com/global/en/Industries/consumer/perspectives/last-mile-delivery.html">Last mile delivery landscape in the grocery sector</a>:</p>
+<ul>
+<li>Shifting tactics – evolving channel strategies and business models</li>
+<li>Need convenience delivered – customer’s new mantra</li>
+<li>Future of Last Mile increasingly a story of better software and connectivity</li>
+</ul>
+<h2 id="use-cases">Use cases</h2>
+<table>
+<thead>
+<tr>
+<th>Business scenario</th>
+<th>Challenge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consumers are purchasing more products online</td>
+<td>Online purchases of goods and direct to consumer deliveries are increasing dramatically.  This has driven huge increases in the volume  and importance of last mile delivery and installation services.</td>
+</tr>
+<tr>
+<td>Consumers are placing more emphasis on after sales services</td>
+<td>Consumers are demanding more control over delivery times and processes and want more value-added services. Manufacturers and suppliers are not meeting expectations, especially with last mile services.</td>
+</tr>
+<tr>
+<td>New service providers are entering the market; reshaping the landscape</td>
+<td>New entrants to 3PL (third party logistics) services such as Amazon and Uber are disrupting traditional service models.  Same day delivery is now an expectation, and this increases infrastructure and transportation services cost. Improved supply and demand forecasting is key to delivering last mile services.</td>
+</tr>
+<tr>
+<td>Logistics costs are increasing, while product prices are eroding</td>
+<td>Manufacturers are forced to react quickly to changing client demands while managing rising costs. Costs for warehousing, transportation and labor are increasing and this increases pressure on perfect order performance for both profitability and client loyalty.  </td>
+</tr>
+</tbody>
+</table>
+<h3 id="proof-of-delivery">Proof of Delivery</h3>
+<p>Proof of delivery, or POD, is an acknowledgment that an order successfully arrived at its intended destination and is used to show a service was completed, which is why proof of delivery is also called proof of completion. Proof of delivery comes in two forms: paper and electronic. Benefits of POD are captured in the table.</p>
+<table>
+<thead>
+<tr>
+<th>Benefits for customers</th>
+<th>Benefits for businesses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customers in control</td>
+<td>Promise of delivery provides a better customer experience</td>
+</tr>
+<tr>
+<td>Proof of Delivery makes it less likely orders will be stolen</td>
+<td>Improves order accuracy and saves money on unnecessary refunds or replacements</td>
+</tr>
+<tr>
+<td>Lets customers know their service is complete</td>
+<td>POD automation accelerates back-office operations</td>
+</tr>
+</tbody>
+</table>
+<h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Consumer demand for delivery as promised</li>
+<li>Consumers wanting control of delivery and return processes</li>
+<li>Logistics costs in providing last mile delivery</li>
+<li>Logistics ecosystem complexity</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li>Increasing deliveries direct to consumer</li>
+<li>Need for delivery price-point optimization and improvement</li>
+<li>Customer satisfaction to drive repeat business</li>
+</ul>
+<h2 id="responses">Responses</h2>
+<p>By definition, last mile delivery is relevant for businesses that deliver products directly to their consumers. </p>
+<table>
+<thead>
+<tr>
+<th>Business Problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximize inventory productivity</td>
+<td>Use real-time inventory visibility to confidently expose inventory and maximize conversions, gaining granular control over inventory actions, such as safety stock setting based on configurable business rules. Improve inventory turns by applying additional context like channel, fulfillment type and labor availability when making available-to promise decisions.</td>
+</tr>
+<tr>
+<td>Make and manage order promises</td>
+<td>Improve conversion rates by confidently delivering order and delivery promises across every step of the shopping journey, including the product list page, product detail page, cart, and checkout. Automate the review of inventory, capacity and costs to make informed promises, and harness powerful AI during fulfillment to simplify complex scenarios like orders with third-party services, and support a wide range of fulfillment options.</td>
+</tr>
+<tr>
+<td>Optimize omnichannel profitability</td>
+<td>Set operating performance objectives and KPIs using real cost drivers (like distance, labor, capacity, and carrier costs) and profit drivers markdown, stockout), so you can confidently make the best fulfillment decisions for your business objectives. By optimizing across thousands of fulfillment permutations in milliseconds, retailers can ensure balance between profitability and the best customer experience.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="business-outcomes">Business outcomes</h2>
+<ul>
+<li><strong>Decrease waste</strong>. Decrease order fragmentation and waste with decrease in packages per order.</li>
+<li><strong>Order optimization</strong>. In-stock improvement through holiday season using Order Optimizer.</li>
+<li><strong>Reduce costs</strong>. Reduced costs and emissions by housing software on the cloud more efficiently than on-premises</li>
+<li><strong>Minimize disruption</strong>. Gain visibility to minimize disruption to business despite supply and demand shocks</li>
+<li><strong>Returns optimization</strong>. Returns refurbished to create a revenue stream by re-circulation, refurbishment, repairs thereby reducing disposal and recycling costs.</li>
+</ul>
+<h2 id="solution-overview">Solution overview</h2>
+<p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
+<ul>
+<li>Create a world-class sensing and risk-monitoring operation. </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
+<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
+</ul>
+<p><img alt="solution overview" src="../media/intelligentordersolution.png" /></p>
+<p>The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
+<li>Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
+<li>Fulfillment optimization</li>
+<li>Intelligent promising</li>
+</ul>
+<h2 id="intelligent-order_1">Intelligent order</h2>
+<p>The following diagram shows the schematic for the intelligent order use case.</p>
+<p><a href="../media/intelligentorder-sd.svg"><img alt="last mile delivery schematic" src="../media/intelligentorder-sd.svg" /></a></p>
+<p>Intelligent order steps:</p>
+<ol>
+<li>Customer places/track/confirm order thru omni channel 
+<li>Inventory fulfilment, and delivery tracking information is quicky obtained from supply assurance Platform
+<li>Access underlying backend system via API Management
+<li>Integration services
+<li>Check with the Store Operations System if inventory available in store
+<li>If store cannot fulfill order, check with Warehouse Management System where inventory is available
+<li>Update Transport/Logistics System to schedule delivery
+<li>Cross check with the Fulfilment System to schedule and track the order
+<li>Provide real-time tracking of the order and upon delivery provide POD (electronic or paper)
+</ol>
+
+<h2 id="action-guide">Action Guide</h2>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Sustainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automation</td>
+<td>Create a world-class sensing and risk-monitoring operation</td>
+<td>Delivering greater certainty, choice and transparency to shoppers to enhance shopping experiences, improve digital and in-store conversion, and increase omnichannel revenue.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Accelerate automation in extended workflows</td>
+<td>Combine inventory and capacity visibility with sophisticated fulfillment decisioning to maximize inventory productivity, make reliable and accurate order promises, and optimize fulfillment decisions at scale.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Provide visibility across multiple systems</td>
+<td>Build a global view of real-time inventory, including available-to-promise (ATP) inventory, capacity to process orders at different locations, and transportation availability.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Amp up AI to make workflows smarter</td>
+<td>Optimize fulfillment execution and inventory levels to improve cost-to-serve and balance operations with industry-leading machine learning technology. Use AI with learned sell-through patterns to understand potential stockouts, demand shifts, markdowns, shipping costs, labor costs, and capacity so that retailers can make sourcing decisions that balance costs and service</td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Deliver on corporate commitment to sustainability</td>
+<td>Include sustainability KPIs in the selection of delivery methods</td>
+</tr>
+<tr>
+<td>Modernization</td>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="technology">Technology</h2>
+<p>The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.</p>
+<h3 id="core-solution">Core solution</h3>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with <a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a> and <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a>.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<h3 id="integration-services">Integration services</h3>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/products/integration"><em>Red Hat Intgration</em></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/data-fabric"><em>IBM Data Fabric</em></a> empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, <a href="https://www.ibm.com/cloud/watson-knowledge-catalog"><em>Watson Knowledge Catalog</em></a> provides you users with a catalog tool for intelligent, self-service discovery of data, models. <a href="https://www.ibm.com/products/watson-query"><em>Watson Query</em></a> provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. </p>
+<h3 id="supply-assurance-platform">Supply Assurance Platform</h3>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<h2 id="similar-use-cases">Similar use cases</h2>
+<p>See:</p>
+<ul>
+<li><a href="../perfectorder/">Inventory management</a></li>
+<li><a href="../demandrisk/">Demand risk</a></li>
+<li><a href="../lossmanagement/">Loss and waste management</a></li>
+<li><a href="../timeliness/">Product timeliness</a></li>
+<li><a href="../sustainablesupplychain/">Sustainable supply chain</a></li>
+</ul>
+<p>For a comprehensive supply chain overview, see <a href="../supplychain/">Supply Chain Optimization</a>.</p>
+<h2 id="downloads">Downloads</h2>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<ul>
+<li>PowerPoint Solution Overview: <a href="../downloads/SupplyChainOptimization.SolutionOverview.pptx">Open Solution Overview</a></li>
+<li>PowerPoint Reference Architecture: <a href="../downloads/SupplyChainOptimization.ReferenceArchitecture.pptx">Open Workflow Diagrams</a></li>
+<li>DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.deloitte.com/global/en/Industries/consumer/perspectives/last-mile-delivery.html">Last mile delivery landscape in the grocery sector</a></li>
+<li>IDC Blog: <a href="https://blogs.idc.com/2021/06/30/kickin-it-curbside-enabling-the-retail-workforce-for-omnichannel-fulfillment">Enabling the Retail Workforce for Omnichannel Fulfillment</a></li>
+<li>COVID-19 Survey: <a href="https://www.getconvey.com/blog-b-consumer-research-estimated-delivery-date">Accurate Delivery Dates Are Key To Win Consumer Confidence</a></li>
+<li>Lauren Freedman, The Shopper Speaks: <a href="https://www.digitalcommerce360.com/2021/03/19/the-shopper-speaks-3-secrets-why-curbside-will-not-die-post-covid-19">3 secrets why curbside will not die post-COVID-19</a></li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Rajeev Shrivastava, Account Technical Lead, IBM</li>
+<li>Ashok Iyengar, Executive Cloud Architect, IBM</li>
+<li>Karl Cama, Chief Architect, Red Hat</li>
+<li>Iain Boyle, Chief Architect, Red Hat</li>
+<li>Bruce Kyle, Solutions Architect, IBM Client Engineering</li>
+<li>Lee Carbonell, Senior Solution Architect &amp; Master Inventor, IBM</li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand risk
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../perfectorder/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../perfectorder/" class="btn btn-xs btn-link">
+        Perfect order
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

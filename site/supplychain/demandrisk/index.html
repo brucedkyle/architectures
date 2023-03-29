@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Demand risk - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Demand risk", url: "#_top", children: [
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Use cases", url: "#use-cases" },
+              {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
+              {title: "Business outcomes", url: "#business-outcomes" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Understock", url: "#understock" },
+              {title: "Overstock", url: "#overstock" },
+              {title: "Supply Assurance Platform details", url: "#supply-assurance-platform-details" },
+              {title: "Action Guide", url: "#action-guide" },
+              {title: "Technology", url: "#technology" },
+              {title: "Similar use cases", url: "#similar-use-cases" },
+              {title: "Downloads", url: "#downloads" },
+              {title: "Contributors", url: "#contributors" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../lossmanagement/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../lossmanagement/" class="btn btn-xs btn-link">
+        Loss management
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../intelligentorder/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../intelligentorder/" class="btn btn-xs btn-link">
+        Intelligent order
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="demand-risk">Demand risk</h1>
+<p>To demonstrate the importance of inventory optimization for any business, we will focus on one of the main demand risk use cases: understock and overstock. We will start by defining the business problem and the two main use cases: understock and overstock, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases, understock and overstock, and conclude with the technology used in the solution.</p>
+<p>For a comprehensive inventory solution overview, see <a href="../supplychain/">Inventory Optimization</a>.</p>
+<h2 id="business-problem">Business problem</h2>
+<p>Inventory optimization is a critical element of any retail organisation's fulfilment process. It represents a balancing act between two key viewpoints in the fulfilment process.</p>
+<p>The first viewpoint is <strong>demand</strong>. The business needs to understand their current demand for products, goods and services. There are two aspects of demand, the “current” demand and the “future” demand. Current demand asks the question, “how many unsatisfied orders or requests do we have in the system at this point in time?” Future demand asks the more difficult question, “how many orders or requests do we expect to have at some point in the future?” This future point could be measured in minutes, hours, days, weeks, months and even years. The further into the future, the harder it becomes to predict the demand.</p>
+<p>The second viewpoint is <strong>inventory</strong>. The business needs to have a clear understanding of all the inventory held within their fulfilment system. An inventory management provides oversight of current inventory and inventory changes due to purchases. Performs analysis on sold products, keeps consolidated stock data, and handles stock allocation. Makes decision on reallocation of goods between multiple warehouses. Inventory is stock or inventory available for sale to customers. As with demand, inventory has two aspects, “current” and “future” inventory. Current inventory asks two questions, “how many items of a particular product do I have available at this point in time?” and “where are those items located?” Future inventory asks the question, “how much inventory is required at some point in the future”. As with demand, this future point could range from minutes to years and becomes increasingly harder to predict the further into the future. </p>
+<p><em>Inventory optimization</em> is making sure the current and future demand is accurately balanced against current and future inventory. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.</p>
+<p>To demonstrate the importance of inventory optimization for any retail business, this document will focus on main use cases of demand and inventory.</p>
+<h2 id="use-cases">Use cases</h2>
+<p>Two main issues are represented by demand risk.</p>
+<p><strong>Understock</strong> refers to not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand. The end result is disappointed customers who order but don’t get fulfillment or can’t order due to lack of product. This “stock out” position often represents between 4-8% of total sales lost, but can also be a failed opportunity to satisfy customer in other ways, through up-sell and cross-sell. KPIs that can help avoid an under stock or stock-out position. include inventory turn over rate, days on hand and lead time (how long it takes to get more inventory from a supplier).</p>
+<p><strong>Overstock</strong> refers to holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. Whilst understock is measured in customer satisfaction and loss of future opportunity, overstock has direct impact on the bottom-line costs and profitability of the business. KPIS relevant to overstock include, holding costs, dead stock (in-stock items failing to sell) and inventory turnover rates.</p>
+<h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Maintaining inventory control of high value items to minimize loss and associated cost.</li>
+<li>When stores receive inventory from warehouse or direct from suppliers, how to manage direct ship is a real challenge for each store as it has to be managed at the store level.</li>
+<li>Forecasting inventory levels intelligently to meet customer demand.</li>
+<li>Efficiently handle overstocking and understocking events </li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li>Inventory turnover - if improve by 2 or 3 times then will drive bigger profit</li>
+<li>Managing capacity - across the enterpriese and with suppliers</li>
+<li>Enhanced customer experience with inventory matching customer demnd</li>
+<li>Handling overstock and understock events</li>
+</ul>
+<h3 id="responses">Responses</h3>
+<table>
+<thead>
+<tr>
+<th>Business Problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unusual events, such as the global pandemic, war or other international incident, port issues, and waterway obstructions illustrate the need for enterprises to build resilient supply chains.</td>
+<td>Respond with intelligence, speed, and confidence to reduce the impact of disruptions, turning these events into opportunities to outperform and outcompete.</td>
+</tr>
+<tr>
+<td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
+<td>Monitor and manage network inventory availability and respond to disruptions such as out-of-stock and overstock with alerts and recommended actions.</td>
+</tr>
+<tr>
+<td>The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales.</td>
+<td>Gain detailed visibility into inventory characteristics at each location.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="business-outcomes">Business outcomes</h2>
+<ul>
+<li>Improve inventory demand and forecasting</li>
+<li>Automated processes updating inventory in closer to real time</li>
+<li>Efficient, consistent decision making of overstock and understock</li>
+</ul>
+<h2 id="solution-overview">Solution overview</h2>
+<p>This solution in the following diagram reflects steps in the Action Guide:</p>
+<ul>
+<li>Create a world-class sensing and risk-monitoring operation. </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
+<li>Include sustainability commitments in decision making </li>
+<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
+</ul>
+<p><img alt="solution overview" src="../media/demandrisksolution.png" /></p>
+<p>The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
+<li>Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
+<li>Inventory Optimization platform</li>
+</ul>
+<h2 id="understock">Understock</h2>
+<p>The following diagram shows the schematic for the understock use case.</p>
+<p><a href="../media/demandrisk-understock-sd.svg"><img alt="understock schematic" src="../media/demandrisk-understock-sd.svg" /></a></p>
+<p>Understock workflow steps:</p>
+<ol>
+<li>Inventory Analysis detects low stock levels and predicts inventory will become unavailable sooner than originally expected.
+<li>Inventory Control Tower alerted to the understock position.
+<li>Inventory Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
+<li>Inventory Control Tower collects future demand requirements from Demand Intelligence.
+<li>Colleague alerted and asked to take remediation action.
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+<ol type="a"><li>Ordering more stock
+<li>Adjusting stock positions within existing Supply Chain
+<li>Managing inventory held at existing stores or by moving existing inventory
+<li>Managing inventory held at existing warehouses or by moving existing inventory
+</ol>
+</ol>
+
+<h2 id="overstock">Overstock</h2>
+<p>The following diagram shows the schematic for the overstock use case.</p>
+<p><a href="../media/demandrisk-overstock-sd.svg"><img alt="overstock schematic" src="../media/demandrisk-overstock-sd.svg" /></a></p>
+<p>Overstock workflow steps:</p>
+<ol>
+<li>Inventory Analysis detects high stock levels and predicts inventory will not be sold as quickly as expected.</li>
+<li>Inventory Control Tower alerted to the overstock position.</li>
+<li>Inventory Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions.</li>
+<li>Inventory Control Tower collects future demand requirements from Demand Intelligence.</li>
+<li>Colleague alerted and asked to take remediation action.</li>
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:</li>
+    <ol type="a"><li>Product discounting and promotions.</li>
+    <li>Adjust stock positions within stores by moving stock between stores or warehouses to accelerate sales in conjunction with promotions.</li>
+    <li>Reduce future inventory requirements to slow down or stop replenishment.</li>
+    <li>Offering stock to partners for liquidation, destruction, donation, sale via alternative channels or to food-waste partners.</li>
+    </ol>
+</ol>
+
+<h2 id="supply-assurance-platform-details">Supply Assurance Platform details</h2>
+<p>With Inventory Control Tower, you:</p>
+<ul>
+<li>
+<p><strong>View</strong>. End to end supply chain coverage</p>
+<ul>
+<li>Visibility across siloed data sources</li>
+<li>External data Track &amp; trace</li>
+</ul>
+</li>
+<li>
+<p><strong>Detect</strong>. Work – queues of prioritized issues</p>
+<ul>
+<li>KPIs based on business rules and alerts</li>
+<li>Analytics using AI and machine learning</li>
+</ul>
+</li>
+<li>
+<p><strong>Guide</strong>. Determine best approach for the situation</p>
+<ul>
+<li>Defined best practice solutions</li>
+<li>Context and recommendations</li>
+</ul>
+</li>
+<li>
+<p><strong>Act</strong>. Quick, efficient and uniform problem resolution</p>
+<ul>
+<li>Intelligent workflows with guidance</li>
+<li>Automation to back-end systems</li>
+</ul>
+</li>
+</ul>
+<p>Respond faster to changes, enable efficient collaboration and decision support, and drive operational automation with Control Tower.</p>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>The Problem</th>
+<th>The Solution</th>
+<th>The Benefits and Implications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reduce out of stock (OOS) or approaching out of stock (AOOS)conditions</td>
+<td>Out of stock situations lead to lost revenue and decreased brand / retailer loyalty.</td>
+<td>SCIS Control Tower monitors inventory levels at all locations in a client's network and creates items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations.</td>
+<td>Action can be taken directly from the Control Tower user interface. OOS situations are efficiently managed and AOOS are avoided with minimal human intervention.</td>
+</tr>
+<tr>
+<td>Manage industrial and manufacturing critical supplies</td>
+<td>Out of stock situations lead to line outages, manufacturing delays, and lost revenue.</td>
+<td>SCIS Control Tower monitors inventory to requested demand and creates items in the work queue when delivery is at risk. When drilling down on the item, users can see parts by SKU and location to see which supply is at risk take action to minimize impact.</td>
+<td>Minimize production and parts impact due to OOS / AOOS situations. Increase throughput and minimize customer delays. Minimize expedited and remediation costs.</td>
+</tr>
+</tbody>
+</table>
+<p>Inventory is managed by exception. Manage and predict inventory exceptions such as: low inventory, stockouts, slow moving and aging inventory. Optimize inventory transfers to mitigate these circumstances.</p>
+<h2 id="action-guide">Action Guide</h2>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Sustainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automation</td>
+<td>Create a world-class sensing and risk-monitoring operation</td>
+<td>Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze near real-time data</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Accelerate automation in extended workflows</td>
+<td>As an example, in the Reduce out of stock (OOS) or approaching out of stock (AOOS) conditions, a SCIS Control Tower monitors inventory levels at all locations in a client's network and creates items in the work queue when revenue is at risk.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Amp up AI to make workflows smarter</td>
+<td>When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred to the OOS / AOOS locations. These recommendations are based on adding automation and AI to make workflows smarter.</td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Include sustainability commitments in decision making</td>
+<td>Integrate sustainability metrics in overstock and understock decision making.</td>
+</tr>
+<tr>
+<td>Modernization</td>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="technology">Technology</h2>
+<p>The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with <a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a> and <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a>.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<h3 id="integeration-platform">Integeration Platform</h3>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/products/integration"><em>Red Hat Intgration</em></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<h3 id="supply-assurance-platform">Supply Assurance Platform</h3>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<h2 id="similar-use-cases">Similar use cases</h2>
+<p>See:</p>
+<ul>
+<li><a href="../perfectorder/">Inventory management</a></li>
+<li><a href="../lossmanagement/">Loss and waste management</a></li>
+<li><a href="../timeliness/">Product timeliness</a></li>
+<li><a href="../intelligentorder/">Intelligent order</a></li>
+<li><a href="../sustainablesupplychain/">Sustainable supply chain</a></li>
+</ul>
+<p>For a comprehensive supply chain overview, see <a href="../supplychain/">Supply Chain Optimization</a>.</p>
+<h2 id="downloads">Downloads</h2>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<ul>
+<li>PowerPoint Solution Overview: <a href="../downloads/SupplyChainOptimization.SolutionOverview.pptx">Open Solution Overview</a></li>
+<li>PowerPoint Reference Architecture: <a href="../downloads/SupplyChainOptimization.ReferenceArchitecture.pptx">Open Workflow Diagrams</a></li>
+<li>DrawIO: <a href="../downloads/SupplyChainOptimization.drawio">Open Schematic Diagrams</a></li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Iain Boyle, Chief Architect, Red Hat</li>
+<li>Mike Lee, Principal AI Ops Technical Specialist, IBM</li>
+<li>James Stewart, Principle Account Technical Leader, IBM</li>
+<li>Bruce Kyle, Sr Solution Architect, IBM Client Engineering</li>
+<li>Mahesh Dodani, Principal Industry Engineer, IBM Technology</li>
+<li>Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat</li>
+<li>Jeric Saez, Senior Solution Architect, IBM</li>
+<li>Lee Carbonell, Senior Solution Architect &amp; Master Inventor, IBM</li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../lossmanagement/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../lossmanagement/" class="btn btn-xs btn-link">
+        Loss management
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../intelligentorder/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../intelligentorder/" class="btn btn-xs btn-link">
+        Intelligent order
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

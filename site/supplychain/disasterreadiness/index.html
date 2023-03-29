@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Disaster readiness - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Disaster readiness", url: "#_top", children: [
+              {title: "Use case", url: "#use-case" },
+              {title: "Background", url: "#background" },
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Logical diagrams", url: "#logical-diagrams" },
+              {title: "Architecture", url: "#architecture" },
+              {title: "Action Guide", url: "#action-guide" },
+              {title: "Technology", url: "#technology" },
+              {title: "References", url: "#references" },
+              {title: "Next steps", url: "#next-steps" },
+              {title: "Contributors", url: "#contributors" },
+              {title: "Download diagrams", url: "#download-diagrams" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../returns/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../returns/" class="btn btn-xs btn-link">
+        Returns
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../timeliness/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../timeliness/" class="btn btn-xs btn-link">
+        Timeliness
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="disaster-readiness">Disaster readiness</h1>
+<p>Companies are facing climate-related asset damage, supply chain and operations disruptions and increasing expectations from consumers and investors to perform as an environmental leader. </p>
+<h2 id="use-case">Use case</h2>
+<p>As weather events and climate change increasingly impact businesses, it becomes harder for leaders to assess how extreme weather events will impact your operations. </p>
+<p>In 2020, there were <a href="https://www.climate.gov/news-features/blogs/beyond-data/2020-us-billion-dollar-weather-and-climate-disasters-historical">22 separate billion-dollar weather and climate disasters</a> in the US alone and you can understand why modeling the risk from weather is so critical to your operations. </p>
+<h2 id="background">Background</h2>
+<p>Business need to anticipate and respond to supply chain challenges due to unanticipated disasters.</p>
+<p>According to the <a href="https://www.thebci.org/">Business Continuity Institute</a>, 72% of suppliers who dealt with a breakdown in their supply chain lacked the full, real-time visibility needed to come up with a fast and simple solution.</p>
+<h2 id="business-problem">Business problem</h2>
+<p>A central feature is time to recover (TTR), the time it would take for a particular node — a supplier facility, a distribution center, or a transportation hub — to be restored to full functionality after a disruption.</p>
+<p>The second concept is risk exposure, an assessment of exposure to risk based on a model that applies suppliers' TTR to estimate the performance impact, including operational (lost production) and financial (lost revenue and profit).</p>
+<h3 id="challenges-business-drivers">Challenges / Business Drivers</h3>
+<p><strong>Challenges</strong></p>
+<p>Harvard Business Review article identified the following objectives for companies facing disaster situtations.</p>
+<ul>
+<li>Identify exposure to risk associated with parts and suppliers.</li>
+<li>Prioritize and allocate resources effectively.</li>
+<li>Invest in mitigation strategies such as booking logistics capacity.</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li><strong>Monitor for disruptive environmental conditions</strong> such as severe weather, wildfires, flooding, air quality, and carbon emissions and send alerts when detected.</li>
+<li><strong>Predict potential impacts</strong> of climate change and weather across the business using climate risk analytics.</li>
+<li><strong>Reconfigure supply chain</strong> Some critical but vulnerable suppliers will go out of business.</li>
+<li><strong>Reposition inventory</strong> in anticipation of certain regions or facilities facing disaster.</li>
+<li><strong>Route deliveries around impacted areas</strong>.</li>
+</ul>
+<h3 id="responses">Responses</h3>
+<table>
+<thead>
+<tr>
+<th>Business Problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unusual events, such as the global pandemic, war or other international incident, port issues, and waterway obstructions illustrate the need for enterprises to build resilient supply chains.</td>
+<td>Respond with intelligence, speed, and confidence to reduce the impact of disruptions, turning these events into opportunities to outperform and outcompete.</td>
+</tr>
+<tr>
+<td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
+<td>Monitor and manage network inventory availability and respond to disruptions such as out-of-stock and overstock with alerts and recommended actions.</td>
+</tr>
+<tr>
+<td>The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales.</td>
+<td>Gain detailed visibility into inventory characteristics at each location.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution-overview">Solution overview</h2>
+<p>The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li><strong>Core application systems</strong>. Often customer-provided technologies, such as order management or facilities management. These systems can be standalone applications, on-premises and cloud services, and databases.</li>
+<li><strong>Foundational infrastructure</strong>. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.</li>
+<li><strong>Inventory Optimization</strong> platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis &amp; AI.</li>
+</ul>
+<p><img alt="solution overview" src="../media/disasterreadinesssolution.png" /></p>
+<p><em>Figure 1. Overall view of demand risk solution.</em></p>
+<h2 id="logical-diagrams">Logical diagrams</h2>
+<p><img alt="logical diagram" src="../media/InventoryOptimisationLogical.svg" /></p>
+<p><em>Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain.</em></p>
+<h2 id="architecture">Architecture</h2>
+<p>The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.</p>
+<h3 id="disaster-preparation-and-response">Disaster preparation and response</h3>
+<p><a href="../media/disasterreadiness-sd.svg"><img alt="disaster readiness and response" src="../media/disasterreadiness-sd.svg" /></a></p>
+<p><em>Figure 3. Schematic diagram of disaster preparation use case.</em></p>
+<p>Disaster preparation workflow steps:</p>
+<ol>
+<li>External data feed, such as IBM Environmental Intelligence Suite, anticipated disruptive environmental condition
+<li>Control Tower alerted to the potential disruption.
+<li>Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
+<li>Inventory Analysis detects potential low stock levels and predicts extraordinary inventory demand.
+<li>Colleague alerted and asked to take remediation action.
+<li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
+<ol type="a">
+<li>Ordering more stock in nearby and affected area
+<li>Adjusting stock positions within existing Supply Chain
+<li>Managing inventory held at existing stores or by moving existing inventory
+<li>Managing inventory held at existing warehouses or by moving existing inventory
+<li>Rerouting incoming inventory around event area
+</ol>
+</ol>
+
+<h2 id="action-guide">Action Guide</h2>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Sustainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automation</td>
+<td><ul><li>Monitor for disruptive environmental conditions such as severe weather, wildfires, flooding, air quality, and carbon emissions<li>Predict potential impacts of climate change and weather across the business using climate risk analytics</ul></td>
+<td><ul><li>Gain insights into potential operational disruptions and prioritize mitigation and response efforts<li>Measure and report on environmental initiatives, while reducing the burden of this reporting on procurement and operations teams</ul></td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Accelerate automation in extended workflows</td>
+<td>Prepare for severe weather-related shipping and inventory disruptions, or factor environmental risks into future warehouse locations</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Amp up AI to make workflows smarter</td>
+<td>When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred. These recommendations are based on adding automation and AI to make workflows smarter.</td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Include sustainability commitments in decision making</td>
+<td>Integrate sustainability metrics in disaster planning and response decision making.</td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Combine your proprietary and third-party geospatial information with weather data</td>
+<td><ul><li>Predict energy demand and reduce waste so that you don’t buy more power than you need.<li>Use weather information to predict and avoid disruptions and plot the most efficient routes.</ul></td>
+</tr>
+<tr>
+<td>Modernization</td>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
+<p>For specific steps on this approach, see <strong>The Action Guide</strong> details in <a href="https://www.ibm.com/downloads/cas/1BYY6VEM"><em>Own Your Transformation</em></a> survey of 1500 CSCOs across 24 industries.</p>
+<h2 id="technology">Technology</h2>
+<p>The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.</p>
+<h3 id="core-platform">Core platform</h3>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with:</p>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a></li>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a>.</li>
+</ul>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.</p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<h3 id="integration-services">Integration services</h3>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<p><a href="https://www.ibm.com/data-fabric"><em>IBM Data Fabric</em></a> empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, <a href="https://www.ibm.com/cloud/watson-knowledge-catalog"><em>Watson Knowledge Catalog</em></a> provides you users with a catalog tool for intelligent, self-service discovery of data, models. <a href="https://www.ibm.com/products/watson-query"><em>Watson Query</em></a> provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. </p>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.redhat.com/en/products/integration"><em>Red Hat Intgration</em></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</p>
+<h3 id="supply-assurance-platform">Supply Assurance Platform</h3>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<p><a href="https://www.ibm.com/products/envizi"><em>Envizi</em></a> simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.</p>
+<p><a href="https://www.ibm.com/products/environmental-intelligence-suite"><em>IBM Environmental Intelligence Suite</em></a> provides climate and weather insights to anticipate disruptive environmental conditions, proactively manage risk and build more sustainable operations.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.ibm.com/products/planning-analytics/supply-chain-planning">Supply chain planning and analytics</a></li>
+<li>MIT Solan Managmenet Review <a href="https://sloanreview.mit.edu/article/three-scenarios-to-guide-your-global-supply-chain-recovery/">Three Scenarios to Guide Your Global Supply Chain Recovery</a></li>
+<li>Harvard Business Review <a href="https://hbr.org/2014/01/from-superstorms-to-factory-fires-managing-unpredictable-supply-chain-disruptions">Managing Unpredictable Supply-Chain Disruptions</a></li>
+<li>IBM <a href="https://www.ibm.com/blog/supply-chain-visibility-tool/">The missing link: Why visibility is essential to creating a resilient supply chain</a></li>
+<li>IBM <a href="https://www.ibm.com/blogs/internet-of-things/sustainable-operations-one-asset-at-a-time/">How to create more sustainable operations – one asset at a time</a></li>
+</ul>
+<h2 id="next-steps">Next steps</h2>
+<p>See:</p>
+<ul>
+<li>Loss and waste management (coming soon)</li>
+<li>Product timeliness (coming soon)</li>
+<li>Perfect order (coming soon)</li>
+<li>Intelligent order (coming soon)</li>
+<li>Sustainable supply (coming soon)</li>
+</ul>
+<p>For a comprehensive supply chain overview, see <a href="https://www.redhat.com/architect/portfolio/detail/36">Supply Chain Optimization</a>.</p>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Iain Boyle, Chief Architect, Red Hat</li>
+<li>Bruce Kyle, Sr Solution Architect, IBM Client Engineering</li>
+<li>Mahesh Dodani, Principal Industry Engineer, IBM Technology</li>
+<li>Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat</li>
+<li>Lee Carbonell, Senior Solution Architect &amp; Master Inventor, IBM</li>
+<li>Anthony Giles, Business Automation Technical Specialist, IBM</li>
+</ul>
+<h2 id="download-diagrams">Download diagrams</h2>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<ul>
+<li>PowerPoint Solution Overview: <a href="../downloads/SupplyChainOptimization.SolutionOverview.pptx">Open Solution Overview</a></li>
+<li>PowerPoint Reference Architecture: <a href="../downloads/SupplyChainOptimization.ReferenceArchitecture.pptx">Open Workflow Diagrams</a></li>
+<li>DrawIO: <a href="../downloads/SupplyChainOptimization.drawio">Open Schematic Diagrams</a></li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../returns/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../returns/" class="btn btn-xs btn-link">
+        Returns
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../timeliness/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../timeliness/" class="btn btn-xs btn-link">
+        Timeliness
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

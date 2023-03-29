@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Loss management - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Loss and waste management", url: "#_top", children: [
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Use cases", url: "#use-cases" },
+              {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
+              {title: "Business outcomes", url: "#business-outcomes" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Solution principles", url: "#solution-principles" },
+              {title: "Environment Exception", url: "#environment-exception" },
+              {title: "Contamination/Recall", url: "#contaminationrecall" },
+              {title: "Use case and benefits", url: "#use-case-and-benefits" },
+              {title: "Action Guide", url: "#action-guide" },
+              {title: "Technology", url: "#technology" },
+              {title: "Similar use cases", url: "#similar-use-cases" },
+              {title: "Downloads", url: "#downloads" },
+              {title: "Contributors", url: "#contributors" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../timeliness/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../timeliness/" class="btn btn-xs btn-link">
+        Timeliness
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand risk
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="loss-and-waste-management">Loss and waste management</h1>
+<p>A key focus when dealing with loss and waste management in relation to inventory optimization is how to handle unplanned or unforseen situations causing an inventory item be considered damaged or spoiled. If the situation or problem is rectified withing a well defined time window, there is a possibility of salvaging the product. In some cases once the incident occurs, there is no possibility of salvage and the product is considered damaged. Typically these events are external factors forced upon the business and cannot always be planned or predicted. </p>
+<p>To demonstrate the importance of inventory optimization for any business, we will focus on two main use cases of an unanticipated exception:</p>
+<ul>
+<li><strong>Environment Exceptions</strong> such as power outages or temperature changes that creates potential spoilage </li>
+<li><strong>Product contamination or recall</strong> such as foreign objects or bacteria occuring earlier in the processing or supply chain</li>
+</ul>
+<p>We will start by defining the business problem and the two main use cases: Environmental Exceptions and Product contamination or recall, describe the challenges and business drivers organizations face. Next, we will provide an action guide, provide an overview of the solution, show a schematic of the two use cases: Environmental Exceptions and Product contamination or recall, and conclude with the technology used in the solution.</p>
+<p>For a comprehensive inventory solution overview, see <a href="../supplychain/">Inventory Optimization</a>.</p>
+<h2 id="business-problem">Business problem</h2>
+<p>Loss and waste management is principally focused on ensuring food and food related products remain fit for consumption at the time they are sold to the end consumer. However, external factors outside the control of the business can cause food items to be marked as spoiled or damaged. The problem faced by the business is ensuring the overall loss and wastage is minimised.</p>
+<p>To prevent spoilage, food products must typically be stored and transported at temperatures within well defined ranges. For example:
+- Frozen food must be kept below a specific temperature (0°F) at all times. If the temperature rises and food defrosts, it cannot be refrozen.
+- Chilled food must be kept within a temperature range (34°F - 39°F). The temperature can sometimes go above the higher limit for a short space of time before returning to the correct temperature, without becoming spoiled. If the high temperature is exceeded for a specified duration it must be considered spoiled.
+- Shelf stable food does not require chilling, but needs to be stored withing a temperature range to ensure the product shelf life is maintained. A shelf stable food product's shelf life can be 6 weeks to 5 years, depending on the product.</p>
+<p>To keep food at the correct temperature, refrigeration and chilling during transport and storage are the primary options. Power outages will happen. The ability to deal with the situation within well defined time periods is critical to ensuring the loss and wastage is minimised. If the problem can be rectified quickly and easily, there is every chance the product can remain in perfect conditiona and be sold to a consumer. Failure to act quickly will result in spoilage and loss of the product.</p>
+<p>Between farm and end consumer, food products generally go through multiple stages which vary depending on the end product. For convenience foods, there can be several manufuacturing steps, for fresh produce packaging and transport are the main stages. At any stage in the process, there is a possibility of contamination through foreign objects or bacteria. Both of which can trigger a recall of the food products. With any kind of contamination, a fast and efficient recall process to prevent the products beng purchased by consumers is vital.</p>
+<p>All retailers handing and selling food products need processes to reduce food waste through external factors and ensure recall procedures in the event of contamination are fast, efficient and minimise any risk to public health.</p>
+<h2 id="use-cases">Use cases</h2>
+<p>The main use cases represented by loss management are:</p>
+<ul>
+<li><strong>Environmental Exceptions</strong> &dash; an environmental issue or problem places the food product at risk. If the issue is not dealt with quickly and efficiently the product will be spoiled making unavailable for sale to a consumer. Typically this would be a failure of refrigeration equipment or a loss of power to refrigeration euipment. If the temperature can be kept within a specific range, the product will remain suitable for sale to a consumer. If the temperature moves beyond the specified range for a set period of time, the product will be considered spoiled and no longer suitable for sale to a consumer.</li>
+<li><strong>Product contamination or recall</strong> &dash; a contamination or recall requires the food product to be removed immediately from the inventory and supply chain. The contamination issue or recall notice can come from external parties such as suppliers or food standards agencies, or through the retailer identifying an issue. Once the issue has been identified, the reatiler must immediately remove all affected products from their own inventory and supply chain, then destroy or pass the product to a third party. The issue can be caused by foreign objects or the detection of selected bateria in the product.</li>
+</ul>
+<h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Protect public health: Businesses that sell consumable products are expected to protect the public health by implementing specific processes to address food safety. Maintaining equipment that refrigerates or freezes food or pharmaceutical products for storage until purchase or combined into a recipe and responding to and documenting actions taken to a food safety recall notification by either the supplier or regulatory body are key challenges.</li>
+<li>Regulatory compliance: Business that sell consumable products are expected to comply with local, state, and federal regulatory requirements for food and pharmaceutical products. Automated documentation of compliance is preferred over manual, error-prone documentation.</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li>Industry leading inventory management system, incorporating sensors that can mitigate risks before they create an exposure.</li>
+<li>Integrating loss and waste management into the core supply chain applications, leveraging technical investments in modern infrastructures and edge devices.</li>
+<li>Protect Reputation</li>
+<li>Avoid Penalties and fines</li>
+</ul>
+<h3 id="responses">Responses</h3>
+<p>All businesses that require a supply chain have unanticipated issues. </p>
+<table>
+<thead>
+<tr>
+<th>Business problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
+<td>Monitor and manage network inventory availability and anticipate actions due to unanticipated exception with alerts and recommended actions</td>
+</tr>
+<tr>
+<td>Business process for handling unexpected issues may not be consistent across the enterprise</td>
+<td>Gain detailed visibility into inventory characteristics at each location and provide transparency to inventory. Enable actionable inventory shifts across the enterprise</td>
+</tr>
+<tr>
+<td>Visibility into actions needed and alternatives to anticipate and respond to inventory in an unanticipated event.</td>
+<td>Provide actionable tasks, work orders, visibility for workers and supply chain partners to remove recalled items. Proactively replace items in response to demand.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="business-outcomes">Business outcomes</h2>
+<ul>
+<li>Respond to unexpected events quickly</li>
+<li>Automated processes provide up-to-date transparently into inventory </li>
+<li>Risks mitigated</li>
+</ul>
+<h2 id="solution-overview">Solution overview</h2>
+<p>This solution focuses on <em>Automation</em> and <em>Modernization</em> in our Action Guide as shown in the following diagram:</p>
+<ul>
+<li>Create a world-class sensing and risk-monitoring operation. </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
+<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
+</ul>
+<p><img alt="solution overview" src="../media/lossmanagementsolution.png" /></p>
+<p>The solution uses the following technologies, which can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
+<li>Foundational infrastructure. The Red Hat/IBM solution is built on RedHat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop. </li>
+<li>Inventory Optimization platform</li>
+</ul>
+<h2 id="solution-principles">Solution principles</h2>
+<p><strong>True end-to-end visibility</strong>. Remove data silos and create a unified view across supply chain data with a standard data platform. Personalized dashboards and insights provide a 360-degreee view of KPIs and significant events.</p>
+<p><strong>Manage by exception</strong>. Detect, display, and prioritize work tasks in real time. This allows clients to sense and react to issues quickly while managing risks and disruptions in a supply chain proactively.</p>
+<p><strong>Intelligent workflows</strong>. Actionable workflows can be customized to meet unique requirements and process steps required to automate actions within source transactional systems. Make informed decisions with a supply chain virtual assistant that provides responses to issues based on a client’s supply chain data using natural language search.</p>
+<h2 id="environment-exception">Environment Exception</h2>
+<p>The following diagram shows the schematic for the understock use case.</p>
+<p><a href="../media/lossmanagement-environmentexception-sd.svg"><img alt="environmental exception schematic" src="../media/lossmanagement-environmentexception-sd.svg" /></a></p>
+<p>Food Loss - Environmental Exception steps:</p>
+<ol>
+<li>Environmental event detected (e.g. Temperature out of range or loss of power)
+<li>Notification sent to Supply Risk Management via API Management service
+<li>Inventory Control Tower notified of risk
+<li>Inventory Control Tower triggers process to manage issue
+<li>Inventory Controller notified and action determined
+<li>Update process with Inventory Controller decision
+<li>Remediation
+  <ol type="a">
+    <li>Inventory analysis notified to determine remediation
+    <li>Facilities personel notified to take remediation action
+    <li>Update Inventory Control Tower
+  </ol>
+</ol>
+
+<h2 id="contaminationrecall">Contamination/Recall</h2>
+<p>The following diagram shows the schematic for the contamination recall use case.</p>
+<p>Food Loss - Contamination recall steps:</p>
+<p><a href="../media/lossmanagement-recall-sd.svg"><img alt="recall schematic" src="../media/lossmanagement-recall-sd.svg" /></a>)</p>
+<ol><li>External notification of food safety event
+<li>Notification sent to Supply Intelligence & Inventory Analysis via API Management service
+<li>Determine scope
+  <ol type="a">
+    <li>Determine if supply affected
+    <li>Determine which locations received affected product
+  </ol>
+<li>Notify Inventory Control Tower
+<li>Inventory Control Tower processes event data and starts remedediation action
+<li>Colleague remediates inventory and counts, then removes product from inventory
+<li>Remediation
+  <ol type="a">
+    <li>Inventory updated
+    <li>Apply financial reimbursement. Generate new order
+  </ol>
+</ol>
+
+<h2 id="use-case-and-benefits">Use case and benefits</h2>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>The Problem</th>
+<th>The Solution</th>
+<th>The Benefits and Implications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automated processes</td>
+<td>Manual input and follow up</td>
+<td>Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders.</td>
+<td>Actions follow a consistent business process and can be easily updated as needs change</td>
+</tr>
+<tr>
+<td>Damaged or potential issues products</td>
+<td>Facilities issues can immediately impact product liability, lead to lost revenue and decreased brand / retailer loyalty.</td>
+<td>Control Tower monitors inventory connections to multiple core application systems foster visibility,  create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand.</td>
+<td>Action can be taken directly from the Control Tower user interface. Product situations are efficiently managed and OOS are avoided with minimal human intervention.</td>
+</tr>
+<tr>
+<td>API Management</td>
+<td>Separation of systems, control and monitoring of access, providing consistent user authentication and security between platforms</td>
+<td>API Manages the access and permissions required for data between systems.</td>
+<td>Improved security, monitoring of frequency of access between systems</td>
+</tr>
+<tr>
+<td>Supply intelligence, inventory analysis</td>
+<td>Avoid discarding items not included in recall, contamination Provide alternative products that can be substituted. Determine alternative locations or steps to stage product</td>
+<td>Supply intelligence and inventory analytics provides record of product details, visibility into substitute products, - visibility of item locations, suggested remediation steps</td>
+<td>Supplies can be immediately removed from sale, substitute product offered, steps to ship unaffected products as needed based on actual demand</td>
+</tr>
+<tr>
+<td>Colleage and partner engagement</td>
+<td>Quick sharing data between enterprise silos and to partners who can provide solutions</td>
+<td>Visibility into recall issues</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="action-guide">Action Guide</h2>
+<p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
+<ul>
+<li>Automation</li>
+<li>Systainability</li>
+<li>Modernization</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Actionable Step</th>
+<th>Implementation details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automation</td>
+<td>Create a world-class sensing and risk-monitoring operation</td>
+<td>Leveraging IOT/Edge devices, implement the ability to detect abnormal variations in temperature, power, water, machinery, and transportation to quickly react and correct.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Accelerate automation in extended workflows</td>
+<td>Business automation provides a systematic way to notifications, documentation of notifications, and creation of work orders.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Amp up AI to make workflows smarter</td>
+<td>For Damaged or potential issues products, Control Tower monitors inventory connections to multiple core application systems foster visibility, create items in the work queue when revenue is at risk. When drilling down on the item, users can see where they have available inventory and receive recommendations about how much inventory can and should be ordered for replacement based on demand.</td>
+</tr>
+<tr>
+<td>Modernization</td>
+<td>Modernization for modern infrastructures, scale hybrid cloud platforms</td>
+<td>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="technology">Technology</h2>
+<p>The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.</p>
+<h3 id="core-systems">Core systems</h3>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with <a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a> and <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a>.</p>
+<p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </p>
+<p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>
+<h3 id="integration-services">Integration services</h3>
+<p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><em>Business Automation Workflow</em></a> automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. </p>
+<h3 id="supply-assurance-platform">Supply assurance platform</h3>
+<p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite"><em>IBM Supply Chain Control Tower</em></a> provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.</p>
+<p><a href="https://www.ibm.com/products/intelligent-promising"><em>IBM Sterling Intelligent Promising</em></a> provides shoppers with greater certainty, choice and transparency across their buying journey. It includes:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/fulfillment-optimizer"><em>IBM Sterling Fulfillment Optimizer with Watson</em></a> to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement</li>
+<li><a href="https://www.ibm.com/products/inventory-visibility"><em>Sterling Inventory Visibility</em></a> to processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels.</li>
+</ul>
+<p><a href="https://www.ibm.com/products/planning-analytics"><em>IBM Planning Analytics with Watson</em></a> streamlines and integrates financial and operational planning across the enterprise.</p>
+<h2 id="similar-use-cases">Similar use cases</h2>
+<p>See:</p>
+<ul>
+<li><a href="../perfectorder/">Inventory management</a></li>
+<li><a href="../demandrisk/">Demand risk</a></li>
+<li><a href="../timeliness/">Product timeliness</a></li>
+<li><a href="../intelligentorder/">Intelligent order</a></li>
+<li><a href="../sustainablesupplychain/">Sustainable supply chain</a></li>
+</ul>
+<p>For a comprehensive supply chain overview, see <a href="../supplychain/">Supply Chain Optimization</a>.</p>
+<h2 id="downloads">Downloads</h2>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<ul>
+<li>PowerPoint Solution Overview: <a href="../downloads/SupplyChainOptimization.SolutionOverview.pptx">Open Solution Overview</a></li>
+<li>PowerPoint Reference Architecture: <a href="../downloads/SupplyChainOptimization.ReferenceArchitecture.pptx">Open Workflow Diagrams</a></li>
+<li>DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio</li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Mike Lee, IBM</li>
+<li>Iain Boyle, Red Hat</li>
+<li>Bruce Kyle, IBM</li>
+<li>Mahesh Dodani, IBM</li>
+<li>Thalia Hooker, Red Hat</li>
+<li>Jeric Saez, IBM</li>
+<li>Lee Carbonell, IBM</li>
+<li>James Stewart, IBM</li>
+<li>Lee Carbonell, IBM</li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../timeliness/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../timeliness/" class="btn btn-xs btn-link">
+        Timeliness
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../demandrisk/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../demandrisk/" class="btn btn-xs btn-link">
+        Demand risk
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

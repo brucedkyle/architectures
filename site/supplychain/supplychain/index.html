@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Supply chain optimization - Cloud Native Architectures</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Supply Chain Optimization Overview", url: "#_top", children: [
+              {title: "Supply chain concepts", url: "#supply-chain-concepts" },
+              {title: "Business problem", url: "#business-problem" },
+              {title: "Business value", url: "#business-value" },
+              {title: "Challenges / Business Drivers", url: "#challenges-business-drivers" },
+              {title: "Business outcomes", url: "#business-outcomes" },
+              {title: "Solution overview", url: "#solution-overview" },
+              {title: "Scenarios", url: "#scenarios" },
+              {title: "Portfolio architecture", url: "#portfolio-architecture" },
+              {title: "Logical diagram", url: "#logical-diagram" },
+              {title: "The technology capabilities", url: "#the-technology-capabilities" },
+              {title: "Action guide", url: "#action-guide" },
+              {title: "References", url: "#references" },
+              {title: "Downloads", url: "#downloads" },
+              {title: "Contributors", url: "#contributors" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../perfectorder/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../perfectorder/" class="btn btn-xs btn-link">
+        Perfect order
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../.." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../.." class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="supply-chain-optimization-overview">Supply Chain Optimization Overview</h1>
+<p>Retailers, manufacturers and organizations are exploring ways to better able to understand and act on changes in the market as they occur – to balance protecting margins, utilizing store and warehouse capacity and meeting delivery expectations. These sourcing decisions can dramatically increase profits, especially during peak periods.</p>
+<p>In addition, organizations are exploring how to provide a more sustainable footprint. Organizations are looking to redefine an enterprise-wide approach to sustainability.</p>
+<p>In this overview, we will discuss the business challenges, business value, and business outcomes and then provide automation and modernization actionable steps organizations can take to drive innovation and move toward a digital supply chain. These are based on The Action Guide in Own your transformation survey of 1500 CSCOs across 24 industries. Actionable steps will be developed through the lens of use cases on how the main risk factors can be transformed: </p>
+<p>To further describe the business problems and possible solutions a number of scenarios will be introduced.
+- Perfect order
+- Intellient Order
+- Demand risk
+- Loss and waste management
+- Product timeliness
+- Sustainable supply chain</p>
+<p>We will then give an overview of the solution, reference architecture, logical diagram, and how these capabilities are realized by technology capabilities.</p>
+<h2 id="supply-chain-concepts">Supply chain concepts</h2>
+<p><em>Fulfilment</em> is the process of exceeding customer expectations when the customer receives their requested products, good or services. The items must be made available in a suitable timeframe, at the correct location and in an acceptable condition.</p>
+<p>Fulfilment optimization takes the fulfillment process a step further by using information and knowledge about the supply chain, inventory and stock positions to ensure any promises made to the customer are met or exceeded.</p>
+<p>A key element of the retail fulfilment process is knowing the inventory position. This is the amount of stock available for sale to a customer, it’s location and the time it takes to make it available to the customer. </p>
+<p><em>Inventory optimization</em> is a collection of best practices for ensuring the retail organisation maintains complete and accurate stock levels whilst balancing customer demand against current and future stock levels.</p>
+<p><em>Sustainability</em> in business refers to a company's strategy to reduce negative environmental impact resulting from their operations in a particular market. An organization’s sustainability practices are typically analyzed against environmental, social, and governance (ESG) metrics.</p>
+<p>The business goal is to balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. </p>
+<h2 id="business-problem">Business problem</h2>
+<p>Chief Supply Chain Officers (CSCOs) face issues related to supply chain disruptions, technology infrastructure, sustainability, and market shifts as their greatest challenges. Yet when addressed with an open mindset, challenges create opportunities within the enterprise—and visibility. </p>
+<p>Harvard Business Review article, <a href="https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis">Three steps to prepare your supply chain for the next crisis</a>. reports:</p>
+<blockquote>
+<p>Companies that are well prepared and as a result prosper in a crisis can expect to recover more quickly than their competitors. In a review of corporate performance during the past four U.S. downturns (since 1985), Boston Consulting Group (BCG) found that 14% of companies increased their sales and their profit margin.</p>
+<p>Investors are starting to reward companies that build for the future by becoming more innovative and more resilient. In June 2020, during the depths of the Covid-19 pandemic, BCG surveyed major institutional investors and found that nine out of ten believed it was "important for healthy companies to prioritize the building of business capabilities — even if it means lowering earnings-per-share guidance or delivering below consensus."</p>
+</blockquote>
+<p>The McKinsey report <a href="https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains">How COVID-19 is reshaping supply chains</a> explains that companies found it was easier to increase inventories than implement their preferred strategy of nearshoring or regionalization.  In addition, "The proactive monitoring of supplier risks was the primary focus …, yet significant blind spots remain in most companies’ supply-chain risk-management setups. Just under half of the companies in our survey say they understand the location of their tier-one suppliers and the key risks those suppliers face."</p>
+<p>Enhanced customer experiences, improved profitability, and more predictive forecasts are high on CSCOs' priority lists according to a report by IBM Institute for Business Value, <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transformation: Data-led innovation for the modern supply chain</a>. </p>
+<h2 id="business-value">Business value</h2>
+<p>Inventory optimization is making sure the current and future demand is accurately balanced against current and future inventory across the enterprise. Getting the balance correct leads to a successful and profitable retail business. Getting the balance wrong leads to failure and in the worst case, eventual collapse of the business.</p>
+<p>Specifically, <a href="https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis?autocomplete=true">Harvard Business Review article</a> recommends:</p>
+<blockquote>
+<p>CEOs need to invest in risk intelligence and strategic foresight, creating a team of procurement super-forecasters equipped with the latest artificial-intelligence (AI)-powered sensing technology.</p>
+</blockquote>
+<h2 id="challenges-business-drivers">Challenges / Business Drivers</h2>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Addressing supply chain disruptions, technology infrastructure, sustainability and market shifts.</li>
+<li>Using an open mindset to address challenges thereby create opportunities.</li>
+</ul>
+<p><strong>Drivers</strong></p>
+<ul>
+<li>Resilient inventory management systems handle unexpected events and disruption to ensure business success</li>
+<li>Right product at the right time, matching customer expectations</li>
+<li>Enhanced customer experience with inventory matching customer demand</li>
+<li>Increased margins and improved net zero benefits due to reduce food waste and spoilage</li>
+<li>Perfect product delivery delighting customers</li>
+</ul>
+<h2 id="business-outcomes">Business outcomes</h2>
+<ul>
+<li>Business responds to unexpected changes in supply chain</li>
+<li>Increased customer satisfaction by meeting customer expectation for goods and delivery</li>
+<li>Profit, revenue increases due to reduce waste and spoilage</li>
+<li>Meets sustainability commitments reflected in brand awareness</li>
+</ul>
+<h3 id="impacts-on-kpis">Impacts on KPIs</h3>
+<p>According to the <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">IBM IBV study</a>, innovators track well ahead of their peers when it comes to AI-enabled workflows for risk management and to handle other predictions. And they expect continued development of these workflows and other capabilities over the next three years. Right now, Innovator CSCOs report developing digitized workflows and leveraging AI automation a full 95% more than their peers.</p>
+<p>Innovators also stand out by leveraging data with AI and advanced analytics in demand management. With demand volatility and associated supplier, operations, and logistics disruption at all-time highs, CSCOs are applying AI and machine learning to the critical and strategic continuous planning elements of demand management and forecasting. A full 90% of Innovators use AI and advanced analytics in demand management and predictive forecasting, 18% more than their peers (76%).</p>
+<p>Directly influence the following KPIs:</p>
+<ul>
+<li>Improve lost sales from stock out 4-8% </li>
+<li>Solution cost savings 10% </li>
+<li>Increase stock turnover</li>
+<li>Reduce days on hand</li>
+<li>Manage lead time (may be leading indicator of stock overage)</li>
+<li>Reduce holding cost</li>
+<li>Manage product at risk/perishability/age</li>
+<li>Improve gross margin return on investment</li>
+<li>Reduce return rate</li>
+<li>Black swan events. Manage unusual events regarding weather, natural disaster, supply chain interruption.</li>
+<li>Improve customer satisfaction</li>
+</ul>
+<h2 id="solution-overview">Solution overview</h2>
+<p>This solution combines existing systems with state-of-the-art offerings to:</p>
+<ul>
+<li>Create a world-class sensing and risk-monitoring operation. </li>
+<li>Accelerate automation in extended workflows</li>
+<li>Amp up AI to make workflows smarter</li>
+<li>Modernize for modern infrastructures, scale hybrid cloud platforms</li>
+</ul>
+<p>The following diagram provides a high-level overview how systems work together for the desired outcomes.</p>
+<p><img alt="solution overview" src="../media/overview.png" /></p>
+<h2 id="scenarios">Scenarios</h2>
+<p>To demonstrate the importance of inventory optimization for any business, several articles outline main use cases on how the main risk factors can be transformed:</p>
+<ul>
+<li><a href="../perfectorder/">Perfect order</a></li>
+<li><a href="../intelligentorder/">Intellient Order</a></li>
+<li><a href="../demandrisk/">Demand risk</a></li>
+<li><a href="../lossmanagement/">Loss and waste management</a></li>
+<li><a href="../timeliness/">Product timeliness</a></li>
+<li><a href="../sustainablesupplychain/">Sustainable supply chain</a></li>
+</ul>
+<p>The following section explore more details on each of the scenarios.</p>
+<h3 id="perfect-order">Perfect order</h3>
+<p>Inventory may not be on hand or in a different location than expected. Multiple and partial shipments may be able to solve many customer requests.</p>
+<p>The business can respond to the imperfect order and increase customer responsiveness with:</p>
+<ul>
+<li>Intelligent promising</li>
+<li>Optmization user expectations with improved demand forecasting </li>
+<li>Automated responses</li>
+</ul>
+<p>For more information and solution details on this scenario, see <a href="../perfectorder/">Perfect order</a></p>
+<h3 id="intelligent-order">Intelligent order</h3>
+<p>If the <strong>last mile delivery</strong> promise is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.</p>
+<p>If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.</p>
+<p>For more information about the solution details on this scenario, see <a href="../intelligentorder/">Intelligent order</a>.</p>
+<h3 id="demand-risk">Demand risk</h3>
+<p><em>Understock</em> - not holding sufficient inventory to meet current demand. This includes not having enough inventory today but also, not having enough inventory in the very near future that could be used to meet the demand.</p>
+<p><em>Overstock</em> - holding more stock than required to meet current and future demand. This results in additional costs to store then dispose of overstocked items via discounts, selling at a loss or destruction. </p>
+<p>For more information about the solution details on this scenario, see <a href="../demandrisk/">Demand risk</a>.</p>
+<h3 id="loss-and-waste-management">Loss and waste management</h3>
+<p><strong>Loss and waste management</strong> requires you to take decisive action in cases of:</p>
+<ul>
+<li><em>Shelf life</em>. Identify and timely replace items as shelf life expires. <em>NOTE: This is covered in Product timeliness</em></li>
+<li><em>Environmental exceptions</em>. Food expirations, power interruption or other disaster affecting the product salability.</li>
+<li><em>Contamination or recall</em>. Quickly identify, remove contaminated and recalled items from sale or items that have a contaminated component. Proactively provide safe alternative or replacement when safe.</li>
+</ul>
+<p>For more information about the solution details on this scenario, see <a href="../lossmanagement/">Loss and waste management</a>.</p>
+<h3 id="product-timeliness">Product timeliness</h3>
+<p><strong>Product timeliness</strong> is having goods and products in the right place at the right time, packed correctly and in line with customer expectations. This risk is particular to seasonal goods, fast fashion, drugs, cosmetics, grocery and food supply industry. KPIs relevant to product timeliness include dead stock and inventory days on hand.</p>
+<ul>
+<li><em>Shelf life</em> defines a set of actions to be taken with products that expire on specific dates and must be removed from use or sale. For example, food can expire and need to be removed from shelves. </li>
+<li><em>Timeliness</em> defines a set of actions that can be taken when products expire, but that may be still have some benefit. For example, seasonality of clothing can be warehoused until the following year.</li>
+</ul>
+<p>For more information about the solution details on this scenario, see <a href="../timeliness/">Product timeliness</a>.</p>
+<h3 id="sustainable-supply-chain">Sustainable supply chain</h3>
+<p><strong>Sustainability</strong> provides an opportunity to differentiate your business, yet the business must balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line. On a rapidly warming planet, companies across sectors have transformed  business models to forge a sustainable future &dash; one that protects people, planet, and profits. In the race to reduce emissions, consumption, and waste, everything is on the table. Supply chains are being recalibrated. Source materials are evolving. Travel requests are carefully scrutinized.</p>
+<p>For more information about the solution details on this scenario, see <a href="../sustainablesupplychain/">Sustainable supply chain</a>.</p>
+<h2 id="portfolio-architecture">Portfolio architecture</h2>
+<p>The following diagram provides an overall portfolio architecture for the solution.</p>
+<p><img alt="portfolio architecture" src="../media/referencearchitecture.png" /></p>
+<p>The portfolio architecture shows the major systems and how they relate to each other. The following sections describe the system features in more details.</p>
+<h2 id="logical-diagram">Logical diagram</h2>
+<p>The following logical diagram describes a set of personas and technologies that provide a platform for some of the biggest potential for ideation and breakthroughs with supply chain.</p>
+<p><img alt="logical diagram" src="../media/InventoryOptimisationLogical.svg" /></p>
+<p>The logical diagram is explained as solution tiers and personas in the following sections.</p>
+<h3 id="solution-tiers">Solution tiers</h3>
+<p>The technologies can be grouped into main categories:</p>
+<ul>
+<li><strong>User applications</strong>. Applications where supply chain activities are reported and used by customers, colleagues, suppliers, and logistics. In particular, the inventory controller interacts with the Inventory Optimization Platform, described in a following section.</li>
+<li>
+<p><strong>Core application systems</strong>. Often customer-provided technologies, such as order management, facilities management. These include services, data, and systems currently used within the organization, such as:</p>
+<ul>
+<li>Point of Sale systems</li>
+<li>Store Operations Systems</li>
+<li>External Data Feeds</li>
+<li>Planning and Replentishment system</li>
+<li>Warehouse management</li>
+<li>Order management</li>
+<li>Supply chain system</li>
+<li>Transport system</li>
+<li>Catalog Management system</li>
+<li>Facility Asset Management system</li>
+</ul>
+</li>
+<li>
+<p><strong>Inegration Services</strong>. Manages the events and data between systems, and includes:</p>
+<ul>
+<li>Integration services</li>
+<li>Data fabric</li>
+<li>Business automation</li>
+<li>DevOps</li>
+<li>API Management</li>
+</ul>
+</li>
+<li>
+<p><strong>Supply Assurance platform</strong> including systems supporting:</p>
+<ul>
+<li>Supply assurance control tower</li>
+<li>Fulfillment optimization</li>
+<li>Inventory analysis and AI</li>
+<li>Supply intelligence</li>
+<li>Supply risk management</li>
+<li>Demand intelligence</li>
+<li>Sustainability</li>
+</ul>
+</li>
+<li>
+<p><strong>Omni Channels</strong></p>
+<ul>
+<li>Web applications for users</li>
+<li>Point of sale applications in stores</li>
+<li>Mobility and device applications</li>
+<li>Social media</li>
+<li>Email</li>
+<li>Parter applications</li>
+</ul>
+</li>
+</ul>
+<h3 id="personas">Personas</h3>
+<p>The following stakeholders within the organization.</p>
+<ul>
+<li><strong>Executive sponsors</strong>. Global Supply Chain VP/Officer, VP Global Supply Chain Operations, IT Innovation, eComm Inventory Controller, Merchandize Logistics Manager, Store Operations VP/Lead</li>
+<li><strong>Influencers</strong>. Inventory Control Specialists, Inventory management director, Supply chain professional, store inventory manager, fulfillment manager, inventory analyst, financial control officer/controller, Demand forecaster analyst, Inventory planning</li>
+<li><strong>Operations</strong>. Warehouse managers, logistics managers</li>
+</ul>
+<p>The following represent users of the system outside of the organization.</p>
+<ul>
+<li><strong>Customers</strong></li>
+<li><strong>Business partners</strong></li>
+<li><strong>Vendors</strong></li>
+</ul>
+<h2 id="the-technology-capabilities">The technology capabilities</h2>
+<p>This section provides the logical components of the solution. The solution architecture provides for:</p>
+<ul>
+<li>Independent deployable, scaled business services</li>
+<li>Composable, stateless modular services </li>
+<li>API first approach to building any service</li>
+<li>Inter communication between services asynchronous</li>
+<li>Business functions, API access controls managed independently</li>
+<li>Can be deployed across multiple data centers for HA capable of tenant level failover</li>
+</ul>
+<h3 id="foundational-technologies-hybrid-cloud-platform">Foundational technologies &dash; Hybrid Cloud Platform</h3>
+<p>The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. Key client value areas include:</p>
+<ul>
+<li>Platform for Digital Transformation and Modernization</li>
+<li>Accelerated application development for faster go-to-market and innovation</li>
+<li>Engineering excellence through an enterprise grade open source container platform</li>
+<li>Self-service transformation with DevOps/SRE and automated operations</li>
+</ul>
+<p>Specifically, the recommended platform includes:</p>
+<ul>
+<li><a href="https://developers.redhat.com/products/rhel/overview"><strong>Red Hat Enterprise Linux</strong></a> is the world’s leading enterprise Linux platform. It’s an open-source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.</li>
+<li>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with </p>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a> </li>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.ibm.com/products/business-automation-workflow"><strong>Business Automation Workflow</strong></a> unites information, processes and users to help you automate digital workflows on premises or on cloud. Create workflows that increase productivity, improve collaboration between teams, and gain new insight to resolve cases and drive better business outcomes.</p>
+</li>
+<li><a href="https://www.redhat.com/en/technologies/management/ansible"><strong>Red Hat Ansible Automation Platform</strong></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  </li>
+<li><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><strong>Red Hat OpenShift API Management</strong></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</li>
+<li><a href="https://www.redhat.com/en/products/integration"><strong>Red Hat Intgration</strong></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</li>
+<li><a href="https://www.redhat.com/en/getting-started-devops"><strong>Red Hat OpenShift DevOps</strong></a> reoresents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure. </li>
+<li>
+<p><a href="https://www.ibm.com/data-fabric"><strong>IBM Data Fabric</strong></a> empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular:</p>
+<ul>
+<li><a href="https://www.ibm.com/cloud/watson-knowledge-catalog"><em>Watson Knowledge Catalog</em></a> provides you users with a catalog tool for intelligent, self-service discovery of data, models. </li>
+<li><a href="https://www.ibm.com/products/watson-query"><em>Watson Query</em></a> provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. </li>
+</ul>
+</li>
+</ul>
+<h3 id="core-application-systems">Core application systems</h3>
+<p>The core application systems can be in-house applications, cloud services, IBM or competitive applications. The core applications provide data through the foundational technologies (such as API management that provides monitoring and security). They can also respond to automated actions based on business rules or from other layers in the system.</p>
+<h3 id="supply-assurance-platform">Supply Assurance Platform</h3>
+<p>Each of the core application systems provides data and responds to events through the foundational technologies. </p>
+<p><strong>Supply assurance control tower</strong>. Gartner describes <a href="https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology">supply chain technology</a> as a central hub as an integrated part of a broader SCM platform using these building blocks: people, process, data, organization and technology. The idea is to capture and use data to provide enhanced real-time visibility and in-depth analysis. <a href="https://www.ibm.com/products/supply-chain-intelligence-suite">IBM Supply Chain Control Tower</a>, powered by industry-leading AI, provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects. </p>
+<p><strong>Fulfillment optimization</strong>. Gartner describes the <a href="https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning">fulfillment forecasting approach</a>, which provides a more accurate view of consumer fulfillment choices. This approach enables retailers to accurately gauge the right amount of inventory required to meet demand in stores, distribution centers and other inventory holding notes throughout the retailer’s network. IBM offers <a href="https://www.ibm.com/products/intelligent-promising">IBM Sterling Intelligent Promising </a> provides shoppers with greater certainty, choice and transparency across their buying journey. </p>
+<p><strong>Inventory analysis and AI</strong>. This cognitive analytic engine enhances existing order management systems. It determines the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement. IBM includes <a href="https://www.ibm.com/products/fulfillment-optimizer">IBM Sterling Fulfillment Optimizer with Watson</a> as a component of IBM Sterling Intelligent Promising.</p>
+<p><strong>Supply risk management</strong>. Gartner describes the key tenets of supply chain risk management enhance resilience and improve competitiveness. </p>
+<ul>
+<li>Market disruptions include: natural disasters, pandemics, political uncertainty, economic upheaval, cyber and terrorist attacks, third-party or supplier threats, and rapid swings in consumer preferences and demand.</li>
+<li>Supply chain transformation also complicates supply chain risk management &dash; lean, but complex and globally dispersed operations add risks, and the supply chain risk management process is vital in wringing out efficiencies and costs.</li>
+</ul>
+<p><strong>Inventory visibility</strong>. This processes inventory supply and demand activity to provide accurate and real-time global visibility across selling channels. For this solution, IBM offers <a href="https://www.ibm.com/products/inventory-visibility">Sterling Inventory Visibility</a>, which is included with IBM Sterling Intelligent Promising. </p>
+<p><strong>Planning and analytics</strong>. Businesses need to evolve their planning and analysis strategies to include continuous, integrated planning. This means creating a single source of truth to streamline planning, manage performance and build alignment across the enterprise. In this category IBM offers:</p>
+<ul>
+<li><a href="https://www.ibm.com/products/planning-analytics">IBM Planning Analytics with Watson</a> to streamline and integrate financial and operational planning across the enterprise.</li>
+<li><a href="https://www.ibm.com/products/mro-inventory-optimization">IBM Maximo MRO Inventory Optimization</a> to help you optimize your maintenance, repair and operations (MRO) inventory by providing an accurate, detailed picture of performance.</li>
+</ul>
+<p><strong>Sustainability</strong>. To put your sustainability goals into action, you need a strategy and solutions that are specific to your needs. Businesses can approach sustainability initiatives by:</p>
+<ul>
+<li>Strategic partnership with Red Hat and IBM.</li>
+<li>Using environmental, social and governance (ESG) reporting to integrate data silos. Find new opportunities to drive positive change across your operations with <a href="https://www.ibm.com/products/envizi">Envisi</a>.</li>
+<li>To manage assets, you can create a lower-emissions business. Use automation to track resource usage, reduce costs and improve services with <a href="https://www.ibm.com/products/maximo">IBM Maximo Application Suite</a>.</li>
+</ul>
+<h2 id="action-guide">Action guide</h2>
+<p>From a high-level perspective, several main steps are suggested for your organization to drive innovation and move toward a digital supply chain.</p>
+<h3 id="automation">Automation</h3>
+<ul>
+<li>Accelerate automation in extended workflows </li>
+<li>Amp up AI to make workflows smarter </li>
+<li>Cultivate collaborative ecosystems </li>
+</ul>
+<h3 id="sustainability">Sustainability</h3>
+<ul>
+<li>Link environmental and social initiatives with business solutions </li>
+<li>Optimize workflows with AI to manage carbon, waste, energy, and water consumption </li>
+<li>Compete with new sustainable products and services </li>
+</ul>
+<h3 id="modernization">Modernization</h3>
+<ul>
+<li>Architect modern infrastructures </li>
+<li>Scale hybrid cloud platforms </li>
+<li>Increase awareness of cybersecurity vulnerabilities and solutions</li>
+</ul>
+<p>For specific steps on this approach, see <strong>The Action Guide</strong> details in <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transformation</a> survey of 1500 CSCOs across 24 industries.</p>
+<h3 id="next-steps">Next steps</h3>
+<p>See <em>Action Guide</em> section in each of the use cases:</p>
+<ul>
+<li><a href="../perfectorder/#action-guide">Perfect order</a></li>
+<li><a href="../intelligentorder/#action-guide">Intelligent order</a></li>
+<li><a href="../demandrisk/#action-guide">Demand risk</a></li>
+<li><a href="../lossmanagement/#action-guide">Loss and waste management</a></li>
+<li><a href="../timeliness/#action-guide">Product timeliness</a></li>
+<li><a href="../sustainablesupplychain/#action-guide">Sustainable supply chain</a></li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li>McKinsey: <a href="https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains">How COVID-19 is reshaping supply chains</a></li>
+<li>Harvard Business Review: <a href="https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis">Three steps to prepare your supply chain for the next crisis</a></li>
+<li>Gartner: <a href="https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one">What is a Supply Chain Control Tower and what's needed to deploy one</a></li>
+<li>Gartner: <a href="https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning">Fulfillment Forecasting: The Key to Optimizing Retail Inventory Positioning</a></li>
+<li>Gartner: <a href="https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management">Supply Chain Risk Management (SCRM): What &amp; Why Is It Important</a></li>
+<li>IBM Institute for Business Value: <a href="https://www.ibm.com/downloads/cas/1BYY6VEM">Own your transfomation</a></li>
+<li>IBM Institute for Business Value: <a href="https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research">Balancing sustainability and profitability</a></li>
+<li><a href="https://www.ibm.com/topics/business-sustainability">What is sustainability in business?</a></li>
+</ul>
+<h2 id="downloads">Downloads</h2>
+<p>View and download all of the <strong>Inventory Optimization diagrams</strong> shown in previous sections in our open source tooling site.</p>
+<ul>
+<li>PowerPoint Solution Overview: <a href="../downloads/SupplyChainOptimization.SolutionOverview.pptx">Open Solution Overview</a></li>
+<li>PowerPoint Reference Architecture: <a href="../downloads/SupplyChainOptimization.ReferenceArchitecture.pptx">Open Workflow Diagrams</a></li>
+<li>DrawIO: <a href="../downloads/SupplyChainOptimization.drawio">Open Schematic Diagrams</a></li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Iain Boyle, Chief Architect, Red Hat</li>
+<li>Mike Lee, Principal AI Ops Technical Specialist, IBM</li>
+<li>James Stewart, Principle Account Technical Leader, IBM</li>
+<li>Bruce Kyle, Sr Solution Architect, IBM Client Engineering</li>
+<li>Mahesh Dodani, Principal Industry Engineer, IBM Technology</li>
+<li>Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat</li>
+<li>Rajeev Shrivastava, Account Technical Lead, IBM</li>
+<li>Ashok Iyengar, Executive Cloud Architect, IBM</li>
+<li>Karl Cama, Chief Architect, Red Hat</li>
+<li>Jeric Saez, Senior Solution Architect, IBM</li>
+<li>Lee Carbonell, Senior Solution Architect &amp; Master Inventor, IBM</li>
+<li>Ramesh Yerramsetti, Customer Success Architect, IBM</li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../perfectorder/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../perfectorder/" class="btn btn-xs btn-link">
+        Perfect order
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../.." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../.." class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
