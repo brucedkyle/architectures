@@ -32,9 +32,11 @@ Manage buildings to encourage sustainability through the real estate lifecycle. 
 
 Minimize the environmental impact of your operations.
 
+- Cut energy use.
 - Minimize/combine facility management work orders.
 - Use data from sensors, such as HVAC, refrigerator and freezer temperatures.
 - Identify and manage energy usage.
+- Green IT, reducing environmental impact of your data center.
 
 ## Background
 
