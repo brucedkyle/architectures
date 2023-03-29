@@ -1,4 +1,4 @@
-# Sustainable enterprise facilities
+# Sustainable enterprise
 
 Companies are setting environmental commitments, including achieving Net Zero green house gas (GHG) Emissions by 2030 and diverting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025. Real estate plays a critical role in meeting these targets.
 

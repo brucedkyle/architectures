@@ -1,2 +1,4 @@
 site/
-site/
+*.drawio.bkp
+*.drawio.dtmp
+~$
