@@ -8,6 +8,7 @@ Evolving customer expectations have forced retailers to figure out how to better
 - Minimizing return losses.
 - Categorize return items for recycle, dispose, or return for sales.
 - Determine fraudulent returns.
+- Identify and track teturns items with hazardous materials.
 
 ## Background
 
@@ -107,9 +108,15 @@ Returns workflow steps:
 </ol>
 <li>Once it is determined usable or not, business automation takes steps to:
 <ol type="a">
-<li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item identify the reason for the return
+<li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item; identify the reason for the return
 <li>Review for fraudulent return patterns
 <li>Refund or provide store credit
+</ol>
+<li>Track return items through transport system
+<ol type-"a">
+<li>Track the order, notifying customer and provide real-time tracking
+<li>Track order to disposal or repupose delivery location
+<li>Track hazardous material to disposal
 </ol>
 </ol>
 

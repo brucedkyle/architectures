@@ -187,11 +187,13 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*IBM TRIRIGA*](https://www.ibm.com/products/tririga/sustainability) harnesses the power of data and AI to infuse sustainability into your real estate and facilities management operations.
 
-[*IBM Maximo Application Suite*](https://www.ibm.com/products/maximo/sustainability) Infuse sustainability into your asset management by harnessing the power of data and AI.
+[*IBM Maximo Application Suite (MAS)*](https://www.ibm.com/products/maximo/sustainability) Infuse sustainability into your asset management by harnessing the power of data and AI.
 
-[*Maximo Integrators for TRIRIGA*](https://www.ibm.com/support/pages/ibm-maximo-integrators-tririga-version-12-available-ism-library) combines the enterprise asset management (EAM) capabilities of Maximo Asset Management with some of the integrated workplace management system (IWMS) capabilities of IBM TRIRIGA. This offering focuses on strategic facility planning, move-space management, and condition assessment and opportunities management.
+*Connectors* provide automated capture and reporting of data between:
 
-[*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
+- MAS and Envizi.
+- TRIRIGA and MAS.
+- Envizi and TRIRIGA.
 
 ## References
 
