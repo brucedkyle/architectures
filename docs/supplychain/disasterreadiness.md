@@ -1,10 +1,16 @@
 # Disaster readiness
 
-Companies are facing climate-related asset damage, supply chain and operations disruptions and increasing expectations from consumers and investors to perform as an environmental leader. 
+Companies are facing natural atural disasters and extreme weather conditions, including those impacted by
+
+- Climate change, such as hurricanes, typhoons, floods, earthquakes, wildfires, droughts
+- Acts of terrorism or violence, including active shooter situations; energy shortages
+- Public health issues, including pandemics and quarantines 
+
+Each can negatively affect your supply chain operations and financial performance. 
 
 ## Use case
 
-As weather events and climate change increasingly impact businesses, it becomes harder for leaders to assess how extreme weather events will impact your operations. 
+Events could result in physical damage to our properties, limitations on store operating hours, less frequent visits by members to physical locations, the temporary closure of warehouses, depots, manufacturing or home office facilities, the temporary lack of an adequate work force, disruptions to our IT systems, the temporary or long-term disruption in the supply of products from some local or overseas suppliers, the temporary disruption in the transport of goods to or from overseas, delays in the delivery of goods to our warehouses or depots, and the temporary reduction in the availability of products in our warehouses.
 
 In 2020, there were [22 separate billion-dollar weather and climate disasters](https://www.climate.gov/news-features/blogs/beyond-data/2020-us-billion-dollar-weather-and-climate-disasters-historical) in the US alone and you can understand why modeling the risk from weather is so critical to your operations. 
 
