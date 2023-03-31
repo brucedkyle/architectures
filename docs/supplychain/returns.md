@@ -190,6 +190,8 @@ For a comprehensive supply chain overview, see [Supply Chain Optimization](https
 - Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
 - Ramesh Yerramsetti, Customer Success Architect, IBM Technology
+- Eric Singsaas, Account Technical Lead, IBM Technology
+
 
 ## Download diagrams
 

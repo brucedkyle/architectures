@@ -124,21 +124,15 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 The figures in this section show the interaction of customer systems with facilities management systems in the context of an integrated workplace management.
 
-### Integrated workplace management
+## Key use cases
 
-_Figure 4. Schematic diagram of integrated workplace management use case._
+See:
 
-Integrated workplace management workflow steps:
-
-!TODO
-
-### Asset management
-
-_Figure 5. Schematic diagram of asset management use case._
-
-Asset management workflow steps:
-
-!TODO
+- [Supply chain optimization](../supplychain/supplychain.md)
+- [Sustainable supply](./sustainablesupply.md)
+- Sustainable supply chain
+- Energy cost containment
+- Green IT
 
 ## Action Guide
 
@@ -181,7 +175,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*IBM Data Fabric*](https://www.ibm.com/data-fabric) empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, [_Watson Knowledge Catalog_](https://www.ibm.com/cloud/watson-knowledge-catalog) provides you users with a catalog tool for intelligent, self-service discovery of data, models. [_Watson Query_](https://www.ibm.com/products/watson-query) provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. 
 
-### Sustainable enterprise platform
+### Sustainable enterprise sub-system
 
 [*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
 
@@ -189,11 +183,9 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*IBM Maximo Application Suite (MAS)*](https://www.ibm.com/products/maximo/sustainability) Infuse sustainability into your asset management by harnessing the power of data and AI.
 
-*Connectors* provide automated capture and reporting of data between:
+[*IBM Turbonomic*](https://www.ibm.com/products/turbonomic) monitors resource consumption of applications within the data center. It provides FinOps engineering teams the ability to ensure your applications are performing efficiently, allowing cloud and ITOps teams to cut cloud spend and multiply ROI.
 
-- MAS and Envizi.
-- TRIRIGA and MAS.
-- Envizi and TRIRIGA.
+[*Transparent Supply*](https://www.ibm.com/products/supply-chain-intelligence-suite/blockchain-transparent-supply) provides supply chain management with a robust traceability solution.
 
 ## References
 
@@ -226,10 +218,13 @@ For a comprehensive supply chain overview, see [Supply Chain Optimization](https
 ## Contributors
 
 - Iain Boyle, Chief Architect, Red Hat
-- Bruce Kyle, Sr Solution Architect, IBM Client Engineering
 - Mahesh Dodani, Principal Industry Engineer, IBM Technology
 - Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
+- Eric Singsaas, Account Technical Lead, IBM Technology
+- Mike Lee, Principal AI Ops Technical Specialist, IBM
+- Rajeev Shrivastava, Account Technical Lead, IBM
+- Bruce Kyle, Sr Solution Architect, IBM Client Engineering
 
 ## Download diagrams
 

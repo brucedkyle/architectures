@@ -11,6 +11,7 @@ nav:
       - Disaster readiness: ./supplychain/disasterreadiness.md
       - Returns: ./supplychain/returns.md
       - Sustainable supply chain: ./supplychain/sustainablesupplychain.md
-      - Sustainable facilities: ./supplychain/sustainableenterprise.md
+    - Sustainable enterprise:
+      - Sustainable enterprise: ./supplychain/sustainableenterprise.md
     - About: about.md
 theme: windmill
