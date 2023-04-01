@@ -58,7 +58,7 @@ The figures in this section show the interaction of 3rd party logistics data to 
 
 
 
-_Figure 4. Updates provided to your data based on information obtrained from 3rd party providers to reduce waste._
+_Figure 4. Updates provided to your data based on information obtained from 3rd party providers to reduce waste._
 
 In this scenario, 3rd Party Logistics provides data for decision making to make your supply chain more sustainable
 
@@ -75,6 +75,25 @@ In this scenario, 3rd Party Logistics provides data for decision making to make 
 <li>Place orders in Order Management System
 </ol>
 </ol>
+
+## Action Guide
+
+From a high-level perspective, the **Action Guide** represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.
+
+- Automation
+- Sustainability
+- Modernization
+
+| | Actionable Step | Implementation details |
+| - | - | - |
+| Automation | Automate the collection of sustainability data | Reduce manual processing of data |
+| Automation | Amp up AI to make workflows smarter | <ul><li>Automate decision processes<li>Automate steps taken to implement decisions across systems, such as inventory manageent, transport and order management</ul> |
+| Sustainability | Include sustainability data in decision making | Integrate sustainability metrics in supply chain, facility management, and data center operations |
+| Sustainability | Track sustainability data within your supply chain | Engage vendors and partners to provide sustainability data as part of your purchasing requirements |
+| Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
+| Modernization | Modernize application deployment and operations practices | Include DevOps best practices to deploy, monitor, and maintain applications |
+
+For specific steps on this approach, see **The Action Guide** details in [_Own Your Transformation_](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
 
 ## Technology
 
@@ -94,7 +113,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*Red Hat Intgration*](https://www.redhat.com/en/products/integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
 
-[*Business Automation Workflow*](https://www.ibm.com/products/business-automation-workflow) automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. 
+[*IBM Business Automation*](https://www.ibm.com/business-automation) delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. 
 
 [*IBM Data Fabric*](https://www.ibm.com/data-fabric) empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, [_Watson Knowledge Catalog_](https://www.ibm.com/cloud/watson-knowledge-catalog) provides you users with a catalog tool for intelligent, self-service discovery of data, models. [_Watson Query_](https://www.ibm.com/products/watson-query) provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. 
 

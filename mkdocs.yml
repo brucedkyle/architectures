@@ -13,5 +13,6 @@ nav:
       - Sustainable supply chain: ./supplychain/sustainablesupplychain.md
     - Sustainable enterprise:
       - Sustainable enterprise: ./supplychain/sustainableenterprise.md
+      - Sustainable facility: ./supplychain/sustainablefacility.md
     - About: about.md
 theme: windmill
