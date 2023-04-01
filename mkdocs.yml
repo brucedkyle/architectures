@@ -12,7 +12,10 @@ nav:
       - Returns: ./supplychain/returns.md
       - Sustainable supply chain: ./supplychain/sustainablesupplychain.md
     - Sustainable enterprise:
-      - Sustainable enterprise: ./supplychain/sustainableenterprise.md
-      - Sustainable facility: ./supplychain/sustainablefacility.md
+      - Sustainable enterprise: ./sustainableenterprise/sustainableenterprise.md
+      - Energy cost containment: ./sustainableenterprise/energy.md
+      - Green IT: ./sustainableenterprise/greenit.md
+      - Sustainable supply: ./sustainableenterprise/sustainablesupply.md
+      - Sustainable facility: ./sustainableenterprise/sustainablefacility.md
     - About: about.md
 theme: windmill

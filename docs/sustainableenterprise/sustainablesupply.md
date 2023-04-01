@@ -42,7 +42,7 @@ _Figure 1. Overall view of sustainable facilities solution._
 
 The sustainable enterprise works within the existing enterprise infrastructure.
 
-![sustainable enterprise](./media/sustainablesupply.png)
+![sustainable enterprise](./media/sustainableenterprise.png)
 
 _Figure 2. Sustainable enterprise works within existing digital infrastructure._
 
@@ -147,11 +147,3 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - Mike Lee, Principal AI Ops Technical Specialist, IBM
 - Rajeev Shrivastava, Account Technical Lead, IBM
 - Bruce Kyle, Sr Solution Architect, IBM Client Engineering
-
-## Download diagrams
-
-View and download all of the **Inventory Optimization diagrams** shown in previous sections in our open source tooling site.
-
-- PowerPoint Solution Overview: [Open Solution Overview](./downloads/SupplyChainOptimization.SolutionOverview.pptx)
-- PowerPoint Reference Architecture: [Open Workflow Diagrams](./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx)
-- DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio)

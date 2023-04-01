@@ -31,6 +31,7 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 ## Architecture
 
+[![energy solution diagram](./media/energy-sd.svg)](./media/energy-sd.svg)
 
 Energy cost containment
 1. Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
@@ -39,8 +40,7 @@ Energy cost containment
 4. Business automation provides consistent ways of handling alerts, sending work orders to facility and asset management software
 5. Facility management software provides work orders, tracks the completion 
 6. Facility manager is updated on the work orders and successful completion of the remediation steps
-7. Sustainability Control Tower maintains current data on energy consumption
-8. Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals
+7. Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals
 
 ## Action Guide
 
