@@ -36,7 +36,7 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.
 - Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.
 
-![solution overview]
+![solution overview]()
 
 _Figure 1. Overall view of sustainable facilities solution._
 
@@ -56,17 +56,21 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 The figures in this section show the interaction of 3rd party logistics data to your customer systems.
 
-
+[![sustainable supply solutions diagram](./media/sustainablesupply-sd.svg)](./media/sustainablesupply-sd.svg)
 
 _Figure 4. Updates provided to your data based on information obtained from 3rd party providers to reduce waste._
 
 In this scenario, 3rd Party Logistics provides data for decision making to make your supply chain more sustainable
 
 <ol>
-<li>3rd party logistics software provides updates through API
+<li>3rd party logistics software provides product sourcing updates through API
 <li>API Management provides and monitors the input of the 3rd partly logistics information
 <li>Your organization receives the 3rd party logistics information and incorporates it into Sustainable Supply
 <li>The Supply Assurance Control Tower surfaces the end-to-end logistics supply chain to users, such as the inventory controller and logistics
+<ol type="a">
+<li>Sourcing data is routed to Sustainability Control Tower for reporting
+<li>Sourcing data is routed to Supply Chain Control Tower for visitibility to Inventory Controller and others and creates work queues as needed
+</ol>
 <li>Based on the visibility into the supply chain, the inventory controller and logistics officer can take actions to replenish supplies or to act to reduce loss
 <li>The Business Automation provides a consistent way for multiple systems to respond, such as
 <li>Update:
