@@ -1,24 +1,38 @@
 # Sustainable supply
 
+A sustainable supply platform enables goods-specific transparency across multiple supply chain partners, enabling analytics by company, location, product movement and condition.
+
 ## Use cases
 
-- Pharmacy
-- Perishable items
+- Track the physical flow of goods across companies for new speed to insight
+- Combine data that is typically siloed to leverage new business drivers
+- Automate transparency across companies to reach next-generation supply chain efficiency
+- Track the legacy of products, such as pharmacy and perishable items
 
 ## Business problem
+
+You can unleash the full power of data and end-to-end visibility to empower all supply chain participants and create new business value. 
+
+- **Drive buyer engagement to grow your market.** Engage and empower buyers in new ways and build trust in your brand by showing how a product was made and demonstrating support for ethical and sustainable production.
+- **Transform your business model to optimize revenue.** Leverage supply chain visibility to improve predictions and forecasting with real-time data and optimize inventory
+dynamically. Use smart contracts to automate responsiveness up and down the chain.
+- **Reduce supply chain complexity, errors and cost.** Combine blockchain, IoT and AI to automate digitization of supply chain data, handle dispute resolution proactively and
+share digital documents across companies.
 
 ### Challenges / Business Drivers 
 
 Challenges
 
 - Companies may be wary of sharing competitive data are more willing to participate on the platform.
+- Visibility into your supply chain is limited as goods move from the supplier’s supplier to the customer’s customer.
+- Transactions are often still paper based.
 
 Drivers
 
-- Enhance traceability. If a company discovers a faulty product, the blockchain enables the firm and its supply chain partners to trace the product, identify all suppliers involved with it, identify production and shipment batches associated with it, and efficiently recall it.
-- Increase efficiency and speed and reducing disruptions
-- Improve financing, contracting, and international transactions
-- Reducing loss, increasing efficiency regarding waste management.
+- **Enhance traceability**. If a company discovers a faulty product, the blockchain enables the firm and its supply chain partners to trace the product, identify all suppliers involved with it, identify production and shipment batches associated with it, and efficiently recall it.
+- **Increase efficiency and speed and reducing disruptions**.
+- **Improve financing, contracting, and international transactions**.
+- **Reduce loss, increasing efficiency regarding waste management.**
 
 ## Business outcomes
 
@@ -36,7 +50,7 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.
 - Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.
 
-![solution overview]()
+![solution overview](./media/sustainablesupply-overview.png)
 
 _Figure 1. Overall view of sustainable facilities solution._
 
@@ -91,7 +105,7 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | | Actionable Step | Implementation details |
 | - | - | - |
 | Automation | Automate the collection of sustainability data | Reduce manual processing of data |
-| Automation | Amp up AI to make workflows smarter | <ul><li>Automate decision processes<li>Automate steps taken to implement decisions across systems, such as inventory manageent, transport and order management</ul> |
+| Automation | Amp up AI to make workflows smarter | Participants add their data and supporting documents like certifications to the ledger and control who is allowed to see what. Once added to the ledger, data cannot be manipulated, changed or deleted. Participants can track materials and products from source to end customer and, ultimately, the consumer. |
 | Sustainability | Include sustainability data in decision making | Integrate sustainability metrics in supply chain, facility management, and data center operations |
 | Sustainability | Track sustainability data within your supply chain | Engage vendors and partners to provide sustainability data as part of your purchasing requirements |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |

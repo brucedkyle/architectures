@@ -101,10 +101,10 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 See:
 
-- [Sustainable supply](./sustainablesupply.md)
-- [Energy cost containment](./energy.md)
-- [Green IT](./greenit.md)
-- [Sustainable facilities](./sustainablefacility.md)
+- [Sustainable supply](./sustainablesupply.md). Enable intelligent, end-to-end supply chain visibility and transparency.
+- [Energy cost containment](./energy.md). Reduce the energy costs in your enterprise.
+- [Green IT](./greenit.md). Manage cloud costs, reduce energy consumption in your data centers.
+- [Sustainable facilities](./sustainablefacility.md). Improve your organization's capital project management capabilities.
 
 For a supply chain overview, see [Supply chain optimization](../supplychain/supplychain.md).
 
@@ -186,11 +186,10 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 See:
 
-- Loss and waste management (coming soon)
-- Product timeliness (coming soon)
-- Perfect order (coming soon)
-- Intelligent order (coming soon)
-- Sustainable supply (coming soon)
+- [Sustainable supply](./sustainablesupply.md)
+- [Energy cost containment](./energy.md)
+- [Green IT](./greenit.md)
+- [Sustainable facilities](./sustainablefacility.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](https://www.redhat.com/architect/portfolio/detail/36).
 

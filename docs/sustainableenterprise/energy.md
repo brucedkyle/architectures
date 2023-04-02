@@ -1,5 +1,10 @@
 # Energy cost containment
 
+Energy represents a significant cost in the business.
+
+According to a paper recommended by the United States Department of Energy:
+
+> One of the most lucrative areas for improving bottom line profitability is related to an organization`s costs for utilities and energy. Such things as gas, electric, water, and telephones are treasure chests of cost reduction opportunities. In the past, these items have been viewed as a fixed expense or basic mundane commodity. In recent years, these items have become a large portion of product cost and now must be examined on a continual basis. A formal income improvement program to capture and report on the savings is a requirement for remaining competitive in a global economy. <br>&mdash; [Utility and energy cost containment](https://www.osti.gov/biblio/273871)
 
 ## Use cases
 
@@ -11,16 +16,52 @@ Businesses are seeking to balance the long-term imperative to protect the planet
 
 ## Business problem
 
+
+
 ### Challenges / Business Drivers 
+
+**Challenges**
+
+According to an [IBM Institute of Business Value study](https://newsroom.ibm.com/2022-05-10-IBM-Study-CEOs-Feel-Pressure-to-Act-on-Sustainability-and-See-Business-Benefits,-Yet-Hindered-by-Challenges), 48% of CEOs across industries say increasing sustainability is one of the highest priorities for their organization in the next two to three years. However, 51% also cite sustainability as among their greatest challenges in that same timeframe, with hurdles, such as:
+
+- lack of data insights
+- unclear ROI
+- technology barriers, as hurdles. 
+
+For these CEOs, scaling their business with modern infrastructure can often be one of the barriers to achieving sustainability goals.
+
+**Business Drivers**
+
+
 
 ### Responses
 
 | Business Problem | Solution |
 | - | - |
+| Energy consumption disclosure | IBM participates in various external disclosures, such as the Carbon Disclosure Project (CDP), Global Reporting Initiative (GRI) and the Sustainability Accounting Standards Board (SASB) Index. |
+| Energy conservation |  |
+| Renewable electricity |
+
 
 ## Business outcomes
 
 ## Solution overview
+
+The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:
+
+- Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
+- Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.
+- Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.
+
+![solution overview](./media/energy-overview.png)
+
+_Figure 1. Overall view of sustainable facilities solution._
+
+The sustainable enterprise works within the existing enterprise infrastructure.
+
+![sustainable enterprise](./media/sustainableenterprise.png)
+
+_Figure 2. Sustainable enterprise works within existing digital infrastructure._
 
 ## Logical diagrams
 
@@ -28,19 +69,21 @@ Businesses are seeking to balance the long-term imperative to protect the planet
 
 _Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in managing a sustainable enterprise._
 
-
 ## Architecture
 
 [![energy solution diagram](./media/energy-sd.svg)](./media/energy-sd.svg)
 
 Energy cost containment
-1. Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
-2. Sensors report to Intelligent Assets and Facilities Management software that provides alerts on abnormal behavior of data from sensors
-3. Alerts are sent to Sustainability Control Tower that takes actions to remediate consumption
-4. Business automation provides consistent ways of handling alerts, sending work orders to facility and asset management software
-5. Facility management software provides work orders, tracks the completion 
-6. Facility manager is updated on the work orders and successful completion of the remediation steps
-7. Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals
+
+<ol>
+<li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
+<li>Sensors report to Intelligent Assets and Facilities Management software that provides alerts on abnormal behavior of data from sensors
+<li>Alerts are sent to Sustainability Control Tower that takes actions to remediate consumption
+<li>Business automation provides consistent ways of handling alerts, sending work orders to facility and asset management software
+<li>Facility management software provides work orders, tracks the completion 
+<li>Facility manager is updated on the work orders and successful completion of the remediation steps
+<li>Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals
+</ol>
 
 ## Action Guide
 
@@ -105,6 +148,10 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - IBM Institute for Business Value [Balancing sustainability and profitability](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research)
 - [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability)
 - IBM Institute for Business Value [Sustainability at a turning point](https://www.ibm.com/downloads/cas/WLJ7LVP4) 
+- Forbes: [15 Simple Ways For Businesses To Start Saving Energy](https://www.forbes.com/sites/forbesbusinesscouncil/2022/01/14/15-simple-ways-for-businesses-to-start-saving-energy/)
+- IBM [Energy and climate](https://www.ibm.com/about/environment/energy-climate)
+- [IBM's 21 goals for environmental sustainability](https://www.ibm.com/about/environment/energy-climate)
+- [IBM ESG Report](https://www.ibm.com/about/environment/reporting)
 
 ## Contributors
 

@@ -63,6 +63,22 @@ FinOps is an evolving cloud financial management discipline and cultural practic
 
 ## Solution overview
 
+The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:
+
+- Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. 
+- Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.
+- Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.
+
+![solution overview](./media/greenit-overview.png)
+
+_Figure 1. Overall view of sustainable facilities solution._
+
+The sustainable enterprise works within the existing enterprise infrastructure.
+
+![sustainable enterprise](./media/sustainableenterprise.png)
+
+_Figure 2. Sustainable enterprise works within existing digital infrastructure._
+
 ## Logical diagrams
 
 [![logical diagram](./media/sustainableenterprise-logical.svg)](./media/sustainableenterprise-logical.svg)
@@ -70,6 +86,8 @@ FinOps is an evolving cloud financial management discipline and cultural practic
 _Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in managing a sustainable enterprise._
 
 ## Architecture
+
+!TODO
 
 ## Action Guide
 
