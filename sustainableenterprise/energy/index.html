@@ -92,12 +92,26 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="energy-cost-containment">Energy cost containment</h1>
+<p>Energy represents a significant cost in the business.</p>
+<p>According to a paper recommended by the United States Department of Energy:</p>
+<blockquote>
+<p>One of the most lucrative areas for improving bottom line profitability is related to an organization`s costs for utilities and energy. Such things as gas, electric, water, and telephones are treasure chests of cost reduction opportunities. In the past, these items have been viewed as a fixed expense or basic mundane commodity. In recent years, these items have become a large portion of product cost and now must be examined on a continual basis. A formal income improvement program to capture and report on the savings is a requirement for remaining competitive in a global economy. <br>&mdash; <a href="https://www.osti.gov/biblio/273871">Utility and energy cost containment</a></p>
+</blockquote>
 <h2 id="use-cases">Use cases</h2>
 <h2 id="background">Background</h2>
 <p>Most companies are committed to actions that make your operations more sustainable. At this point, some companies have set and published specific targets.</p>
 <p>Businesses are seeking to balance the long-term imperative to protect the planet with the short-term need to preserve the bottom line. </p>
 <h2 id="business-problem">Business problem</h2>
 <h3 id="challenges-business-drivers">Challenges / Business Drivers</h3>
+<p><strong>Challenges</strong></p>
+<p>According to an <a href="https://newsroom.ibm.com/2022-05-10-IBM-Study-CEOs-Feel-Pressure-to-Act-on-Sustainability-and-See-Business-Benefits,-Yet-Hindered-by-Challenges">IBM Institute of Business Value study</a>, 48% of CEOs across industries say increasing sustainability is one of the highest priorities for their organization in the next two to three years. However, 51% also cite sustainability as among their greatest challenges in that same timeframe, with hurdles, such as:</p>
+<ul>
+<li>lack of data insights</li>
+<li>unclear ROI</li>
+<li>technology barriers, as hurdles. </li>
+</ul>
+<p>For these CEOs, scaling their business with modern infrastructure can often be one of the barriers to achieving sustainability goals.</p>
+<p><strong>Business Drivers</strong></p>
 <h3 id="responses">Responses</h3>
 <table>
 <thead>
@@ -108,26 +122,48 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </thead>
 <tbody>
 <tr>
+<td>Energy consumption disclosure</td>
+<td>IBM participates in various external disclosures, such as the Carbon Disclosure Project (CDP), Global Reporting Initiative (GRI) and the Sustainability Accounting Standards Board (SASB) Index.</td>
+</tr>
+<tr>
+<td>Energy conservation</td>
 <td></td>
+</tr>
+<tr>
+<td>Renewable electricity</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <h2 id="business-outcomes">Business outcomes</h2>
 <h2 id="solution-overview">Solution overview</h2>
+<p>The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:</p>
+<ul>
+<li>Core application systems. Often customer-provided technologies, such as order management, facilities management. These systems can be stand-alone applications, on premises and cloud services, databases. </li>
+<li>Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.</li>
+<li>Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.</li>
+</ul>
+<p><img alt="solution overview" src="./media/energy-overview.png" /></p>
+<p><em>Figure 1. Overall view of sustainable facilities solution.</em></p>
+<p>The sustainable enterprise works within the existing enterprise infrastructure.</p>
+<p><img alt="sustainable enterprise" src="../media/sustainableenterprise.png" /></p>
+<p><em>Figure 2. Sustainable enterprise works within existing digital infrastructure.</em></p>
 <h2 id="logical-diagrams">Logical diagrams</h2>
 <p><a href="../media/sustainableenterprise-logical.svg"><img alt="logical diagram" src="../media/sustainableenterprise-logical.svg" /></a></p>
 <p><em>Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in managing a sustainable enterprise.</em></p>
 <h2 id="architecture">Architecture</h2>
 <p><a href="../media/energy-sd.svg"><img alt="energy solution diagram" src="../media/energy-sd.svg" /></a></p>
-<p>Energy cost containment
-1. Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
-2. Sensors report to Intelligent Assets and Facilities Management software that provides alerts on abnormal behavior of data from sensors
-3. Alerts are sent to Sustainability Control Tower that takes actions to remediate consumption
-4. Business automation provides consistent ways of handling alerts, sending work orders to facility and asset management software
-5. Facility management software provides work orders, tracks the completion 
-6. Facility manager is updated on the work orders and successful completion of the remediation steps
-7. Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals</p>
+<p>Energy cost containment</p>
+<ol>
+<li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
+<li>Sensors report to Intelligent Assets and Facilities Management software that provides alerts on abnormal behavior of data from sensors
+<li>Alerts are sent to Sustainability Control Tower that takes actions to remediate consumption
+<li>Business automation provides consistent ways of handling alerts, sending work orders to facility and asset management software
+<li>Facility management software provides work orders, tracks the completion 
+<li>Facility manager is updated on the work orders and successful completion of the remediation steps
+<li>Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals
+</ol>
+
 <h2 id="action-guide">Action Guide</h2>
 <p>From a high-level perspective, the <strong>Action Guide</strong> represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.</p>
 <ul>
@@ -220,6 +256,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>IBM Institute for Business Value <a href="https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research">Balancing sustainability and profitability</a></li>
 <li><a href="https://www.ibm.com/topics/business-sustainability">What is sustainability in business?</a></li>
 <li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/WLJ7LVP4">Sustainability at a turning point</a> </li>
+<li>Forbes: <a href="https://www.forbes.com/sites/forbesbusinesscouncil/2022/01/14/15-simple-ways-for-businesses-to-start-saving-energy/">15 Simple Ways For Businesses To Start Saving Energy</a></li>
+<li>IBM <a href="https://www.ibm.com/about/environment/energy-climate">Energy and climate</a></li>
+<li><a href="https://www.ibm.com/about/environment/energy-climate">IBM's 21 goals for environmental sustainability</a></li>
+<li><a href="https://www.ibm.com/about/environment/reporting">IBM ESG Report</a></li>
 </ul>
 <h2 id="contributors">Contributors</h2>
 <ul>
