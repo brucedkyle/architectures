@@ -109,7 +109,7 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.
 - Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.
 
-![solution overview](./media/sustainablefacilities-overview.png)
+![solution overview](./media/sustainablefacility-overview.png)
 
 _Figure 1. Overall view of sustainable facilities solution._
 
