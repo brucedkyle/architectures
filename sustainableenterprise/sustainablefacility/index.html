@@ -96,9 +96,9 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Companies are setting environmental commitments for facilities, such as:</p>
 <ul>
 <li>Achieving net zero green house gas (GHG) emissions by 2030 </li>
-<li>Civerting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025</li>
+<li>Diverting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025</li>
 </ul>
-<p>Real estate plays a critical role in meeting these targets.</p>
+<p>Real estate plays a critical role in meeting these targets. Buildings account for <a href="https://architecture2030.org/">40% of the annual carbon dioxide emissions</a> globally.</p>
 <p>More than 80% of CEOs expect sustainability investments to produce improved business results in the next five years.</p>
 <blockquote>
 <p>The key to a successful sustainability strategy is balancing the environmental drivers with market demands.</p>
@@ -109,6 +109,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <blockquote>
 <p>The more innovative, more efficient and cheaper way is to equip buildings with the digital tools that allow them to automatically adjust heating, lighting and other systems to the number of people present at any given time, using real-time data analysis.</p>
 </blockquote>
+<p>Executing on this mission involves a staggering number of decisions, ranging from room configurations and leasing terms, to capital project planning and facilities maintenance.</p>
 <h2 id="use-cases">Use cases</h2>
 <p>Manage competing needs with constrained resources. </p>
 <p>Improve an organization’s capital project management capabilities.</p>
@@ -137,8 +138,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>There is a constant tension between using every square inch of space, reducing real estate operating costs, and creating outstanding occupant experiences.</p>
 <p>IDC in its <a href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-49090">Worldwide Integrated Workplace Management System 2020–2021 Vendor Assessment</a> reports:</p>
 <blockquote>
-<p>Now organizations must prioritize creating safe and productive environments for their employees, students, and customers. In the short term, organizations had to take measures such as allowing a dramatic shift to working 
-remotely where possible, modifying floor plans for social distancing, reducing building capacity, implementing new schedules, and deploying novel technology. Real estate and facility professionals have turned to a variety of "return-to-work solutions" for space reservations, health attestation, contact tracing, proximity monitoring, wayfinding, cleaning, communications, and so on.</p>
+<p>Now organizations must prioritize creating safe and productive environments for their employees, students, and customers. In the short term, organizations had to take measures such as allowing a dramatic shift to working remotely where possible, modifying floor plans for social distancing, reducing building capacity, implementing new schedules, and deploying novel technology. Real estate and facility professionals have turned to a variety of "return-to-work solutions" for space reservations, health attestation, contact tracing, proximity monitoring, wayfinding, cleaning, communications, and so on.</p>
 </blockquote>
 <p>Organizations have an unprecedented opportunity to capture and analyze their data and develop greater operational resiliency and effectiveness. These data insights give companies the tools needed to react quickly to change, care for their employees and occupants, and make strategic space and occupancy decisions.</p>
 <blockquote>
@@ -162,6 +162,7 @@ contributes to a better world. This is how we see our transformative role.<br/>
 <li><strong>Include ESG criteria in decision making</strong>.</li>
 <li><strong>Prioritize environmental improvement projects</strong>.</li>
 <li><strong>Improve an capital project management capabilities</strong>.</li>
+<li><strong>Use AI models to “squeeze” more insights from the existing sensors</strong>.</li>
 </ul>
 <h3 id="responses">Responses</h3>
 <table>
@@ -187,6 +188,10 @@ contributes to a better world. This is how we see our transformative role.<br/>
 <tr>
 <td>Create a lower-emissions business</td>
 <td>Build intelligent asset management into operations.</td>
+</tr>
+<tr>
+<td>Data exists, but may be in silos</td>
+<td>Standardize, integrate, and centralize data. Availability and transparency of data to bring them to top-of-mind in decision making</td>
 </tr>
 </tbody>
 </table>
@@ -214,7 +219,22 @@ contributes to a better world. This is how we see our transformative role.<br/>
 <p><a href="../media/sustainableenterprise-logical.svg"><img alt="logical diagram" src="../media/sustainableenterprise-logical.svg" /></a></p>
 <p><em>Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in managing a sustainable enterprise.</em></p>
 <h2 id="architecture">Architecture</h2>
-<p>The figures in this section show the interaction of customer systems with facilities management systems in the context of an integrated workplace management.</p>
+<p>The figures in this section show the interaction of customer systems with sustainability facilities systems.</p>
+<p><a href="../media/facility-sd.svg"><img alt="facilities schema diagram" src="../media/facility-sd.svg" /></a></p>
+<ol>
+<li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
+<li>Sensors report to Intelligent Assets and Facilities Management software that provides alerts. AI is used to determine abnormal behavior of data from sensors.
+<li>Data is sent in real time to Intelligent Assets and Facilities system to take remediation actions, provide information for space planning and utilization
+<li>Data is sent in real time to the Sustainability Control Tower, an enterprise-wide repository.
+<li>A Data Fabric provides consistent ways of pulling data from existing data, maps data heirarchies between systems, removing inconsistencies in data.
+<ol type="a">
+<li>Intelligence Assets and Facilities software collects data. (It also provides work orders, proactive maintence, project planning.) 
+</ol>
+<li>Data is collected in Sustainability Control Tower and used for decision making across the enterprise, across multiple scenarios.
+<li>Sustainability Manager, Facility Managers, company execs reviews KPI, update energy consumption metrics, sets energy consumption goals. Uses the insights it generates to help informed decision-making that makes both business and environmental sense
+<li>Sustainability Control Tower provides reporting for compliance and to demonstrate the impacts of decisions on sustainability and the environment.
+</ol>
+
 <h2 id="action-guide">Action Guide</h2>
 <p>From a high-level perspective, the <strong>Action Guide</strong> represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.</p>
 <ul>
@@ -248,13 +268,18 @@ contributes to a better world. This is how we see our transformative role.<br/>
 </tr>
 <tr>
 <td>Sustainability</td>
-<td>Create digital twin of your facility.</td>
-<td>Mirror and monitor building systems and troubleshoot problems before wasting resources on unnecessary or inaccurate repairs.</td>
+<td>Build a data foundation.</td>
+<td>Automate the collection and consolidation of more than 500 ESG data types into a single system of auditable, financial-grade data</td>
 </tr>
 <tr>
 <td>Sustainability</td>
-<td>Include sustainability commitments in decision making</td>
-<td>Integrate sustainability metrics in facility management and lease administration.</td>
+<td>Streamline reporting and disclosures</td>
+<td>Use powerful emissions calculation engine and flexible reporting tools to meet strict internal and external requirements.</td>
+</tr>
+<tr>
+<td>Sustainability</td>
+<td>Accelerate decarbonization</td>
+<td>Identify energy and emissions savings opportunities and tracking progress at every stage of your journey.</td>
 </tr>
 <tr>
 <td>Modernization</td>
@@ -285,6 +310,7 @@ contributes to a better world. This is how we see our transformative role.<br/>
 <ul>
 <li><a href="https://www.ibm.com/blogs/internet-of-things/ibm-journey-to-more-sustainable-facilities-ibm-as-client-zero/">IBM journey to more sustainable facilities: IBM as client zero</a></li>
 <li>IBM Institute for Business Value <a href="https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research">Balancing sustainability and profitability</a></li>
+<li><a href="https://www.ibm.com/case-studies/ibm-gre">How sustainability technologies help make facilities work better</a></li>
 <li><a href="https://www.ibm.com/topics/business-sustainability">What is sustainability in business?</a></li>
 <li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/WLJ7LVP4">Sustainability at a turning point</a> </li>
 <li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/6NJEKDD8">Own Your Impact: Practical Pathways to Transformational Sustainability</a></li>
