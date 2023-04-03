@@ -11,6 +11,8 @@ According to a paper recommended by the United States Department of Energy:
 - Pay less for energy
 - Use less energy
 - Provide data to demonstrate energy cost containment results
+- Implement price controls and contractor benchmarking
+- Automate maintenance, repair, and operations tracking
 
 ## Background
 
@@ -34,7 +36,7 @@ According to an [IBM Institute of Business Value study](https://newsroom.ibm.com
 - Unclear ROI
 - Technology barriers, as hurdles. 
 
-For these CEOs, scaling their business with modern infrastructure can often be one of the barriers to achieving sustainability goals.
+For these CEOs, scaling business with modern infrastructure can often be one of the barriers to achieving sustainability goals.
 
 **Business Drivers**
 
