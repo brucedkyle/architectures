@@ -8,6 +8,10 @@ According to a paper recommended by the United States Department of Energy:
 
 ## Use cases
 
+- Pay less for energy
+- Use less energy
+- Provide data to demonstrate energy cost containment results
+
 ## Background
 
 Most companies are committed to actions that make your operations more sustainable. At this point, some companies have set and published specific targets.
@@ -16,7 +20,9 @@ Businesses are seeking to balance the long-term imperative to protect the planet
 
 ## Business problem
 
+Businesses need a data-driven solution to demonstrate energy cost savings. Intelligent decision making of specific steps to determine costs of energy providers, capital improvement projects, energy conservation, modernization of infrastructure.
 
+How do you determine the ROI on these steps to drive your sustainability goals?
 
 ### Challenges / Business Drivers 
 
@@ -24,25 +30,34 @@ Businesses are seeking to balance the long-term imperative to protect the planet
 
 According to an [IBM Institute of Business Value study](https://newsroom.ibm.com/2022-05-10-IBM-Study-CEOs-Feel-Pressure-to-Act-on-Sustainability-and-See-Business-Benefits,-Yet-Hindered-by-Challenges), 48% of CEOs across industries say increasing sustainability is one of the highest priorities for their organization in the next two to three years. However, 51% also cite sustainability as among their greatest challenges in that same timeframe, with hurdles, such as:
 
-- lack of data insights
-- unclear ROI
-- technology barriers, as hurdles. 
+- Lack of data insights
+- Unclear ROI
+- Technology barriers, as hurdles. 
 
 For these CEOs, scaling their business with modern infrastructure can often be one of the barriers to achieving sustainability goals.
 
 **Business Drivers**
 
-
+- Energy represents a significant cost in the business
+- Demonstrate ROI with data-driven energy cost savings
+- Investment in energy cost savings can have ROI
+- Facility maintenance responses can provide energy cost savings
 
 ### Responses
 
 | Business Problem | Solution |
 | - | - |
+| Manual processes for assembling energy reporting data | Automate data collection activities, such as energy billing reporting and consumption |
+| Assembing sensor data in near real time | Provide data systems to collect, manage, and respond to anomalies |
+| Energy reporting silos | Automate data collection activities across silos |
+| Sensors provide too much data | Scale sensor data collection using event streaming and anomolie detection using AI | 
 | Energy consumption disclosure | IBM participates in various external disclosures, such as the Carbon Disclosure Project (CDP), Global Reporting Initiative (GRI) and the Sustainability Accounting Standards Board (SASB) Index. |
-| Energy conservation |  |
-| Renewable electricity |
 
 ## Business outcomes
+
+- Data-based selection of energy saving priorities
+- Demonstratable returns on energy savings
+- Improved facilities management
 
 ## Solution overview
 
