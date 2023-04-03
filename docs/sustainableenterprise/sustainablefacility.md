@@ -3,9 +3,9 @@
 Companies are setting environmental commitments for facilities, such as:
 
 - Achieving net zero green house gas (GHG) emissions by 2030 
-- Civerting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025
+- Diverting 90% of nonhazardous waste (by weight) from landfill and incineration by 2025
 
-Real estate plays a critical role in meeting these targets.
+Real estate plays a critical role in meeting these targets. Buildings account for [40% of the annual carbon dioxide emissions](https://architecture2030.org/) globally.
 
 More than 80% of CEOs expect sustainability investments to produce improved business results in the next five years.
 
@@ -18,6 +18,8 @@ The [World Economic Forum](https://www.weforum.org/agenda/2021/02/why-the-buildi
 They continue:
 
 > The more innovative, more efficient and cheaper way is to equip buildings with the digital tools that allow them to automatically adjust heating, lighting and other systems to the number of people present at any given time, using real-time data analysis.
+
+Executing on this mission involves a staggering number of decisions, ranging from room configurations and leasing terms, to capital project planning and facilities maintenance.
 
 ## Use cases
 
@@ -55,8 +57,7 @@ There is a constant tension between using every square inch of space, reducing r
 
 IDC in its [Worldwide Integrated Workplace Management System 2020–2021 Vendor Assessment](https://www.ibm.com/account/reg/us-en/signup?formid=urx-49090) reports:
 
-> Now organizations must prioritize creating safe and productive environments for their employees, students, and customers. In the short term, organizations had to take measures such as allowing a dramatic shift to working 
-remotely where possible, modifying floor plans for social distancing, reducing building capacity, implementing new schedules, and deploying novel technology. Real estate and facility professionals have turned to a variety of "return-to-work solutions" for space reservations, health attestation, contact tracing, proximity monitoring, wayfinding, cleaning, communications, and so on.
+> Now organizations must prioritize creating safe and productive environments for their employees, students, and customers. In the short term, organizations had to take measures such as allowing a dramatic shift to working remotely where possible, modifying floor plans for social distancing, reducing building capacity, implementing new schedules, and deploying novel technology. Real estate and facility professionals have turned to a variety of "return-to-work solutions" for space reservations, health attestation, contact tracing, proximity monitoring, wayfinding, cleaning, communications, and so on.
 
 Organizations have an unprecedented opportunity to capture and analyze their data and develop greater operational resiliency and effectiveness. These data insights give companies the tools needed to react quickly to change, care for their employees and occupants, and make strategic space and occupancy decisions.
 
@@ -83,6 +84,7 @@ There are several challenges to overcome in the pursuit of becoming a truly sust
 - **Include ESG criteria in decision making**.
 - **Prioritize environmental improvement projects**.
 - **Improve an capital project management capabilities**.
+- **Use AI models to “squeeze” more insights from the existing sensors**.
 
 ### Responses
 
@@ -92,6 +94,7 @@ There are several challenges to overcome in the pursuit of becoming a truly sust
 | Manage competing needs with constrained resources | <ul><li>Predict when important assets and building systems will require maintenance, refurbishment or replacement. <li>Document the impact on productivity and building value when systems fail.</ul> |
 | Incorporate sustainability options into customer decison making | Connect your strategy with day-to-day operations to embed sustainability into your business transformation |
 | Create a lower-emissions business | Build intelligent asset management into operations. |
+| Data exists, but may be in silos | Standardize, integrate, and centralize data. Availability and transparency of data to bring them to top-of-mind in decision making |
 
 ## Business outcomes
 
@@ -127,7 +130,24 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 ## Architecture
 
-The figures in this section show the interaction of customer systems with facilities management systems in the context of an integrated workplace management.
+The figures in this section show the interaction of customer systems with sustainability facilities systems.
+
+[![facilities schema diagram](./media/facility-sd.svg)](./media/facility-sd.svg)
+
+<ol>
+<li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
+<li>Sensors report to Intelligent Assets and Facilities Management software that provides alerts. AI is used to determine abnormal behavior of data from sensors.
+<li>Data is sent in real time to Intelligent Assets and Facilities system to take remediation actions, provide information for space planning and utilization
+<li>Data is sent in real time to the Sustainability Control Tower, an enterprise-wide repository.
+<li>A Data Fabric provides consistent ways of pulling data from existing data, maps data heirarchies between systems, removing inconsistencies in data.
+<ol type="a">
+<li>Intelligence Assets and Facilities software collects data. (It also provides work orders, proactive maintence, project planning.) 
+</ol>
+<li>Data is collected in Sustainability Control Tower and used for decision making across the enterprise, across multiple scenarios.
+<li>Sustainability Manager, Facility Managers, company execs reviews KPI, update energy consumption metrics, sets energy consumption goals. Uses the insights it generates to help informed decision-making that makes both business and environmental sense
+<li>Sustainability Control Tower provides reporting for compliance and to demonstrate the impacts of decisions on sustainability and the environment.
+</ol>
+
 
 ## Action Guide
 
@@ -142,8 +162,9 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | Automation | Advance the quality of capital, facility and environmental projects | Integrate data from multiple systems to get enterprise-wide view to capture and evaluate occupancy to align usage with business requirements and objectives.  |
 | Automation | Optimize real estate portfolios | Centralize and integrate critical information at an enterprise level, giving organizations the ability to make the most cost-effective decisions |
 | Automation | Amp up AI to make workflows smarter | <ul><li>Using self-service, automated and mobile processes for move management and reservation and hoteling workspaces.<li>Manage and monitor the assets within each structure – like HVAC systems, elevators and even the exit signs – and use AI-driven insights to perform predictive instead of reactive maintenance</ul> |
-| Sustainability| Create digital twin of your facility. | Mirror and monitor building systems and troubleshoot problems before wasting resources on unnecessary or inaccurate repairs. |
-| Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in facility management and lease administration. |
+| Sustainability| Build a data foundation. | Automate the collection and consolidation of more than 500 ESG data types into a single system of auditable, financial-grade data |
+| Sustainability | Streamline reporting and disclosures  | Use powerful emissions calculation engine and flexible reporting tools to meet strict internal and external requirements. |
+| Sustainability | Accelerate decarbonization | Identify energy and emissions savings opportunities and tracking progress at every stage of your journey. |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 
 For specific steps on this approach, see **The Action Guide** details in [_Own Your Impact: Practical Pathways to Transformational Sustainability_](https://www.ibm.com/downloads/cas/6NJEKDD8) survey of 3,000 CEOs worldwide, that reveals sustainability's emergence onto the mainstream corporate agenda.
@@ -186,6 +207,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 - [IBM journey to more sustainable facilities: IBM as client zero](https://www.ibm.com/blogs/internet-of-things/ibm-journey-to-more-sustainable-facilities-ibm-as-client-zero/)
 - IBM Institute for Business Value [Balancing sustainability and profitability](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research)
+- [How sustainability technologies help make facilities work better](https://www.ibm.com/case-studies/ibm-gre)
 - [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability)
 - IBM Institute for Business Value [Sustainability at a turning point](https://www.ibm.com/downloads/cas/WLJ7LVP4) 
 - IBM Institute for Business Value [Own Your Impact: Practical Pathways to Transformational Sustainability](https://www.ibm.com/downloads/cas/6NJEKDD8)
