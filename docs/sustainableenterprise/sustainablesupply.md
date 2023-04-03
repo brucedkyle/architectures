@@ -70,11 +70,15 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 The figures in this section show the interaction of 3rd party logistics data to your customer systems.
 
+### Sustainable supply
+
+In this figure, 3rd Party Logistics provides data for decision making to make your supply chain more sustainable
+
 [![sustainable supply solutions diagram](./media/sustainablesupply-sd.svg)](./media/sustainablesupply-sd.svg)
 
-_Figure 4. Updates provided to your data based on information obtained from 3rd party providers to reduce waste._
+_Figure 4. Schematic diagram of the sustainable supply use case._
 
-In this scenario, 3rd Party Logistics provides data for decision making to make your supply chain more sustainable
+Sustainable supply workflow steps:
 
 <ol>
 <li>3rd party logistics software provides product sourcing updates through API

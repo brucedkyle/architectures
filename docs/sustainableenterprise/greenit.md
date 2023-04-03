@@ -87,7 +87,27 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 ## Architecture
 
-!TODO
+The figures in this section show the interaction of enterprise systems with Green IT use case.
+
+### Green IT
+
+The following diagram shows how systems work together to provide data for decision making in the Green IT scenario.
+
+[![energy solution diagram](./media/greenit-sd.png)](./media/greenit-sd.svg)
+
+_Figure 4. Schemantic diagram for Green IT use case._
+
+Green IT workflow steps:
+
+1. Financial systems provide cost data for cloud and data center resources
+2. Application Resource Management system suggests or automates resource allocations based on actual usage and best practices
+3. Application Resource Management report application and resource usage to Data Fabric
+4. Financial systems report energy and resource billing information to Data Fabric
+5. Data Fabric provides a consistent data heirarchy to Intelligent Assets and Facility Management
+6. Sensors in data center provide data to event streaming service
+7. Data center data is streamed to Sustainability Control Tower
+8. Intelligent Facility and Asset Manager updates Sustainability Control Tower in near-real time
+9. Sustainability manager, facilities manager, and public can review Green IT data
 
 ## Action Guide
 

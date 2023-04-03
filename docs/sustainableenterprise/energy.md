@@ -42,7 +42,6 @@ For these CEOs, scaling their business with modern infrastructure can often be o
 | Energy conservation |  |
 | Renewable electricity |
 
-
 ## Business outcomes
 
 ## Solution overview
@@ -71,9 +70,17 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 ## Architecture
 
+The figures in this section show the interaction of enterprise systems with sustainability enterprise platform systems.
+
+### Energy cost containment
+
+The following diagram shows how systems work together to provide data for decision making in the energy cost containment scenario.
+
 [![energy solution diagram](./media/energy-sd.svg)](./media/energy-sd.svg)
 
-Energy cost containment
+_Figure 4. Schemantic diagram for energy cost containment use case._
+
+Energy cost containment workflow steps:
 
 <ol>
 <li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges

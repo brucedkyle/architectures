@@ -132,7 +132,15 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 The figures in this section show the interaction of customer systems with sustainability facilities systems.
 
+### Sustainable facilities
+
+The following diagram shows how data is provided for insights and decision making along with how those data can be also used in compliance and reporting.
+
 [![facilities schema diagram](./media/facility-sd.svg)](./media/facility-sd.svg)
+
+_Figure 4. Schematic diagram of the sustainable facilities use case._
+
+Sustainable facilties workflow steps:
 
 <ol>
 <li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
@@ -147,7 +155,6 @@ The figures in this section show the interaction of customer systems with sustai
 <li>Sustainability Manager, Facility Managers, company execs reviews KPI, update energy consumption metrics, sets energy consumption goals. Uses the insights it generates to help informed decision-making that makes both business and environmental sense
 <li>Sustainability Control Tower provides reporting for compliance and to demonstrate the impacts of decisions on sustainability and the environment.
 </ol>
-
 
 ## Action Guide
 
@@ -211,11 +218,6 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - [What is sustainability in business?](https://www.ibm.com/topics/business-sustainability)
 - IBM Institute for Business Value [Sustainability at a turning point](https://www.ibm.com/downloads/cas/WLJ7LVP4) 
 - IBM Institute for Business Value [Own Your Impact: Practical Pathways to Transformational Sustainability](https://www.ibm.com/downloads/cas/6NJEKDD8)
-- Research Insights [Meet the 2020 consumers driving change](https://www.ibm.com/downloads/cas/EXK4XKX8) 
-- Bloomberg Intelligence [ESG assets may hit $53 trillion by 2025](https://www.bloomberg.com/professional/blog/esg-assets-may-hit-53-trillion-by-2025-a-third-of-global-aum/)
-- [2022 Last Mile Logistics Trends: Sustainable Sustainability](https://www.dispatchtrack.com/blog/last-mile-logistics-trends-5)
-- [Sustainability in Facilities Management](https://www.ibm.com/products/tririga/sustainability)
-- [IDC MarketScape: Worldwide Integrated Workplace Management System 2020–2021 Vendor Assessment](https://www.ibm.com/account/reg/us-en/signup?formid=urx-49090)
 - [Unlock opportunities with an integrated workplace management system](https://www.ibm.com/internet-of-things/learn/integrated-workplace-management-system/)
 - [Sustainable asset management with IBM Maximo Application Suite](https://www.ibm.com/products/maximo/sustainability)
 - World Economic Forum [Why buildings are the foundation of an energy-efficient future](https://www.weforum.org/agenda/2021/02/why-the-buildings-of-the-future-are-key-to-an-efficient-energy-ecosystem/)
