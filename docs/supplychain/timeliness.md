@@ -209,7 +209,7 @@ View and download all of the **Inventory Optimization diagrams** shown in previo
 ## Contributors
 
 - Iain Boyle, Chief Architect, Red Hat
-- Mike Lee, Principal AI Ops Technical Specialist, IBM
+- Mike Lee, Principal Integration Technical Specialist, IBM
 - James Stewart, Principle Account Technical Leader, IBM
 - Bruce Kyle, Sr Solution Architect, IBM Client Engineering
 - Mahesh Dodani, Principal Industry Engineer, IBM Technology
