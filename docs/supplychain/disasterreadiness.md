@@ -49,8 +49,9 @@ Harvard Business Review article identified the following objectives for companie
 | Business Problem | Solution |
 | - | - |
 | Unusual events, such as the global pandemic, war or other international incident, port issues, and waterway obstructions illustrate the need for enterprises to build resilient supply chains. | Respond with intelligence, speed, and confidence to reduce the impact of disruptions, turning these events into opportunities to outperform and outcompete. |
-| Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and respond to disruptions such as out-of-stock and overstock with alerts and recommended actions. |
+| Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and respond to disruptions such as out-of-stock with alerts and recommended actions. |
 | The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales. | Gain detailed visibility into inventory characteristics at each location. |
+| Point of sales may not be connected to corporate office | Data can be queued and then sent to corporate at a later time |
 
 ## Solution overview
 
@@ -75,7 +76,7 @@ _Figure 2. The personas and technologies that provide a platform for some of the
 
 The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.
 
-### Disaster preparation and response
+### Disaster preparation
 
 [![disaster readiness and response](./media/disasterreadiness-sd.svg)](./media/disasterreadiness-sd.svg)
 
@@ -99,7 +100,9 @@ Disaster preparation workflow steps:
 </ol>
 </ol>
 
-## Action Guide
+### Disaster response
+
+!TODO
 
 ## Action Guide
 
@@ -118,6 +121,7 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | Sustainability| Combine your proprietary and third-party geospatial information with weather data | <ul><li>Predict energy demand and reduce waste so that you don’t buy more power than you need.<li>Use weather information to predict and avoid disruptions and plot the most efficient routes.</ul>
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 | Modernization | Modernize application deployment and operations practices | Include DevOps best practices to deploy, monitor, and maintain applications |
+| Modernization | Manage disconnected operations | Computing capabilities and data can be mirrored in stores to maintain local data needed to support store opersations, such as product catalogs, and transactions, to provide basic services | 
 
 For specific steps on this approach, see **The Action Guide** details in [_Own Your Transformation_](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
 
@@ -130,7 +134,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 [*Red Hat OpenShift*](https://www.redhat.com/en/technologies/cloud-computing/openshift) Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with:
 
 - [_Red Hat Advanced Cluster Management_](https://www.redhat.com/en/technologies/management/advanced-cluster-management)
-- [_Red Hat Advanced Cluster Security_](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes).
+- [_Red Hat Advanced Cluster Security_](https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes)
 
 [*Red Hat Ansible Automation Platform*](https://www.redhat.com/en/technologies/management/ansible) operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.
 
