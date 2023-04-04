@@ -162,6 +162,6 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
 - Eric Singsaas, Account Technical Lead, IBM Technology
-- Mike Lee, Principal AI Ops Technical Specialist, IBM
+- Mike Lee, Principal Integration Technical Specialist, IBM
 - Rajeev Shrivastava, Account Technical Lead, IBM
 - Bruce Kyle, Sr Solution Architect, IBM Client Engineering
