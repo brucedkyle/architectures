@@ -4,12 +4,12 @@ Energy represents a significant cost in the business.
 
 According to a paper recommended by the United States Department of Energy:
 
-> One of the most lucrative areas for improving bottom line profitability is related to an organization`s costs for utilities and energy. Such things as gas, electric, water, and telephones are treasure chests of cost reduction opportunities. In the past, these items have been viewed as a fixed expense or basic mundane commodity. In recent years, these items have become a large portion of product cost and now must be examined on a continual basis. A formal income improvement program to capture and report on the savings is a requirement for remaining competitive in a global economy. <br>&mdash; [Utility and energy cost containment](https://www.osti.gov/biblio/273871)
+> One of the most lucrative areas for improving bottom line profitability is related to an organization`s costs for utilities and energy. Such things as gas, electric, water, and telephones are treasure chests of cost reduction opportunities. In the past, these items have been viewed as a fixed expense or basic mundane commodity. In recent years, these items have become a large portion of product cost and now must be examined on a continual basis. A formal income improvement program to capture and report on the savings is a requirement for remaining competitive in a global economy. <br>&mdash; From [Utility and energy cost containment](https://www.osti.gov/biblio/273871)
 
 ## Use cases
 
-- Pay less for energy
-- Use less energy
+- Impact the costs due to regrigerators, heating and cooling, and IT
+- Connected edge devices
 - Provide data to demonstrate energy cost containment results
 - Implement price controls and contractor benchmarking
 - Automate maintenance, repair, and operations tracking
@@ -100,10 +100,15 @@ _Figure 4. Schemantic diagram for energy cost containment use case._
 Energy cost containment workflow steps:
 
 <ol>
+<li>Developer and administrator publish edge computing applications to sensor and edge devices.
 <li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
 <li>Sensors report to Intelligent Assets and Facilities Management software that provides alerts on abnormal behavior of data from sensors
 <li>Alerts are sent to Sustainability Control Tower that takes actions to remediate consumption
-<li>Business automation provides consistent ways of handling alerts, sending work orders to facility and asset management software
+<li>Business automation provides consistent ways of handling alerts by:
+<ol type=a>
+<li>Sending work orders to facility and asset management software
+<li>Updating inventory management for spoiled goods as needed
+</ol>
 <li>Facility management software provides work orders, tracks the completion 
 <li>Facility manager is updated on the work orders and successful completion of the remediation steps
 <li>Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals
@@ -153,6 +158,8 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 [*IBM Business Automation*](https://www.ibm.com/business-automation) delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing.
 
 [*IBM Data Fabric*](https://www.ibm.com/data-fabric) empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, [_Watson Knowledge Catalog_](https://www.ibm.com/cloud/watson-knowledge-catalog) provides you users with a catalog tool for intelligent, self-service discovery of data, models. [_Watson Query_](https://www.ibm.com/products/watson-query) provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. 
+
+[*IBM Edge Application Manager*](https://www.ibm.com/docs/en/eam/4.1?topic=overview-ieam) provides you with edge computing features to help you manage and deploy workloads from a management hub cluster to remote instances of OpenShift Container Platform or other Kubernetes-based clusters.
 
 ### Sustainable enterprise sub-system
 

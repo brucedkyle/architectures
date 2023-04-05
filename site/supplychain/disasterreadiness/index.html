@@ -40,7 +40,6 @@
               {title: "Logical diagrams", url: "#logical-diagrams" },
               {title: "Architecture", url: "#architecture" },
               {title: "Action Guide", url: "#action-guide" },
-              {title: "Action Guide", url: "#action-guide_1" },
               {title: "Technology", url: "#technology" },
               {title: "References", url: "#references" },
               {title: "Next steps", url: "#next-steps" },
@@ -141,11 +140,15 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 <tr>
 <td>Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand.</td>
-<td>Monitor and manage network inventory availability and respond to disruptions such as out-of-stock and overstock with alerts and recommended actions.</td>
+<td>Monitor and manage network inventory availability and respond to disruptions such as out-of-stock with alerts and recommended actions.</td>
 </tr>
 <tr>
 <td>The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales.</td>
 <td>Gain detailed visibility into inventory characteristics at each location.</td>
+</tr>
+<tr>
+<td>Point of sales may not be connected to corporate office</td>
+<td>Data can be queued and then sent to corporate at a later time</td>
 </tr>
 </tbody>
 </table>
@@ -163,7 +166,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><em>Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain.</em></p>
 <h2 id="architecture">Architecture</h2>
 <p>The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.</p>
-<h3 id="disaster-preparation-and-response">Disaster preparation and response</h3>
+<h3 id="disaster-preparation">Disaster preparation</h3>
 <p><a href="../media/disasterreadiness-sd.svg"><img alt="disaster readiness and response" src="../media/disasterreadiness-sd.svg" /></a></p>
 <p><em>Figure 3. Schematic diagram of disaster preparation use case.</em></p>
 <p>Disaster preparation workflow steps:</p>
@@ -183,8 +186,9 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ol>
 </ol>
 
+<h3 id="disaster-response">Disaster response</h3>
+<p>!TODO</p>
 <h2 id="action-guide">Action Guide</h2>
-<h2 id="action-guide_1">Action Guide</h2>
 <p>From a high-level perspective, the <strong>Action Guide</strong> represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.</p>
 <ul>
 <li>Automation</li>
@@ -235,6 +239,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <td>Modernize application deployment and operations practices</td>
 <td>Include DevOps best practices to deploy, monitor, and maintain applications</td>
 </tr>
+<tr>
+<td>Modernization</td>
+<td>Manage disconnected operations</td>
+<td>Computing capabilities and data can be mirrored in stores to maintain local data needed to support store opersations, such as product catalogs, and transactions, to provide basic services</td>
+</tr>
 </tbody>
 </table>
 <p>For specific steps on this approach, see <strong>The Action Guide</strong> details in <a href="https://www.ibm.com/downloads/cas/1BYY6VEM"><em>Own Your Transformation</em></a> survey of 1500 CSCOs across 24 industries.</p>
@@ -244,7 +253,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift"><em>Red Hat OpenShift</em></a> Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with:</p>
 <ul>
 <li><a href="https://www.redhat.com/en/technologies/management/advanced-cluster-management"><em>Red Hat Advanced Cluster Management</em></a></li>
-<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a>.</li>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes"><em>Red Hat Advanced Cluster Security</em></a></li>
 </ul>
 <p><a href="https://www.redhat.com/en/technologies/management/ansible"><em>Red Hat Ansible Automation Platform</em></a> operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.</p>
 <p><a href="https://www.redhat.com/en/getting-started-devops"><em>Red Hat OpenShift DevOps</em></a> represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.</p>

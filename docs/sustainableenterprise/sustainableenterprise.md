@@ -101,7 +101,7 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 See:
 
-- [Sustainable supply](./sustainablesupply.md). Enable intelligent, end-to-end supply chain visibility and transparency.
+- [Sustainable supply](./transparentsupply.md). Enable intelligent, end-to-end supply chain visibility and transparency.
 - [Energy cost containment](./energy.md). Reduce the energy costs in your enterprise.
 - [Green IT](./greenit.md). Manage cloud costs, reduce energy consumption in your data centers.
 - [Sustainable facilities](./sustainablefacility.md). Improve your organization's capital project management capabilities.
@@ -186,7 +186,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 See:
 
-- [Sustainable supply](./sustainablesupply.md)
+- [Sustainable supply](./transparentsupply.md)
 - [Energy cost containment](./energy.md)
 - [Green IT](./greenit.md)
 - [Sustainable facilities](./sustainablefacility.md)

@@ -202,7 +202,8 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Product timeliness](timeliness.md)
 - [Intelligent order](./intelligentorder.md)
-- [Sustainable supply chain](./sustainablesupplychain.md)
+- [Returns](./returns.md)
+- [Disaster readiness](./disasterreadiness.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 

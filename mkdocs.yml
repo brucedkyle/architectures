@@ -3,19 +3,18 @@ nav:
     - Home: index.md
     - Supply chain:
       - Supply chain optimization: ./supplychain/supplychain.md
-      - Perfect order: ./supplychain/perfectorder.md
-      - Intelligent order: ./supplychain/intelligentorder.md
       - Demand risk: ./supplychain/demandrisk.md
       - Loss management: ./supplychain/lossmanagement.md
       - Timeliness: ./supplychain/timeliness.md
-      - Disaster readiness: ./supplychain/disasterreadiness.md
+      - Perfect order: ./supplychain/perfectorder.md
+      - Intelligent order: ./supplychain/intelligentorder.md
       - Returns: ./supplychain/returns.md
-      - Sustainable supply chain: ./supplychain/sustainablesupplychain.md
-    - Sustainable enterprise:
+      - Disaster readiness: ./supplychain/disasterreadiness.md
+    - Sustainable supply chain:
       - Sustainable enterprise: ./sustainableenterprise/sustainableenterprise.md
+      - Transparent supply: ./sustainableenterprise/transparentsupply.md
       - Energy cost containment: ./sustainableenterprise/energy.md
       - Green IT: ./sustainableenterprise/greenit.md
-      - Sustainable supply: ./sustainableenterprise/sustainablesupply.md
       - Sustainable facility: ./sustainableenterprise/sustainablefacility.md
     - About: about.md
 theme: windmill

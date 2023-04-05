@@ -1,4 +1,4 @@
-# Sustainable supply
+# Transparent supply
 
 A sustainable supply platform enables goods-specific transparency across multiple supply chain partners, enabling analytics by company, location, product movement and condition.
 
@@ -50,7 +50,7 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 - Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.
 - Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.
 
-![solution overview](./media/sustainablesupply-overview.png)
+![solution overview](./media/transparentsupply-overview.png)
 
 _Figure 1. Overall view of sustainable facilities solution._
 
@@ -74,7 +74,7 @@ The figures in this section show the interaction of 3rd party logistics data to 
 
 In this figure, 3rd Party Logistics provides data for decision making to make your supply chain more sustainable
 
-[![sustainable supply solutions diagram](./media/sustainablesupply-sd.svg)](./media/sustainablesupply-sd.svg)
+[![sustainable supply solutions diagram](./media/transparentsupply-sd.svg)](./media/transparentsupply-sd.svg)
 
 _Figure 4. Schematic diagram of the sustainable supply use case._
 

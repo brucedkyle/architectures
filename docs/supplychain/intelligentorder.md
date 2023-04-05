@@ -17,6 +17,8 @@ Consumers benefit with:
 - Delivery promises fulfilled
 - Proof of delivery
 
+In this article, we explore two scenarios. One that optimizes last mile delivery and one that includes both your customers and third party logistics (3PL) providers.
+
 ## Business problem
 
 If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.
@@ -144,6 +146,34 @@ Intelligent order steps:
 <li>Provide real-time tracking of the order and upon delivery provide POD (electronic or paper)
 </ol>
 
+## Delivery optimization
+
+The following diagram shows the schematic for the delivery optimization use case to improve your supply chain.
+
+[![delivery optimization schematic](./media/delivery-sd.svg)](./media/delivery-sd.svg)
+
+Delivery optimization workflow steps:
+
+<ol>
+<li>Customer chooses items to buy online using the business app.
+<li>Determine sustainability posture by determining ESG indicator values.
+<li>Before providing cost and delivery options, provide customer sustainability options – equivalent greener items, later delivery day, pickup option, etc. If customer opts into sustainability option order is tagged so Supply Assurance Platform can honor that request.
+<li>Inventory fulfilment system updates inventory data.
+<li>Delivery Optimization system plays a key role in sustainability play. It determines whether to contact 3PL or if in-house Route Optimization can fulfill the requirements.
+<li>If 3PL is the only option, contact the sustainability approved 3PL company to fulfill the order. 3PL company takes over the delivery flow from here. If business has the means to fulfill the order continue with next Step 6a.
+<ul>
+<li>Access underlying backend system via API Management
+</ul>
+<li>Alert the Order Fulfilment System (OFS) this special order via system APIs.
+<li>OFS notifies the Warehouse Management System to package and get it ready for delivery.
+<li>The Transport/Logistics System is alerted to schedule delivery. 
+<ol>
+<li>Track the order, notify customer and provide real-time tracking.
+<li>Delivery department maintains the sustainability posture and upon final delivery provides POD (electronic or paper) to customer.
+</ol>
+<li>All sub-systems are updated via the data fabric that helps maintain a consistent view.
+</ol>
+
 ## Action Guide
 
 From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:
@@ -198,7 +228,8 @@ See:
 - [Demand risk](./demandrisk.md)
 - [Loss and waste management](lossmanagement.md)
 - [Product timeliness](timeliness.md)
-- [Sustainable supply chain](./sustainablesupplychain.md)
+- [Returns](./returns.md)
+- [Disaster readiness](./disasterreadiness.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
