@@ -169,7 +169,7 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | Automation | Advance the quality of capital, facility and environmental projects | Integrate data from multiple systems to get enterprise-wide view to capture and evaluate occupancy to align usage with business requirements and objectives.  |
 | Automation | Optimize real estate portfolios | Centralize and integrate critical information at an enterprise level, giving organizations the ability to make the most cost-effective decisions |
 | Automation | Amp up AI to make workflows smarter | <ul><li>Using self-service, automated and mobile processes for move management and reservation and hoteling workspaces.<li>Manage and monitor the assets within each structure – like HVAC systems, elevators and even the exit signs – and use AI-driven insights to perform predictive instead of reactive maintenance</ul> |
-| Sustainability| Build a data foundation. | Automate the collection and consolidation of more than 500 ESG data types into a single system of auditable, financial-grade data |
+| Sustainability| Build a data foundation. | <ol><li>Monitor and measure your operations<li>Manage assets, infrastructure and resources<li>Improve product and service quality<li>Enable sustainable operations</ol> |
 | Sustainability | Streamline reporting and disclosures  | Use powerful emissions calculation engine and flexible reporting tools to meet strict internal and external requirements. |
 | Sustainability | Accelerate decarbonization | Identify energy and emissions savings opportunities and tracking progress at every stage of your journey. |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
@@ -221,6 +221,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - [Unlock opportunities with an integrated workplace management system](https://www.ibm.com/internet-of-things/learn/integrated-workplace-management-system/)
 - [Sustainable asset management with IBM Maximo Application Suite](https://www.ibm.com/products/maximo/sustainability)
 - World Economic Forum [Why buildings are the foundation of an energy-efficient future](https://www.weforum.org/agenda/2021/02/why-the-buildings-of-the-future-are-key-to-an-efficient-energy-ecosystem/)
+- IBM [Build tomorrow’s predictive enterprise today](https://www.ibm.com/resources/guides/intelligent-asset-management/)
 
 ## Next steps
 
