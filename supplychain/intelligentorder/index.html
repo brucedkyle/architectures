@@ -40,6 +40,7 @@
               {title: "Business outcomes", url: "#business-outcomes" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Intelligent order", url: "#intelligent-order_1" },
+              {title: "Delivery optimization", url: "#delivery-optimization" },
               {title: "Action Guide", url: "#action-guide" },
               {title: "Technology", url: "#technology" },
               {title: "Similar use cases", url: "#similar-use-cases" },
@@ -72,12 +73,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../demandrisk/" class="btn btn-xs btn-default pull-right">
+      <a href="../returns/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../demandrisk/" class="btn btn-xs btn-link">
-        Demand risk
+      <a href="../returns/" class="btn btn-xs btn-link">
+        Returns
       </a>
     </div>
     
@@ -108,6 +109,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Delivery promises fulfilled</li>
 <li>Proof of delivery</li>
 </ul>
+<p>In this article, we explore two scenarios. One that optimizes last mile delivery and one that includes both your customers and third party logistics (3PL) providers.</p>
 <h2 id="business-problem">Business problem</h2>
 <p>If the last mile promise to delivery is incorrect and a product arrives late, there’s a good chance that the customer will shop with a competitor next time.</p>
 <p>If last mile tracking information is incorrect, a product arrives late, is damaged, or is never delivered, there’s a good chance that the customer will shop with a competitor next time.</p>
@@ -270,6 +272,30 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Provide real-time tracking of the order and upon delivery provide POD (electronic or paper)
 </ol>
 
+<h2 id="delivery-optimization">Delivery optimization</h2>
+<p>The following diagram shows the schematic for the delivery optimization use case to improve your supply chain.</p>
+<p><a href="../media/delivery-sd.svg"><img alt="delivery optimization schematic" src="../media/delivery-sd.svg" /></a></p>
+<p>Delivery optimization workflow steps:</p>
+<ol>
+<li>Customer chooses items to buy online using the business app.
+<li>Determine sustainability posture by determining ESG indicator values.
+<li>Before providing cost and delivery options, provide customer sustainability options – equivalent greener items, later delivery day, pickup option, etc. If customer opts into sustainability option order is tagged so Supply Assurance Platform can honor that request.
+<li>Inventory fulfilment system updates inventory data.
+<li>Delivery Optimization system plays a key role in sustainability play. It determines whether to contact 3PL or if in-house Route Optimization can fulfill the requirements.
+<li>If 3PL is the only option, contact the sustainability approved 3PL company to fulfill the order. 3PL company takes over the delivery flow from here. If business has the means to fulfill the order continue with next Step 6a.
+<ul>
+<li>Access underlying backend system via API Management
+</ul>
+<li>Alert the Order Fulfilment System (OFS) this special order via system APIs.
+<li>OFS notifies the Warehouse Management System to package and get it ready for delivery.
+<li>The Transport/Logistics System is alerted to schedule delivery. 
+<ol>
+<li>Track the order, notify customer and provide real-time tracking.
+<li>Delivery department maintains the sustainability posture and upon final delivery provides POD (electronic or paper) to customer.
+</ol>
+<li>All sub-systems are updated via the data fabric that helps maintain a consistent view.
+</ol>
+
 <h2 id="action-guide">Action Guide</h2>
 <p>From a high-level perspective, there are several main steps your organization can take to drive innovation and move toward a digital supply chain:</p>
 <ul>
@@ -342,7 +368,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li><a href="../demandrisk/">Demand risk</a></li>
 <li><a href="../lossmanagement/">Loss and waste management</a></li>
 <li><a href="../timeliness/">Product timeliness</a></li>
-<li><a href="../sustainablesupplychain/">Sustainable supply chain</a></li>
+<li><a href="../returns/">Returns</a></li>
+<li><a href="../disasterreadiness/">Disaster readiness</a></li>
 </ul>
 <p>For a comprehensive supply chain overview, see <a href="../supplychain/">Supply Chain Optimization</a>.</p>
 <h2 id="downloads">Downloads</h2>
@@ -380,12 +407,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../demandrisk/" class="btn btn-xs btn-default pull-right">
+      <a href="../returns/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../demandrisk/" class="btn btn-xs btn-link">
-        Demand risk
+      <a href="../returns/" class="btn btn-xs btn-link">
+        Returns
       </a>
     </div>
     
