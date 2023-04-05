@@ -1,6 +1,6 @@
 # Disaster readiness
 
-Companies are facing natural disasters and extreme weather conditions, including those impacted by
+Companies are facing natural disasters and extreme weather conditions, including those impacted by:
 
 - Climate change, such as hurricanes, typhoons, floods, earthquakes, wildfires, droughts
 - Acts of terrorism or violence, including active shooter situations; energy shortages
