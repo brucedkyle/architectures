@@ -204,7 +204,6 @@ See:
 - [Intelligent order](./intelligentorder.md)
 - [Returns](./returns.md)
 - [Disaster readiness](./disasterreadiness.md)
-- [Delivery optimization](./delivery.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](supplychain.md).
 
