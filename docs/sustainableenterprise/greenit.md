@@ -7,9 +7,10 @@ To maximize the value from cloud, [FinOps](https://finops.org/) provides the way
 ## Use cases
 
 - Develop forecasts and cost models for operations in the cloud.
-- Reduce energy consumption and optimizes heating, ventilation and cooling.
-- Provide data to purchasing departments for green computing decision making
+- Reduce energy consumption and optimizes heating, ventilation and cooling in data center.
+- Provide data to purchasing departments for green computing decision making.
 - Turn off compute that is not in use, including central processing units (CPUs) and peripheral equipment such as printers.
+- Identify and move workloads to serveless compute that can provide efficiency in compute costs.
 - Develop data for FinOps to operate effectively across multiple disciplines.
 
 ## Background
@@ -20,11 +21,11 @@ Every aspect of modern information technology — from the smallest chip to the 
 
 ## Business problem
 
-Digital transformation puts increasing pressure on IT to finally get the performance-cost challenge right
+Digital transformation puts increasing pressure on IT to finally get the performance-cost challenge right.
 
-The consequences of not solving the performance versus cost problem are environmental as well as financial
+The consequences of not solving the performance versus cost problem are environmental as well as financial.
 
-Everyone gets it—the sustainable business must consume cloud and IT resources efficiently 
+Everyone gets it—the sustainable business must consume cloud and IT resources efficiently.
 
 ### Challenges / Business Drivers 
 
