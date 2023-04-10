@@ -43,6 +43,7 @@ Harvard Business Review article identified the following objectives for companie
 - **Reconfigure supply chain** Some critical but vulnerable suppliers will go out of business.
 - **Reposition inventory** in anticipation of certain regions or facilities facing disaster.
 - **Route deliveries around impacted areas**.
+- **Continuous operation when store are disconnected from corporate data center**.
 
 ### Responses
 
@@ -51,7 +52,7 @@ Harvard Business Review article identified the following objectives for companie
 | Unusual events, such as the global pandemic, war or other international incident, port issues, and waterway obstructions illustrate the need for enterprises to build resilient supply chains. | Respond with intelligence, speed, and confidence to reduce the impact of disruptions, turning these events into opportunities to outperform and outcompete. |
 | Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and respond to disruptions such as out-of-stock with alerts and recommended actions. |
 | The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales. | Gain detailed visibility into inventory characteristics at each location. |
-| Point of sales may not be connected to corporate office | Data can be queued and then sent to corporate at a later time |
+| Point of sales may not be connected to corporate office during a disaster | Data can be queued and then sent to corporate at a later time |
 
 ## Solution overview
 
@@ -100,13 +101,10 @@ Disaster preparation workflow steps:
 </ol>
 </ol>
 
-### Disaster response
+### Disconnected store
 
 !TODO
 
-### Data center backup
-
-!TODO
 
 ## Action Guide
 

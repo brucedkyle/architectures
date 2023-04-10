@@ -58,6 +58,7 @@ Making returns easy for consumers is a way to create a loyal customer.
 - The return process is an opportunity to upsell
 - Identify fraudulent returns
 - Provide sustainable transport of returned items
+- Demonstrate proper disposal of hazardous material returns
 
 ### Responses
 
@@ -116,8 +117,8 @@ Returns workflow steps:
 <ol type-"a">
 <li>Track the order, notifying customer and provide real-time tracking
 <li>Track order to disposal or repupose delivery location
-<li>Track hazardous material to disposal
 </ol>
+<li>Track hazardous material to disposal through Sustainable Supply
 </ol>
 
 ## Action Guide
