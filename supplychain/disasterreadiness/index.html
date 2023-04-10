@@ -124,6 +124,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li><strong>Reconfigure supply chain</strong> Some critical but vulnerable suppliers will go out of business.</li>
 <li><strong>Reposition inventory</strong> in anticipation of certain regions or facilities facing disaster.</li>
 <li><strong>Route deliveries around impacted areas</strong>.</li>
+<li><strong>Continuous operation when store are disconnected from corporate data center</strong>.</li>
 </ul>
 <h3 id="responses">Responses</h3>
 <table>
@@ -147,7 +148,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <td>Gain detailed visibility into inventory characteristics at each location.</td>
 </tr>
 <tr>
-<td>Point of sales may not be connected to corporate office</td>
+<td>Point of sales may not be connected to corporate office during a disaster</td>
 <td>Data can be queued and then sent to corporate at a later time</td>
 </tr>
 </tbody>
@@ -186,10 +187,30 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </ol>
 </ol>
 
-<h3 id="disaster-response">Disaster response</h3>
-<p>!TODO</p>
-<h3 id="data-center-backup">Data center backup</h3>
-<p>!TODO</p>
+<h3 id="disconnected-store">Disconnected store</h3>
+<p><a href="../media/disconnectedstore-sd.png"><img alt="disconnected store" src="../media/disconnectedstore-sd.png" /></a></p>
+<p><em>Figure 4. Schematic diagram of disaster response with a disconnected store use case.</em></p>
+<p>Disconnected store workflow steps:</p>
+<ol>
+<li>Point of sale devices send information to in-store server that collects transactions.
+<li>Once connection is restored, Store server queues events and plays them back as events. 
+<li>The transactions are subscribed to and business automation workflows are triggered.
+<ol type="a">
+<li>Data is consolidated and normalized, then sent to Supply Chain Control Tower.
+<li>Adjust stock positions data is updated for the affected stores.
+<li>Replentishment system updated.
+</ol>
+<li>Replentishment planning updates anticipated inventory positions to data fabric that normalizes data for control tower
+<li>Inventory analysis anticipates potential low stock levels and predicts extraordinary demand levels; provides this data to control tower
+<li>Colleague alerted and asked to take remediation action within Control Tower.
+<li>Colleague's actions taken by business automation
+<ol type="a">
+<li>Adjustment of stock position across the supply chain by Planning Replentishment System
+<li>Stock ordered in nearly or affected order.
+<li>Reroute transport as needed.
+</ol>
+</ol>
+
 <h2 id="action-guide">Action Guide</h2>
 <p>From a high-level perspective, the <strong>Action Guide</strong> represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.</p>
 <ul>
@@ -220,6 +241,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <td>Automation</td>
 <td>Amp up AI to make workflows smarter</td>
 <td>When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred. These recommendations are based on adding automation and AI to make workflows smarter.</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Respond to disconnected store proactively</td>
+<td>Use available data to take actions to support disconnected store.</td>
 </tr>
 <tr>
 <td>Sustainability</td>
