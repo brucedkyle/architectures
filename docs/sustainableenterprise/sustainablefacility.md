@@ -79,7 +79,7 @@ There are several challenges to overcome in the pursuit of becoming a truly sust
 
 **Drivers**
 
-- **Sustainability is good for business**.
+- **Capture and calculate carbon emissions data**, report it according to regulations and set targets to drive action.
 - **Reduce energy costs**.
 - **Include ESG criteria in decision making**.
 - **Prioritize environmental improvement projects**.
@@ -167,8 +167,9 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | | Actionable Step | Implementation details |
 | - | - | - |
 | Automation | Advance the quality of capital, facility and environmental projects | Integrate data from multiple systems to get enterprise-wide view to capture and evaluate occupancy to align usage with business requirements and objectives.  |
-| Automation | Optimize real estate portfolios | Centralize and integrate critical information at an enterprise level, giving organizations the ability to make the most cost-effective decisions |
-| Automation | Amp up AI to make workflows smarter | <ul><li>Using self-service, automated and mobile processes for move management and reservation and hoteling workspaces.<li>Manage and monitor the assets within each structure – like HVAC systems, elevators and even the exit signs – and use AI-driven insights to perform predictive instead of reactive maintenance</ul> |
+| Automation | Optimize real estate portfolios | Centralize and integrate critical information at an enterprise level, giving organizations the ability to make the most cost-effective decisions. |
+| Automation | Amp up AI to make workflows smarter | <ul><li>Using self-service, automated and mobile processes for move management and reservation and hoteling workspaces.<li>Manage and monitor the assets within each structure – like HVAC systems, elevators and even the exit signs – and use AI-driven insights to perform predictive instead of reactive maintenance<./ul> |
+| Automation | Automate ESG data collection | Integrate technologies to help address the complexities of ESG data volume and types and your Hybrid IT preference. |
 | Sustainability| Build a data foundation. | <ol><li>Monitor and measure your operations<li>Manage assets, infrastructure and resources<li>Improve product and service quality<li>Enable sustainable operations</ol> |
 | Sustainability | Streamline reporting and disclosures  | Use powerful emissions calculation engine and flexible reporting tools to meet strict internal and external requirements. |
 | Sustainability | Accelerate decarbonization | Identify energy and emissions savings opportunities and tracking progress at every stage of your journey. |
@@ -222,6 +223,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - [Sustainable asset management with IBM Maximo Application Suite](https://www.ibm.com/products/maximo/sustainability)
 - World Economic Forum [Why buildings are the foundation of an energy-efficient future](https://www.weforum.org/agenda/2021/02/why-the-buildings-of-the-future-are-key-to-an-efficient-energy-ecosystem/)
 - IBM [Build tomorrow’s predictive enterprise today](https://www.ibm.com/resources/guides/intelligent-asset-management/)
+- [EY and IBM Collaborate to Address Complex ESG Challenges and Drive Value-Led Sustainability](https://newsroom.ibm.com/2023-03-08-EY-and-IBM-Collaborate-to-Address-Complex-ESG-Challenges-and-Drive-Value-Led-Sustainability)
 
 ## Next steps
 

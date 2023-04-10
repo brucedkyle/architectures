@@ -68,11 +68,11 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 ## Architecture
 
-The figures in this section show the interaction of 3rd party logistics data to your customer systems.
+The figures in this section show the interaction of suppliers' data to your customer systems.
 
 ### Sustainable supply
 
-In this figure, 3rd Party Logistics provides data for decision making to make your supply chain more sustainable
+In this figure, suppliers' provides data for decision making to make your supply chain more sustainable
 
 [![sustainable supply solutions diagram](./media/transparentsupply-sd.svg)](./media/transparentsupply-sd.svg)
 
@@ -81,9 +81,9 @@ _Figure 4. Schematic diagram of the sustainable supply use case._
 Sustainable supply workflow steps:
 
 <ol>
-<li>3rd party logistics software provides product sourcing updates through API
+<li>Suppliers' software provides product sourcing updates through API
 <li>API Management provides and monitors the input of the 3rd partly logistics information
-<li>Your organization receives the 3rd party logistics information and incorporates it into Sustainable Supply
+<li>Your organization receives the suppliers' information and incorporates it into Sustainable Supply
 <li>The Supply Assurance Control Tower surfaces the end-to-end logistics supply chain to users, such as the inventory controller and logistics
 <ol type="a">
 <li>Sourcing data is routed to Sustainability Control Tower for reporting
