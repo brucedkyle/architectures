@@ -103,7 +103,7 @@ Disaster preparation workflow steps:
 
 ### Disconnected store
 
-[![disconnected store](./media/disconnectedstore-sd.svg)](./media/disconnectedstore-sd.svg)
+[![disconnected store](./media/disconnectedstore-sd.png)](./media/disconnectedstore-sd.png)
 
 _Figure 4. Schematic diagram of disaster response with a disconnected store use case._
 

@@ -10,7 +10,7 @@ nav:
       - Intelligent order: ./supplychain/intelligentorder.md
       - Returns: ./supplychain/returns.md
       - Disaster readiness: ./supplychain/disasterreadiness.md
-    - Sustainable enterprisen:
+    - Sustainable enterprise:
       - Sustainable enterprise: ./sustainableenterprise/sustainableenterprise.md
       - Transparent supply: ./sustainableenterprise/transparentsupply.md
       - Energy cost containment: ./sustainableenterprise/energy.md
