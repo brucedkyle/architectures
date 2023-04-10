@@ -103,7 +103,31 @@ Disaster preparation workflow steps:
 
 ### Disconnected store
 
-!TODO
+[![disconnected store](./media/disconnectedstore-sd.svg)](./media/disconnectedstore-sd.svg)
+
+_Figure 4. Schematic diagram of disaster response with a disconnected store use case._
+
+Disconnected store workflow steps:
+
+<ol>
+<li>Point of sale devices send information to in-store server that collects transactions.
+<li>Once connection is restored, Store server queues events and plays them back as events. 
+<li>The transactions are subscribed to and business automation workflows are triggered.
+<ol type="a">
+<li>Data is consolidated and normalized, then sent to Supply Chain Control Tower.
+<li>Adjust stock positions data is updated for the affected stores.
+<li>Replentishment system updated.
+</ol>
+<li>Replentishment planning updates anticipated inventory positions to data fabric that normalizes data for control tower
+<li>Inventory analysis anticipates potential low stock levels and predicts extraordinary demand levels; provides this data to control tower
+<li>Colleague alerted and asked to take remediation action within Control Tower.
+<li>Colleague's actions taken by business automation
+<ol type="a">
+<li>Adjustment of stock position across the supply chain by Planning Replentishment System
+<li>Stock ordered in nearly or affected order.
+<li>Reroute transport as needed.
+</ol>
+</ol>
 
 
 ## Action Guide
@@ -119,6 +143,7 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | Automation | <ul><li>Monitor for disruptive environmental conditions such as severe weather, wildfires, flooding, air quality, and carbon emissions<li>Predict potential impacts of climate change and weather across the business using climate risk analytics</ul> | <ul><li>Gain insights into potential operational disruptions and prioritize mitigation and response efforts<li>Measure and report on environmental initiatives, while reducing the burden of this reporting on procurement and operations teams</ul> |
 | Automation | Accelerate automation in extended workflows | Prepare for severe weather-related shipping and inventory disruptions, or factor environmental risks into future warehouse locations |
 | Automation | Amp up AI to make workflows smarter | When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred. These recommendations are based on adding automation and AI to make workflows smarter. |
+| Automation | Respond to disconnected store proactively | Use available data to take actions to support disconnected store. |
 | Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in disaster planning and response decision making. |
 | Sustainability| Combine your proprietary and third-party geospatial information with weather data | <ul><li>Predict energy demand and reduce waste so that you don’t buy more power than you need.<li>Use weather information to predict and avoid disruptions and plot the most efficient routes.</ul>
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
