@@ -105,20 +105,10 @@ Returns workflow steps:
 <ol type="a">
 <li>Item is picked up and returns to a warehouse or store location
 <li>The item is returned to a location
-<li>Item is graded by inspector or automated inspection
+<li>Disposition system determines whether item is for disposal, resell as open box, referbish based on business rules.
 </ol>
-<li>Once it is determined usable or not, business automation takes steps to:
-<ol type="a">
-<li>Return the item in inventory for resell, adding it it to current inventory, store inventory or dispose of the item; identify the reason for the return
-<li>Review for fraudulent return patterns
-<li>Refund or provide store credit
-</ol>
-<li>Track return items through transport system
-<ol type-"a">
-<li>Track the order, notifying customer and provide real-time tracking
-<li>Track order to disposal or repupose delivery location
-</ol>
-<li>Track hazardous material to disposal through Sustainable Supply
+<li>Review return for fraudulent return patterns
+<li>Track hazardous material disposal
 </ol>
 
 ## Action Guide
@@ -132,9 +122,10 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | | Actionable Step | Implementation details |
 | - | - | - |
 | Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze returns in real-time. |
-| Automation | Accelerate automation in extended workflows | Identify consistently automate your strategy for loyal customer offers when returning items. |
+| Automation | Accelerate automation in extended workflows | Automate returns policy for consistency across the enterprise. |
 | Automation | Amp up AI to make workflows smarter | Use AI to identify product deficiencies that lead to return patterns, generate upsell recommendations, identify fraud patterns, and recommend sustainable transport options for return items. |
 | Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in returns decision making. |
+| Sustainability | Track disposal of hazardous returns | Report on how hazardous returns are handled. |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 | Modernization | Modernize application deployment and operations practices | Include DevOps best practices to deploy, monitor, and maintain applications |
 
