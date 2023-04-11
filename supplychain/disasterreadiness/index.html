@@ -172,18 +172,17 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><em>Figure 3. Schematic diagram of disaster preparation use case.</em></p>
 <p>Disaster preparation workflow steps:</p>
 <ol>
-<li>External data feed, such as IBM Environmental Intelligence Suite, anticipated disruptive environmental condition
+<li>External data feed, such as IBM Environmental Intelligence Suite, anticipated disruptive environmental condition.
 <li>Control Tower alerted to the potential disruption.
 <li>Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
 <li>Inventory Analysis detects potential low stock levels and predicts extraordinary inventory demand.
 <li>Colleague alerted and asked to take remediation action.
 <li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
 <ol type="a">
-<li>Ordering more stock in nearby and affected area
-<li>Adjusting stock positions within existing Supply Chain
-<li>Managing inventory held at existing stores or by moving existing inventory
-<li>Managing inventory held at existing warehouses or by moving existing inventory
-<li>Rerouting incoming inventory around event area
+<li>Ordering more stock in nearby and affected area.
+<li>Adjusting stock positions within existing Supply Chain.
+<li>Plan transport around affected area.
+<li>Coordinate with suppliers and vendors to position inventory
 </ol>
 </ol>
 
@@ -193,21 +192,14 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Disconnected store workflow steps:</p>
 <ol>
 <li>Point of sale devices send information to in-store server that collects transactions.
-<li>Once connection is restored, Store server queues events and plays them back as events. 
-<li>The transactions are subscribed to and business automation workflows are triggered.
+<li>Once connection is restored, store server queues events and plays them back as events. 
+<li>The transaction events are read, business automation workflows are triggered to update corporate systems.
+<li>Data is updated through Integration Services through APIs to:
 <ol type="a">
-<li>Data is consolidated and normalized, then sent to Supply Chain Control Tower.
-<li>Adjust stock positions data is updated for the affected stores.
-<li>Replentishment system updated.
-</ol>
-<li>Replentishment planning updates anticipated inventory positions to data fabric that normalizes data for control tower
-<li>Inventory analysis anticipates potential low stock levels and predicts extraordinary demand levels; provides this data to control tower
-<li>Colleague alerted and asked to take remediation action within Control Tower.
-<li>Colleague's actions taken by business automation
-<ol type="a">
-<li>Adjustment of stock position across the supply chain by Planning Replentishment System
-<li>Stock ordered in nearly or affected order.
-<li>Reroute transport as needed.
+<li>Adjust stock positions data for the affected stores.
+<li>Update replentishment system.
+<li>Upste store operations data.
+<li>Consolidate data for to update work queue in Supply Chain Control Tower.
 </ol>
 </ol>
 
