@@ -149,7 +149,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*Red Hat Intgration*](https://www.redhat.com/en/products/integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
 
-[*IBM Business Automation*](https://www.ibm.com/business-automation) delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing.
+[*IBM Business Automation*](https://www.ibm.com/business-automation) delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decison making, and regulation compliance using automation gives business flexible, auditable, policy-based workflows across the enterprise.
 
 ### Supply assurance platform
 
@@ -180,11 +180,12 @@ For a comprehensive supply chain overview, see [Supply Chain Optimization](https
 
 - Iain Boyle, Chief Architect, Red Hat
 - Bruce Kyle, Sr Solution Architect, IBM Client Engineering
+- Ramesh Yerramsetti, Customer Success Architect, IBM Technology
 - Mahesh Dodani, Principal Industry Engineer, IBM Technology
 - Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
-- Ramesh Yerramsetti, Customer Success Architect, IBM Technology
 - Eric Singsaas, Account Technical Lead, IBM Technology
+- Mike Lee, Principal Integration Technical Specialist, IBM
 
 
 ## Download diagrams

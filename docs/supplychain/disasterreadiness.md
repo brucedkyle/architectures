@@ -8,6 +8,11 @@ Companies are facing natural disasters and extreme weather conditions, including
 
 Each can negatively affect your supply chain operations and financial performance. 
 
+In this article, we discuss how your organization can prepare for business disruption, including
+
+- Preparations when a weather event is anticipated 
+- How systems can work together to mitigate the business disruption when stores become disconnected from corporate data centers.
+
 ## Use case
 
 Events could result in physical damage to our properties, limitations on store operating hours, less frequent visits by members to physical locations, the temporary closure of warehouses, depots, manufacturing or home office facilities, the temporary lack of an adequate work force, disruptions to our IT systems, the temporary or long-term disruption in the supply of products from some local or overseas suppliers, the temporary disruption in the transport of goods to or from overseas, delays in the delivery of goods to our warehouses or depots, and the temporary reduction in the availability of products in our warehouses.
@@ -77,20 +82,21 @@ _Figure 2. The personas and technologies that provide a platform for some of the
 
 The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.
 
-### Disaster preparation
+### Weather disruption preparation
 
 [![disaster readiness and response](./media/disasterreadiness-sd.svg)](./media/disasterreadiness-sd.svg)
 
-_Figure 3. Schematic diagram of disaster preparation use case._
+_Figure 3. Schematic diagram of weather disruption preparation use case._
 
-Disaster preparation workflow steps:
+Weather disruption preparation workflow steps:
 
 <ol>
 <li>External data feed, such as IBM Environmental Intelligence Suite, anticipated disruptive environmental condition.
-<li>Control Tower alerted to the potential disruption.
+<li>Demand Intelligence system is alerted to the potential disruption.
+<li>Inventory analysis anticipates potential low stock levels and predicts extraordinary demand levels
+<li>Current inventory levels data collected
 <li>Control Tower collects current inventory positions from stores, in-transit, warehouses plus future inventory positions
-<li>Inventory Analysis detects potential low stock levels and predicts extraordinary inventory demand.
-<li>Colleague alerted and asked to take remediation action.
+<li>Control Tower alerts colleage with a set of work queues to mitigate the disrutpion Colleague takes remediation action by selecting actions provided by Control Tower.
 <li>Colleague triggers Business Automation to remediate stock levels using a combination of options, including:
 <ol type="a">
 <li>Ordering more stock in nearby and affected area.
@@ -112,7 +118,7 @@ Disconnected store workflow steps:
 <li>Point of sale devices send information to in-store server that collects transactions.
 <li>Once connection is restored, store server queues events and plays them back as events. 
 <li>The transaction events are read, business automation workflows are triggered to update corporate systems.
-<li>Data is updated through Integration Services through APIs to:
+<li>Data is updated through business automation to:
 <ol type="a">
 <li>Adjust stock positions data for the affected stores.
 <li>Update replentishment system.
@@ -139,8 +145,8 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in disaster planning and response decision making. |
 | Sustainability| Combine your proprietary and third-party geospatial information with weather data | <ul><li>Predict energy demand and reduce waste so that you don’t buy more power than you need.<li>Use weather information to predict and avoid disruptions and plot the most efficient routes.</ul>
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
-| Modernization | Modernize application deployment and operations practices | Include DevOps best practices to deploy, monitor, and maintain applications |
-| Modernization | Manage disconnected operations | Computing capabilities and data can be mirrored in stores to maintain local data needed to support store opersations, such as product catalogs, and transactions, to provide basic services | 
+| Modernization | Modernize application deployment and operations practices | <ul><li>Include DevOps best practices to deploy, monitor, and maintain applications<li>Use automation across the enterprise to maintain and update local store operations infrastruture</ul> |
+| Modernization | Manage disconnected operations | <ul><li>Computing capabilities and data can be mirrored in stores to maintain local data needed to support store opersations, such as product catalogs, and transactions, to provide basic services<li>Provide for data redundancy and high availability in local store operations</ul> | 
 
 For specific steps on this approach, see **The Action Guide** details in [_Own Your Transformation_](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
 
@@ -161,7 +167,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 ### Integration services
 
-[*IBM Business Automation*](https://www.ibm.com/business-automation) delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing.
+[*IBM Business Automation*](https://www.ibm.com/business-automation) delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decison making, and regulation compliance using automation gives business flexible, auditable, policy-based workflows across the enterprise.
 
 [*IBM Data Fabric*](https://www.ibm.com/data-fabric) empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, [_Watson Knowledge Catalog_](https://www.ibm.com/cloud/watson-knowledge-catalog) provides you users with a catalog tool for intelligent, self-service discovery of data, models. [_Watson Query_](https://www.ibm.com/products/watson-query) provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. 
 
@@ -208,12 +214,13 @@ For a comprehensive supply chain overview, see [Supply Chain Optimization](https
 ## Contributors
 
 - Iain Boyle, Chief Architect, Red Hat
-- Bruce Kyle, Sr Solution Architect, IBM Client Engineering
-- Mahesh Dodani, Principal Industry Engineer, IBM Technology
-- Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
-- Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
 - Anthony Giles, Business Automation Technical Specialist, IBM
 - Eric Singsaas, Account Technical Lead, IBM Technology
+- Bruce Kyle, Sr Solution Architect, IBM Client Engineering
+- Mahesh Dodani, Principal Industry Engineer, IBM Technology
+- Mike Lee, Principal Integration Technical Specialist, IBM
+- Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
+- Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
 
 ## Download diagrams
 
