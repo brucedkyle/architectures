@@ -60,13 +60,15 @@ Making returns easy for consumers is a way to create a loyal customer.
 - Provide sustainable transport of returned items
 - Demonstrate proper disposal of hazardous material returns
 
-### Responses
+## Business outcomes
 
-| Business Problem | Solution |
-| - | - |
-| Unusual events, such as the global pandemic, war or other international incident, port issues, and waterway obstructions illustrate the need for enterprises to build resilient supply chains. | Respond with intelligence, speed, and confidence to reduce the impact of disruptions, turning these events into opportunities to outperform and outcompete. |
-| Manual processes, limited capabilities of inventory management tools, and global operations pose a challenge for enterprises to manage and act on inventory and mitigate disruptions to meet actual demand. | Monitor and manage network inventory availability and respond to disruptions such as out-of-stock and overstock with alerts and recommended actions. |
-| The lack of pertinent product information and poor data flow across partners lead to inefficient inventory management, waste, and lost sales. | Gain detailed visibility into inventory characteristics at each location. |
+- Determine return policy suitable by item
+- Setting and meeting customer expectations on returned items
+- Enhance loyalty of customers
+- Minimize losses by having fewer returns
+- Identify items for resale, open box, refurbish, resale, donation to charity
+- Hazardous materials handled properly
+
 
 ## Solution overview
 
@@ -121,10 +123,10 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 
 | | Actionable Step | Implementation details |
 | - | - | - |
-| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of changes in inventory demand. Monitor and analyze returns in real-time. |
-| Automation | Accelerate automation in extended workflows | Automate returns policy for consistency across the enterprise. |
-| Automation | Amp up AI to make workflows smarter | Use AI to identify product deficiencies that lead to return patterns, generate upsell recommendations, identify fraud patterns, and recommend sustainable transport options for return items. |
-| Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in returns decision making. |
+| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of returns of items in inventory. Monitor and analyze returns in real-time. |
+| Automation | Accelerate automation in extended workflows | Automate returns policy for consistency across the enterprise and customize based on item. |
+| Automation | Amp up AI to make workflows smarter | <ul><li>Use AI to identify product deficiencies that lead to return patterns, generate upsell recommendations, identify fraud patterns, and recommend sustainable transport options for return items.<li>Use AI to determine likely returned items<li>Use AI to identify fraudulent returns</ul>|
+| Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in returns decision making, especially return items transport or disposal. |
 | Sustainability | Track disposal of hazardous returns | Report on how hazardous returns are handled. |
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 | Modernization | Modernize application deployment and operations practices | Include DevOps best practices to deploy, monitor, and maintain applications |

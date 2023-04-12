@@ -10,7 +10,7 @@ Each can negatively affect your supply chain operations and financial performanc
 
 In this article, we discuss how your organization can prepare for business disruption, including
 
-- Preparations when a weather event is anticipated 
+- Preparations when a weather event is anticipated.
 - How systems can work together to mitigate the business disruption when stores become disconnected from corporate data centers.
 
 ## Use case
@@ -145,8 +145,8 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in disaster planning and response decision making. |
 | Sustainability| Combine your proprietary and third-party geospatial information with weather data | <ul><li>Predict energy demand and reduce waste so that you don’t buy more power than you need.<li>Use weather information to predict and avoid disruptions and plot the most efficient routes.</ul>
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
-| Modernization | Modernize application deployment and operations practices | <ul><li>Include DevOps best practices to deploy, monitor, and maintain applications<li>Use automation across the enterprise to maintain and update local store operations infrastruture</ul> |
-| Modernization | Manage disconnected operations | <ul><li>Computing capabilities and data can be mirrored in stores to maintain local data needed to support store opersations, such as product catalogs, and transactions, to provide basic services<li>Provide for data redundancy and high availability in local store operations</ul> | 
+| Modernization | Modernize application deployment and operations practices | <ul><li>Include DevOps best practices to deploy, monitor, and maintain applications<li>Use automation across the enterprise to maintain and update local store operations infrastructure</ul> |
+| Modernization | Manage disconnected operations | Computing capabilities and data can be mirrored in stores to maintain local data needed to support store operations, such as product catalogs, and transactions, to provide basic services<li>Provide for data redundancy and high availability in local store operations. | 
 
 For specific steps on this approach, see **The Action Guide** details in [_Own Your Transformation_](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
 
