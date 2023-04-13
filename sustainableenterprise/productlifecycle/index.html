@@ -11,7 +11,7 @@
     
     <link rel="shortcut icon" href="../../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Smart energy - Cloud Native Architectures</title>
+    <title>Product lifecycle - Cloud Native Architectures</title>
     <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="../../css/base.css" rel="stylesheet">
@@ -32,11 +32,10 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Smart energy", url: "#_top", children: [
+          {title: "Product lifecycle management", url: "#_top", children: [
               {title: "Use cases", url: "#use-cases" },
               {title: "Background", url: "#background" },
               {title: "Business problem", url: "#business-problem" },
-              {title: "Business outcomes", url: "#business-outcomes" },
               {title: "Solution overview", url: "#solution-overview" },
               {title: "Logical diagrams", url: "#logical-diagrams" },
               {title: "Architecture", url: "#architecture" },
@@ -70,20 +69,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../greenit/" class="btn btn-xs btn-default pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../greenit/" class="btn btn-xs btn-link">
-        Green IT
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
       </a>
     </div>
     
     <div class="wm-article-nav">
-      <a href="../transparentsupply/" class="btn btn-xs btn-default pull-left">
+      <a href="../sustainablefacility/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../transparentsupply/" class="btn btn-xs btn-link">
-        Transparent supply
+        Previous</a><a href="../sustainablefacility/" class="btn btn-xs btn-link">
+        Sustainable facility
       </a>
     </div>
     
@@ -91,78 +90,50 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="smart-energy">Smart energy</h1>
-<p>Energy represents a significant cost in the business.</p>
-<p>According to a paper recommended by the United States Department of Energy:</p>
-<blockquote>
-<p>One of the most lucrative areas for improving bottom line profitability is related to an organization`s costs for utilities and energy. Such things as gas, electric, water, and telephones are treasure chests of cost reduction opportunities. In the past, these items have been viewed as a fixed expense or basic mundane commodity. In recent years, these items have become a large portion of product cost and now must be examined on a continual basis. A formal income improvement program to capture and report on the savings is a requirement for remaining competitive in a global economy. <br>&mdash; From <a href="https://www.osti.gov/biblio/273871">Utility and energy cost containment</a></p>
-</blockquote>
+    <h1 id="product-lifecycle-management">Product lifecycle management</h1>
+<p>Waste and water management are among the high priority items that are part of environmental sustainability goals. </p>
+<p>Visibility of an organization's assets and associated material components and gain insights into its global waste profile, the company can better engage the waste management team, supply chain team, equipment manufacturers and waste haulers. </p>
+<p>By using this cradle-to-grave method allows the company to integrate with environmental reporting processes and incentivize sustainability improvement across the organization.</p>
 <h2 id="use-cases">Use cases</h2>
-<ul>
-<li>Impact the costs due to regrigerators, heating and cooling, and IT</li>
-<li>Connected edge devices</li>
-<li>Provide data to demonstrate energy cost containment results</li>
-<li>Implement price controls and contractor benchmarking</li>
-<li>Automate maintenance, repair, and operations tracking</li>
-</ul>
+<p>Organizations want to enhance the tracking of assets and associated material components across the enterprise. Through improved visibility into job activities and an asset's lifecycle, the organization can better understand and drive change using data-driven insights. </p>
 <h2 id="background">Background</h2>
-<p>Most companies are committed to actions that make your operations more sustainable. At this point, some companies have set and published specific targets.</p>
-<p>Businesses are seeking to balance the long-term imperative to protect the planet with the short-term need to preserve the bottom line. </p>
+<p>As outlined in a Pennsylvania State University study, "<em>Hazardous Waste</em> is any Waste that has been designated, characterized or otherwise regulated as hazardous by applicable laws or regulations in a country, state, region, or locality. Examples can include a corrosive liquid or a flammable solvent.</p>
+<p>"<em>Product End of Life Management (PELM)</em> refers to the demanufacturing, dismantling, reuse, reclamation, recycling, shredding, treatment and / or disposal of end-of-life (EOL) IT equipment and parts."</p>
 <h2 id="business-problem">Business problem</h2>
-<p>Businesses need a data-driven solution to demonstrate energy cost savings. Intelligent decision making of specific steps to determine costs of energy providers, capital improvement projects, energy conservation, modernization of infrastructure.</p>
-<p>How do you determine the ROI on these steps to drive your sustainability goals?</p>
+<p>The business problem consists of two major parts:</p>
+<ul>
+<li>First is the management (collection, transportation, recycling treatment or disposal) of hazardous and nonhazardous special waste that comes from internal operations (e.g., facility operations, on-site waste water treatment, research, manufacturing processes, and environmental remediation programs). Such byproducts are reduced and recycle when possible, followed by treatment and disposal (incinerated and/or sent to landfills).</li>
+<li>Second are products or their parts and components that have reached their intended end of life (a.k.a PELM). These materials may be generated from your own operations or by your clients. These PELM materials may still have value and can be refurbished and resold or, may be disassembled and their parts harvested for reuse or scrapped. </li>
+</ul>
+<p>The output of the scrapping process may involve recoverable materials (e.g., ferrous and non-ferrous metals, precious metals, glass, plastics, etc.) that have intrinsic value and are sold in secondary commodity markets, or waste materials (e.g., non-recyclable packaging material, non-recyclable plastics, shredder fluff, etc.) that have no value and require proper treatment or disposal. </p>
+<p>Waste materials may be considered hazardous or nonhazardous depending on government designation.</p>
+<p>Often the disposal of hazardous wastes are contracted through third parties.</p>
 <h3 id="challenges-business-drivers">Challenges / Business Drivers</h3>
 <p><strong>Challenges</strong></p>
-<p>According to an <a href="https://newsroom.ibm.com/2022-05-10-IBM-Study-CEOs-Feel-Pressure-to-Act-on-Sustainability-and-See-Business-Benefits,-Yet-Hindered-by-Challenges">IBM Institute of Business Value study</a>, 48% of CEOs across industries say increasing sustainability is one of the highest priorities for their organization in the next two to three years. However, 51% also cite sustainability as among their greatest challenges in that same timeframe, with hurdles, such as:</p>
 <ul>
-<li>Lack of data insights</li>
-<li>Unclear ROI</li>
-<li>Technology barriers, as hurdles. </li>
+<li>Waste management team manually gathers disposal data from individual haulers for each facility in the organization.</li>
+<li>Manual data collection method limits internal data validation to sporadic certification spot-checks.</li>
+<li>No real-time visibility into hazardous waste lifecycles or raw materials to actively engage with vendors and ensure hazardous waste compliance and forecasting</li>
+<li>Field teams manage the end-to-end lifecycle and disposal process in spreadsheets</li>
+<li>The recycling process is manually managed by external regional haulers</li>
 </ul>
-<p>For these CEOs, scaling business with modern infrastructure can often be one of the barriers to achieving sustainability goals.</p>
-<p><strong>Business Drivers</strong></p>
+<p><strong>Business drivers</strong></p>
 <ul>
-<li>Energy represents a significant cost in the business</li>
-<li>Demonstrate ROI with data-driven energy cost savings</li>
-<li>Investment in energy cost savings can have ROI</li>
-<li>Facility maintenance responses can provide energy cost savings</li>
+<li>Meeting strict compliance with regional hazardous waste management standards</li>
+<li>Setting and meeting environmental waste targets</li>
+<li>Streamline replacement work order management and asset tracking process</li>
+<li>Tracability and controls of waste disposal</li>
+<li>Advise on automation replacement work-orders to engage with waster haulers for reconcilation</li>
+<li>Streamline collection, tracking and reporting of hazardout materials</li>
+<li>Monitor and forecast waste targets</li>
 </ul>
-<h3 id="responses">Responses</h3>
-<table>
-<thead>
-<tr>
-<th>Business Problem</th>
-<th>Solution</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Manual processes for assembling energy reporting data</td>
-<td>Automate data collection activities, such as energy billing reporting and consumption</td>
-</tr>
-<tr>
-<td>Assembing sensor data in near real time</td>
-<td>Provide data systems to collect, manage, and respond to anomalies</td>
-</tr>
-<tr>
-<td>Energy reporting silos</td>
-<td>Automate data collection activities across silos</td>
-</tr>
-<tr>
-<td>Sensors provide too much data</td>
-<td>Scale sensor data collection using event streaming and anomolie detection using AI</td>
-</tr>
-<tr>
-<td>Energy consumption disclosure</td>
-<td>IBM participates in various external disclosures, such as the Carbon Disclosure Project (CDP), Global Reporting Initiative (GRI) and the Sustainability Accounting Standards Board (SASB) Index.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="business-outcomes">Business outcomes</h2>
+<h3 id="business-outcomes">Business outcomes</h3>
 <ul>
-<li>Data-based selection of energy saving priorities</li>
-<li>Demonstratable returns on energy savings</li>
-<li>Improved facilities management</li>
+<li>Improved management of regulatory compliance and third-party audit certification.</li>
+<li>Enhanced monitoring by tracking against zero waste targets and diversion rate per location.</li>
+<li>Enhanced visibility of entire lifecycle from consumption to responsible disposal and recycling.</li>
+<li>Improved visibility, monitoring and management of assets and consumables including hazardous and non-hazardous waste.</li>
+<li>Gaining both global view and site level view of consolidated environmental sensitive cradle-to-grave equipment and parts.</li>
 </ul>
 <h2 id="solution-overview">Solution overview</h2>
 <p>The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:</p>
@@ -171,36 +142,21 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.</li>
 <li>Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.</li>
 </ul>
-<p><img alt="solution overview" src="../media/energy-overview.png" /></p>
+<p><img alt="solution overview" src="../media/transparentsupply-overview.png" /></p>
 <p><em>Figure 1. Overall view of sustainable facilities solution.</em></p>
 <p>The sustainable enterprise works within the existing enterprise infrastructure.</p>
 <p><img alt="sustainable enterprise" src="../media/sustainableenterprise.png" /></p>
 <p><em>Figure 2. Sustainable enterprise works within existing digital infrastructure.</em></p>
 <h2 id="logical-diagrams">Logical diagrams</h2>
 <p><a href="../media/sustainableenterprise-logical.svg"><img alt="logical diagram" src="../media/sustainableenterprise-logical.svg" /></a></p>
-<p><em>Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in managing a sustainable enterprise.</em></p>
+<p><em>Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain.</em></p>
 <h2 id="architecture">Architecture</h2>
-<p>The figures in this section show the interaction of enterprise systems with sustainability enterprise platform systems.</p>
-<h3 id="energy-cost-containment">Energy cost containment</h3>
-<p>The following diagram shows how systems work together to provide data for decision making in the energy cost containment scenario.</p>
-<p><a href="../media/energy-sd.svg"><img alt="energy solution diagram" src="../media/energy-sd.svg" /></a></p>
-<p><em>Figure 4. Schemantic diagram for energy cost containment use case.</em></p>
-<p>Energy cost containment workflow steps:</p>
-<ol>
-<li>Developer and administrator publish edge computing applications to sensor and edge devices.
-<li>Collect sensor and energy consumption (energy, refrigerators, HVAC) across the enterprise. Unusual data can be from a piece of equipment that no longer functions, a walk-in refrigerator door being left open, HVAC that is providing temps outside of nominal ranges
-<li>Sensors report to Intelligent Assets and Facilities Management software that provides alerts on abnormal behavior of data from sensors
-<li>Alerts are sent to Sustainability Control Tower that takes actions to remediate consumption
-<li>Business automation provides consistent ways of handling alerts by:
-<ol type=a>
-<li>Sending work orders to facility and asset management software
-<li>Updating inventory management for spoiled goods as needed
-</ol>
-<li>Facility management software provides work orders, tracks the completion 
-<li>Facility manager is updated on the work orders and successful completion of the remediation steps
-<li>Sustainability Manager reviews KPI, update energy consumption metrics, sets energy consumption goals
-</ol>
-
+<p>The figures in this section show the interaction of suppliers' data to your customer systems.</p>
+<h3 id="waste-management-lifecycle">Waste management lifecycle</h3>
+<p>In this figure, suppliers' provides data for decision making to drive efficiencies in waste management.</p>
+<p><a href="../media/transparentsupply-sd.svg"><img alt="sustainable supply solutions diagram" src="../media/transparentsupply-sd.svg" /></a></p>
+<p><em>Figure 4. Schematic diagram of the waste management use case.</em></p>
+<p>Sustainable supply workflow steps:</p>
 <h2 id="action-guide">Action Guide</h2>
 <p>From a high-level perspective, the <strong>Action Guide</strong> represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.</p>
 <ul>
@@ -219,43 +175,23 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <tbody>
 <tr>
 <td>Automation</td>
-<td>Reduce manual data processing</td>
-<td>Automate energy data collection between finance and facility management systems</td>
-</tr>
-<tr>
-<td>Automation</td>
-<td>Advance the quality of capital, facility and environmental projects</td>
-<td>Integrate data from multiple systems to get enterprise-wide view to capture and evaluate occupancy to align usage with business requirements and objectives.</td>
-</tr>
-<tr>
-<td>Automation</td>
-<td>Optimize real estate portfolios</td>
-<td>Centralize and integrate critical information at an enterprise level, giving organizations the ability to make the most cost-effective decisions</td>
+<td>Automate the collection of sustainability data</td>
+<td>Reduce manual processing of data</td>
 </tr>
 <tr>
 <td>Automation</td>
 <td>Amp up AI to make workflows smarter</td>
-<td></td>
-</tr>
-<tr>
-<td>Sustainability</td>
-<td>Create digital twin of your facility.</td>
-<td>Mirror and monitor building systems and troubleshoot problems before wasting resources on unnecessary or inaccurate repairs.</td>
+<td>Participants add their data and supporting documents like certifications to the ledger and control who is allowed to see what. Once added to the ledger, data cannot be manipulated, changed or deleted. Participants can track materials and products from source to end customer and, ultimately, the consumer.</td>
 </tr>
 <tr>
 <td>Sustainability</td>
 <td>Include sustainability data in decision making</td>
-<td>Integrate sustainability metrics in supply chain, facility management, and data center operations.</td>
+<td>Integrate sustainability metrics in supply chain, facility management, and data center operations</td>
 </tr>
 <tr>
 <td>Sustainability</td>
-<td>Decrease energy costs</td>
-<td>Consolidate and measure energy cost reporting and provide systems to manage cost savings</td>
-</tr>
-<tr>
-<td>Sustainability</td>
-<td>Increase Green IT in your data center</td>
-<td>Identify and measure application needs, shut down servers when they are not needed</td>
+<td>Track sustainability data within your supply chain</td>
+<td>Engage vendors and partners to provide sustainability data as part of your purchasing requirements</td>
 </tr>
 <tr>
 <td>Modernization</td>
@@ -269,7 +205,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </tr>
 </tbody>
 </table>
-<p>For specific steps on this approach, see <strong>The Action Guide</strong> details in <a href="https://www.ibm.com/downloads/cas/6NJEKDD8"><em>Own Your Impact: Practical Pathways to Transformational Sustainability</em></a> survey of 3,000 CEOs worldwide, that reveals sustainability's emergence onto the mainstream corporate agenda.</p>
+<p>For specific steps on this approach, see <strong>The Action Guide</strong> details in <a href="https://www.ibm.com/downloads/cas/1BYY6VEM"><em>Own Your Transformation</em></a> survey of 1500 CSCOs across 24 industries.</p>
 <h2 id="technology">Technology</h2>
 <p>The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.</p>
 <h3 id="core-systems">Core systems</h3>
@@ -279,9 +215,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <h3 id="integration-services">Integration services</h3>
 <p><a href="https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98"><em>Red Hat OpenShift API Management</em></a> is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.</p>
 <p><a href="https://www.redhat.com/en/products/integration"><em>Red Hat Intgration</em></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</p>
-<p><a href="https://www.ibm.com/business-automation"><em>IBM Business Automation</em></a> delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing.</p>
+<p><a href="https://www.ibm.com/business-automation"><em>IBM Business Automation</em></a> delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. </p>
 <p><a href="https://www.ibm.com/data-fabric"><em>IBM Data Fabric</em></a> empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, <a href="https://www.ibm.com/cloud/watson-knowledge-catalog"><em>Watson Knowledge Catalog</em></a> provides you users with a catalog tool for intelligent, self-service discovery of data, models. <a href="https://www.ibm.com/products/watson-query"><em>Watson Query</em></a> provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. </p>
-<p><a href="https://www.ibm.com/docs/en/eam/4.1?topic=overview-ieam"><em>IBM Edge Application Manager</em></a> provides you with edge computing features to help you manage and deploy workloads from a management hub cluster to remote instances of OpenShift Container Platform or other Kubernetes-based clusters.</p>
 <h3 id="sustainable-enterprise-sub-system">Sustainable enterprise sub-system</h3>
 <p><a href="https://www.ibm.com/products/envizi"><em>Envizi</em></a> simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.</p>
 <p><a href="https://www.ibm.com/products/tririga/sustainability"><em>IBM TRIRIGA</em></a> harnesses the power of data and AI to infuse sustainability into your real estate and facilities management operations.</p>
@@ -290,14 +225,8 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite/blockchain-transparent-supply"><em>Transparent Supply</em></a> provides supply chain management with a robust traceability solution.</p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://www.ibm.com/blogs/internet-of-things/ibm-journey-to-more-sustainable-facilities-ibm-as-client-zero/">IBM journey to more sustainable facilities: IBM as client zero</a></li>
-<li>IBM Institute for Business Value <a href="https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research">Balancing sustainability and profitability</a></li>
-<li><a href="https://www.ibm.com/topics/business-sustainability">What is sustainability in business?</a></li>
-<li>IBM Institute for Business Value <a href="https://www.ibm.com/downloads/cas/WLJ7LVP4">Sustainability at a turning point</a> </li>
-<li>Forbes: <a href="https://www.forbes.com/sites/forbesbusinesscouncil/2022/01/14/15-simple-ways-for-businesses-to-start-saving-energy/">15 Simple Ways For Businesses To Start Saving Energy</a></li>
-<li>IBM <a href="https://www.ibm.com/about/environment/energy-climate">Energy and climate</a></li>
-<li><a href="https://www.ibm.com/about/environment/energy-climate">IBM's 21 goals for environmental sustainability</a></li>
-<li><a href="https://www.ibm.com/about/environment/reporting">IBM ESG Report</a></li>
+<li><a href="https://www.environmentalleader.com/2021/07/ibm-announces-21-environmental-sustainability-goals/">IBM Announces 21 Environmental Sustainability Goals</a></li>
+<li>Pennsylvania State University <a href="https://www.smeal.psu.edu/sustainability/documents/ibm-case-pdf">Selecting and Evaluating Environmentally Responsible Suppliers of Hazardous, Nonhazardous Special Waste and Product End-Of-Life Management Services</a></li>
 </ul>
 <h2 id="contributors">Contributors</h2>
 <ul>
@@ -322,20 +251,20 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="../greenit/" class="btn btn-xs btn-default pull-right">
+      <a href="../../about/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="../greenit/" class="btn btn-xs btn-link">
-        Green IT
+      <a href="../../about/" class="btn btn-xs btn-link">
+        About
       </a>
     </div>
     
     <div class="wm-article-nav">
-      <a href="../transparentsupply/" class="btn btn-xs btn-default pull-left">
+      <a href="../sustainablefacility/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../transparentsupply/" class="btn btn-xs btn-link">
-        Transparent supply
+        Previous</a><a href="../sustainablefacility/" class="btn btn-xs btn-link">
+        Sustainable facility
       </a>
     </div>
     
