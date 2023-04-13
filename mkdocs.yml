@@ -9,7 +9,7 @@ nav:
       - Perfect order: ./supplychain/perfectorder.md
       - Intelligent order: ./supplychain/intelligentorder.md
       - Returns: ./supplychain/returns.md
-      - Disruption readiness: ./supplychain/disasterreadiness.md
+      - Disaster readiness: ./supplychain/disasterreadiness.md
     - Sustainable enterprise:
       - Sustainable enterprise: ./sustainableenterprise/sustainableenterprise.md
       - Transparent supply: ./sustainableenterprise/transparentsupply.md
