@@ -1,4 +1,4 @@
-# Energy cost containment
+# Smart energy
 
 Energy represents a significant cost in the business.
 

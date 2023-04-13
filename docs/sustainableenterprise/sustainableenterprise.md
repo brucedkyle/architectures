@@ -1,4 +1,4 @@
-# Sustainable enterprise
+# Environmental management system
 
 Companies are using sustainability commitments as a way to affect the bottom line.
 
@@ -15,14 +15,19 @@ One executive described it this way:
 > Sustainability promotes business, supports the needs of our customers, generates profitability, and contributes to a better world. This is how we see our transformative role.<br/>
 > &mdash; Fausto Ribeiro, CEO of Banco do Brasi
 
+An enterprise-wide environmental management system sets environmental goals that address the significant environmental aspects and impacts the operation. It drives continual improvement of the organization's environmental performance.
+
 ## Use cases
 
-In this series of articles, we provde architectures and action plans around four key use cases.
+To identify, effectively manage and minimize the potential environmental impact of an organization's operations, companies are adopting environmental management system. It covers hardware product design, manufacturing, data centers, real estate operations, procurement, logistics, asset recovery services, and business services.
+
+In this series of articles, we provde architectures and action plans around key use cases:
 
 - Sustainable supply chain
-- Energy cost containment
+- Smart energy
 - Green IT
 - Sustainable facilities
+- Hazardous waste management
 
 ## Background
 
@@ -102,9 +107,10 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 See:
 
 - [Sustainable supply](./transparentsupply.md). Enable intelligent, end-to-end supply chain visibility and transparency.
-- [Energy cost containment](./energy.md). Reduce the energy costs in your enterprise.
+- [Smart energy](./energy.md). Reduce the energy costs in your enterprise.
 - [Green IT](./greenit.md). Manage cloud costs, reduce energy consumption in your data centers.
 - [Sustainable facilities](./sustainablefacility.md). Improve your organization's capital project management capabilities.
+- [Product lifecycle management](./productlifecycle.md). Track assets and associate material components, track the handling of hazardous waste, and monitor and forecast against zero waste targets.
 
 For a supply chain overview, see [Supply chain optimization](../supplychain/supplychain.md).
 
@@ -154,6 +160,8 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*IBM Data Fabric*](https://www.ibm.com/data-fabric) empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, [_Watson Knowledge Catalog_](https://www.ibm.com/cloud/watson-knowledge-catalog) provides you users with a catalog tool for intelligent, self-service discovery of data, models. [_Watson Query_](https://www.ibm.com/products/watson-query) provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. 
 
+[*IBM Edge Application Manager*](https://www.ibm.com/docs/en/eam/4.1?topic=overview-ieam) provides you with edge computing features to help you manage and deploy workloads from a management hub cluster to remote instances of OpenShift Container Platform or other Kubernetes-based clusters.
+
 ### Sustainable enterprise sub-system
 
 [*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
@@ -181,15 +189,17 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - [Unlock opportunities with an integrated workplace management system](https://www.ibm.com/internet-of-things/learn/integrated-workplace-management-system/)
 - [Sustainable asset management with IBM Maximo Application Suite](https://www.ibm.com/products/maximo/sustainability)
 - World Economic Forum [Why buildings are the foundation of an energy-efficient future](https://www.weforum.org/agenda/2021/02/why-the-buildings-of-the-future-are-key-to-an-efficient-energy-ecosystem/)
+- IBM's [Global environmental management system](https://www.ibm.com/about/environment/management-system)
 
 ## Next steps
 
 See:
 
 - [Sustainable supply](./transparentsupply.md)
-- [Energy cost containment](./energy.md)
+- [Smart energy](./energy.md)
 - [Green IT](./greenit.md)
 - [Sustainable facilities](./sustainablefacility.md)
+- [Product lifecycle management](./productlifecycle.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](https://www.redhat.com/architect/portfolio/detail/36).
 

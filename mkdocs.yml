@@ -11,10 +11,11 @@ nav:
       - Returns: ./supplychain/returns.md
       - Disaster readiness: ./supplychain/disasterreadiness.md
     - Sustainable enterprise:
-      - Sustainable enterprise: ./sustainableenterprise/sustainableenterprise.md
+      - Environmental management systems: ./sustainableenterprise/sustainableenterprise.md
       - Transparent supply: ./sustainableenterprise/transparentsupply.md
-      - Energy cost containment: ./sustainableenterprise/energy.md
+      - Smart energy: ./sustainableenterprise/energy.md
       - Green IT: ./sustainableenterprise/greenit.md
       - Sustainable facility: ./sustainableenterprise/sustainablefacility.md
+      - Product lifecycle: ./sustainableenterprise/productlifecycle.md
     - About: about.md
 theme: windmill
