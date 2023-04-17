@@ -43,7 +43,7 @@ Harvard Business Review article identified the following objectives for companie
 
 **Drivers**
 
-- **Monitor for disruptive environmental conditions** such as severe weather, wildfires, flooding, air quality, and carbon emissions and send alerts when detected.
+- **Monitor for disruptive environmental conditions** such as severe weather, wildfires, flooding, air quality, and carbon emissions and receive alerts when detected.
 - **Predict potential impacts** of climate change and weather across the business using climate risk analytics.
 - **Reconfigure supply chain** Some critical but vulnerable suppliers will go out of business.
 - **Reposition inventory** in anticipation of certain regions or facilities facing disaster.

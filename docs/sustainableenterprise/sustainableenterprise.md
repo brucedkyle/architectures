@@ -17,6 +17,11 @@ One executive described it this way:
 
 An enterprise-wide environmental management system sets environmental goals that address the significant environmental aspects and impacts the operation. It drives continual improvement of the organization's environmental performance.
 
+Yet, a study of [business leaders](https://www.ibm.com/thought-leadership/institute-business-value/report/esg-ultimatum) says:
+
+> - Executives cite inadequate data (41%) as a top barrier holding back Environmental, Social and Governance (ESG) progress.
+> - Only 4 in 10 surveyed consumers feel they have enough data to make environmentally sustainable purchasing (41%) or employment (37%) decisions.
+
 ## Use cases
 
 To identify, effectively manage and minimize the potential environmental impact of an organization's operations, companies are adopting environmental management system. It covers hardware product design, manufacturing, data centers, real estate operations, procurement, logistics, asset recovery services, and business services.
@@ -27,7 +32,7 @@ In this series of articles, we provde architectures and action plans around key 
 - Smart energy
 - Green IT
 - Sustainable facilities
-- Hazardous waste management
+- Asset lifecyle
 
 ## Background
 
@@ -40,6 +45,14 @@ Businesses are seeking to balance the long-term imperative to protect the planet
 The data needed to combine sustainability into an organization are already in existing systems. But those data need to be organized and presented in ways that help you make informed decisions through the lens of sustainability. And once decisions are made, the steps to be taken can be automated to provide consistant, measurable actions.
 
 In the end, your organization can demonstrate its commitments to sustainability, while improving the bottom line.
+
+A  global IBM Institute for Business Value (IBV) study, [The ESG ultimatum: Profit or perish](https://ibm.co/esg-ultimatum), of executives and consumers reveals that while an increased focus on environmental sustainability remains a top priority for consumers and business executives, inadequate data is a key challenge for both groups when it comes to achieving personal and corporate Environmental, Social and Governance (ESG) goals.
+
+According to the study, companies are investing in ESG and see it as good for business
+
+- 76% of surveyed executives say ESG is central to their business strategy.
+- Almost 3 in 4 surveyed executives (72%) view ESG as a revenue enabler rather than cost center, suggesting that contrary to popular opinion, ESG and profitability are not at odds.
+- 76% of executive respondents agree or strongly agree that their organization focuses on achieving ESG outcomes, not just reporting requirements.
 
 ### Challenges / Business Drivers 
 
@@ -110,11 +123,13 @@ See:
 - [Smart energy](./energy.md). Reduce the energy costs in your enterprise.
 - [Green IT](./greenit.md). Manage cloud costs, reduce energy consumption in your data centers.
 - [Sustainable facilities](./sustainablefacility.md). Improve your organization's capital project management capabilities.
-- [Product lifecycle management](./productlifecycle.md). Track assets and associate material components, track the handling of hazardous waste, and monitor and forecast against zero waste targets.
+- [Asset lifecycle management](./assetlifecycle.md). Track assets and associate material components, track the handling of hazardous waste, and monitor and forecast against zero waste targets.
 
 For a supply chain overview, see [Supply chain optimization](../supplychain/supplychain.md).
 
 ## Action Guide
+
+Rather than pigeonholing ESG into the realm of compliance and reporting, leaders that elevate its role can drive engagement, inspire innovation, improve operations—and unify ecosystem partners around shared strategic goals.
 
 From a high-level perspective, the **Action Guide** represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.
 
@@ -190,6 +205,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - [Sustainable asset management with IBM Maximo Application Suite](https://www.ibm.com/products/maximo/sustainability)
 - World Economic Forum [Why buildings are the foundation of an energy-efficient future](https://www.weforum.org/agenda/2021/02/why-the-buildings-of-the-future-are-key-to-an-efficient-energy-ecosystem/)
 - IBM's [Global environmental management system](https://www.ibm.com/about/environment/management-system)
+ - IBM Institute for Business Value [The ESG ultimatum: Profit or perish](https://www.ibm.com/thought-leadership/institute-business-value/report/esg-ultimatum)
 
 ## Next steps
 
@@ -199,7 +215,7 @@ See:
 - [Smart energy](./energy.md)
 - [Green IT](./greenit.md)
 - [Sustainable facilities](./sustainablefacility.md)
-- [Product lifecycle management](./productlifecycle.md)
+- [Asset lifecycle management](./assetlifecycle.md)
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](https://www.redhat.com/architect/portfolio/detail/36).
 

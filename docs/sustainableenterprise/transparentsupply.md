@@ -163,5 +163,6 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 - Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
 - Eric Singsaas, Account Technical Lead, IBM Technology
 - Mike Lee, Principal Integration Technical Specialist, IBM
-- Rajeev Shrivastava, Account Technical Lead, IBM
+- Rajeev Shrivastava, Account Technical Lead, IBM Technology
 - Bruce Kyle, Sr Solution Architect, IBM Client Engineering
+- Jeric Saez, Senior Solution Architect, IBM Client Engineering

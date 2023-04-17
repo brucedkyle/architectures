@@ -16,6 +16,6 @@ nav:
       - Smart energy: ./sustainableenterprise/energy.md
       - Green IT: ./sustainableenterprise/greenit.md
       - Sustainable facility: ./sustainableenterprise/sustainablefacility.md
-      - Product lifecycle: ./sustainableenterprise/productlifecycle.md
+      - Asset lifecycle: ./sustainableenterprise/assetlifecycle.md
     - About: about.md
 theme: windmill

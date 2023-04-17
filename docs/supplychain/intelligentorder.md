@@ -239,7 +239,7 @@ View and download all of the **Inventory Optimization diagrams** shown in previo
 
 - PowerPoint Solution Overview: [Open Solution Overview](./downloads/SupplyChainOptimization.SolutionOverview.pptx)
 - PowerPoint Reference Architecture: [Open Workflow Diagrams](./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx)
-- DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio
+- DrawIO: [Open Schematic Diagrams](./downloads/SupplyChainOptimization.drawio)
 
 ## References
 

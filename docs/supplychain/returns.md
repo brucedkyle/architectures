@@ -123,7 +123,7 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 
 | | Actionable Step | Implementation details |
 | - | - | - |
-| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of returns of items in inventory. Monitor and analyze returns in real-time. |
+| Automation | Create a world-class sensing and risk-monitoring operation | Integrate data from multiple systems to get enterprise-wide view of returns of items in inventory demand. Monitor and analyze returns in real-time. |
 | Automation | Accelerate automation in extended workflows | Automate returns policy for consistency across the enterprise and customize based on item. |
 | Automation | Amp up AI to make workflows smarter | <ul><li>Use AI to identify product deficiencies that lead to return patterns, generate upsell recommendations, identify fraud patterns, and recommend sustainable transport options for return items.<li>Use AI to determine likely returned items<li>Use AI to identify fraudulent returns</ul>|
 | Sustainability | Include sustainability commitments in decision making | Integrate sustainability metrics in returns decision making, especially return items transport or disposal. |

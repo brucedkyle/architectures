@@ -1,6 +1,6 @@
-# Product lifecycle management
+# Asset lifecycle management
 
-Waste and water management are among the high priority items that are part of environmental sustainability goals. 
+Waste management are among the high priority items that are part of environmental sustainability goals. 
 
 Visibility of an organization's assets and associated material components and gain insights into its global waste profile, the company can better engage the waste management team, supply chain team, equipment manufacturers and waste haulers. 
 
@@ -85,17 +85,17 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 The figures in this section show the interaction of suppliers' data to your customer systems.
 
-### Waste management lifecycle
+### Product end of life
 
 In this figure, suppliers' provides data for decision making to drive efficiencies in waste management.
 
-[![sustainable supply solutions diagram](./media/transparentsupply-sd.svg)](./media/transparentsupply-sd.svg)
+!TODO
 
 _Figure 4. Schematic diagram of the waste management use case._
 
-Sustainable supply workflow steps:
+Product end of life management workflow steps:
 
-
+!TODO
 
 ## Action Guide
 
