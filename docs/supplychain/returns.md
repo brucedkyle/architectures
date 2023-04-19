@@ -174,7 +174,6 @@ See:
 - Perfect order (coming soon)
 - Intelligent order (coming soon)
 - Returns (coming soon)
-- 
 
 For a comprehensive supply chain overview, see [Supply Chain Optimization](https://www.redhat.com/architect/portfolio/detail/36).
 
