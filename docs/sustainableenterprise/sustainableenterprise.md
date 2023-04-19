@@ -46,9 +46,7 @@ The data needed to combine sustainability into an organization are already in ex
 
 In the end, your organization can demonstrate its commitments to sustainability, while improving the bottom line.
 
-A  global IBM Institute for Business Value (IBV) study, [The ESG ultimatum: Profit or perish](https://ibm.co/esg-ultimatum), of executives and consumers reveals that while an increased focus on environmental sustainability remains a top priority for consumers and business executives, inadequate data is a key challenge for both groups when it comes to achieving personal and corporate Environmental, Social and Governance (ESG) goals.
-
-According to the study, companies are investing in ESG and see it as good for business
+A global IBM Institute for Business Value (IBV) study, [The ESG ultimatum: Profit or perish](https://ibm.co/esg-ultimatum), of executives and consumers reveals that while an increased focus on environmental sustainability remains a top priority for consumers and business executives, inadequate data is a key challenge for both groups when it comes to achieving personal and corporate ESG goals. According to the study, companies are investing in ESG and see it as good for business:
 
 - 76% of surveyed executives say ESG is central to their business strategy.
 - Almost 3 in 4 surveyed executives (72%) view ESG as a revenue enabler rather than cost center, suggesting that contrary to popular opinion, ESG and profitability are not at odds.

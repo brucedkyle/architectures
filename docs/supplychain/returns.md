@@ -8,7 +8,7 @@ Evolving customer expectations have forced retailers to figure out how to better
 - Minimizing return losses.
 - Categorize return items for recycle, dispose, or return for sales.
 - Determine fraudulent returns.
-- Identify and track teturns items with hazardous materials.
+- Identify and track returns items with hazardous materials.
 
 ## Background
 
@@ -76,9 +76,9 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 
 - **Core application systems**. Often customer-provided technologies, such as order management or facilities management. These systems can be standalone applications, on-premises and cloud services, and databases.
 - **Foundational infrastructure**. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
-- **Inventory Optimization** platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
+- **Supply Chain Optimization** platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
 
-![solution overview](./media/returnsmanagementoverview.png)
+![solution overview](./media/returns-overview.png)
 
 _Figure 1. Overall view of demand risk solution._
 
@@ -88,7 +88,7 @@ _Figure 1. Overall view of demand risk solution._
 
 _Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
 
-## Architectues
+## Architectures
 
 The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.
 
