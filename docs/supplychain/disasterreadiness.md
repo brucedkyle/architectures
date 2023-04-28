@@ -67,7 +67,7 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 - **Foundational infrastructure**. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
 - **Inventory Optimization** platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
 
-![solution overview](./media/disasterreadinesssolution.png)
+![solution overview](./media/disasterreadiness-overview.png)
 
 _Figure 1. Overall view of demand risk solution._
 
@@ -108,6 +108,8 @@ Weather disruption preparation workflow steps:
 
 ### Disconnected store
 
+The following scenario shows how data can be transmitted from a store to the data center as part of an overall solution to setting up and maintaining the compute facilities in a store or branch office .
+
 [![disconnected store](./media/disconnectedstore-sd.png)](./media/disconnectedstore-sd.png)
 
 _Figure 4. Schematic diagram of disaster response with a disconnected store use case._
@@ -146,7 +148,7 @@ From a high-level perspective, the **Action Guide** represents a future state fo
 | Sustainability| Combine your proprietary and third-party geospatial information with weather data | <ul><li>Predict energy demand and reduce waste so that you don’t buy more power than you need.<li>Use weather information to predict and avoid disruptions and plot the most efficient routes.</ul>
 | Modernization | Modernization for modern infrastructures, scale hybrid cloud platforms | The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point. |
 | Modernization | Modernize application deployment and operations practices | <ul><li>Include DevOps best practices to deploy, monitor, and maintain applications<li>Use automation across the enterprise to maintain and update local store operations infrastructure</ul> |
-| Modernization | Manage disconnected operations | Computing capabilities and data can be mirrored in stores to maintain local data needed to support store operations, such as product catalogs, and transactions, to provide basic services<li>Provide for data redundancy and high availability in local store operations. | 
+| Modernization | Manage disconnected operations | Computing capabilities and data can be mirrored in stores to maintain local data needed to support store operations, such as product catalogs, and transactions, to provide basic services<ul><li>Provide for data redundancy and high availability in local store operations<li>Provide a way to update transactions once connection is restored</ul>. | 
 
 For specific steps on this approach, see **The Action Guide** details in [_Own Your Transformation_](https://www.ibm.com/downloads/cas/1BYY6VEM) survey of 1500 CSCOs across 24 industries.
 
