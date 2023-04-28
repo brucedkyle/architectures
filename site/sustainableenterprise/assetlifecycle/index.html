@@ -91,41 +91,47 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="asset-lifecycle-management">Asset lifecycle management</h1>
-<p>Waste management are among the high priority items that are part of environmental sustainability goals. </p>
-<p>Visibility of an organization's assets and associated material components and gain insights into its global waste profile, the company can better engage the waste management team, supply chain team, equipment manufacturers and waste haulers. </p>
-<p>By using this cradle-to-grave method allows the company to integrate with environmental reporting processes and incentivize sustainability improvement across the organization.</p>
+<p>By driving greater efficiencies in managing assets, organizations can extend asset life, reduce Capex and maintenance expenses, and improve technician productivity. You’ll find these needs across critical industries: energy and utilities, chemical and petroleum, auto, aerospace and defense, as well as electronics, retail, consumer packaged goods, and government.</p>
+<p>By using this cradle-to-grave method allows the company to integrate with environmental reporting processes and incentivize sustainability improvement across the organization. Gain insights into its global waste profile, the company can better engage the waste management team, supply chain team, equipment manufacturers and waste haulers. </p>
 <h2 id="use-cases">Use cases</h2>
 <p>Organizations want to enhance the tracking of assets and associated material components across the enterprise. Through improved visibility into job activities and an asset's lifecycle, the organization can better understand and drive change using data-driven insights. </p>
 <h2 id="background">Background</h2>
 <p>As outlined in a Pennsylvania State University study, "<em>Hazardous Waste</em> is any Waste that has been designated, characterized or otherwise regulated as hazardous by applicable laws or regulations in a country, state, region, or locality. Examples can include a corrosive liquid or a flammable solvent.</p>
 <p>"<em>Product End of Life Management (PELM)</em> refers to the demanufacturing, dismantling, reuse, reclamation, recycling, shredding, treatment and / or disposal of end-of-life (EOL) IT equipment and parts."</p>
 <h2 id="business-problem">Business problem</h2>
-<p>The business problem consists of two major parts:</p>
+<p>The business problem consists of lifecycle asset management and proper asset disposal.</p>
+<p>Automate procurement, maintenance to support more than tens of thousands or assets and improves inspector productivity and reduce safety incidents.</p>
+<p>Then when the asset is at end of life:</p>
 <ul>
-<li>First is the management (collection, transportation, recycling treatment or disposal) of hazardous and nonhazardous special waste that comes from internal operations (e.g., facility operations, on-site waste water treatment, research, manufacturing processes, and environmental remediation programs). Such byproducts are reduced and recycle when possible, followed by treatment and disposal (incinerated and/or sent to landfills).</li>
+<li>Management (including monitor the collection, transportation, recycling treatment or disposal) of hazardous and nonhazardous special waste that comes from internal operations (e.g., facility operations, on-site waste water treatment, research, manufacturing processes, and environmental remediation programs). Such byproducts are reduced and recycle when possible, followed by treatment and disposal (incinerated and/or sent to landfills).</li>
 <li>Second are products or their parts and components that have reached their intended end of life (a.k.a PELM). These materials may be generated from your own operations or by your clients. These PELM materials may still have value and can be refurbished and resold or, may be disassembled and their parts harvested for reuse or scrapped. </li>
 </ul>
 <p>The output of the scrapping process may involve recoverable materials (e.g., ferrous and non-ferrous metals, precious metals, glass, plastics, etc.) that have intrinsic value and are sold in secondary commodity markets, or waste materials (e.g., non-recyclable packaging material, non-recyclable plastics, shredder fluff, etc.) that have no value and require proper treatment or disposal. </p>
 <p>Waste materials may be considered hazardous or nonhazardous depending on government designation.</p>
 <p>Often the disposal of hazardous wastes are contracted through third parties.</p>
+<p>As one example, for the waste that is generated, <a href="https://www.ibm.com/about/environment/pollution-prevention">IBM focuses on preventing pollution</a> through a comprehensive, proactive waste management program. IBM's waste management practices, in order of preference, are: (1) prevention and source reduction, (2) reuse, (3) recycling, (4) recovery, (5) other treatment, and (6) land disposal.</p>
 <h3 id="challenges-business-drivers">Challenges / Business Drivers</h3>
 <p><strong>Challenges</strong></p>
 <ul>
+<li>Tracking tens of thousands of assets, maintenance windows, and work orders during an asset's lifetime.</li>
+<li>Integration with procurement systems, building maintenance systems, supply chain systems.</li>
+<li>Predicting the possible failure and taking mitigating action to prevent asset failure.</li>
 <li>Waste management team manually gathers disposal data from individual haulers for each facility in the organization.</li>
 <li>Manual data collection method limits internal data validation to sporadic certification spot-checks.</li>
-<li>No real-time visibility into hazardous waste lifecycles or raw materials to actively engage with vendors and ensure hazardous waste compliance and forecasting</li>
-<li>Field teams manage the end-to-end lifecycle and disposal process in spreadsheets</li>
-<li>The recycling process is manually managed by external regional haulers</li>
+<li>No real-time visibility into hazardous waste lifecycles or raw materials to actively engage with vendors and ensure hazardous waste compliance and forecasting.</li>
+<li>Field teams manage the end-to-end lifecycle and disposal process in spreadsheets.</li>
+<li>The recycling process is manually managed by external regional haulers.</li>
 </ul>
 <p><strong>Business drivers</strong></p>
 <ul>
+<li>Extend asset life, reduce Capex and maintenance expenses, and improve technician productivity</li>
 <li>Meeting strict compliance with regional hazardous waste management standards</li>
 <li>Setting and meeting environmental waste targets</li>
 <li>Streamline replacement work order management and asset tracking process</li>
 <li>Tracability and controls of waste disposal</li>
 <li>Advise on automation replacement work-orders to engage with waster haulers for reconcilation</li>
 <li>Streamline collection, tracking and reporting of hazardout materials</li>
-<li>Monitor and forecast waste targets</li>
+<li>Monitor and forecast asset replacement and waste targets</li>
 </ul>
 <h3 id="business-outcomes">Business outcomes</h3>
 <ul>
@@ -142,22 +148,52 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Foundational infrastructure. The Red Hat/IBM solution is built on Red Hat OpenShift. Data is routed through API management. Events are routed through Business Automation tools such as Business Automation Workshop.</li>
 <li>Sustainable enterprise systems acts to coordinate facilities management with workplace management backed by sustainability reporting.</li>
 </ul>
-<p><img alt="solution overview" src="../media/transparentsupply-overview.png" /></p>
+<p><img alt="solution overview" src="../media/assetlifecycle-overview.png" /></p>
 <p><em>Figure 1. Overall view of sustainable facilities solution.</em></p>
 <p>The sustainable enterprise works within the existing enterprise infrastructure.</p>
 <p><img alt="sustainable enterprise" src="../media/sustainableenterprise.png" /></p>
 <p><em>Figure 2. Sustainable enterprise works within existing digital infrastructure.</em></p>
 <h2 id="logical-diagrams">Logical diagrams</h2>
 <p><a href="../media/sustainableenterprise-logical.svg"><img alt="logical diagram" src="../media/sustainableenterprise-logical.svg" /></a></p>
-<p><em>Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain.</em></p>
+<p><em>Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the managing sustainability assets.</em></p>
 <h2 id="architecture">Architecture</h2>
-<p>The figures in this section show the interaction of suppliers' data to your customer systems.</p>
-<h3 id="product-end-of-life">Product end of life</h3>
-<p>In this figure, suppliers' provides data for decision making to drive efficiencies in waste management.</p>
-<p>!TODO</p>
-<p><em>Figure 4. Schematic diagram of the waste management use case.</em></p>
-<p>Product end of life management workflow steps:</p>
-<p>!TODO</p>
+<p>The figures in this section show the interaction of sustainability data to your customer systems.</p>
+<h3 id="asset-life-management">Asset life management</h3>
+<p>Assets module contains applications that are designed to manage the assets that are owned or leased by your company from purchase to salvage, from the beginning to the end of the life cycle for an asset.</p>
+<p><a href="../media/assetlifecycle-sd.svg"><img alt="asset lifecyccle" src="../media/assetlifecycle-sd.svg" /></a></p>
+<p><em>Figure 4. Schematic diagram of the asset life cycle management case.</em></p>
+<p>Asset life cycle management workflow steps:</p>
+<ol>
+<li>Create workflow to manage asset including:
+    a. Asset purchase approval
+    b. Procurement
+    c. Asset inventory</li>
+<li>Add asset in asset management system including location, relationships to related assets (parts or assemblies)</li>
+<li>Create job plan of steps to be taken to perform preventative maintenance or replacement </li>
+<li>Monitor asset health, receive sensor data</li>
+<li>Predict asset failures</li>
+<li>Provide work order and tracking to respond to maintenance and replacement</li>
+<li>Dispose of item at asset end of life</li>
+</ol>
+<h3 id="asset-disposal">Asset disposal</h3>
+<p>In this figure, asset management software provides data and AI for decision making to drive efficiencies in asset disposal.</p>
+<p><a href="../media/disposal-sd.svg"><img alt="asset disposal" src="../media/disposal-sd.svg" /></a></p>
+<p><em>Figure 5. Schematic diagram of the asset disposal use case.</em></p>
+<ol>
+<li>Asset identified to be replaced, either proactively or due to asset failure</li>
+<li>Asset replacement decision by asset manager</li>
+<li>Work order created to:
+    a. Order replacement asset ordered
+    b. Work order created to replace asset
+    c. Completion of work order reported
+    d. Assess disposal, recycle process work order provided to regional hauler</li>
+<li>Regional hauler
+    a. Coordinate recycle or hazardous disposal documentation with regional hauler
+    b. Use Transparent Supply to track hazardous waste disposal 
+    c. In locations where local processing of waste is not possible, store wastes and product end-of-life materials in properly managed storage facilities, as allowed by law</li>
+<li>Sustainable supply provides data to the control tower to provide compliance reporting on hazardous waste disposal</li>
+<li>Sustainability officer monitor and forecast against zero waste targets</li>
+</ol>
 <h2 id="action-guide">Action Guide</h2>
 <p>From a high-level perspective, the <strong>Action Guide</strong> represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.</p>
 <ul>
@@ -218,16 +254,19 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p><a href="https://www.redhat.com/en/products/integration"><em>Red Hat Intgration</em></a> is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.</p>
 <p><a href="https://www.ibm.com/business-automation"><em>IBM Business Automation</em></a> delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. </p>
 <p><a href="https://www.ibm.com/data-fabric"><em>IBM Data Fabric</em></a> empowers your teams and works across the ecosystem by connecyting data from disparate data sources in multicloud envrionments. In particular, <a href="https://www.ibm.com/cloud/watson-knowledge-catalog"><em>Watson Knowledge Catalog</em></a> provides you users with a catalog tool for intelligent, self-service discovery of data, models. <a href="https://www.ibm.com/products/watson-query"><em>Watson Query</em></a> provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication. </p>
-<h3 id="sustainable-enterprise-sub-system">Sustainable enterprise sub-system</h3>
+<h3 id="sustainable-enterprise-systems">Sustainable enterprise systems</h3>
 <p><a href="https://www.ibm.com/products/envizi"><em>Envizi</em></a> simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.</p>
 <p><a href="https://www.ibm.com/products/tririga/sustainability"><em>IBM TRIRIGA</em></a> harnesses the power of data and AI to infuse sustainability into your real estate and facilities management operations.</p>
-<p><a href="https://www.ibm.com/products/maximo/sustainability"><em>IBM Maximo Application Suite (MAS)</em></a> Infuse sustainability into your asset management by harnessing the power of data and AI.</p>
+<p><a href="https://www.ibm.com/products/maximo/sustainability"><em>IBM Maximo Application Suite (MAS)</em></a> delivers greater sustainability through intelligent asset management, monitoring, predictive maintenance, computer vision, safety and reliability, all in a single platform..</p>
 <p><a href="https://www.ibm.com/products/turbonomic"><em>IBM Turbonomic</em></a> monitors resource consumption of applications within the data center. It provides FinOps engineering teams the ability to ensure your applications are performing efficiently, allowing cloud and ITOps teams to cut cloud spend and multiply ROI.</p>
 <p><a href="https://www.ibm.com/products/supply-chain-intelligence-suite/blockchain-transparent-supply"><em>Transparent Supply</em></a> provides supply chain management with a robust traceability solution.</p>
 <h2 id="references">References</h2>
 <ul>
 <li><a href="https://www.environmentalleader.com/2021/07/ibm-announces-21-environmental-sustainability-goals/">IBM Announces 21 Environmental Sustainability Goals</a></li>
 <li>Pennsylvania State University <a href="https://www.smeal.psu.edu/sustainability/documents/ibm-case-pdf">Selecting and Evaluating Environmentally Responsible Suppliers of Hazardous, Nonhazardous Special Waste and Product End-Of-Life Management Services</a></li>
+<li>IBM Blog <a href="https://www.ibm.com/blog/uncover-real-savings-from-enterprise-asset-management-no-matter-the-industry/">Uncover real savings from enterprise asset management no matter the industry</a></li>
+<li>IBM Blog <a href="https://www.ibm.com/blog/sustainable-operations-one-asset-at-a-time/">How to create more sustainable operations – one asset at a time</a></li>
+<li>IBM <a href="https://www.ibm.com/about/environment/supply-chain">Supplier requirements</a></li>
 </ul>
 <h2 id="contributors">Contributors</h2>
 <ul>
