@@ -161,7 +161,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*IBM Edge Application Manager*](https://www.ibm.com/docs/en/eam/4.1?topic=overview-ieam) provides you with edge computing features to help you manage and deploy workloads from a management hub cluster to remote instances of OpenShift Container Platform or other Kubernetes-based clusters.
 
-### Sustainable enterprise sub-system
+### Sustainable enterprise systems
 
 [*Envizi*](https://www.ibm.com/products/envizi) simplifies the capture, consolidation, management, analysis and reporting of your environmental, social and governance (ESG) data.
 

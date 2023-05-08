@@ -177,6 +177,8 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 
 [*Red Hat Intgration*](https://www.redhat.com/en/products/integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
 
+[*IBM MQ Advanced*](https://www.ibm.com/products/mq/advanced) protects your growing volumes of data with superior security, including true end-to-end encryption. With IBM® MQ Advanced middleware, you can more easily implement reliable business continuity mechanisms to stay up and running. Share data across environments with ease; you can deploy certified containers for Red Hat® OpenShift® with one click.
+
 ### Supply Assurance Platform
 
 [*IBM Supply Chain Control Tower*](https://www.ibm.com/products/supply-chain-intelligence-suite) provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.
